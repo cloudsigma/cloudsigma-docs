@@ -1,0 +1,13 @@
+POST /api/2.0/notification_contacts/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "objects": [
+        {
+            "email": "some_email_2@example.com",
+            "name": "Some Name 2",
+            "phone": "+1 123 555 1234"
+        }
+    ]
+}

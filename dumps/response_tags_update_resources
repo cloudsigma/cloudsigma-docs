@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "name": "TagCreatedWithResource",
+    "resource_uri": "/api/2.0/tags/d315497f-92d7-463c-823f-76a9adfd697d/",
+    "resources": [
+        "2b620825-e6c0-4247-9999-13ac04e1023e",
+        "ffcccd58-0811-4615-8fbc-60be12526f07"
+    ],
+    "uuid": "d315497f-92d7-463c-823f-76a9adfd697d"
+}

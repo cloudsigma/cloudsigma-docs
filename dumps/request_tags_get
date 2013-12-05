@@ -1,0 +1,5 @@
+GET /api/2.0/tags/d315497f-92d7-463c-823f-76a9adfd697d/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+

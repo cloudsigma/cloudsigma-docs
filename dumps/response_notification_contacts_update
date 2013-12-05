@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "email": "some_email_2@example.com",
+    "main": null,
+    "name": "Some New Name",
+    "phone": "+1 123 555 1234",
+    "pk": "fde7666b-86ef-421c-a7ba-33ad9ac394a6",
+    "resource_uri": "/api/2.0/notification_contacts/fde7666b-86ef-421c-a7ba-33ad9ac394a6/",
+    "uuid": "fde7666b-86ef-421c-a7ba-33ad9ac394a6"
+}

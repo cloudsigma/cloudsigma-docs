@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "meta": {
+        "limit": 0,
+        "offset": 0,
+        "total_count": 2
+    },
+    "objects": [
+        {
+            "name": "MyGroupOfThings",
+            "resource_uri": "/api/2.0/tags/5669c8f7-7d9e-49cc-ac30-c49d8e7eccf8/",
+            "uuid": "5669c8f7-7d9e-49cc-ac30-c49d8e7eccf8"
+        },
+        {
+            "name": "TagCreatedWithResource",
+            "resource_uri": "/api/2.0/tags/d315497f-92d7-463c-823f-76a9adfd697d/",
+            "uuid": "d315497f-92d7-463c-823f-76a9adfd697d"
+        }
+    ]
+}

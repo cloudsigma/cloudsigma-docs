@@ -1,0 +1,64 @@
+HTTP/1.1 201 CREATED
+Content-Type: application/json; charset=utf-8
+
+{
+    "objects": [
+        {
+            "meta": {},
+            "name": "TagCreatedWithResource",
+            "owner": {
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+            },
+            "resource_uri": "/api/2.0/tags/d315497f-92d7-463c-823f-76a9adfd697d/",
+            "resources": [
+                {
+                    "owner": {
+                        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+                    },
+                    "res_type": "vlans",
+                    "resource_uri": "/api/2.0/vlans/96537817-f4b6-496b-a861-e74192d3ccb0/",
+                    "uuid": "96537817-f4b6-496b-a861-e74192d3ccb0"
+                },
+                {
+                    "owner": {
+                        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+                    },
+                    "res_type": "drives",
+                    "resource_uri": "/api/2.0/drives/ffcccd58-0811-4615-8fbc-60be12526f07/",
+                    "uuid": "ffcccd58-0811-4615-8fbc-60be12526f07"
+                },
+                {
+                    "owner": {
+                        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+                    },
+                    "res_type": "ips",
+                    "resource_uri": "/api/2.0/ips/31.171.249.88/",
+                    "uuid": "31.171.249.88"
+                },
+                {
+                    "owner": {
+                        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+                    },
+                    "res_type": "servers",
+                    "resource_uri": "/api/2.0/servers/2b620825-e6c0-4247-9999-13ac04e1023e/",
+                    "uuid": "2b620825-e6c0-4247-9999-13ac04e1023e"
+                },
+                {
+                    "owner": {
+                        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+                    },
+                    "res_type": "servers",
+                    "resource_uri": "/api/2.0/servers/2fa15721-405a-4904-994b-0a9151366b65/",
+                    "uuid": "2fa15721-405a-4904-994b-0a9151366b65"
+                }
+            ],
+            "uuid": "d315497f-92d7-463c-823f-76a9adfd697d"
+        }
+    ]
+}

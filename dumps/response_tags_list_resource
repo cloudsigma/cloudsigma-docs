@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "meta": {
+        "limit": 20,
+        "offset": 0,
+        "total_count": 1
+    },
+    "objects": [
+        {
+            "name": "test_server2",
+            "owner": {
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+            },
+            "resource_uri": {
+                "resource_uri": "/api/2.0/servers/2fa15721-405a-4904-994b-0a9151366b65/",
+                "uuid": "2fa15721-405a-4904-994b-0a9151366b65"
+            },
+            "runtime": null,
+            "status": "stopped",
+            "uuid": "2fa15721-405a-4904-994b-0a9151366b65"
+        }
+    ]
+}
