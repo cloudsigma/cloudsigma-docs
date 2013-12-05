@@ -1,0 +1,69 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get"
+    ],
+    "allowed_list_http_methods": [
+        "get"
+    ],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "burstable": {
+            "blank": false,
+            "default": false,
+            "help_text": "Whether this resource can be used on burst",
+            "nullable": false,
+            "readonly": false,
+            "type": "boolean",
+            "unique": false
+        },
+        "long_name": {
+            "blank": false,
+            "default": "",
+            "help_text": "A human readable name for the resource.",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "name": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Name that should be used when purchasing",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "resource_uri": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": true,
+            "type": "string",
+            "unique": false
+        },
+        "type": {
+            "blank": false,
+            "default": "instance",
+            "help_text": "Type of billing",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "user_metric": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "The metric that the user is charged for",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        }
+    }
+}

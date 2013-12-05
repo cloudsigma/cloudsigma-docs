@@ -1,0 +1,33 @@
+HTTP/1.1 201 CREATED
+Content-Type: application/json; charset=utf-8
+
+{
+    "objects": [
+        {
+            "affinities": [],
+            "allow_multimount": false,
+            "jobs": [],
+            "licenses": [],
+            "media": "disk",
+            "meta": {},
+            "mounted_on": [],
+            "name": "test_drive_snapshot",
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "resource_uri": "/api/2.0/drives/6c6ec185-10e5-48ca-862d-5148dc42c18b/",
+            "runtime": {
+                "is_snapshotable": null,
+                "snapshots_allocated_size": 0,
+                "storage_type": null
+            },
+            "size": 1024000000,
+            "snapshots": [],
+            "status": "creating",
+            "storage_type": null,
+            "tags": [],
+            "uuid": "6c6ec185-10e5-48ca-862d-5148dc42c18b"
+        }
+    ]
+}

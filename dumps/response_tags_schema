@@ -14,12 +14,26 @@ Content-Type: application/json; charset=utf-8
     "default_format": "application/json",
     "default_limit": 20,
     "fields": {
+        "meta": {
+            "default": {},
+            "help_text": "User defined meta information",
+            "readonly": false,
+            "required": false,
+            "type": "dict"
+        },
         "name": {
             "default": null,
             "help_text": "Tag name",
             "readonly": false,
             "required": true,
             "type": "string"
+        },
+        "owner": {
+            "default": null,
+            "help_text": "Tag owner",
+            "readonly": true,
+            "required": false,
+            "type": "related"
         },
         "resource_uri": {
             "default": "No default provided.",
@@ -28,6 +42,43 @@ Content-Type: application/json; charset=utf-8
             "required": true,
             "type": "string"
         },
+        "resources": {
+            "default": [],
+            "fields": {
+                "owner": {
+                    "default": null,
+                    "help_text": "Resource owner",
+                    "readonly": false,
+                    "required": false,
+                    "type": "related"
+                },
+                "res_type": {
+                    "default": null,
+                    "help_text": "Resource type",
+                    "readonly": false,
+                    "required": false,
+                    "type": "string"
+                },
+                "resource_uri": {
+                    "default": "No default provided.",
+                    "help_text": "Unicode string data. Ex: \"Hello World\"",
+                    "readonly": true,
+                    "required": true,
+                    "type": "string"
+                },
+                "uuid": {
+                    "default": null,
+                    "help_text": "Resource UUID",
+                    "readonly": false,
+                    "required": true,
+                    "type": "string"
+                }
+            },
+            "help_text": "Tagged resources",
+            "readonly": false,
+            "required": false,
+            "type": "related"
+        },
         "uuid": {
             "default": null,
             "help_text": "Tag UUID",
@@ -35,5 +86,11 @@ Content-Type: application/json; charset=utf-8
             "required": true,
             "type": "string"
         }
+    },
+    "filtering": {
+        "name": 0,
+        "name__contains": 0,
+        "tag": "<function get_tag_filter_args at 0x7f5874264848>",
+        "uuid": 0
     }
 }

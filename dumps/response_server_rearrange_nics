@@ -1,0 +1,60 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "context": true,
+    "cpu": 1000,
+    "cpu_model": null,
+    "cpus_instead_of_cores": false,
+    "drives": [],
+    "enable_numa": false,
+    "hv_relaxed": false,
+    "hv_tsc": false,
+    "jobs": [],
+    "mem": 536870912,
+    "meta": {},
+    "name": "testServerAcc",
+    "nics": [
+        {
+            "boot_order": null,
+            "firewall_policy": null,
+            "ip_v4_conf": null,
+            "ip_v6_conf": null,
+            "mac": "22:74:4d:b1:d9:55",
+            "model": "virtio",
+            "runtime": null,
+            "vlan": {
+                "resource_uri": "/api/2.0/vlans/89a307b8-73be-4fa8-bdb1-b37897e75d71/",
+                "uuid": "89a307b8-73be-4fa8-bdb1-b37897e75d71"
+            }
+        },
+        {
+            "boot_order": null,
+            "firewall_policy": null,
+            "ip_v4_conf": {
+                "conf": "static",
+                "ip": {
+                    "resource_uri": "/api/2.0/ips/192.168.5.137/",
+                    "uuid": "192.168.5.137"
+                }
+            },
+            "ip_v6_conf": null,
+            "mac": "22:9d:05:66:c8:bd",
+            "model": "e1000",
+            "runtime": null,
+            "vlan": null
+        }
+    ],
+    "owner": {
+        "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+        "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+    },
+    "requirements": [],
+    "resource_uri": "/api/2.0/servers/a3c82cde-6f70-4bf7-aa0e-9ebcc5dba46a/",
+    "runtime": null,
+    "smp": 1,
+    "status": "stopped",
+    "tags": [],
+    "uuid": "a3c82cde-6f70-4bf7-aa0e-9ebcc5dba46a",
+    "vnc_password": "testserver"
+}

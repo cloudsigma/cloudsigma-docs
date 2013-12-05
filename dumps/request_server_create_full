@@ -1,0 +1,44 @@
+POST /api/2.0/servers/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "objects": [
+        {
+            "cpu": 1000,
+            "cpus_instead_of_cores": false,
+            "drives": [
+                {
+                    "boot_order": 1,
+                    "dev_channel": "0:0",
+                    "device": "virtio",
+                    "drive": "74bb478e-d7c6-4058-ad23-7ec364e9351b"
+                },
+                {
+                    "dev_channel": "0:0",
+                    "device": "ide",
+                    "drive": "5d08eb12-95ad-4eda-b64f-64761c8d6fdb"
+                }
+            ],
+            "enable_numa": false,
+            "hv_relaxed": false,
+            "hv_tsc": false,
+            "mem": 268435456,
+            "meta": {
+                "description": "A full server with description"
+            },
+            "name": "test_acc_full_server",
+            "nics": [
+                {
+                    "ip_v4_conf": {
+                        "conf": "dhcp"
+                    }
+                }
+            ],
+            "requirements": [],
+            "smp": 1,
+            "tags": [],
+            "vnc_password": "tester"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "meta": {
+        "limit": 20,
+        "offset": 0,
+        "total_count": 1
+    },
+    "objects": [
+        {
+            "amount": "-10000000.00000000000000000000",
+            "billing_cycle": null,
+            "end": "10000000.00000000000000000000",
+            "human_interval": null,
+            "id": "1",
+            "initial": "0E-20",
+            "interval": null,
+            "reason": "Level UP!",
+            "resource_amount": "1",
+            "time": "2013-12-05T10:04:05.774385+00:00"
+        }
+    ]
+}

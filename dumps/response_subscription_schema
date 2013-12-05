@@ -1,0 +1,166 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get",
+        "post"
+    ],
+    "allowed_list_http_methods": [
+        "get",
+        "post"
+    ],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "amount": {
+            "blank": false,
+            "default": 1,
+            "help_text": "Subscription amount",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "auto_renew": {
+            "blank": false,
+            "default": true,
+            "help_text": "States if the subscription will auto renew on expire",
+            "nullable": false,
+            "readonly": false,
+            "type": "boolean",
+            "unique": false
+        },
+        "descendants": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Subscriptions that have been extended from the current one",
+            "nullable": true,
+            "readonly": true,
+            "type": "related",
+            "unique": false
+        },
+        "discount_amount": {
+            "blank": true,
+            "default": "No default provided.",
+            "help_text": "Amount of discount",
+            "nullable": true,
+            "readonly": false,
+            "type": "decimal",
+            "unique": false
+        },
+        "discount_percent": {
+            "blank": true,
+            "default": "No default provided.",
+            "help_text": "Percent of discount",
+            "nullable": true,
+            "readonly": false,
+            "type": "decimal",
+            "unique": false
+        },
+        "end_time": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "End time of subscription",
+            "nullable": true,
+            "readonly": false,
+            "type": "datetime",
+            "unique": false
+        },
+        "id": {
+            "blank": false,
+            "default": "",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": true
+        },
+        "period": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Duration of the subscription",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "price": {
+            "blank": false,
+            "default": 0,
+            "help_text": "Subscription price",
+            "nullable": false,
+            "readonly": false,
+            "type": "decimal",
+            "unique": false
+        },
+        "remaining": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Amount remaining",
+            "nullable": true,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "resource": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Name of resource associated with the subscription",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "resource_uri": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": true,
+            "type": "string",
+            "unique": false
+        },
+        "start_time": {
+            "blank": false,
+            "default": "2013-12-05T10:17:41.384791+00:00",
+            "help_text": "Start time of subscription",
+            "nullable": false,
+            "readonly": false,
+            "type": "datetime",
+            "unique": false
+        },
+        "status": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Status of the subscription",
+            "nullable": false,
+            "readonly": true,
+            "type": "string",
+            "unique": false
+        },
+        "subscribed_object": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Subscribed object - the target of this subscription, if applicable",
+            "nullable": true,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "uuid": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": true,
+            "readonly": false,
+            "type": "string",
+            "unique": true
+        }
+    },
+    "filtering": {
+        "subscribed_object": [
+            "exact"
+        ]
+    }
+}

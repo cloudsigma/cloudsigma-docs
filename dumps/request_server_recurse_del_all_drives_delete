@@ -1,0 +1,5 @@
+DELETE /api/2.0/servers/3561c63e-dcbc-4d87-a2b4-d5e8a2dde3ef/?recurse=all_drives HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+

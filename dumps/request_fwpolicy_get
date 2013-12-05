@@ -1,0 +1,5 @@
+GET /api/2.0/fwpolicies/37c3109a-851b-4ec0-9ea9-22feda201b2d/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+

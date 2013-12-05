@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "meta": {
+        "limit": 5,
+        "offset": 0,
+        "total_count": 0
+    },
+    "objects": []
+}

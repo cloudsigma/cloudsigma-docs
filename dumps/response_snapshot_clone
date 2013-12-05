@@ -1,0 +1,32 @@
+HTTP/1.1 202 ACCEPTED
+Content-Type: application/json; charset=utf-8
+
+{
+    "affinities": [],
+    "allow_multimount": false,
+    "jobs": [],
+    "licenses": [],
+    "media": "disk",
+    "meta": {},
+    "mounted_on": [],
+    "name": "6c6ec185-10e5-48ca-862d-5148dc42c18b__2013-12-05__10_17_07",
+    "owner": {
+        "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+        "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+    },
+    "resource_uri": {
+        "resource_uri": "/api/2.0/drives/64b1e30a-8897-4c50-96f4-18042d3cb6b5/",
+        "uuid": "64b1e30a-8897-4c50-96f4-18042d3cb6b5"
+    },
+    "runtime": {
+        "is_snapshotable": null,
+        "snapshots_allocated_size": 0,
+        "storage_type": null
+    },
+    "size": 1024000000,
+    "snapshots": [],
+    "status": "cloning_dst",
+    "storage_type": null,
+    "tags": [],
+    "uuid": "64b1e30a-8897-4c50-96f4-18042d3cb6b5"
+}

@@ -4,7 +4,7 @@ Subscriptions
 Statuses
 --------
     Every subscription has a status associated with it:
-    
+
     .. _subscriptions-active:
 
     * ``active``: A subscription that is currently being used, either because the current time is between its start or end date or because it was the subscription for depletable resources (traffic) that is currently being used.
@@ -49,7 +49,7 @@ Subscription duration
 
     There are three parameters that determine the subscription's duration. All times are in UTC. Not all combinations are valid:
 
-    - ``start_time``: In `ISO 8601 <http://www.iso.org/iso/date_and_time_format>`_ format. Defaults to the current time. 
+    - ``start_time``: In `ISO 8601 <http://www.iso.org/iso/date_and_time_format>`_ format. Defaults to the current time.
     - ``end_time``: In `ISO 8601 <http://www.iso.org/iso/date_and_time_format>`_ format.
     - ``period``: Free form text describing the period. Ex: '2 months 1 week'.
 
@@ -57,7 +57,7 @@ Subscription duration
 ==========  ========    =========   ======
    Inputs                           Result
 ---------------------------------   ------
-start_time  end_time    period      
+start_time  end_time    period
 ==========  ========    =========   ======
 True        True        True        Error: Ambiguous.
 True        True        False       Between start_time and end_time.
@@ -137,6 +137,13 @@ Autorenewing
 
     :statuscode 200: no error
 
+Schema
+~~~~~~
+
+   .. literalinclude:: dumps/response_subscription_schema
+        :language: javascript
+
+
 Grouped subscriptions
 ---------------------
 .. http:get:: /groupedsubscriptions/
@@ -150,13 +157,34 @@ Calculator
 
 .. http:post:: /subscriptioncalculator/
 
-    This is identical to the subscriptions call, except that subscriptions are not actually bought.
+    Returns the price of the subscriptions POSTed in the same format as the normal subscriptions.
 
     :statuscode 200: no error
 
-Schema
-~~~~~~
 
-   .. literalinclude:: dumps/response_subscription_schema
+    **Example request**:
+
+    .. literalinclude:: dumps/request_subscriptioncalculator
+        :language: javascript
+
+
+    **Example response**:
+
+    .. literalinclude:: dumps/response_subscriptioncalculator
+        :language: javascript
+
+
+    Similarly, the price of extending a subscription can be calculated.
+
+
+    **Example request**:
+
+    .. literalinclude:: dumps/request_subscriptioncalculator_extend
+        :language: javascript
+
+
+    **Example response**:
+
+    .. literalinclude:: dumps/response_subscriptioncalculator_extend
         :language: javascript
 

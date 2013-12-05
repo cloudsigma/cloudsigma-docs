@@ -1,0 +1,64 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "meta": {
+        "limit": 0,
+        "offset": 0,
+        "total_count": 2
+    },
+    "objects": [
+        {
+            "affinities": [],
+            "allow_multimount": false,
+            "jobs": [],
+            "licenses": [],
+            "media": "cdrom",
+            "meta": {},
+            "mounted_on": [],
+            "name": "test_drive_2",
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "resource_uri": "/api/2.0/drives/cbfd47f5-77eb-43e5-a94b-0d2d118d54d0/",
+            "runtime": {
+                "is_snapshotable": true,
+                "snapshots_allocated_size": 0,
+                "storage_type": "dssd"
+            },
+            "size": 1024000000,
+            "snapshots": [],
+            "status": "unmounted",
+            "storage_type": "dssd",
+            "tags": [],
+            "uuid": "cbfd47f5-77eb-43e5-a94b-0d2d118d54d0"
+        },
+        {
+            "affinities": [],
+            "allow_multimount": false,
+            "jobs": [],
+            "licenses": [],
+            "media": "disk",
+            "meta": {},
+            "mounted_on": [],
+            "name": "test_drive_1",
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "resource_uri": "/api/2.0/drives/c0e6a54b-b0bc-48a9-9a91-042ded7ccff1/",
+            "runtime": {
+                "is_snapshotable": true,
+                "snapshots_allocated_size": 0,
+                "storage_type": "dssd"
+            },
+            "size": 1024000000,
+            "snapshots": [],
+            "status": "unmounted",
+            "storage_type": "dssd",
+            "tags": [],
+            "uuid": "c0e6a54b-b0bc-48a9-9a91-042ded7ccff1"
+        }
+    ]
+}

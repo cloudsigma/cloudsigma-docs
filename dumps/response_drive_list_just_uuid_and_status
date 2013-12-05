@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "meta": {
+        "limit": 0,
+        "offset": 0,
+        "total_count": 5
+    },
+    "objects": [
+        {
+            "status": "unmounted",
+            "uuid": "0b9beb4d-c712-47c7-be64-427b940f5298"
+        },
+        {
+            "status": "unmounted",
+            "uuid": "59bf9a63-6dd0-4692-8cef-588b3b88e5be"
+        },
+        {
+            "status": "unmounted",
+            "uuid": "747d96ae-a598-4839-b548-22af5b2514b5"
+        },
+        {
+            "status": "unmounted",
+            "uuid": "a5b5d5ed-55ad-4c3b-ac53-0b5e9643ba89"
+        },
+        {
+            "status": "unmounted",
+            "uuid": "e506433e-9bab-40aa-aab9-93c353ba6c10"
+        }
+    ]
+}

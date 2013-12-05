@@ -1,0 +1,35 @@
+PUT /api/2.0/servers/a3c82cde-6f70-4bf7-aa0e-9ebcc5dba46a/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "context": true,
+    "cpu": 1000,
+    "cpu_model": null,
+    "cpus_instead_of_cores": false,
+    "drives": [],
+    "enable_numa": false,
+    "hv_relaxed": false,
+    "hv_tsc": false,
+    "jobs": [],
+    "mem": 536870912,
+    "meta": {},
+    "name": "testServerAcc",
+    "nics": [
+        {
+            "vlan": "89a307b8-73be-4fa8-bdb1-b37897e75d71"
+        }
+    ],
+    "owner": {
+        "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+        "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+    },
+    "requirements": [],
+    "resource_uri": "/api/2.0/servers/a3c82cde-6f70-4bf7-aa0e-9ebcc5dba46a/",
+    "runtime": null,
+    "smp": 1,
+    "status": "stopped",
+    "tags": [],
+    "uuid": "a3c82cde-6f70-4bf7-aa0e-9ebcc5dba46a",
+    "vnc_password": "testserver"
+}

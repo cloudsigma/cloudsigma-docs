@@ -1,0 +1,120 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "meta": {
+        "limit": 0,
+        "offset": 0,
+        "total_count": 6
+    },
+    "objects": [
+        {
+            "allocated_size": 0,
+            "drive": {
+                "resource_uri": "/api/2.0/drives/bc8ff2f6-5b09-4122-a69f-9c9211eb9593/",
+                "uuid": "bc8ff2f6-5b09-4122-a69f-9c9211eb9593"
+            },
+            "meta": {},
+            "name": "bc8ff2f6-5b09-4122-a69f-9c9211eb9593__2013-12-05__10_17_37",
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "resource_uri": "/api/2.0/snapshots/2e6235ad-d066-453a-b9f8-3161b7420774/",
+            "status": "available",
+            "tags": [],
+            "timestamp": "2013-12-05 10:17:37.941711+00:00",
+            "uuid": "2e6235ad-d066-453a-b9f8-3161b7420774"
+        },
+        {
+            "allocated_size": 0,
+            "drive": {
+                "resource_uri": "/api/2.0/drives/a09aef7a-f87c-49a0-9952-be4274e82ca3/",
+                "uuid": "a09aef7a-f87c-49a0-9952-be4274e82ca3"
+            },
+            "meta": {},
+            "name": "a09aef7a-f87c-49a0-9952-be4274e82ca3__2013-12-05__10_17_38",
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "resource_uri": "/api/2.0/snapshots/46a8b1cf-a46c-4acc-93ce-bc4229b60884/",
+            "status": "available",
+            "tags": [],
+            "timestamp": "2013-12-05 10:17:38.358994+00:00",
+            "uuid": "46a8b1cf-a46c-4acc-93ce-bc4229b60884"
+        },
+        {
+            "allocated_size": null,
+            "drive": {
+                "resource_uri": "/api/2.0/drives/a09aef7a-f87c-49a0-9952-be4274e82ca3/",
+                "uuid": "a09aef7a-f87c-49a0-9952-be4274e82ca3"
+            },
+            "meta": {},
+            "name": "a09aef7a-f87c-49a0-9952-be4274e82ca3__2013-12-05__10_17_38",
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "resource_uri": "/api/2.0/snapshots/0ca67d1e-1769-426f-8356-2e4de690cc65/",
+            "status": "creating",
+            "tags": [],
+            "timestamp": "2013-12-05 10:17:38.551740+00:00",
+            "uuid": "0ca67d1e-1769-426f-8356-2e4de690cc65"
+        },
+        {
+            "allocated_size": null,
+            "drive": {
+                "resource_uri": "/api/2.0/drives/8398ff13-7088-4e60-acc5-666c8c7ac77b/",
+                "uuid": "8398ff13-7088-4e60-acc5-666c8c7ac77b"
+            },
+            "meta": {},
+            "name": "8398ff13-7088-4e60-acc5-666c8c7ac77b__2013-12-05__10_17_38",
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "resource_uri": "/api/2.0/snapshots/1d0ecc24-1fc6-46d8-bd20-2e1868e77dfc/",
+            "status": "creating",
+            "tags": [],
+            "timestamp": "2013-12-05 10:17:38.743511+00:00",
+            "uuid": "1d0ecc24-1fc6-46d8-bd20-2e1868e77dfc"
+        },
+        {
+            "allocated_size": null,
+            "drive": {
+                "resource_uri": "/api/2.0/drives/8398ff13-7088-4e60-acc5-666c8c7ac77b/",
+                "uuid": "8398ff13-7088-4e60-acc5-666c8c7ac77b"
+            },
+            "meta": {},
+            "name": "8398ff13-7088-4e60-acc5-666c8c7ac77b__2013-12-05__10_17_38",
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "resource_uri": "/api/2.0/snapshots/f1569f3a-5de3-4992-8b3c-d14147c13b66/",
+            "status": "creating",
+            "tags": [],
+            "timestamp": "2013-12-05 10:17:38.937415+00:00",
+            "uuid": "f1569f3a-5de3-4992-8b3c-d14147c13b66"
+        },
+        {
+            "allocated_size": 0,
+            "drive": {
+                "resource_uri": "/api/2.0/drives/bc8ff2f6-5b09-4122-a69f-9c9211eb9593/",
+                "uuid": "bc8ff2f6-5b09-4122-a69f-9c9211eb9593"
+            },
+            "meta": {},
+            "name": "bc8ff2f6-5b09-4122-a69f-9c9211eb9593__2013-12-05__10_17_38",
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "resource_uri": "/api/2.0/snapshots/bab01c02-ed86-4dc0-86bf-861089928680/",
+            "status": "available",
+            "tags": [],
+            "timestamp": "2013-12-05 10:17:38.140929+00:00",
+            "uuid": "bab01c02-ed86-4dc0-86bf-861089928680"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get"
+    ],
+    "allowed_list_http_methods": [
+        "get"
+    ],
+    "default_format": "application/json",
+    "default_limit": 0,
+    "fields": {
+        "currency": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "The currency of the price",
+            "nullable": false,
+            "readonly": true,
+            "type": "string",
+            "unique": false
+        },
+        "id": {
+            "blank": false,
+            "default": "",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": true
+        },
+        "level": {
+            "blank": false,
+            "default": 0,
+            "help_text": "The burst level the price applies to",
+            "nullable": false,
+            "readonly": false,
+            "type": "integer",
+            "unique": false
+        },
+        "multiplier": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "The multiplier applied to get the price of one unit per second, from the unit of the price",
+            "nullable": false,
+            "readonly": true,
+            "type": "integer",
+            "unique": false
+        },
+        "price": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Price",
+            "nullable": false,
+            "readonly": false,
+            "type": "decimal",
+            "unique": false
+        },
+        "resource": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "The resource the price applies to",
+            "nullable": false,
+            "readonly": true,
+            "type": "string",
+            "unique": false
+        },
+        "unit": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "The unit of the price",
+            "nullable": false,
+            "readonly": true,
+            "type": "string",
+            "unique": false
+        }
+    },
+    "filtering": {
+        "level": 1
+    }
+}

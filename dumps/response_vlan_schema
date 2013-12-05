@@ -1,0 +1,69 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get",
+        "put"
+    ],
+    "allowed_list_http_methods": "get",
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "meta": {
+            "default": {},
+            "help_text": "User defined meta information",
+            "readonly": false,
+            "required": false,
+            "type": "dict"
+        },
+        "owner": {
+            "default": null,
+            "help_text": "VLAN owner",
+            "readonly": true,
+            "required": false,
+            "type": "related"
+        },
+        "resource_uri": {
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        },
+        "servers": {
+            "default": [],
+            "help_text": "Servers in this VLAN",
+            "readonly": true,
+            "required": false,
+            "type": "related"
+        },
+        "subscription": {
+            "default": null,
+            "help_text": "Subscription related to this VLAN",
+            "readonly": true,
+            "required": false,
+            "type": "related"
+        },
+        "tags": {
+            "default": [],
+            "help_text": "Tags added to this VLAN",
+            "readonly": false,
+            "required": false,
+            "type": "related"
+        },
+        "uuid": {
+            "default": null,
+            "help_text": "VLAN UUID",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        }
+    },
+    "filtering": {
+        "name": 0,
+        "name__contains": 0,
+        "tag": "<function get_tag_filter_args at 0x7f5874264848>",
+        "uuid": 0
+    }
+}

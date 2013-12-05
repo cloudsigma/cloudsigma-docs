@@ -1,0 +1,11 @@
+POST /api/2.0/snapshots/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "objects": [
+        {
+            "drive": "b484ef62-6a14-4b11-9521-c1f5e5a4f0d9"
+        }
+    ]
+}

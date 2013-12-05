@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "context": true,
+    "cpu": 2000,
+    "cpu_model": null,
+    "cpus_instead_of_cores": false,
+    "drives": [],
+    "enable_numa": false,
+    "hv_relaxed": false,
+    "hv_tsc": false,
+    "jobs": [],
+    "mem": 536870912,
+    "meta": {
+        "meta_key2": "value2",
+        "meta_key3": "value3"
+    },
+    "name": "test_server_updated",
+    "nics": [],
+    "owner": {
+        "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+        "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+    },
+    "requirements": [],
+    "resource_uri": "/api/2.0/servers/4a6f1578-28b7-42e3-a568-4452057bb4d4/",
+    "runtime": null,
+    "smp": 1,
+    "status": "stopped",
+    "tags": [],
+    "uuid": "4a6f1578-28b7-42e3-a568-4452057bb4d4",
+    "vnc_password": "updated_password"
+}

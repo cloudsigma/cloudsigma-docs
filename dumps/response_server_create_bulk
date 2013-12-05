@@ -1,0 +1,142 @@
+HTTP/1.1 201 CREATED
+Content-Type: application/json; charset=utf-8
+
+{
+    "objects": [
+        {
+            "context": true,
+            "cpu": 1000,
+            "cpu_model": null,
+            "cpus_instead_of_cores": false,
+            "drives": [],
+            "enable_numa": false,
+            "hv_relaxed": false,
+            "hv_tsc": false,
+            "jobs": [],
+            "mem": 536870912,
+            "meta": {},
+            "name": "test_server_0",
+            "nics": [],
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "requirements": [],
+            "resource_uri": "/api/2.0/servers/125cf742-ce79-4f13-948f-231abf3a4eb4/",
+            "runtime": null,
+            "smp": 1,
+            "status": "stopped",
+            "tags": [],
+            "uuid": "125cf742-ce79-4f13-948f-231abf3a4eb4",
+            "vnc_password": "testserver"
+        },
+        {
+            "context": true,
+            "cpu": 1000,
+            "cpu_model": null,
+            "cpus_instead_of_cores": false,
+            "drives": [],
+            "enable_numa": false,
+            "hv_relaxed": false,
+            "hv_tsc": false,
+            "jobs": [],
+            "mem": 536870912,
+            "meta": {},
+            "name": "test_server_1",
+            "nics": [],
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "requirements": [],
+            "resource_uri": "/api/2.0/servers/911c41b4-b751-4614-b22e-941e2fc95934/",
+            "runtime": null,
+            "smp": 1,
+            "status": "stopped",
+            "tags": [],
+            "uuid": "911c41b4-b751-4614-b22e-941e2fc95934",
+            "vnc_password": "testserver"
+        },
+        {
+            "context": true,
+            "cpu": 1000,
+            "cpu_model": null,
+            "cpus_instead_of_cores": false,
+            "drives": [],
+            "enable_numa": false,
+            "hv_relaxed": false,
+            "hv_tsc": false,
+            "jobs": [],
+            "mem": 536870912,
+            "meta": {},
+            "name": "test_server_2",
+            "nics": [],
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "requirements": [],
+            "resource_uri": "/api/2.0/servers/2f8f9019-0924-4475-afe2-c41b0a5a03a4/",
+            "runtime": null,
+            "smp": 1,
+            "status": "stopped",
+            "tags": [],
+            "uuid": "2f8f9019-0924-4475-afe2-c41b0a5a03a4",
+            "vnc_password": "testserver"
+        },
+        {
+            "context": true,
+            "cpu": 1000,
+            "cpu_model": null,
+            "cpus_instead_of_cores": false,
+            "drives": [],
+            "enable_numa": false,
+            "hv_relaxed": false,
+            "hv_tsc": false,
+            "jobs": [],
+            "mem": 536870912,
+            "meta": {},
+            "name": "test_server_3",
+            "nics": [],
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "requirements": [],
+            "resource_uri": "/api/2.0/servers/bb6938dc-f570-4f37-9634-246ded519952/",
+            "runtime": null,
+            "smp": 1,
+            "status": "stopped",
+            "tags": [],
+            "uuid": "bb6938dc-f570-4f37-9634-246ded519952",
+            "vnc_password": "testserver"
+        },
+        {
+            "context": true,
+            "cpu": 1000,
+            "cpu_model": null,
+            "cpus_instead_of_cores": false,
+            "drives": [],
+            "enable_numa": false,
+            "hv_relaxed": false,
+            "hv_tsc": false,
+            "jobs": [],
+            "mem": 536870912,
+            "meta": {},
+            "name": "test_server_4",
+            "nics": [],
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "requirements": [],
+            "resource_uri": "/api/2.0/servers/99f77f3c-b90d-4b71-9101-f7f1f1d6ce64/",
+            "runtime": null,
+            "smp": 1,
+            "status": "stopped",
+            "tags": [],
+            "uuid": "99f77f3c-b90d-4b71-9101-f7f1f1d6ce64",
+            "vnc_password": "testserver"
+        }
+    ]
+}

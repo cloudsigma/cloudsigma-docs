@@ -1,0 +1,5 @@
+POST /api/2.0/snapshots/586b8fa1-fe27-40b5-9a87-a006db4c96c7/action/?do=clone&avoid=6c6ec185-10e5-48ca-862d-5148dc42c18b HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{}

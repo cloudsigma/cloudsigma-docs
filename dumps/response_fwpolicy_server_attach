@@ -1,0 +1,51 @@
+HTTP/1.1 201 CREATED
+Content-Type: application/json; charset=utf-8
+
+{
+    "objects": [
+        {
+            "context": true,
+            "cpu": 1000,
+            "cpu_model": null,
+            "cpus_instead_of_cores": false,
+            "drives": [],
+            "enable_numa": false,
+            "hv_relaxed": false,
+            "hv_tsc": false,
+            "jobs": [],
+            "mem": 536870912,
+            "meta": {},
+            "name": "FirewalledServer",
+            "nics": [
+                {
+                    "boot_order": null,
+                    "firewall_policy": {
+                        "resource_uri": "/api/2.0/fwpolicies/fa50a64a-3770-4876-b5e8-962564788900/",
+                        "uuid": "fa50a64a-3770-4876-b5e8-962564788900"
+                    },
+                    "ip_v4_conf": {
+                        "conf": "dhcp",
+                        "ip": null
+                    },
+                    "ip_v6_conf": null,
+                    "mac": "22:cf:e7:ad:11:73",
+                    "model": "virtio",
+                    "runtime": null,
+                    "vlan": null
+                }
+            ],
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "requirements": [],
+            "resource_uri": "/api/2.0/servers/1c7a39f6-5721-4cd1-80fa-8120e09e56a4/",
+            "runtime": null,
+            "smp": 1,
+            "status": "stopped",
+            "tags": [],
+            "uuid": "1c7a39f6-5721-4cd1-80fa-8120e09e56a4",
+            "vnc_password": "testserver"
+        }
+    ]
+}

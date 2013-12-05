@@ -1,4 +1,4 @@
-DELETE /api/2.0/tags/5669c8f7-7d9e-49cc-ac30-c49d8e7eccf8/ HTTP/1.1
+DELETE /api/2.0/tags/acead723-f22b-45b9-8a14-9e21e5fedf09/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

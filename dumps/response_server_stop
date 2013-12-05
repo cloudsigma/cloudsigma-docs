@@ -1,0 +1,8 @@
+HTTP/1.1 202 ACCEPTED
+Content-Type: application/json; charset=utf-8
+
+{
+    "action": "stop",
+    "result": "success",
+    "uuid": "a2cbc2b6-5b4a-4113-8cca-4ee8434d9313"
+}

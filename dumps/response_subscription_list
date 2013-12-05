@@ -1,0 +1,49 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "meta": {
+        "limit": 20,
+        "offset": 0,
+        "total_count": 2
+    },
+    "objects": [
+        {
+            "amount": "1",
+            "auto_renew": true,
+            "descendants": [],
+            "discount_amount": null,
+            "discount_percent": null,
+            "end_time": "2014-01-05T12:00:00+00:00",
+            "id": "3",
+            "period": "31 days, 1:44:10.378865",
+            "price": "2.45416666666666666667",
+            "remaining": "1",
+            "resource": "ip",
+            "resource_uri": "/api/2.0/subscriptions/3/",
+            "start_time": "2013-12-05T10:15:49.621135+00:00",
+            "status": "active",
+            "subscribed_object": "192.168.5.137",
+            "uuid": "7cd580b8-79f2-493c-bf9e-5eea250b4b2e"
+        },
+        {
+            "amount": "1",
+            "auto_renew": true,
+            "descendants": [],
+            "discount_amount": null,
+            "discount_percent": null,
+            "end_time": "2014-01-05T12:00:00+00:00",
+            "id": "2",
+            "period": "31 days, 1:44:10.758198",
+            "price": "9.81666666666666666667",
+            "remaining": "1",
+            "resource": "vlan",
+            "resource_uri": "/api/2.0/subscriptions/2/",
+            "start_time": "2013-12-05T10:15:49.241802+00:00",
+            "status": "active",
+            "subscribed_object": "89a307b8-73be-4fa8-bdb1-b37897e75d71",
+            "uuid": "0d67d4d1-2441-4674-bfa6-1bfbca1aed01"
+        }
+    ],
+    "price": "12.27083333333333333334"
+}

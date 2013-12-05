@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get"
+    ],
+    "allowed_list_http_methods": [
+        "get"
+    ],
+    "default_format": "application/json",
+    "default_limit": 0,
+    "fields": {
+        "period": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "The minimum period for this discount",
+            "nullable": true,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "value": {
+            "blank": false,
+            "default": 0,
+            "help_text": "The value of the discount",
+            "nullable": false,
+            "readonly": false,
+            "type": "decimal",
+            "unique": false
+        }
+    }
+}

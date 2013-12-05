@@ -10,13 +10,13 @@ Content-Type: application/json; charset=utf-8
     "objects": [
         {
             "name": "MyGroupOfThings",
-            "resource_uri": "/api/2.0/tags/5669c8f7-7d9e-49cc-ac30-c49d8e7eccf8/",
-            "uuid": "5669c8f7-7d9e-49cc-ac30-c49d8e7eccf8"
+            "resource_uri": "/api/2.0/tags/acead723-f22b-45b9-8a14-9e21e5fedf09/",
+            "uuid": "acead723-f22b-45b9-8a14-9e21e5fedf09"
         },
         {
             "name": "TagCreatedWithResource",
-            "resource_uri": "/api/2.0/tags/d315497f-92d7-463c-823f-76a9adfd697d/",
-            "uuid": "d315497f-92d7-463c-823f-76a9adfd697d"
+            "resource_uri": "/api/2.0/tags/f066b802-8f38-4e12-ba8a-dc4c4a086595/",
+            "uuid": "f066b802-8f38-4e12-ba8a-dc4c4a086595"
         }
     ]
 }

@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get"
+    ],
+    "allowed_list_http_methods": [],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "balance": {
+            "default": "No default provided.",
+            "help_text": "Amount of money in account",
+            "readonly": true,
+            "required": true,
+            "type": "decimal"
+        },
+        "currency": {
+            "default": "No default provided.",
+            "help_text": "Currency of the account",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        }
+    },
+    "filtering": {
+        "name": 0,
+        "name__contains": 0,
+        "tag": "<function get_tag_filter_args at 0x7f5874264848>",
+        "uuid": 0
+    }
+}

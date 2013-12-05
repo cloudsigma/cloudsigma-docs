@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "meta": {
+        "limit": 1,
+        "offset": 0,
+        "total_count": 171
+    },
+    "objects": [
+        {
+            "action": "create",
+            "actor": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "category": "Servers",
+            "details": "{\"mem\": 536870912, \"cpu\": 1000, \"vnc_password\": \"testserver\", \"name\": \"test_server\", \"smp\": 1}",
+            "error_message": "",
+            "error_point": null,
+            "error_type": null,
+            "success": true,
+            "timestamp": "2013-12-05 10:13:40.111367+00:00",
+            "uuid": "3d175482-052d-4b8f-8231-d926fc2fa821"
+        }
+    ]
+}

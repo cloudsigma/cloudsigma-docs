@@ -1,0 +1,38 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "affinities": [],
+    "allow_multimount": false,
+    "jobs": [],
+    "licenses": [],
+    "media": "disk",
+    "meta": {},
+    "mounted_on": [],
+    "name": "test_drive_snapshot",
+    "owner": {
+        "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+        "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+    },
+    "resource_uri": "/api/2.0/drives/b484ef62-6a14-4b11-9521-c1f5e5a4f0d9/",
+    "runtime": {
+        "is_snapshotable": true,
+        "snapshots_allocated_size": 0,
+        "storage_type": "dssd"
+    },
+    "size": 1024000000,
+    "snapshots": [
+        {
+            "resource_uri": "/api/2.0/snapshots/f415dd47-a18d-4316-b9f3-91bcb96d5d73/",
+            "uuid": "f415dd47-a18d-4316-b9f3-91bcb96d5d73"
+        },
+        {
+            "resource_uri": "/api/2.0/snapshots/814b79fe-80fb-40c6-a268-edf7aa5951f7/",
+            "uuid": "814b79fe-80fb-40c6-a268-edf7aa5951f7"
+        }
+    ],
+    "status": "unmounted",
+    "storage_type": "dssd",
+    "tags": [],
+    "uuid": "b484ef62-6a14-4b11-9521-c1f5e5a4f0d9"
+}

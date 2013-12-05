@@ -1,0 +1,287 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get",
+        "put"
+    ],
+    "allowed_list_http_methods": [
+        "get",
+        "put"
+    ],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "address": {
+            "blank": false,
+            "default": "",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "api_https_only": {
+            "blank": false,
+            "default": false,
+            "help_text": "Boolean data. Ex: True",
+            "nullable": false,
+            "readonly": false,
+            "type": "boolean",
+            "unique": false
+        },
+        "autotopup_amount": {
+            "blank": false,
+            "default": 0,
+            "help_text": "Fixed precision numeric data. Ex: 26.73",
+            "nullable": false,
+            "readonly": false,
+            "type": "decimal",
+            "unique": false
+        },
+        "autotopup_threshold": {
+            "blank": false,
+            "default": 0,
+            "help_text": "Fixed precision numeric data. Ex: 26.73",
+            "nullable": false,
+            "readonly": false,
+            "type": "decimal",
+            "unique": false
+        },
+        "bank_reference": {
+            "blank": true,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": true,
+            "readonly": true,
+            "type": "string",
+            "unique": false
+        },
+        "company": {
+            "blank": false,
+            "default": "",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "country": {
+            "blank": false,
+            "default": "",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "currency": {
+            "blank": true,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": true,
+            "readonly": true,
+            "type": "string",
+            "unique": false
+        },
+        "email": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": true,
+            "type": "string",
+            "unique": false
+        },
+        "first_name": {
+            "blank": false,
+            "default": "",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "has_autotopup": {
+            "blank": false,
+            "default": false,
+            "help_text": "Boolean data. Ex: True",
+            "nullable": false,
+            "readonly": false,
+            "type": "boolean",
+            "unique": false
+        },
+        "invoicing": {
+            "blank": false,
+            "default": true,
+            "help_text": "Boolean data. Ex: True",
+            "nullable": false,
+            "readonly": false,
+            "type": "boolean",
+            "unique": false
+        },
+        "key_auth": {
+            "blank": false,
+            "default": false,
+            "help_text": "Boolean data. Ex: True",
+            "nullable": false,
+            "readonly": false,
+            "type": "boolean",
+            "unique": false
+        },
+        "language": {
+            "blank": false,
+            "default": "EN",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "last_name": {
+            "blank": false,
+            "default": "",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "mailing_list": {
+            "blank": false,
+            "default": true,
+            "help_text": "Boolean data. Ex: True",
+            "nullable": false,
+            "readonly": false,
+            "type": "boolean",
+            "unique": false
+        },
+        "meta": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "A dictionary of data. Ex: {'price': 26.73, 'name': 'Daniel'}",
+            "nullable": false,
+            "readonly": false,
+            "type": "dict",
+            "unique": false
+        },
+        "my_notes": {
+            "blank": false,
+            "default": "",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": true,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "nickname": {
+            "blank": false,
+            "default": "",
+            "help_text": "User nickname",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "phone": {
+            "blank": false,
+            "default": "",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "postcode": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": true,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "reseller": {
+            "blank": false,
+            "default": "",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "signup_time": {
+            "blank": false,
+            "default": "2013-12-05T10:14:49.222496+00:00",
+            "help_text": "A date & time as a string. Ex: \"2010-11-10T03:07:43\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "datetime",
+            "unique": false
+        },
+        "state": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": true,
+            "type": "string",
+            "unique": false
+        },
+        "tax_name": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": true,
+            "readonly": true,
+            "type": "string",
+            "unique": false
+        },
+        "tax_rate": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Fixed precision numeric data. Ex: 26.73",
+            "nullable": true,
+            "readonly": true,
+            "type": "decimal",
+            "unique": false
+        },
+        "title": {
+            "blank": false,
+            "default": "",
+            "help_text": "User title",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "town": {
+            "blank": false,
+            "default": "",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "uuid": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": true,
+            "type": "string",
+            "unique": false
+        },
+        "vat": {
+            "blank": false,
+            "default": "",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        }
+    }
+}

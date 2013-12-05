@@ -13,8 +13,8 @@ Content-Type: application/json; charset=utf-8
             "main": true,
             "name": "Some Name",
             "phone": null,
-            "resource_uri": "/api/2.0/notification_contacts/9f026afc-5e52-490c-89e5-1cf2317180a0/",
-            "uuid": "9f026afc-5e52-490c-89e5-1cf2317180a0"
+            "resource_uri": "/api/2.0/notification_contacts/3c0a20a0-40c4-4b2d-a7c9-1cbd034cf76c/",
+            "uuid": "3c0a20a0-40c4-4b2d-a7c9-1cbd034cf76c"
         }
     ]
 }

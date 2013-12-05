@@ -1,0 +1,40 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get",
+        "put",
+        "delete"
+    ],
+    "allowed_list_http_methods": [
+        "get",
+        "put",
+        "delete",
+        "post"
+    ],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "balance": {
+            "default": "No default provided.",
+            "help_text": "A dictionary of data. Ex: {'price': 26.73, 'name': 'Daniel'}",
+            "readonly": false,
+            "required": true,
+            "type": "dict"
+        },
+        "usage": {
+            "default": "No default provided.",
+            "help_text": "A dictionary of data. Ex: {'price': 26.73, 'name': 'Daniel'}",
+            "readonly": false,
+            "required": true,
+            "type": "dict"
+        }
+    },
+    "filtering": {
+        "name": 0,
+        "name__contains": 0,
+        "tag": "<function get_tag_filter_args at 0x7f5874264848>",
+        "uuid": 0
+    }
+}

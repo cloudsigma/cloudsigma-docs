@@ -1,0 +1,93 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "current": {
+        "cpu": 1,
+        "dssd": 1,
+        "ip": 1,
+        "mem": 1,
+        "msft_7jq_00341": 1,
+        "msft_7nq_00302": 1,
+        "msft_lwa_00135": 1,
+        "msft_p71_01031": 1,
+        "msft_p73_04837": 1,
+        "msft_p73_04837_core": 1,
+        "msft_tfa_00009": 1,
+        "msft_tfa_00523": 1,
+        "sms": 1,
+        "ssd": 1,
+        "tx": 1,
+        "vlan": 1
+    },
+    "meta": {
+        "limit": 5,
+        "offset": 0,
+        "total_count": 384
+    },
+    "next": {
+        "cpu": 1,
+        "dssd": 1,
+        "ip": 1,
+        "mem": 1,
+        "msft_7jq_00341": 1,
+        "msft_7nq_00302": 1,
+        "msft_lwa_00135": 1,
+        "msft_p71_01031": 1,
+        "msft_p73_04837": 1,
+        "msft_p73_04837_core": 1,
+        "msft_tfa_00009": 1,
+        "msft_tfa_00523": 1,
+        "sms": 1,
+        "ssd": 1,
+        "tx": 1,
+        "vlan": 1
+    },
+    "objects": [
+        {
+            "currency": "GBP",
+            "id": "579",
+            "level": 0,
+            "multiplier": 2592000,
+            "price": "21.37500000000000000000",
+            "resource": "msft_p73_04837_core",
+            "unit": "count/month"
+        },
+        {
+            "currency": "EUR",
+            "id": "578",
+            "level": 0,
+            "multiplier": 2592000,
+            "price": "21.37500000000000000000",
+            "resource": "msft_p73_04837_core",
+            "unit": "count/month"
+        },
+        {
+            "currency": "USD",
+            "id": "577",
+            "level": 0,
+            "multiplier": 2592000,
+            "price": "21.37500000000000000000",
+            "resource": "msft_p73_04837_core",
+            "unit": "count/month"
+        },
+        {
+            "currency": "CHF",
+            "id": "576",
+            "level": 0,
+            "multiplier": 2592000,
+            "price": "21.37500000000000000000",
+            "resource": "msft_p73_04837_core",
+            "unit": "count/month"
+        },
+        {
+            "currency": "GBP",
+            "id": "583",
+            "level": 0,
+            "multiplier": 2592000,
+            "price": "21.37500000000000000000",
+            "resource": "msft_7jq_00341",
+            "unit": "count/month"
+        }
+    ]
+}

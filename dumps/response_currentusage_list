@@ -1,0 +1,91 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "balance": {
+        "balance": "10000000.00000000000000000000",
+        "currency": "CHF"
+    },
+    "usage": {
+        "cpu": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
+        "dssd": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
+        "ip": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
+        "mem": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
+        "msft_7jq_00341": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
+        "msft_7nq_00302": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
+        "msft_lwa_00135": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
+        "msft_p71_01031": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
+        "msft_p73_04837": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
+        "msft_p73_04837_core": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
+        "msft_tfa_00009": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
+        "msft_tfa_00523": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
+        "sms": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
+        "ssd": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
+        "tx": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
+        "vlan": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        }
+    }
+}

@@ -1,0 +1,5 @@
+GET /api/2.0/drives/bc8ff2f6-5b09-4122-a69f-9c9211eb9593/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+

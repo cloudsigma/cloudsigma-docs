@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "affinities": [],
+    "allow_multimount": false,
+    "jobs": [],
+    "licenses": [],
+    "media": "cdrom",
+    "meta": {},
+    "mounted_on": [],
+    "name": "test_drive_y",
+    "owner": {
+        "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+        "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+    },
+    "resource_uri": "/api/2.0/drives/f617974a-3f9d-4389-bd95-6e1b340eecb1/",
+    "runtime": {
+        "is_snapshotable": true,
+        "snapshots_allocated_size": 0,
+        "storage_type": "dssd"
+    },
+    "size": 1024000000,
+    "snapshots": [],
+    "status": "unmounted",
+    "storage_type": "dssd",
+    "tags": [],
+    "uuid": "f617974a-3f9d-4389-bd95-6e1b340eecb1"
+}

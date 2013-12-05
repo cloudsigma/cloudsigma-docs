@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "meta": {
+        "limit": 1,
+        "offset": 0,
+        "total_count": 172
+    },
+    "objects": [
+        {
+            "action": "start_send",
+            "actor": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "category": "Servers",
+            "details": "",
+            "error_message": "",
+            "error_point": null,
+            "error_type": null,
+            "success": true,
+            "timestamp": "2013-12-05 10:13:40.575722+00:00",
+            "uuid": "3d175482-052d-4b8f-8231-d926fc2fa821"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allocated_size": null,
+    "drive": {
+        "resource_uri": "/api/2.0/drives/8398ff13-7088-4e60-acc5-666c8c7ac77b/",
+        "uuid": "8398ff13-7088-4e60-acc5-666c8c7ac77b"
+    },
+    "meta": {},
+    "name": "8398ff13-7088-4e60-acc5-666c8c7ac77b__2013-12-05__10_17_38",
+    "owner": {
+        "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+        "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+    },
+    "resource_uri": "/api/2.0/snapshots/1d0ecc24-1fc6-46d8-bd20-2e1868e77dfc/",
+    "status": "creating",
+    "tags": [],
+    "timestamp": "2013-12-05 10:17:38.743511+00:00",
+    "uuid": "1d0ecc24-1fc6-46d8-bd20-2e1868e77dfc"
+}

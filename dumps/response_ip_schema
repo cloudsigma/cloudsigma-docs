@@ -1,0 +1,90 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get",
+        "put"
+    ],
+    "allowed_list_http_methods": "get",
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "gateway": {
+            "default": null,
+            "help_text": "Gateway IP",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        },
+        "meta": {
+            "default": {},
+            "help_text": "User defined meta information",
+            "readonly": false,
+            "required": false,
+            "type": "dict"
+        },
+        "nameservers": {
+            "default": null,
+            "help_text": "Nameserver IPs",
+            "readonly": true,
+            "required": false,
+            "type": "list"
+        },
+        "netmask": {
+            "default": null,
+            "help_text": "IP netmask",
+            "readonly": true,
+            "required": true,
+            "type": "integer"
+        },
+        "owner": {
+            "default": null,
+            "help_text": "IP owner",
+            "readonly": true,
+            "required": false,
+            "type": "related"
+        },
+        "resource_uri": {
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        },
+        "server": {
+            "default": "No default provided.",
+            "help_text": "Reference to server using that IP",
+            "readonly": true,
+            "required": false,
+            "type": "related"
+        },
+        "subscription": {
+            "default": null,
+            "help_text": "Subscription, related to this IP",
+            "readonly": true,
+            "required": false,
+            "type": "related"
+        },
+        "tags": {
+            "default": [],
+            "help_text": "Many related resources. Can be either a list of URIs or list of individually nested resource data.",
+            "readonly": false,
+            "required": false,
+            "type": "related"
+        },
+        "uuid": {
+            "default": null,
+            "help_text": "IP UUID, in this case, the actual IP",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        }
+    },
+    "filtering": {
+        "name": 0,
+        "name__contains": 0,
+        "tag": "<function get_tag_filter_args at 0x7f5874264848>",
+        "uuid": 0
+    }
+}

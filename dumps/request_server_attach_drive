@@ -1,0 +1,18 @@
+PUT /api/2.0/servers/4a6f1578-28b7-42e3-a568-4452057bb4d4/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "cpu": 2000,
+    "drives": [
+        {
+            "boot_order": 1,
+            "dev_channel": "0:0",
+            "device": "virtio",
+            "drive": "f40d77a6-34bd-47e8-a834-82c487cf7cc7"
+        }
+    ],
+    "mem": 536870912,
+    "name": "test_server_updated",
+    "vnc_password": "updated_password"
+}

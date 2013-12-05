@@ -1,0 +1,525 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get",
+        "put",
+        "delete"
+    ],
+    "allowed_list_http_methods": [
+        "get",
+        "put",
+        "delete",
+        "post"
+    ],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "context": {
+            "default": true,
+            "help_text": "Enable guest context serial device",
+            "readonly": false,
+            "required": false,
+            "type": "boolean"
+        },
+        "cpu": {
+            "default": null,
+            "help_text": "Server's CPU Clock speed measured in MHz",
+            "readonly": false,
+            "required": true,
+            "type": "integer"
+        },
+        "cpu_model": {
+            "choices": [
+                "kvm64"
+            ],
+            "default": null,
+            "help_text": "Choose the virtual CPU model, for mitigating compatibility issues between the guest operating system and the underlying host's CPU. If not specified, all of the hypervisor's CPU capabilities are passed directly to the virtual machine.",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
+        "cpus_instead_of_cores": {
+            "default": false,
+            "help_text": "Expose server SMPs as separate CPUs, instead of cores of a single CPU.",
+            "readonly": false,
+            "required": false,
+            "type": "boolean"
+        },
+        "drives": {
+            "default": [],
+            "fields": {
+                "boot_order": {
+                    "default": null,
+                    "help_text": "Drive boot order",
+                    "readonly": false,
+                    "required": false,
+                    "type": "integer"
+                },
+                "dev_channel": {
+                    "default": null,
+                    "help_text": "Device channel in format {controller:unit} ex. 0:1, 0:2, etc. Keep in mind that there are limits based on emulation type - for example ide can have up to 2 controllers, 2 units each.",
+                    "readonly": false,
+                    "required": true,
+                    "type": "string"
+                },
+                "device": {
+                    "choices": [
+                        "ide",
+                        "virtio"
+                    ],
+                    "default": null,
+                    "help_text": "Device emulation type",
+                    "readonly": false,
+                    "required": true,
+                    "type": "string"
+                },
+                "drive": {
+                    "default": null,
+                    "help_text": "Drive UUID",
+                    "readonly": false,
+                    "required": true,
+                    "type": "related"
+                },
+                "runtime": {
+                    "default": "No default provided.",
+                    "fields": {
+                        "io": {
+                            "default": null,
+                            "fields": {
+                                "read_bytes": {
+                                    "default": 0,
+                                    "help_text": "Integer data. Ex: 2673",
+                                    "readonly": false,
+                                    "required": true,
+                                    "type": "integer"
+                                },
+                                "read_count": {
+                                    "default": 0,
+                                    "help_text": "Integer data. Ex: 2673",
+                                    "readonly": false,
+                                    "required": true,
+                                    "type": "integer"
+                                },
+                                "write_bytes": {
+                                    "default": 0,
+                                    "help_text": "Integer data. Ex: 2673",
+                                    "readonly": false,
+                                    "required": true,
+                                    "type": "integer"
+                                },
+                                "write_count": {
+                                    "default": 0,
+                                    "help_text": "Integer data. Ex: 2673",
+                                    "readonly": false,
+                                    "required": true,
+                                    "type": "integer"
+                                }
+                            },
+                            "help_text": "A single related resource. Can be either a URI or set of nested resource data.",
+                            "readonly": false,
+                            "required": false,
+                            "type": "related"
+                        }
+                    },
+                    "help_text": "Attached drive's runtime information",
+                    "readonly": true,
+                    "required": false,
+                    "type": "related"
+                }
+            },
+            "help_text": "List of attached Drives to server",
+            "readonly": false,
+            "required": false,
+            "type": "related"
+        },
+        "enable_numa": {
+            "default": false,
+            "help_text": "Expose NUMA topology to the server.",
+            "readonly": false,
+            "required": false,
+            "type": "boolean"
+        },
+        "hv_relaxed": {
+            "default": false,
+            "help_text": "Improve performance of Windows servers.",
+            "readonly": false,
+            "required": false,
+            "type": "boolean"
+        },
+        "hv_tsc": {
+            "default": false,
+            "help_text": "Improves performance of Windows servers with the trade off that the servers cannot be live migrated.",
+            "readonly": false,
+            "required": false,
+            "type": "boolean"
+        },
+        "jobs": {
+            "default": "No default provided.",
+            "help_text": "Background jobs related to this resource",
+            "readonly": true,
+            "required": true,
+            "type": "related"
+        },
+        "mem": {
+            "default": null,
+            "help_text": "Server's Random Access Memory measured in bytes",
+            "readonly": false,
+            "required": true,
+            "type": "integer"
+        },
+        "meta": {
+            "default": {},
+            "help_text": "User assigned meta information for this server",
+            "readonly": false,
+            "required": false,
+            "type": "dict"
+        },
+        "name": {
+            "default": null,
+            "help_text": "Human readable name of server",
+            "readonly": false,
+            "required": true,
+            "type": "string"
+        },
+        "nics": {
+            "default": [],
+            "fields": {
+                "boot_order": {
+                    "default": null,
+                    "help_text": "Device boot order",
+                    "readonly": false,
+                    "required": false,
+                    "type": "integer"
+                },
+                "firewall_policy": {
+                    "default": null,
+                    "help_text": "Firewall policy",
+                    "readonly": false,
+                    "required": false,
+                    "type": "related"
+                },
+                "ip_v4_conf": {
+                    "default": null,
+                    "fields": {
+                        "conf": {
+                            "choices": [
+                                "dhcp",
+                                "static",
+                                "manual"
+                            ],
+                            "default": null,
+                            "help_text": "Configuration type",
+                            "readonly": false,
+                            "required": false,
+                            "type": "string"
+                        },
+                        "ip": {
+                            "default": null,
+                            "help_text": "An IP address reference. Only used in 'static' IP configuration type",
+                            "readonly": false,
+                            "required": false,
+                            "type": "related"
+                        }
+                    },
+                    "help_text": "Public IPv4 configuration",
+                    "readonly": false,
+                    "required": false,
+                    "type": "related"
+                },
+                "ip_v6_conf": {
+                    "default": null,
+                    "fields": {
+                        "conf": {
+                            "choices": [
+                                "dhcp",
+                                "static",
+                                "manual"
+                            ],
+                            "default": null,
+                            "help_text": "Configuration type",
+                            "readonly": false,
+                            "required": false,
+                            "type": "string"
+                        },
+                        "ip": {
+                            "default": null,
+                            "help_text": "An IP address reference. Only used in 'static' IP configuration type",
+                            "readonly": false,
+                            "required": false,
+                            "type": "related"
+                        }
+                    },
+                    "help_text": "Public IPv6 configuration",
+                    "readonly": false,
+                    "required": false,
+                    "type": "related"
+                },
+                "mac": {
+                    "default": null,
+                    "help_text": "MAC address of the server NIC",
+                    "readonly": false,
+                    "required": true,
+                    "type": "string"
+                },
+                "model": {
+                    "choices": [
+                        "ne2k_isa",
+                        "i82551",
+                        "i82557b",
+                        "i82559er",
+                        "ne2k_pci",
+                        "pcnet",
+                        "rtl8139",
+                        "e1000",
+                        "virtio"
+                    ],
+                    "default": null,
+                    "help_text": "Model of NIC",
+                    "readonly": false,
+                    "required": false,
+                    "type": "string"
+                },
+                "runtime": {
+                    "default": "No default provided.",
+                    "fields": {
+                        "interface_type": {
+                            "choices": [
+                                "public",
+                                "private"
+                            ],
+                            "default": null,
+                            "help_text": "Type of interface",
+                            "readonly": false,
+                            "required": true,
+                            "type": "string"
+                        },
+                        "io": {
+                            "default": null,
+                            "fields": {
+                                "bytes_recv": {
+                                    "default": 0,
+                                    "help_text": "Bytes received on this interface",
+                                    "readonly": false,
+                                    "required": false,
+                                    "type": "integer"
+                                },
+                                "bytes_sent": {
+                                    "default": 0,
+                                    "help_text": "Packets received on this interface",
+                                    "readonly": false,
+                                    "required": false,
+                                    "type": "integer"
+                                },
+                                "packets_recv": {
+                                    "default": 0,
+                                    "help_text": "Bytes sent from this interface",
+                                    "readonly": false,
+                                    "required": false,
+                                    "type": "integer"
+                                },
+                                "packets_sent": {
+                                    "default": 0,
+                                    "help_text": "Packets sent from this interface",
+                                    "readonly": false,
+                                    "required": false,
+                                    "type": "integer"
+                                }
+                            },
+                            "help_text": "NIC runtime Input and Output data",
+                            "readonly": false,
+                            "required": false,
+                            "type": "related"
+                        },
+                        "ip_v4": {
+                            "default": null,
+                            "help_text": "Public IPv4 configuration",
+                            "readonly": false,
+                            "required": false,
+                            "type": "related"
+                        },
+                        "ip_v6": {
+                            "default": null,
+                            "help_text": "Public IPv6 configuration",
+                            "readonly": false,
+                            "required": false,
+                            "type": "string"
+                        }
+                    },
+                    "help_text": "NIC runtime information",
+                    "readonly": true,
+                    "required": false,
+                    "type": "related"
+                },
+                "vlan": {
+                    "default": null,
+                    "help_text": "UUID of the private VLAN",
+                    "readonly": false,
+                    "required": false,
+                    "type": "related"
+                }
+            },
+            "help_text": "The list of nics attached to this server",
+            "readonly": false,
+            "required": false,
+            "type": "related"
+        },
+        "owner": {
+            "default": null,
+            "help_text": "UUID of the server owner",
+            "readonly": true,
+            "required": true,
+            "type": "related"
+        },
+        "requirements": {
+            "default": [],
+            "help_text": "A collection of special requirements for this server",
+            "readonly": false,
+            "required": false,
+            "type": "list"
+        },
+        "resource_uri": {
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        },
+        "runtime": {
+            "default": "No default provided.",
+            "fields": {
+                "active_since": {
+                    "default": "No default provided.",
+                    "help_text": "Datetime object representing the exact time the guest was started.",
+                    "readonly": false,
+                    "required": true,
+                    "type": "string"
+                },
+                "nics": {
+                    "default": [],
+                    "fields": {
+                        "interface_type": {
+                            "choices": [
+                                "public",
+                                "private"
+                            ],
+                            "default": null,
+                            "help_text": "Type of interface",
+                            "readonly": false,
+                            "required": true,
+                            "type": "string"
+                        },
+                        "io": {
+                            "default": null,
+                            "fields": {
+                                "bytes_recv": {
+                                    "default": 0,
+                                    "help_text": "Bytes received on this interface",
+                                    "readonly": false,
+                                    "required": false,
+                                    "type": "integer"
+                                },
+                                "bytes_sent": {
+                                    "default": 0,
+                                    "help_text": "Packets received on this interface",
+                                    "readonly": false,
+                                    "required": false,
+                                    "type": "integer"
+                                },
+                                "packets_recv": {
+                                    "default": 0,
+                                    "help_text": "Bytes sent from this interface",
+                                    "readonly": false,
+                                    "required": false,
+                                    "type": "integer"
+                                },
+                                "packets_sent": {
+                                    "default": 0,
+                                    "help_text": "Packets sent from this interface",
+                                    "readonly": false,
+                                    "required": false,
+                                    "type": "integer"
+                                }
+                            },
+                            "help_text": "NIC runtime Input and Output data",
+                            "readonly": false,
+                            "required": false,
+                            "type": "related"
+                        },
+                        "ip_v4": {
+                            "default": null,
+                            "help_text": "Public IPv4 configuration",
+                            "readonly": false,
+                            "required": false,
+                            "type": "related"
+                        },
+                        "ip_v6": {
+                            "default": null,
+                            "help_text": "Public IPv6 configuration",
+                            "readonly": false,
+                            "required": false,
+                            "type": "string"
+                        },
+                        "mac": {
+                            "default": null,
+                            "help_text": "MAC address of this NIC",
+                            "readonly": false,
+                            "required": false,
+                            "type": "string"
+                        }
+                    },
+                    "help_text": "The list of this server's NICs runtime",
+                    "readonly": false,
+                    "required": true,
+                    "type": "related"
+                }
+            },
+            "help_text": "Runtime information of the guest",
+            "readonly": true,
+            "required": false,
+            "type": "related"
+        },
+        "smp": {
+            "default": null,
+            "help_text": "Symmetric Multiprocessing (SMP) i.e. number of CPU cores",
+            "readonly": false,
+            "required": false,
+            "type": "integer"
+        },
+        "status": {
+            "default": "No default provided.",
+            "help_text": "Status of the guest.",
+            "readonly": true,
+            "required": false,
+            "type": "string"
+        },
+        "tags": {
+            "default": [],
+            "help_text": "List of tags this server is associated with",
+            "readonly": false,
+            "required": false,
+            "type": "related"
+        },
+        "uuid": {
+            "default": null,
+            "help_text": "UUID of server",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        },
+        "vnc_password": {
+            "default": null,
+            "help_text": "VNC Password to connect to server",
+            "readonly": false,
+            "required": true,
+            "type": "string"
+        }
+    },
+    "filtering": {
+        "name": 0,
+        "name__contains": 0,
+        "tag": "<function get_tag_filter_args at 0x7f5874264848>",
+        "uuid": 0
+    }
+}

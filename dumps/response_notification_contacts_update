@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
     "main": null,
     "name": "Some New Name",
     "phone": "+1 123 555 1234",
-    "pk": "fde7666b-86ef-421c-a7ba-33ad9ac394a6",
-    "resource_uri": "/api/2.0/notification_contacts/fde7666b-86ef-421c-a7ba-33ad9ac394a6/",
-    "uuid": "fde7666b-86ef-421c-a7ba-33ad9ac394a6"
+    "pk": "82bee018-81c1-4388-a5bb-7a61cc9a5c5f",
+    "resource_uri": "/api/2.0/notification_contacts/82bee018-81c1-4388-a5bb-7a61cc9a5c5f/",
+    "uuid": "82bee018-81c1-4388-a5bb-7a61cc9a5c5f"
 }

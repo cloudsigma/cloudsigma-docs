@@ -1,0 +1,87 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "meta": {
+        "limit": 0,
+        "offset": 0,
+        "total_count": 2
+    },
+    "objects": [
+        {
+            "meta": {},
+            "name": null,
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "resource_uri": "/api/2.0/fwpolicies/ae74939b-3e45-49ad-b71a-4c8b1a23ea06/",
+            "rules": [],
+            "servers": [],
+            "uuid": "ae74939b-3e45-49ad-b71a-4c8b1a23ea06"
+        },
+        {
+            "meta": {},
+            "name": "My awesome policy",
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "resource_uri": "/api/2.0/fwpolicies/37c3109a-851b-4ec0-9ea9-22feda201b2d/",
+            "rules": [
+                {
+                    "action": "drop",
+                    "comment": "Drop traffic from the VM to IP address 23.0.0.0/32",
+                    "direction": "out",
+                    "dst_ip": "23.0.0.0/32",
+                    "dst_port": null,
+                    "ip_proto": null,
+                    "src_ip": null,
+                    "src_port": null
+                },
+                {
+                    "action": "accept",
+                    "comment": "Allow SSH traffic to the VM from our office in Dubai",
+                    "direction": "in",
+                    "dst_ip": null,
+                    "dst_port": "22",
+                    "ip_proto": "tcp",
+                    "src_ip": "172.66.32.0/24",
+                    "src_port": null
+                },
+                {
+                    "action": "drop",
+                    "comment": "Drop all other SSH traffic to the VM",
+                    "direction": "in",
+                    "dst_ip": null,
+                    "dst_port": "22",
+                    "ip_proto": "tcp",
+                    "src_ip": null,
+                    "src_port": null
+                },
+                {
+                    "action": "drop",
+                    "comment": "Drop all UDP traffic to the VM, not originating from 172.66.32.55",
+                    "direction": "in",
+                    "dst_ip": null,
+                    "dst_port": null,
+                    "ip_proto": "udp",
+                    "src_ip": "!172.66.32.55/32",
+                    "src_port": null
+                },
+                {
+                    "action": "drop",
+                    "comment": "Drop any traffic, to the VM with destination port not between 1-1024",
+                    "direction": "in",
+                    "dst_ip": null,
+                    "dst_port": "!1:1024",
+                    "ip_proto": "tcp",
+                    "src_ip": null,
+                    "src_port": null
+                }
+            ],
+            "servers": [],
+            "uuid": "37c3109a-851b-4ec0-9ea9-22feda201b2d"
+        }
+    ]
+}

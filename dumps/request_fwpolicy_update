@@ -1,0 +1,27 @@
+PUT /api/2.0/fwpolicies/37c3109a-851b-4ec0-9ea9-22feda201b2d/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "meta": {},
+    "name": "My awesome policy",
+    "owner": {
+        "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+        "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+    },
+    "resource_uri": "/api/2.0/fwpolicies/37c3109a-851b-4ec0-9ea9-22feda201b2d/",
+    "rules": [
+        {
+            "action": "drop",
+            "comment": "Drop traffic from the VM to IP address 23.0.0.0/32",
+            "direction": "out",
+            "dst_ip": "23.0.0.0/32",
+            "dst_port": null,
+            "ip_proto": null,
+            "src_ip": null,
+            "src_port": null
+        }
+    ],
+    "servers": [],
+    "uuid": "37c3109a-851b-4ec0-9ea9-22feda201b2d"
+}

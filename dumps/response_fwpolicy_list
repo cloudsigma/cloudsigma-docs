@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "meta": {
+        "limit": 0,
+        "offset": 0,
+        "total_count": 2
+    },
+    "objects": [
+        {
+            "meta": {},
+            "name": null,
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "resource_uri": "/api/2.0/fwpolicies/ae74939b-3e45-49ad-b71a-4c8b1a23ea06/",
+            "uuid": "ae74939b-3e45-49ad-b71a-4c8b1a23ea06"
+        },
+        {
+            "meta": {},
+            "name": "My awesome policy",
+            "owner": {
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+            },
+            "resource_uri": "/api/2.0/fwpolicies/37c3109a-851b-4ec0-9ea9-22feda201b2d/",
+            "uuid": "37c3109a-851b-4ec0-9ea9-22feda201b2d"
+        }
+    ]
+}

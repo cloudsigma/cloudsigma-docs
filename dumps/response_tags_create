@@ -7,12 +7,12 @@ Content-Type: application/json; charset=utf-8
             "meta": {},
             "name": "MyGroupOfThings",
             "owner": {
-                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
-                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
+                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
             },
-            "resource_uri": "/api/2.0/tags/5669c8f7-7d9e-49cc-ac30-c49d8e7eccf8/",
+            "resource_uri": "/api/2.0/tags/acead723-f22b-45b9-8a14-9e21e5fedf09/",
             "resources": [],
-            "uuid": "5669c8f7-7d9e-49cc-ac30-c49d8e7eccf8"
+            "uuid": "acead723-f22b-45b9-8a14-9e21e5fedf09"
         }
     ]
 }

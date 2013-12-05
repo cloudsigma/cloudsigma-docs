@@ -1,0 +1,38 @@
+POST /api/2.0/servers/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "objects": [
+        {
+            "cpu": 1000,
+            "mem": 536870912,
+            "name": "test_server_0",
+            "vnc_password": "testserver"
+        },
+        {
+            "cpu": 1000,
+            "mem": 536870912,
+            "name": "test_server_1",
+            "vnc_password": "testserver"
+        },
+        {
+            "cpu": 1000,
+            "mem": 536870912,
+            "name": "test_server_2",
+            "vnc_password": "testserver"
+        },
+        {
+            "cpu": 1000,
+            "mem": 536870912,
+            "name": "test_server_3",
+            "vnc_password": "testserver"
+        },
+        {
+            "cpu": 1000,
+            "mem": 536870912,
+            "name": "test_server_4",
+            "vnc_password": "testserver"
+        }
+    ]
+}
