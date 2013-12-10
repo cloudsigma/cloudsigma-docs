@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "gateway": "31.171.248.1",
+    "meta": {},
+    "nameservers": [
+        "69.194.139.62",
+        "178.22.66.167",
+        "178.22.71.56"
+    ],
+    "netmask": 23,
+    "owner": {
+        "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
+        "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+    },
+    "resource_uri": "/api/2.0/ips/31.171.248.53/",
+    "server": null,
+    "subscription": {
+        "id": 517,
+        "resource_uri": "/api/2.0/subscriptions/517/"
+    },
+    "tags": [],
+    "uuid": "31.171.248.53"
+}

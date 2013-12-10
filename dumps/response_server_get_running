@@ -1,0 +1,93 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "context": true,
+    "cpu": 1000,
+    "cpu_model": null,
+    "cpus_instead_of_cores": false,
+    "drives": [
+        {
+            "boot_order": 1,
+            "dev_channel": "0:0",
+            "device": "virtio",
+            "drive": {
+                "resource_uri": "/api/2.0/drives/815eb6bc-8d3f-4642-b22b-b3c86dc2a02b/",
+                "uuid": "815eb6bc-8d3f-4642-b22b-b3c86dc2a02b"
+            },
+            "runtime": {
+                "io": {
+                    "bytes_read": 430080,
+                    "bytes_written": 0,
+                    "count_read": 88,
+                    "count_written": 0
+                }
+            }
+        }
+    ],
+    "enable_numa": false,
+    "hv_relaxed": false,
+    "hv_tsc": false,
+    "mem": 536870912,
+    "meta": {},
+    "name": "testServerAcc",
+    "nics": [
+        {
+            "boot_order": null,
+            "firewall_policy": null,
+            "ip_v4_conf": {
+                "conf": "dhcp",
+                "ip": null
+            },
+            "ip_v6_conf": null,
+            "mac": "22:0a:18:ba:21:9b",
+            "model": "virtio",
+            "runtime": {
+                "interface_type": "public",
+                "io": {
+                    "bytes_recv": 0,
+                    "bytes_sent": 0,
+                    "packets_recv": 0,
+                    "packets_sent": 0
+                },
+                "ip_v4": {
+                    "resource_uri": "/api/2.0/ips/31.171.248.69/",
+                    "uuid": "31.171.248.69"
+                },
+                "ip_v6": null
+            },
+            "vlan": null
+        }
+    ],
+    "owner": {
+        "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
+        "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+    },
+    "requirements": [],
+    "resource_uri": "/api/2.0/servers/7a7181c7-eb25-4ad4-b6fa-6b8dbe9f2830/",
+    "runtime": {
+        "active_since": "2013-12-10T11:39:36+00:00",
+        "nics": [
+            {
+                "interface_type": "public",
+                "io": {
+                    "bytes_recv": 0,
+                    "bytes_sent": 0,
+                    "packets_recv": 0,
+                    "packets_sent": 0
+                },
+                "ip_v4": {
+                    "resource_uri": "/api/2.0/ips/31.171.248.69/",
+                    "uuid": "31.171.248.69"
+                },
+                "ip_v6": null,
+                "mac": "22:0a:18:ba:21:9b"
+            }
+        ]
+    },
+    "smp": 1,
+    "status": "running",
+    "tags": [],
+    "uuid": "7a7181c7-eb25-4ad4-b6fa-6b8dbe9f2830",
+    "vnc_password": "testserver"
+}

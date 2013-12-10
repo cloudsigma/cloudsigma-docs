@@ -1,0 +1,60 @@
+HTTP/1.1 201 CREATED
+Content-Type: application/json; charset=utf-8
+
+{
+    "objects": [
+        {
+            "context": true,
+            "cpu": 1000,
+            "cpu_model": null,
+            "cpus_instead_of_cores": false,
+            "drives": [
+                {
+                    "boot_order": 1,
+                    "dev_channel": "0:0",
+                    "device": "virtio",
+                    "drive": {
+                        "resource_uri": "/api/2.0/drives/3f74da38-1517-427e-8088-8399d7c8973c/",
+                        "uuid": "3f74da38-1517-427e-8088-8399d7c8973c"
+                    },
+                    "runtime": null
+                }
+            ],
+            "enable_numa": false,
+            "hv_relaxed": false,
+            "hv_tsc": false,
+            "mem": 1073741824,
+            "meta": {
+                "ssh_public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCy4XpmD3kEfRZ+LCwFh3Xmqrkm7rSiDu8v+ZCTOA3vlNjmy/ZOc3vy9Zr+IhWPP4yipiApkGRsBM63tTgnxqUUn/WU7qkbBNktZBcs5p7Mj/zO4ZHkk4VoTczFzHlPGwuak2P4wTftEj7sU8IRutaAbMoKj4AMuFF50j4sIgF7P5b5FtTIM2b5HSW8BlDz10b67+xsj6s3Jv05xxbBs+RWj+v7D5yjMVeeErXoSui8dlHpUu6QOVKn8LLmdpxvehc6ns8yW7cbQvWmLjOICMnm6BXdVtOKWBncDq9FGLmKF3fUeZZPbv79Z7dyZs+xGZGMHbpaNHpuY9QhNS/hQ5D5 dave@hal"
+            },
+            "name": "test_server",
+            "nics": [
+                {
+                    "boot_order": null,
+                    "firewall_policy": null,
+                    "ip_v4_conf": {
+                        "conf": "dhcp",
+                        "ip": null
+                    },
+                    "ip_v6_conf": null,
+                    "mac": "22:d9:2f:8e:4c:55",
+                    "model": "virtio",
+                    "runtime": null,
+                    "vlan": null
+                }
+            ],
+            "owner": {
+                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
+                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+            },
+            "requirements": [],
+            "resource_uri": "/api/2.0/servers/65b2fb23-8c03-4187-a3ba-8b7c919e8890/",
+            "runtime": null,
+            "smp": 1,
+            "status": "stopped",
+            "tags": [],
+            "uuid": "65b2fb23-8c03-4187-a3ba-8b7c919e8890",
+            "vnc_password": "e894d6bc94e64397"
+        }
+    ]
+}

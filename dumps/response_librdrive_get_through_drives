@@ -1,0 +1,39 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "affinities": [],
+    "allow_multimount": false,
+    "jobs": [],
+    "licenses": [
+        {
+            "amount": 1,
+            "license": {
+                "burstable": false,
+                "long_name": "Microsoft Windows Web Server 2008",
+                "name": "msft_lwa_00135",
+                "resource_uri": "/api/2.0/licenses/12/",
+                "type": "instance",
+                "user_metric": ""
+            },
+            "user": null
+        }
+    ],
+    "media": "disk",
+    "meta": {},
+    "mounted_on": [],
+    "name": "Windows Server 2003 Standard 32bit English Preinstalled System",
+    "owner": null,
+    "resource_uri": "/api/2.0/drives/2031d0ac-33e5-41a8-ae47-aeac8d6a14ab/",
+    "runtime": {
+        "is_snapshotable": false,
+        "snapshots_allocated_size": 0,
+        "storage_type": "dssd"
+    },
+    "size": 13958643712,
+    "snapshots": [],
+    "status": "unmounted",
+    "storage_type": "dssd",
+    "tags": [],
+    "uuid": "2031d0ac-33e5-41a8-ae47-aeac8d6a14ab"
+}

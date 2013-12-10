@@ -1,0 +1,1 @@
+v=$(read -t 13 READVALUE < /dev/ttyS1 && echo $READVALUE & sleep 1; echo -en "<\n\n>" > /dev/ttyS1; wait %1); echo $v
