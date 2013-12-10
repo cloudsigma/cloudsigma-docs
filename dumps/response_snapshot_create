@@ -6,22 +6,21 @@ Content-Type: application/json; charset=utf-8
         {
             "allocated_size": null,
             "drive": {
-                "resource_uri": "/api/2.0/drives/b484ef62-6a14-4b11-9521-c1f5e5a4f0d9/",
-                "uuid": "b484ef62-6a14-4b11-9521-c1f5e5a4f0d9"
+                "resource_uri": "/api/2.0/drives/b7ef4ef8-88d8-4fd6-b978-c2302bbd9aaf/",
+                "uuid": "b7ef4ef8-88d8-4fd6-b978-c2302bbd9aaf"
             },
             "meta": {
                 "key": "val"
             },
             "name": "first_snapshot",
             "owner": {
-                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
-                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
+                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
             },
-            "resource_uri": "/api/2.0/snapshots/814b79fe-80fb-40c6-a268-edf7aa5951f7/",
+            "resource_uri": "/api/2.0/snapshots/6a2f715d-cd61-444b-bb82-a9c383373603/",
             "status": "creating",
-            "tags": [],
-            "timestamp": "2013-12-05 10:17:24.125282+00:00",
-            "uuid": "814b79fe-80fb-40c6-a268-edf7aa5951f7"
+            "timestamp": "2013-12-10 11:41:38.497969+00:00",
+            "uuid": "6a2f715d-cd61-444b-bb82-a9c383373603"
         }
     ]
 }

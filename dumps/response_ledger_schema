@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
         },
         "time": {
             "blank": false,
-            "default": "2013-12-05T10:13:48.964556+00:00",
+            "default": "2013-12-10T11:20:35.251567+00:00",
             "help_text": "A date & time as a string. Ex: \"2010-11-10T03:07:43\"",
             "nullable": false,
             "readonly": false,

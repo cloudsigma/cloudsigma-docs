@@ -12,17 +12,17 @@ Content-Type: application/json; charset=utf-8
             "email": "some_email_1@example.com",
             "main": true,
             "name": "Some Name",
-            "phone": null,
-            "resource_uri": "/api/2.0/notification_contacts/3c0a20a0-40c4-4b2d-a7c9-1cbd034cf76c/",
-            "uuid": "3c0a20a0-40c4-4b2d-a7c9-1cbd034cf76c"
+            "phone": "",
+            "resource_uri": "/api/2.0/notification_contacts/cc15a0ea-6009-408e-8d47-0d39ad25fd70/",
+            "uuid": "cc15a0ea-6009-408e-8d47-0d39ad25fd70"
         },
         {
             "email": "some_email_2@example.com",
             "main": null,
             "name": "Some New Name",
             "phone": "+1 123 555 1234",
-            "resource_uri": "/api/2.0/notification_contacts/82bee018-81c1-4388-a5bb-7a61cc9a5c5f/",
-            "uuid": "82bee018-81c1-4388-a5bb-7a61cc9a5c5f"
+            "resource_uri": "/api/2.0/notification_contacts/569827d6-f7ca-46c3-8b78-52cab30d0e7b/",
+            "uuid": "569827d6-f7ca-46c3-8b78-52cab30d0e7b"
         }
     ]
 }

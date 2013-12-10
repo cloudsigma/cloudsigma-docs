@@ -14,12 +14,6 @@ Allowed HTTP methods
 
     See :rfc:`2616#section-9` for more details on HTTP methods semantics
 
-Schema
-------
-
-.. literalinclude:: dumps/response_libdrive_schema
-    :language: javascript
-
 
 Listing
 -------
@@ -128,3 +122,8 @@ Get the same drive from ``/libdrives/{uuid}/``:
 .. literalinclude:: dumps/response_libdrive_get
     :language: javascript
 
+Schema
+------
+
+.. literalinclude:: dumps/response_libdrive_schema
+    :language: javascript

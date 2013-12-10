@@ -1,4 +1,4 @@
-GET /api/2.0/snapshots/1d0ecc24-1fc6-46d8-bd20-2e1868e77dfc/ HTTP/1.1
+GET /api/2.0/snapshots/01c9c677-87b6-4bf3-a079-342f6f6a6f44/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

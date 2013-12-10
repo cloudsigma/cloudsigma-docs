@@ -1,4 +1,4 @@
-PUT /api/2.0/servers/a3c82cde-6f70-4bf7-aa0e-9ebcc5dba46a/ HTTP/1.1
+PUT /api/2.0/servers/6e4af205-09d7-4274-b75a-d0aa534afc44/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 
@@ -11,7 +11,6 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
     "enable_numa": false,
     "hv_relaxed": false,
     "hv_tsc": false,
-    "jobs": [],
     "mem": 536870912,
     "meta": {},
     "name": "testServerAcc",
@@ -21,12 +20,12 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
             "firewall_policy": null,
             "ip_v4_conf": null,
             "ip_v6_conf": null,
-            "mac": "22:74:4d:b1:d9:55",
+            "mac": "22:c7:14:0a:b3:a4",
             "model": "virtio",
             "runtime": null,
             "vlan": {
-                "resource_uri": "/api/2.0/vlans/89a307b8-73be-4fa8-bdb1-b37897e75d71/",
-                "uuid": "89a307b8-73be-4fa8-bdb1-b37897e75d71"
+                "resource_uri": "/api/2.0/vlans/fda95788-5fee-4555-8561-b69b943fca69/",
+                "uuid": "fda95788-5fee-4555-8561-b69b943fca69"
             }
         },
         {
@@ -35,27 +34,27 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
             "ip_v4_conf": {
                 "conf": "static",
                 "ip": {
-                    "resource_uri": "/api/2.0/ips/192.168.5.137/",
-                    "uuid": "192.168.5.137"
+                    "resource_uri": "/api/2.0/ips/31.171.248.53/",
+                    "uuid": "31.171.248.53"
                 }
             },
             "ip_v6_conf": null,
-            "mac": "22:9d:05:66:c8:bd",
+            "mac": "22:92:cb:58:39:b3",
             "model": "e1000",
             "runtime": null,
             "vlan": null
         }
     ],
     "owner": {
-        "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
-        "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+        "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
+        "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
     },
     "requirements": [],
-    "resource_uri": "/api/2.0/servers/a3c82cde-6f70-4bf7-aa0e-9ebcc5dba46a/",
+    "resource_uri": "/api/2.0/servers/6e4af205-09d7-4274-b75a-d0aa534afc44/",
     "runtime": null,
     "smp": 1,
     "status": "stopped",
     "tags": [],
-    "uuid": "a3c82cde-6f70-4bf7-aa0e-9ebcc5dba46a",
+    "uuid": "6e4af205-09d7-4274-b75a-d0aa534afc44",
     "vnc_password": "testserver"
 }

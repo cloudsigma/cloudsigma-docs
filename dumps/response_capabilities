@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 {
     "drives": {
         "dssd": {
-            "max_size": 82981353076,
+            "max_size": 6309565034183,
             "min_size": 536870912
         }
     },
@@ -25,5 +25,9 @@ Content-Type: application/json; charset=utf-8
             "max": 24,
             "min": 1
         }
+    },
+    "snapshots": {
+        "current": 0,
+        "max": 600
     }
 }

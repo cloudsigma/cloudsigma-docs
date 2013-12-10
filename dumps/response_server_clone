@@ -10,23 +10,20 @@ Content-Type: application/json; charset=utf-8
     "enable_numa": false,
     "hv_relaxed": false,
     "hv_tsc": false,
-    "jobs": [
-        "/api/2.0/jobs/ddf1c9dc-1095-46a6-ae35-0265c6ecd798/"
-    ],
     "mem": 536870912,
     "meta": {},
     "name": "test cloned server name",
     "nics": [],
     "owner": {
-        "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
-        "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+        "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
+        "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
     },
     "requirements": [],
-    "resource_uri": "/api/2.0/servers/4f2fcf71-5d37-4c6f-bab7-ba48ba8a89bb/",
+    "resource_uri": "/api/2.0/servers/5a132abb-ddf1-42de-9c83-05b2efe1b896/",
     "runtime": null,
     "smp": 1,
     "status": "stopped",
     "tags": [],
-    "uuid": "4f2fcf71-5d37-4c6f-bab7-ba48ba8a89bb",
-    "vnc_password": "9MclAcSO"
+    "uuid": "5a132abb-ddf1-42de-9c83-05b2efe1b896",
+    "vnc_password": "yEgYtpxj"
 }

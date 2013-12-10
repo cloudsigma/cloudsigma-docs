@@ -1,4 +1,4 @@
-DELETE /api/2.0/fwpolicies/37c3109a-851b-4ec0-9ea9-22feda201b2d/ HTTP/1.1
+DELETE /api/2.0/fwpolicies/2fb0ef96-aad9-4381-b701-e5b13c6628b5/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

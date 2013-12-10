@@ -5,20 +5,128 @@ Content-Type: application/json; charset=utf-8
     "meta": {
         "limit": 20,
         "offset": 0,
-        "total_count": 1
+        "total_count": 10
     },
     "objects": [
         {
-            "amount": "-10000000.00000000000000000000",
+            "amount": "-55.00000000000000000000",
             "billing_cycle": null,
-            "end": "10000000.00000000000000000000",
+            "end": "189.82406289729143017134",
             "human_interval": null,
-            "id": "1",
-            "initial": "0E-20",
+            "id": "60125",
+            "initial": "134.82406289729143017134",
             "interval": null,
-            "reason": "Level UP!",
+            "reason": "Payment through card - 10b10984-618d-11e3-bb0a-0025904a9b99",
             "resource_amount": "1",
-            "time": "2013-12-05T10:04:05.774385+00:00"
+            "time": "2013-12-10T11:20:28.355643+00:00"
+        },
+        {
+            "amount": "-77.00000000000000000000",
+            "billing_cycle": null,
+            "end": "134.82406289729143017134",
+            "human_interval": null,
+            "id": "60124",
+            "initial": "57.82406289729143017134",
+            "interval": null,
+            "reason": "Payment through card - 0c1ba4d8-618d-11e3-bb0a-0025904a9b99",
+            "resource_amount": "1",
+            "time": "2013-12-10T11:20:24.327744+00:00"
+        },
+        {
+            "amount": "0.00302250000000000000",
+            "billing_cycle": 95388,
+            "end": "57.82406289729143017134",
+            "human_interval": "1 minutes",
+            "id": "48579",
+            "initial": "57.82708539729143017134",
+            "interval": 62,
+            "reason": "Burst: 15.00 GHz of cpu for 1 minutes at 2013-12-09 16:09",
+            "resource_amount": "15000",
+            "time": "2013-12-09T16:10:59.864271+00:00"
+        },
+        {
+            "amount": "0.00003705232124522696",
+            "billing_cycle": 95388,
+            "end": "57.82708539729143017134",
+            "human_interval": "49 seconds",
+            "id": "48486",
+            "initial": "57.82712244961267539830",
+            "interval": 49,
+            "reason": "Burst: 7.00 GB of dssd for 49 seconds at 2013-12-09 16:02",
+            "resource_amount": "7516162768",
+            "time": "2013-12-09T16:03:02.690900+00:00"
+        },
+        {
+            "amount": "0.00311006944444444444",
+            "billing_cycle": 95388,
+            "end": "57.82712244961267539830",
+            "human_interval": "53 seconds",
+            "id": "47577",
+            "initial": "57.83023251905711984274",
+            "interval": 53,
+            "reason": "Burst: 12.50 GHz of cpu for 53 seconds at 2013-12-09 14:46",
+            "resource_amount": "12500",
+            "time": "2013-12-09T14:47:29.005985+00:00"
+        },
+        {
+            "amount": "0.00186041666666666667",
+            "billing_cycle": 95388,
+            "end": "57.83023251905711984274",
+            "human_interval": "47 seconds",
+            "id": "47563",
+            "initial": "57.83209293572378650941",
+            "interval": 47,
+            "reason": "Burst: 12.50 GHz of cpu for 47 seconds at 2013-12-09 14:45",
+            "resource_amount": "12500",
+            "time": "2013-12-09T14:46:36.520183+00:00"
+        },
+        {
+            "amount": "0.00002344126446126604",
+            "billing_cycle": 95388,
+            "end": "57.83209293572378650941",
+            "human_interval": "31 seconds",
+            "id": "47462",
+            "initial": "57.83211637698824777545",
+            "interval": 31,
+            "reason": "Burst: 7.00 GB of dssd for 31 seconds at 2013-12-09 14:39",
+            "resource_amount": "7516162768",
+            "time": "2013-12-09T14:39:45.605181+00:00"
+        },
+        {
+            "amount": "0.00002419743428259720",
+            "billing_cycle": 95388,
+            "end": "57.83211637698824777545",
+            "human_interval": "32 seconds",
+            "id": "47452",
+            "initial": "57.83214057442253037265",
+            "interval": 32,
+            "reason": "Burst: 7.00 GB of dssd for 32 seconds at 2013-12-09 14:38",
+            "resource_amount": "7516162768",
+            "time": "2013-12-09T14:39:08.121192+00:00"
+        },
+        {
+            "amount": "0.00022533860675668643",
+            "billing_cycle": 95384,
+            "end": "57.83214057442253037265",
+            "human_interval": "5 minutes",
+            "id": "47189",
+            "initial": "57.83236591302928705908",
+            "interval": 298,
+            "reason": "Burst: 7.00 GB of dssd for 5 minutes at 2013-12-09 13:55",
+            "resource_amount": "7516162768",
+            "time": "2013-12-09T13:57:09.219410+00:00"
+        },
+        {
+            "amount": "0.00000403749420204096",
+            "billing_cycle": null,
+            "end": "57.83236591302928705908",
+            "human_interval": null,
+            "id": "14",
+            "initial": "57.83236995052348910004",
+            "interval": null,
+            "reason": "Auto renewing subscriptions 3742",
+            "resource_amount": "1",
+            "time": "2013-11-27T12:49:05.409283+00:00"
         }
     ]
 }

@@ -13,10 +13,10 @@ Content-Type: application/json; charset=utf-8
             "mounted_on": [],
             "name": "test_drive_snapshot",
             "owner": {
-                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
-                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
+                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
             },
-            "resource_uri": "/api/2.0/drives/b484ef62-6a14-4b11-9521-c1f5e5a4f0d9/",
+            "resource_uri": "/api/2.0/drives/b7ef4ef8-88d8-4fd6-b978-c2302bbd9aaf/",
             "runtime": {
                 "is_snapshotable": null,
                 "snapshots_allocated_size": 0,
@@ -27,7 +27,7 @@ Content-Type: application/json; charset=utf-8
             "status": "creating",
             "storage_type": null,
             "tags": [],
-            "uuid": "b484ef62-6a14-4b11-9521-c1f5e5a4f0d9"
+            "uuid": "b7ef4ef8-88d8-4fd6-b978-c2302bbd9aaf"
         }
     ]
 }

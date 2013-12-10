@@ -14,12 +14,6 @@ Allowed HTTP methods
 
     See :rfc:`2616#section-9` for more details on HTTP methods semantics
 
-Schema
-------
-
-   .. literalinclude:: dumps/response_fwpolicy_schema
-        :language: javascript
-
 Listing
 -------
 
@@ -160,3 +154,9 @@ Please contact support if any of these restrictions breaks your workflow.
     When converting from one user type to another, restrictions are automatically adjusted - no need to
     powercycle your running servers.
 
+
+Schema
+------
+
+   .. literalinclude:: dumps/response_fwpolicy_schema
+        :language: javascript

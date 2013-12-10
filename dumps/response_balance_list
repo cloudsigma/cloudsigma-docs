@@ -2,6 +2,6 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-    "balance": "10000000.00000000000000000000",
-    "currency": "CHF"
+    "balance": "189.82406289729143017134",
+    "currency": "USD"
 }

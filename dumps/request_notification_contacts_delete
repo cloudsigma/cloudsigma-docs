@@ -1,4 +1,4 @@
-DELETE /api/2.0/notification_contacts/82bee018-81c1-4388-a5bb-7a61cc9a5c5f/ HTTP/1.1
+DELETE /api/2.0/notification_contacts/569827d6-f7ca-46c3-8b78-52cab30d0e7b/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

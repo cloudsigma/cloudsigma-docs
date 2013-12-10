@@ -9,14 +9,14 @@ Content-Type: application/json; charset=utf-8
     "media": "disk",
     "meta": {},
     "mounted_on": [],
-    "name": "6c6ec185-10e5-48ca-862d-5148dc42c18b__2013-12-05__10_17_07",
+    "name": "2977567b-e7fe-45e7-a226-1ac12ce0d846__2013-12-10__11_41_07",
     "owner": {
-        "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
-        "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+        "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
+        "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
     },
     "resource_uri": {
-        "resource_uri": "/api/2.0/drives/64b1e30a-8897-4c50-96f4-18042d3cb6b5/",
-        "uuid": "64b1e30a-8897-4c50-96f4-18042d3cb6b5"
+        "resource_uri": "/api/2.0/drives/499b648c-91ee-409d-9fe4-25ca534421b1/",
+        "uuid": "499b648c-91ee-409d-9fe4-25ca534421b1"
     },
     "runtime": {
         "is_snapshotable": null,
@@ -28,5 +28,5 @@ Content-Type: application/json; charset=utf-8
     "status": "cloning_dst",
     "storage_type": null,
     "tags": [],
-    "uuid": "64b1e30a-8897-4c50-96f4-18042d3cb6b5"
+    "uuid": "499b648c-91ee-409d-9fe4-25ca534421b1"
 }

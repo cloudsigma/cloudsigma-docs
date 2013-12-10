@@ -20,13 +20,6 @@ Allowed HTTP methods
 
     See :rfc:`2616#section-9` for more details on HTTP methods semantics
 
-Schema
-------
-
-   .. literalinclude:: dumps/response_drive_schema
-        :language: javascript
-
-
 Listing
 -------
 
@@ -311,3 +304,8 @@ Drive State Diagram
 
 .. image:: images/DrivesStates.png
 
+Schema
+------
+
+   .. literalinclude:: dumps/response_drive_schema
+        :language: javascript

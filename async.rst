@@ -44,11 +44,7 @@ The websocket server sends frames every time one of the following changes:
     * :doc:`networking`
     * :ref:`balance`
     * :doc:`profile`
-    * :doc:`jobs`
-
 
 The frame is a JSON object that contains the following fields:
     * resource_type: A text field that describes the type of resource covered by the notification.
     * resource_uri: The URI of the resource that has changed.
-
-The JSON object might contain a 'object' key, that will contain the full blown resource referenced by the notification, JSON encoded.

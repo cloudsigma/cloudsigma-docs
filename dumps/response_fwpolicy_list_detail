@@ -12,22 +12,22 @@ Content-Type: application/json; charset=utf-8
             "meta": {},
             "name": null,
             "owner": {
-                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
-                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
+                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
             },
-            "resource_uri": "/api/2.0/fwpolicies/ae74939b-3e45-49ad-b71a-4c8b1a23ea06/",
+            "resource_uri": "/api/2.0/fwpolicies/9bf522ec-d8d0-4739-871e-96c41b016517/",
             "rules": [],
             "servers": [],
-            "uuid": "ae74939b-3e45-49ad-b71a-4c8b1a23ea06"
+            "uuid": "9bf522ec-d8d0-4739-871e-96c41b016517"
         },
         {
             "meta": {},
             "name": "My awesome policy",
             "owner": {
-                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
-                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
+                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
             },
-            "resource_uri": "/api/2.0/fwpolicies/37c3109a-851b-4ec0-9ea9-22feda201b2d/",
+            "resource_uri": "/api/2.0/fwpolicies/2fb0ef96-aad9-4381-b701-e5b13c6628b5/",
             "rules": [
                 {
                     "action": "drop",
@@ -81,7 +81,7 @@ Content-Type: application/json; charset=utf-8
                 }
             ],
             "servers": [],
-            "uuid": "37c3109a-851b-4ec0-9ea9-22feda201b2d"
+            "uuid": "2fb0ef96-aad9-4381-b701-e5b13c6628b5"
         }
     ]
 }

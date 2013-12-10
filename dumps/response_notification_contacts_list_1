@@ -12,9 +12,9 @@ Content-Type: application/json; charset=utf-8
             "email": "some_email_1@example.com",
             "main": true,
             "name": "Some Name",
-            "phone": null,
-            "resource_uri": "/api/2.0/notification_contacts/3c0a20a0-40c4-4b2d-a7c9-1cbd034cf76c/",
-            "uuid": "3c0a20a0-40c4-4b2d-a7c9-1cbd034cf76c"
+            "phone": "",
+            "resource_uri": "/api/2.0/notification_contacts/cc15a0ea-6009-408e-8d47-0d39ad25fd70/",
+            "uuid": "cc15a0ea-6009-408e-8d47-0d39ad25fd70"
         }
     ]
 }

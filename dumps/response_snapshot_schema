@@ -65,13 +65,6 @@ Content-Type: application/json; charset=utf-8
             "required": true,
             "type": "string"
         },
-        "tags": {
-            "default": [],
-            "help_text": "Tags associated with this drive",
-            "readonly": false,
-            "required": false,
-            "type": "list"
-        },
         "timestamp": {
             "default": null,
             "help_text": "Timestamp of the snapshot creation",
@@ -86,11 +79,5 @@ Content-Type: application/json; charset=utf-8
             "required": true,
             "type": "string"
         }
-    },
-    "filtering": {
-        "name": 0,
-        "name__contains": 0,
-        "tag": "<function get_tag_filter_args at 0x7f5874264848>",
-        "uuid": 0
     }
 }

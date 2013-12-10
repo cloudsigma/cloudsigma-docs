@@ -6,10 +6,6 @@
 Welcome to CloudSigma API ver. 2.0's documentation!
 ===================================================
 
-.. only:: html
-
-    Download as `PDF <CloudSigmaAPIver20.pdf>`_.
-
 .. toctree::
     :maxdepth: 2
     
@@ -30,13 +26,11 @@ Welcome to CloudSigma API ver. 2.0's documentation!
     fwpolicies
     tags
 
-    jobs
     meta
     availability_groups
 
     subscriptions
     accounts
-    audit_logs
     profile
     notification_preferences
     billing

@@ -88,28 +88,28 @@ Content-Type: application/json; charset=utf-8
                         "io": {
                             "default": null,
                             "fields": {
-                                "read_bytes": {
+                                "bytes_read": {
                                     "default": 0,
                                     "help_text": "Integer data. Ex: 2673",
                                     "readonly": false,
                                     "required": true,
                                     "type": "integer"
                                 },
-                                "read_count": {
+                                "bytes_written": {
                                     "default": 0,
                                     "help_text": "Integer data. Ex: 2673",
                                     "readonly": false,
                                     "required": true,
                                     "type": "integer"
                                 },
-                                "write_bytes": {
+                                "count_read": {
                                     "default": 0,
                                     "help_text": "Integer data. Ex: 2673",
                                     "readonly": false,
                                     "required": true,
                                     "type": "integer"
                                 },
-                                "write_count": {
+                                "count_written": {
                                     "default": 0,
                                     "help_text": "Integer data. Ex: 2673",
                                     "readonly": false,
@@ -154,13 +154,6 @@ Content-Type: application/json; charset=utf-8
             "readonly": false,
             "required": false,
             "type": "boolean"
-        },
-        "jobs": {
-            "default": "No default provided.",
-            "help_text": "Background jobs related to this resource",
-            "readonly": true,
-            "required": true,
-            "type": "related"
         },
         "mem": {
             "default": null,
@@ -515,11 +508,5 @@ Content-Type: application/json; charset=utf-8
             "required": true,
             "type": "string"
         }
-    },
-    "filtering": {
-        "name": 0,
-        "name__contains": 0,
-        "tag": "<function get_tag_filter_args at 0x7f5874264848>",
-        "uuid": 0
     }
 }

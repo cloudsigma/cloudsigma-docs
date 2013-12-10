@@ -17,12 +17,6 @@ Allowed HTTP methods
     
     See :rfc:`2616#section-9` for more details on HTTP methods semantics
 
-Schema
-------
-
-.. literalinclude:: dumps/response_profile_schema
-    :language: javascript
-
 Listing
 -------
 
@@ -62,5 +56,11 @@ Edits a user profile.
 **Example response**:
 
 .. literalinclude:: dumps/response_profile_update
+    :language: javascript
+
+Schema
+------
+
+.. literalinclude:: dumps/response_profile_schema
     :language: javascript
 

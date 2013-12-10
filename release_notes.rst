@@ -4,6 +4,17 @@ Release Notes
 Fluorine Release
 -----------------
 
+**Date Released:** 2013-12-10
+
+* Notification preferences functionality allowing multiple recipients. See :doc:`notification_preferences`.
+
+* Server runtime details now report I/O statistics for the attached drives in the ``drives/runtime/io`` object from the response. See :ref:`server-runtime`.
+
+* Capabilities call now includes the count allowed snapshots in the ``snapshots`` object from the response. See :doc:`capabilities`.
+
+* API now returns all numbers as integer literals instead of string literals
+
+
 **Date Released:** 2013-11-18
 
 * Global server context is a place to hold server context information, which is common to all user's servers.

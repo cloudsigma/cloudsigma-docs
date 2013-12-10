@@ -3,14 +3,14 @@ Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 
 {
-    "address": "",
+    "address": "1 Main str.",
     "api_https_only": false,
     "autotopup_amount": "0E-16",
     "autotopup_threshold": "0E-16",
     "bank_reference": "jdoe123",
     "company": "Newly Set Company Name",
-    "country": "",
-    "currency": "CHF",
+    "country": "US",
+    "currency": "USD",
     "email": "user@example.com",
     "first_name": "John",
     "has_autotopup": false,
@@ -23,14 +23,14 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
     "my_notes": "",
     "nickname": "",
     "phone": "",
-    "postcode": null,
+    "postcode": "1000",
     "reseller": "",
-    "signup_time": "2013-12-05T10:04:04.471965+00:00",
+    "signup_time": "2013-04-24T07:35:36.141574+00:00",
     "state": "REGULAR",
     "tax_name": null,
     "tax_rate": null,
     "title": "",
-    "town": "",
+    "town": "Dallas",
     "uuid": "6f670b3c-a2e6-433f-aeab-b976b1cdaf03",
     "vat": ""
 }

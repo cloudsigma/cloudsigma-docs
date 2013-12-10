@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
         },
         "signup_time": {
             "blank": false,
-            "default": "2013-12-05T10:14:49.222496+00:00",
+            "default": "2013-12-10T11:29:34.875931+00:00",
             "help_text": "A date & time as a string. Ex: \"2010-11-10T03:07:43\"",
             "nullable": false,
             "readonly": false,

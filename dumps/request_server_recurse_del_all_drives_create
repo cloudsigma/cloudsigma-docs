@@ -12,12 +12,12 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
                     "boot_order": 1,
                     "dev_channel": "0:0",
                     "device": "virtio",
-                    "drive": "10d963c7-0741-40bc-87a8-dc1cddc25e9e"
+                    "drive": "f4d61242-23e6-49a2-81d8-9dc1b71940f8"
                 },
                 {
                     "dev_channel": "0:0",
                     "device": "ide",
-                    "drive": "7ca4719b-5ba6-42fd-a27c-b30399837450"
+                    "drive": "b21e48e1-6563-4deb-9300-76654642cb93"
                 }
             ],
             "enable_numa": false,

@@ -5,17 +5,44 @@ Content-Type: application/json; charset=utf-8
     "meta": {
         "limit": 0,
         "offset": 0,
-        "total_count": 1
+        "total_count": 4
     },
     "objects": [
         {
             "owner": {
-                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
-                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
+                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
             },
-            "resource_uri": "/api/2.0/drives/cbfd47f5-77eb-43e5-a94b-0d2d118d54d0/",
+            "resource_uri": "/api/2.0/drives/da2f6084-fbeb-4afe-aa8e-93de0b2e1011/",
             "status": "unmounted",
-            "uuid": "cbfd47f5-77eb-43e5-a94b-0d2d118d54d0"
+            "uuid": "da2f6084-fbeb-4afe-aa8e-93de0b2e1011"
+        },
+        {
+            "owner": {
+                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
+                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+            },
+            "resource_uri": "/api/2.0/drives/a9b9eae5-096b-45a3-8b35-8be31547f749/",
+            "status": "unmounted",
+            "uuid": "a9b9eae5-096b-45a3-8b35-8be31547f749"
+        },
+        {
+            "owner": {
+                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
+                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+            },
+            "resource_uri": "/api/2.0/drives/f714eb49-e35a-438c-82d9-82960da8942f/",
+            "status": "unmounted",
+            "uuid": "f714eb49-e35a-438c-82d9-82960da8942f"
+        },
+        {
+            "owner": {
+                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
+                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+            },
+            "resource_uri": "/api/2.0/drives/36e1644f-5f3b-4601-b50a-e34e397803e9/",
+            "status": "unmounted",
+            "uuid": "36e1644f-5f3b-4601-b50a-e34e397803e9"
         }
     ]
 }

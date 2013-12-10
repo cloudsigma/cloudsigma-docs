@@ -22,12 +22,6 @@ Allowed HTTP methods
 
 .. _server_schema:
 
-Schema
-------
-
-.. literalinclude:: dumps/response_server_schema
-    :language: javascript
-
 Listing
 -------
 
@@ -461,3 +455,9 @@ Server State Diagram
 --------------------
 
 .. image:: images/ServerStates.png
+
+Schema
+------
+
+.. literalinclude:: dumps/response_server_schema
+    :language: javascript

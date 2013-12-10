@@ -41,7 +41,6 @@ Creating
     .. literalinclude:: dumps/response_notification_contacts_create
         :language: javascript
 
-.. _drive-edit:
 
 Editing
 -------

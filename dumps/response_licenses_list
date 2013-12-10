@@ -12,7 +12,7 @@ Content-Type: application/json; charset=utf-8
             "burstable": false,
             "long_name": "SQL Server Enterprise Edition",
             "name": "msft_7jq_00341",
-            "resource_uri": "/api/2.0/licenses/13/",
+            "resource_uri": "/api/2.0/licenses/16/",
             "type": "instance",
             "user_metric": "smp"
         },
@@ -20,7 +20,7 @@ Content-Type: application/json; charset=utf-8
             "burstable": false,
             "long_name": "SQL Server Standard Edition",
             "name": "msft_7nq_00302",
-            "resource_uri": "/api/2.0/licenses/14/",
+            "resource_uri": "/api/2.0/licenses/17/",
             "type": "instance",
             "user_metric": "smp"
         },
@@ -28,7 +28,7 @@ Content-Type: application/json; charset=utf-8
             "burstable": false,
             "long_name": "Windows Server Datacenter",
             "name": "msft_p71_01031",
-            "resource_uri": "/api/2.0/licenses/16/",
+            "resource_uri": "/api/2.0/licenses/19/",
             "type": "instance",
             "user_metric": "smp"
         },
@@ -36,7 +36,7 @@ Content-Type: application/json; charset=utf-8
             "burstable": false,
             "long_name": "Windows Server Standard",
             "name": "msft_p73_04837_core",
-            "resource_uri": "/api/2.0/licenses/12/",
+            "resource_uri": "/api/2.0/licenses/15/",
             "type": "instance",
             "user_metric": "smp"
         },
@@ -44,7 +44,7 @@ Content-Type: application/json; charset=utf-8
             "burstable": false,
             "long_name": "SQL Server Web",
             "name": "msft_tfa_00523",
-            "resource_uri": "/api/2.0/licenses/15/",
+            "resource_uri": "/api/2.0/licenses/18/",
             "type": "instance",
             "user_metric": "smp"
         }

@@ -1,11 +1,11 @@
-PUT /api/2.0/tags/f066b802-8f38-4e12-ba8a-dc4c4a086595/ HTTP/1.1
+PUT /api/2.0/tags/ff850ca3-f300-4c00-b19f-07739bbf5830/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 
 {
     "name": "TagCreatedWithResource",
     "resources": [
-        "0552e99a-0ba8-42b3-956f-1c48510073e4",
-        "3ca5b125-01d6-4d1e-8ebc-e2242c634570"
+        "2aee4b06-0d40-47d6-b9d7-028f659f8234",
+        "4f430b7a-0fa6-4a9f-81e9-7a976ec9f835"
     ]
 }

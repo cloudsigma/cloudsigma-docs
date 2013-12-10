@@ -20,12 +20,6 @@ Allowed HTTP methods
     
     See :rfc:`2616#section-9` for more details on HTTP methods semantics
 
-Schema
---------------------
-
-.. literalinclude:: dumps/response_vlan_schema
-    :language: javascript
-
 Listing
 --------------------
 
@@ -156,12 +150,6 @@ Allowed HTTP methods
     
     See :rfc:`2616#section-9` for more details on HTTP methods semantics
 
-Schema
---------------------
-
-.. literalinclude:: dumps/response_vlan_schema
-    :language: javascript
-
 Listing
 --------------------
 
@@ -265,4 +253,10 @@ on the object in the detailed listing or on single object retrieval. If ``server
 attached to a server and can be used for ``static`` IP configuration. See :doc:`network_interfaces` for more
 information on using IPs in NIC configurations.
 
+
+Schema
+--------------------
+
+.. literalinclude:: dumps/response_vlan_schema
+    :language: javascript
 
