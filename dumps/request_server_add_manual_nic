@@ -1,4 +1,4 @@
-PUT /api/2.0/servers/6e4af205-09d7-4274-b75a-d0aa534afc44/ HTTP/1.1
+PUT /api/2.0/servers/6b704c22-3423-418f-893e-4e275cd500e1/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 
@@ -11,6 +11,7 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
     "enable_numa": false,
     "hv_relaxed": false,
     "hv_tsc": false,
+    "jobs": [],
     "mem": 536870912,
     "meta": {},
     "name": "testServerAcc",
@@ -22,15 +23,15 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
         }
     ],
     "owner": {
-        "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-        "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
     },
     "requirements": [],
-    "resource_uri": "/api/2.0/servers/6e4af205-09d7-4274-b75a-d0aa534afc44/",
+    "resource_uri": "/api/2.0/servers/6b704c22-3423-418f-893e-4e275cd500e1/",
     "runtime": null,
     "smp": 1,
     "status": "stopped",
     "tags": [],
-    "uuid": "6e4af205-09d7-4274-b75a-d0aa534afc44",
+    "uuid": "6b704c22-3423-418f-893e-4e275cd500e1",
     "vnc_password": "testserver"
 }

@@ -58,6 +58,15 @@ Content-Type: application/json; charset=utf-8
             "type": "string",
             "unique": false
         },
+        "clone_naming": {
+            "blank": false,
+            "default": "NONE",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
         "company": {
             "blank": false,
             "default": "",
@@ -213,7 +222,7 @@ Content-Type: application/json; charset=utf-8
         },
         "signup_time": {
             "blank": false,
-            "default": "2013-12-10T11:29:34.875931+00:00",
+            "default": "2014-01-30T15:29:33.916224+00:00",
             "help_text": "A date & time as a string. Ex: \"2010-11-10T03:07:43\"",
             "nullable": false,
             "readonly": false,

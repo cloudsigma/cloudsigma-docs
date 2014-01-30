@@ -4,6 +4,6 @@ Content-Type: application/json; charset=utf-8
 {
     "action": "open_vnc",
     "result": "success",
-    "uuid": "cbfa0d17-641c-4f50-84ed-336a82fafd66",
-    "vnc_url": "vnc://turloapi-staging.lvs.cloudsigma.com:44319"
+    "uuid": "7464e297-12f5-438f-b77b-b9277cc8ca12",
+    "vnc_url": "vnc://direct.wdc.cloudsigma.com:42436"
 }

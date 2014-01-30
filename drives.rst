@@ -123,6 +123,7 @@ Creating
     .. literalinclude:: dumps/response_drive_create_bulk
         :language: javascript
 
+
 .. _drive-edit:
 
 Editing
@@ -259,6 +260,12 @@ Cloning
     .. literalinclude:: dumps/response_drive_clone
         :language: javascript
 
+.. note::
+
+    The name of the cloned drive will be changed using the clone naming strategy set in the profile.
+    See :doc:`clone_naming` for more information 
+
+
 Request schema
 ~~~~~~~~~~~~~~
 
@@ -280,12 +287,12 @@ Request schema
       }
 
 
-Availability groups
+Availability Groups
 -------------------
 
 It is possible to query which drives share common storage hosts. See :ref:`drive-availability`.
 
-Creating or Cloning drives to Different infrastructure (Avoid)
+Creating or Cloning Drives to Different Infrastructure (avoid)
 ---------------------------------------------------------------
 
 It is possible to hint the system which drives are preferred to be on separate physical storage host.
@@ -297,6 +304,64 @@ Licenses
 Drives can have licenses attached to them. This means usage of the given drive on a running server requires either 
 posession of subscriptions for the given licenses or additional payment. Typical such example are some drives in the drives library, 
 see :ref:`libdrives-licensed` and :ref:`billing-license` 
+
+.. _storage_type:
+
+Storage Types
+-------------
+
+Every drive has a ``storage_type`` on which they live and cannot be changed after creation. New drives by default go to
+``dssd``, and :ref:`clones <drive_cloning>` go to the same medium as their origin, but this can be overriden by passing
+a ``storage_type`` parameter. Allowed storage types can be different per location, so you should refer to the **drives**
+section of the :doc:`capabilities <capabilities>` call response, where each storage type is specified alongside with
+the minimum and maximum size of a single drive.
+
+    .. versionadded:: Neon
+
+
+Creating
+~~~~~~~~
+
+    **Example request**:
+
+    .. literalinclude:: dumps/request_drive_create_zadara
+        :language: javascript
+
+
+    **Example response**:
+
+    .. literalinclude:: dumps/response_drive_create_zadara
+        :language: javascript
+
+Cloning to the same storage type
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    **Example request**:
+
+    .. literalinclude:: dumps/request_drive_clone_zadara_zadara
+        :language: javascript
+
+
+    **Example response**:
+
+    .. literalinclude:: dumps/response_drive_clone_zadara_zadara
+        :language: javascript
+
+
+Cloning to another storage type
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    **Example request**:
+
+    .. literalinclude:: dumps/request_drive_clone_dssd_zadara
+        :language: javascript
+
+
+    **Example response**:
+
+    .. literalinclude:: dumps/response_drive_clone_dssd_zadara
+        :language: javascript
+
 
 
 Drive State Diagram

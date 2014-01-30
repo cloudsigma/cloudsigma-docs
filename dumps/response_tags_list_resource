@@ -11,16 +11,16 @@ Content-Type: application/json; charset=utf-8
         {
             "name": "test_server2",
             "owner": {
-                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
             "resource_uri": {
-                "resource_uri": "/api/2.0/servers/053cffa0-ead3-403a-a432-cc8758523ea4/",
-                "uuid": "053cffa0-ead3-403a-a432-cc8758523ea4"
+                "resource_uri": "/api/2.0/servers/c3c49c01-47e0-45cb-b89e-106427e49706/",
+                "uuid": "c3c49c01-47e0-45cb-b89e-106427e49706"
             },
             "runtime": null,
             "status": "stopped",
-            "uuid": "053cffa0-ead3-403a-a432-cc8758523ea4"
+            "uuid": "c3c49c01-47e0-45cb-b89e-106427e49706"
         }
     ]
 }

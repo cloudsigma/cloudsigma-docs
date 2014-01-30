@@ -6,19 +6,20 @@ Content-Type: application/json; charset=utf-8
         {
             "allocated_size": null,
             "drive": {
-                "resource_uri": "/api/2.0/drives/b7ef4ef8-88d8-4fd6-b978-c2302bbd9aaf/",
-                "uuid": "b7ef4ef8-88d8-4fd6-b978-c2302bbd9aaf"
+                "resource_uri": "/api/2.0/drives/7a555723-d73c-45cf-9f18-21f571626d2b/",
+                "uuid": "7a555723-d73c-45cf-9f18-21f571626d2b"
             },
             "meta": {},
-            "name": "b7ef4ef8-88d8-4fd6-b978-c2302bbd9aaf__2013-12-10__11_41_42",
+            "name": "7a555723-d73c-45cf-9f18-21f571626d2b__2014-01-30__15_35_30",
             "owner": {
-                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
-            "resource_uri": "/api/2.0/snapshots/9a0c8d89-d1ea-4002-a212-c15d9eee3b71/",
+            "resource_uri": "/api/2.0/snapshots/98fff982-a7d4-41bc-ae36-d748c988b375/",
             "status": "creating",
-            "timestamp": "2013-12-10 11:41:42.216922+00:00",
-            "uuid": "9a0c8d89-d1ea-4002-a212-c15d9eee3b71"
+            "tags": [],
+            "timestamp": "2014-01-30 15:35:30.756919+00:00",
+            "uuid": "98fff982-a7d4-41bc-ae36-d748c988b375"
         }
     ]
 }

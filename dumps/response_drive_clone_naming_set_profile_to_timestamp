@@ -1,0 +1,36 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "address": "",
+    "api_https_only": false,
+    "autotopup_amount": "200.0000000000000000",
+    "autotopup_threshold": "200.0000000000000000",
+    "bank_reference": "jdoe123",
+    "clone_naming": "TIMESTAMP",
+    "company": "",
+    "country": "US",
+    "currency": "USD",
+    "email": "user@example.com",
+    "first_name": "John",
+    "has_autotopup": false,
+    "invoicing": false,
+    "key_auth": false,
+    "language": "en_US",
+    "last_name": "Doe",
+    "mailing_list": true,
+    "meta": {},
+    "my_notes": "",
+    "nickname": "",
+    "phone": "",
+    "postcode": "",
+    "reseller": "",
+    "signup_time": "2013-11-04T11:30:20.860838+00:00",
+    "state": "REGULAR",
+    "tax_name": null,
+    "tax_rate": null,
+    "title": "",
+    "town": "",
+    "uuid": "6f670b3c-a2e6-433f-aeab-b976b1cdaf03",
+    "vat": ""
+}

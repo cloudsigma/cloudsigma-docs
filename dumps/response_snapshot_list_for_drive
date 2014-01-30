@@ -11,36 +11,38 @@ Content-Type: application/json; charset=utf-8
         {
             "allocated_size": 0,
             "drive": {
-                "resource_uri": "/api/2.0/drives/2da641a2-7534-42bd-bd7c-4d4919a1934f/",
-                "uuid": "2da641a2-7534-42bd-bd7c-4d4919a1934f"
+                "resource_uri": "/api/2.0/drives/59590574-cf61-4153-898f-62e4a6977ac2/",
+                "uuid": "59590574-cf61-4153-898f-62e4a6977ac2"
             },
             "meta": {},
-            "name": "2da641a2-7534-42bd-bd7c-4d4919a1934f__2013-12-10__11_42_06",
+            "name": "59590574-cf61-4153-898f-62e4a6977ac2__2014-01-30__15_35_55",
             "owner": {
-                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
-            "resource_uri": "/api/2.0/snapshots/37fe58d2-bfc1-46f6-81e7-606dac2c7c4c/",
+            "resource_uri": "/api/2.0/snapshots/30c62dcd-efb8-452c-acb0-5216434a3528/",
             "status": "available",
-            "timestamp": "2013-12-10 11:42:06.179787+00:00",
-            "uuid": "37fe58d2-bfc1-46f6-81e7-606dac2c7c4c"
+            "tags": [],
+            "timestamp": "2014-01-30 15:35:55.671704+00:00",
+            "uuid": "30c62dcd-efb8-452c-acb0-5216434a3528"
         },
         {
             "allocated_size": 0,
             "drive": {
-                "resource_uri": "/api/2.0/drives/2da641a2-7534-42bd-bd7c-4d4919a1934f/",
-                "uuid": "2da641a2-7534-42bd-bd7c-4d4919a1934f"
+                "resource_uri": "/api/2.0/drives/59590574-cf61-4153-898f-62e4a6977ac2/",
+                "uuid": "59590574-cf61-4153-898f-62e4a6977ac2"
             },
             "meta": {},
-            "name": "2da641a2-7534-42bd-bd7c-4d4919a1934f__2013-12-10__11_42_07",
+            "name": "59590574-cf61-4153-898f-62e4a6977ac2__2014-01-30__15_35_56",
             "owner": {
-                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
-            "resource_uri": "/api/2.0/snapshots/8edd53bf-ba08-4a34-9a60-5376aca35395/",
+            "resource_uri": "/api/2.0/snapshots/701a339b-f595-4d47-b194-1c9635c97c37/",
             "status": "available",
-            "timestamp": "2013-12-10 11:42:07.249723+00:00",
-            "uuid": "8edd53bf-ba08-4a34-9a60-5376aca35395"
+            "tags": [],
+            "timestamp": "2014-01-30 15:35:56.727699+00:00",
+            "uuid": "701a339b-f595-4d47-b194-1c9635c97c37"
         }
     ]
 }

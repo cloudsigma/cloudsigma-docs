@@ -7,7 +7,7 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
         {
             "media": "disk",
             "name": "test_drive_1",
-            "size": 1024000000
+            "size": 1073741824
         }
     ]
 }

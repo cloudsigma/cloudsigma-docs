@@ -4,17 +4,18 @@ Content-Type: application/json; charset=utf-8
 {
     "allocated_size": 0,
     "drive": {
-        "resource_uri": "/api/2.0/drives/07597278-37a8-4745-8aec-4d0cb5aef5ff/",
-        "uuid": "07597278-37a8-4745-8aec-4d0cb5aef5ff"
+        "resource_uri": "/api/2.0/drives/5d139744-60eb-49df-824d-b6f51b475c9c/",
+        "uuid": "5d139744-60eb-49df-824d-b6f51b475c9c"
     },
     "meta": {},
-    "name": "07597278-37a8-4745-8aec-4d0cb5aef5ff__2013-12-10__11_42_11",
+    "name": "5d139744-60eb-49df-824d-b6f51b475c9c__2014-01-30__15_36_00",
     "owner": {
-        "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-        "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
     },
-    "resource_uri": "/api/2.0/snapshots/01c9c677-87b6-4bf3-a079-342f6f6a6f44/",
+    "resource_uri": "/api/2.0/snapshots/0b15a155-5804-4639-9504-4eb3a5b70135/",
     "status": "available",
-    "timestamp": "2013-12-10 11:42:11.032881+00:00",
-    "uuid": "01c9c677-87b6-4bf3-a079-342f6f6a6f44"
+    "tags": [],
+    "timestamp": "2014-01-30 15:36:00.066379+00:00",
+    "uuid": "0b15a155-5804-4639-9504-4eb3a5b70135"
 }

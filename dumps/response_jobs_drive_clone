@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "children": [],
+    "created": "2014-01-30T15:24:42.205092+00:00",
+    "data": {
+        "progress": 100
+    },
+    "last_modified": "2014-01-30T15:24:42.937432+00:00",
+    "operation": "drive_clone",
+    "resource_uri": "/api/2.0/jobs/305867d6-5652-41d2-be5c-bbae1eed5676/",
+    "resources": [
+        "/api/2.0/drives/df05497c-1504-4fea-af24-2825fc5133cf/",
+        "/api/2.0/drives/db7a095c-622d-4b98-88fd-25a7e34d402e/"
+    ],
+    "state": "success",
+    "uuid": "305867d6-5652-41d2-be5c-bbae1eed5676"
+}

@@ -1,4 +1,4 @@
-DELETE /api/2.0/servers/7785ef60-7a0b-4a11-ae67-29746d141f99/?recurse=all_drives HTTP/1.1
+DELETE /api/2.0/servers/28e2068a-4180-49ec-bdf5-6cff99446fef/?recurse=all_drives HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

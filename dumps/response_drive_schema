@@ -170,16 +170,16 @@ Content-Type: application/json; charset=utf-8
         "storage_type": {
             "default": "No default provided.",
             "help_text": "Underlying storage",
-            "readonly": true,
+            "readonly": false,
             "required": true,
             "type": "string"
         },
         "tags": {
-            "default": [],
-            "help_text": "Tags associated with this drive",
+            "default": "No default provided.",
+            "help_text": "Many related resources. Can be either a list of URIs or list of individually nested resource data.",
             "readonly": false,
             "required": false,
-            "type": "list"
+            "type": "related"
         },
         "uuid": {
             "default": null,
@@ -188,5 +188,11 @@ Content-Type: application/json; charset=utf-8
             "required": true,
             "type": "string"
         }
+    },
+    "filtering": {
+        "name": 0,
+        "name__contains": 0,
+        "tag": "<function get_tag_filter_args at 0x5dd61b8>",
+        "uuid": 0
     }
 }

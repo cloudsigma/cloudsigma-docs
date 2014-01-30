@@ -10,29 +10,30 @@ Content-Type: application/json; charset=utf-8
     "enable_numa": false,
     "hv_relaxed": false,
     "hv_tsc": false,
+    "jobs": [],
     "mem": 536870912,
     "meta": {},
     "name": "test_server2",
     "nics": [],
     "owner": {
-        "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-        "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
     },
     "requirements": [],
-    "resource_uri": "/api/2.0/servers/053cffa0-ead3-403a-a432-cc8758523ea4/",
+    "resource_uri": "/api/2.0/servers/c3c49c01-47e0-45cb-b89e-106427e49706/",
     "runtime": null,
     "smp": 1,
     "status": "stopped",
     "tags": [
         {
-            "resource_uri": "/api/2.0/tags/ff850ca3-f300-4c00-b19f-07739bbf5830/",
-            "uuid": "ff850ca3-f300-4c00-b19f-07739bbf5830"
+            "resource_uri": "/api/2.0/tags/6f0328c0-92a1-4a77-ba64-7e8951d495fa/",
+            "uuid": "6f0328c0-92a1-4a77-ba64-7e8951d495fa"
         },
         {
-            "resource_uri": "/api/2.0/tags/0f8a7d5b-1775-40d2-8bf8-293f52bdf964/",
-            "uuid": "0f8a7d5b-1775-40d2-8bf8-293f52bdf964"
+            "resource_uri": "/api/2.0/tags/21014c24-8470-4065-931c-169276fbb9e1/",
+            "uuid": "21014c24-8470-4065-931c-169276fbb9e1"
         }
     ],
-    "uuid": "053cffa0-ead3-403a-a432-cc8758523ea4",
+    "uuid": "c3c49c01-47e0-45cb-b89e-106427e49706",
     "vnc_password": "pass"
 }

@@ -1,4 +1,4 @@
-PUT /api/2.0/vlans/fda95788-5fee-4555-8561-b69b943fca69/ HTTP/1.1
+PUT /api/2.0/vlans/a21a4e59-b133-487a-ad7b-16b41ac38e9b/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

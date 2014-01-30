@@ -1,6 +1,22 @@
 Release Notes
 =============
 
+Neon Release
+------------
+
+**Date Released:** 2014-01-29
+
+* New drive parameter allowing changing the :ref:`storage type <storage_type>`.
+
+* Most API calls now support standardised :ref:`filtering <filtering>`.
+
+* Asnychronous operations now are exposed via a :doc:`jobs <jobs>` API.
+
+* Cloning drives and servers can now :doc:`change <clone_naming>` the destinations' names to differentiate between source and destination.
+
+* Added :doc:`audit log <audit_logs>` documentation.
+
+
 Fluorine Release
 -----------------
 
@@ -32,7 +48,7 @@ Fluorine Release
 
 * Login call returns a json object with the user UUID
 
-* Guest firewall updates are applied every 30 seconds, as opposed to previous versions, when they were applied
+* Server firewall updates are applied every 30 seconds, as opposed to previous versions, when they were applied
   immediately on change.
 
 * We now support bursting on IP resources. After the IP subscription has expired, all servers that have the IP attached
@@ -56,7 +72,7 @@ Oxygen Release
 
 *   Added an action to update a drive, which will fail to update if the drive is mounted on a running serve. It is
     called ``resize`` because size is the only drive attribute which cannot be changed on a drive mounted on a running
-    guest. See :ref:`drive-resize`.
+    server. See :ref:`drive-resize`.
 
 *   It is possible to create snapshots for a drive, and later clone the snapshot to a full drive. This makes it
     possible to restore from a point-in-time version of the snapshot. See :doc:`snapshots`.
@@ -105,11 +121,11 @@ Carbon Release
     WebApp to list or purchase software licenses. See :doc:`subscriptions` for API docs on purchasing licenses,
     and :ref:`Licenses list <billing-license>` for listing purchased licenses.
 
-*   NIC runtime information, when listing running guests, now is also added to the NIC definition, so that it is easier
-    to access NIC runtime info from the NIC object itself rather than the server runtime. The old NIC runtime
+*   NIC runtime information, when listing running servers, now is also added to the NIC definition, so that it is
+    easier to access NIC runtime info from the NIC object itself rather than the server runtime. The old NIC runtime
     information in the server runtime is retained for backward compatibility.
 
-*   Drives attached to stopped guests can now be deleted.
+*   Drives attached to stopped servers can now be deleted.
 
 
 Boron Release

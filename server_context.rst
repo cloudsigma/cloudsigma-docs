@@ -162,8 +162,8 @@ Result:
 .. literalinclude:: dumps/response_context_single_value_ssh_key
 
 Note that there isn't anything special about the ``ssh_public_key`` attribute of the meta. It can be stored under any
-other key in the guest meta, as long as clieProcessing runtime for hostnt software is aware where to look for it. It
-is also possible to store the key in one of the attached drives' meta.
+other key in the server meta, as long as client software is aware where to look for it. It is also possible to store
+the key in one of the attached drives' meta.
 
 .. _global-context:
 

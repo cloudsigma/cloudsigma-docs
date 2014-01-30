@@ -18,63 +18,63 @@ Content-Type: application/json; charset=utf-8
         },
         "actor": {
             "default": null,
-            "help_text": "User, which executed action",
+            "help_text": "User who executed action.",
             "readonly": false,
             "required": false,
             "type": "related"
         },
         "category": {
             "default": null,
-            "help_text": "Category, to which this action belongs",
+            "help_text": "Category the action belongs to.",
             "readonly": false,
             "required": true,
             "type": "string"
         },
         "details": {
             "default": null,
-            "help_text": "Details about the executed action",
+            "help_text": "Details about the executed action.",
             "readonly": false,
             "required": false,
             "type": "string"
         },
         "error_message": {
             "default": null,
-            "help_text": "Error message, if success is false",
+            "help_text": "Error message, if applicable.",
             "readonly": false,
             "required": false,
             "type": "string"
         },
         "error_point": {
             "default": null,
-            "help_text": "The field that caused the error, if success is false",
+            "help_text": "The field that caused the error, if applicable.",
             "readonly": false,
             "required": false,
             "type": "string"
         },
         "error_type": {
             "default": null,
-            "help_text": "Type of error, if success is false",
+            "help_text": "Type of error, if applicable.",
             "readonly": false,
             "required": false,
             "type": "string"
         },
         "success": {
             "default": true,
-            "help_text": "States if the action was successful",
+            "help_text": "Whether the action was successful.",
             "readonly": false,
             "required": true,
             "type": "boolean"
         },
         "timestamp": {
             "default": null,
-            "help_text": "Time when entry was added",
+            "help_text": "Time when entry was added.",
             "readonly": false,
             "required": true,
             "type": "string"
         },
         "uuid": {
             "default": null,
-            "help_text": "The uuid of resource, the action is executed upon. Can be empty, meaning no resource is referenced.",
+            "help_text": "The uuid of resource the action is executed on. Can be empty, meaning no resource is referenced.",
             "readonly": false,
             "required": false,
             "type": "string"
@@ -83,7 +83,7 @@ Content-Type: application/json; charset=utf-8
     "filtering": {
         "name": 0,
         "name__contains": 0,
-        "tag": "<function get_tag_filter_args at 0x7f5874264848>",
+        "tag": "<function get_tag_filter_args at 0x5dd71b8>",
         "uuid": 0
     }
 }

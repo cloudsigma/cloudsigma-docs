@@ -5,56 +5,56 @@ Content-Type: application/json; charset=utf-8
     "meta": {},
     "name": "TagCreatedWithResource",
     "owner": {
-        "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-        "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
     },
-    "resource_uri": "/api/2.0/tags/ff850ca3-f300-4c00-b19f-07739bbf5830/",
+    "resource_uri": "/api/2.0/tags/21014c24-8470-4065-931c-169276fbb9e1/",
     "resources": [
         {
             "owner": {
-                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
-            },
-            "res_type": "servers",
-            "resource_uri": "/api/2.0/servers/2aee4b06-0d40-47d6-b9d7-028f659f8234/",
-            "uuid": "2aee4b06-0d40-47d6-b9d7-028f659f8234"
-        },
-        {
-            "owner": {
-                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
-            },
-            "res_type": "vlans",
-            "resource_uri": "/api/2.0/vlans/fda95788-5fee-4555-8561-b69b943fca69/",
-            "uuid": "fda95788-5fee-4555-8561-b69b943fca69"
-        },
-        {
-            "owner": {
-                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
             "res_type": "ips",
-            "resource_uri": "/api/2.0/ips/31.171.248.53/",
-            "uuid": "31.171.248.53"
+            "resource_uri": "/api/2.0/ips/162.213.37.151/",
+            "uuid": "162.213.37.151"
         },
         {
             "owner": {
-                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
-            },
-            "res_type": "drives",
-            "resource_uri": "/api/2.0/drives/4f430b7a-0fa6-4a9f-81e9-7a976ec9f835/",
-            "uuid": "4f430b7a-0fa6-4a9f-81e9-7a976ec9f835"
-        },
-        {
-            "owner": {
-                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
             "res_type": "servers",
-            "resource_uri": "/api/2.0/servers/053cffa0-ead3-403a-a432-cc8758523ea4/",
-            "uuid": "053cffa0-ead3-403a-a432-cc8758523ea4"
+            "resource_uri": "/api/2.0/servers/4e7702c4-882e-427b-aaba-cb5accd98b6e/",
+            "uuid": "4e7702c4-882e-427b-aaba-cb5accd98b6e"
+        },
+        {
+            "owner": {
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+            },
+            "res_type": "drives",
+            "resource_uri": "/api/2.0/drives/590cab8f-aeca-4dd6-8ea8-12aee1e8cac1/",
+            "uuid": "590cab8f-aeca-4dd6-8ea8-12aee1e8cac1"
+        },
+        {
+            "owner": {
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+            },
+            "res_type": "vlans",
+            "resource_uri": "/api/2.0/vlans/a21a4e59-b133-487a-ad7b-16b41ac38e9b/",
+            "uuid": "a21a4e59-b133-487a-ad7b-16b41ac38e9b"
+        },
+        {
+            "owner": {
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+            },
+            "res_type": "servers",
+            "resource_uri": "/api/2.0/servers/c3c49c01-47e0-45cb-b89e-106427e49706/",
+            "uuid": "c3c49c01-47e0-45cb-b89e-106427e49706"
         }
     ],
-    "uuid": "ff850ca3-f300-4c00-b19f-07739bbf5830"
+    "uuid": "21014c24-8470-4065-931c-169276fbb9e1"
 }

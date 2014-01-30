@@ -10,6 +10,7 @@ Content-Type: application/json; charset=utf-8
     "enable_numa": false,
     "hv_relaxed": false,
     "hv_tsc": false,
+    "jobs": [],
     "mem": 536870912,
     "meta": {},
     "name": "testServerAcc",
@@ -20,12 +21,12 @@ Content-Type: application/json; charset=utf-8
             "ip_v4_conf": {
                 "conf": "static",
                 "ip": {
-                    "resource_uri": "/api/2.0/ips/31.171.248.53/",
-                    "uuid": "31.171.248.53"
+                    "resource_uri": "/api/2.0/ips/162.213.37.151/",
+                    "uuid": "162.213.37.151"
                 }
             },
             "ip_v6_conf": null,
-            "mac": "22:92:cb:58:39:b3",
+            "mac": "22:a0:2a:30:fa:04",
             "model": "e1000",
             "runtime": null,
             "vlan": null
@@ -35,25 +36,25 @@ Content-Type: application/json; charset=utf-8
             "firewall_policy": null,
             "ip_v4_conf": null,
             "ip_v6_conf": null,
-            "mac": "22:c7:14:0a:b3:a4",
+            "mac": "22:f9:5f:2b:22:e2",
             "model": "virtio",
             "runtime": null,
             "vlan": {
-                "resource_uri": "/api/2.0/vlans/fda95788-5fee-4555-8561-b69b943fca69/",
-                "uuid": "fda95788-5fee-4555-8561-b69b943fca69"
+                "resource_uri": "/api/2.0/vlans/a21a4e59-b133-487a-ad7b-16b41ac38e9b/",
+                "uuid": "a21a4e59-b133-487a-ad7b-16b41ac38e9b"
             }
         }
     ],
     "owner": {
-        "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-        "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
     },
     "requirements": [],
-    "resource_uri": "/api/2.0/servers/6e4af205-09d7-4274-b75a-d0aa534afc44/",
+    "resource_uri": "/api/2.0/servers/6b704c22-3423-418f-893e-4e275cd500e1/",
     "runtime": null,
     "smp": 1,
     "status": "stopped",
     "tags": [],
-    "uuid": "6e4af205-09d7-4274-b75a-d0aa534afc44",
+    "uuid": "6b704c22-3423-418f-893e-4e275cd500e1",
     "vnc_password": "testserver"
 }

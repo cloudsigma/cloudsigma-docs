@@ -10,6 +10,7 @@ Content-Type: application/json; charset=utf-8
     "enable_numa": false,
     "hv_relaxed": false,
     "hv_tsc": false,
+    "jobs": [],
     "mem": 536870912,
     "meta": {},
     "name": "testServerAcc",
@@ -22,22 +23,22 @@ Content-Type: application/json; charset=utf-8
                 "ip": null
             },
             "ip_v6_conf": null,
-            "mac": "22:d1:ba:0c:56:7c",
+            "mac": "22:cd:49:f8:f8:9e",
             "model": "e1000",
             "runtime": null,
             "vlan": null
         }
     ],
     "owner": {
-        "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-        "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
     },
     "requirements": [],
-    "resource_uri": "/api/2.0/servers/6e4af205-09d7-4274-b75a-d0aa534afc44/",
+    "resource_uri": "/api/2.0/servers/6b704c22-3423-418f-893e-4e275cd500e1/",
     "runtime": null,
     "smp": 1,
     "status": "stopped",
     "tags": [],
-    "uuid": "6e4af205-09d7-4274-b75a-d0aa534afc44",
+    "uuid": "6b704c22-3423-418f-893e-4e275cd500e1",
     "vnc_password": "testserver"
 }

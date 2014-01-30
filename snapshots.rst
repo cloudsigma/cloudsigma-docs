@@ -220,6 +220,11 @@ Cloning
     .. literalinclude:: dumps/response_snapshot_clone
         :language: javascript
 
+.. note::
+
+    The name of the cloned drive will be changed using the clone naming strategy set in the profile.
+    See :doc:`clone_naming` for more information 
+
 Listing drive snapshots
 -----------------------
 

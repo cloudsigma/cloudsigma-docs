@@ -4,22 +4,22 @@ Content-Type: application/json; charset=utf-8
 {
     "objects": [
         {
-            "contact": "/api/2.0/notification_contacts/cc15a0ea-6009-408e-8d47-0d39ad25fd70/",
+            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
             "medium": "email",
-            "type": "out_of_money_soon",
-            "value": true
+            "type": "payment_cancelled",
+            "value": false
         },
         {
-            "contact": "/api/2.0/notification_contacts/cc15a0ea-6009-408e-8d47-0d39ad25fd70/",
+            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
             "medium": "email",
-            "type": "subscription_expire_soon",
-            "value": true
+            "type": "new_account",
+            "value": false
         },
         {
-            "contact": "/api/2.0/notification_contacts/cc15a0ea-6009-408e-8d47-0d39ad25fd70/",
+            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
             "medium": "email",
-            "type": "subscription_renewal_success",
-            "value": true
+            "type": "subscription_expire",
+            "value": false
         }
     ]
 }

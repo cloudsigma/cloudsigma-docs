@@ -12,6 +12,7 @@ Content-Type: application/json; charset=utf-8
             "enable_numa": false,
             "hv_relaxed": false,
             "hv_tsc": false,
+            "jobs": [],
             "mem": 536870912,
             "meta": {},
             "name": "FirewalledServer",
@@ -19,31 +20,31 @@ Content-Type: application/json; charset=utf-8
                 {
                     "boot_order": null,
                     "firewall_policy": {
-                        "resource_uri": "/api/2.0/fwpolicies/1e4bc042-13eb-44b7-8c50-b39b5ef2457a/",
-                        "uuid": "1e4bc042-13eb-44b7-8c50-b39b5ef2457a"
+                        "resource_uri": "/api/2.0/fwpolicies/1306879a-1f94-4d12-8c1a-df83004a25ce/",
+                        "uuid": "1306879a-1f94-4d12-8c1a-df83004a25ce"
                     },
                     "ip_v4_conf": {
                         "conf": "dhcp",
                         "ip": null
                     },
                     "ip_v6_conf": null,
-                    "mac": "22:1a:99:f5:4a:de",
+                    "mac": "22:ce:5a:18:32:67",
                     "model": "virtio",
                     "runtime": null,
                     "vlan": null
                 }
             ],
             "owner": {
-                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/6c49ebcc-de17-470d-8daa-b2e9d4c82b6a/",
+            "resource_uri": "/api/2.0/servers/ef426213-cf7c-4a76-9ec0-6c143cdd8217/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "6c49ebcc-de17-470d-8daa-b2e9d4c82b6a",
+            "uuid": "ef426213-cf7c-4a76-9ec0-6c143cdd8217",
             "vnc_password": "testserver"
         }
     ]

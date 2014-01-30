@@ -2,12 +2,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-    "amount": "1",
+    "amount": "104857600",
     "discount_amount": "0",
     "discount_percent": "0",
-    "end_time": "2014-02-05T12:00:00+00:00",
-    "period": "31 days, 0:00:00",
-    "price": "2.454166666666666666666666667",
-    "resource": "ip",
-    "start_time": "2014-01-05T12:00:00+00:00"
+    "end_time": "2014-01-31T12:00:00+00:00",
+    "period": "20:23:36.745055",
+    "price": "0.00488281250000000000",
+    "resource": "tx",
+    "start_time": "2014-01-30T15:36:23.254945+00:00"
 }

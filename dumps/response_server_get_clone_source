@@ -10,20 +10,21 @@ Content-Type: application/json; charset=utf-8
     "enable_numa": false,
     "hv_relaxed": false,
     "hv_tsc": false,
+    "jobs": [],
     "mem": 536870912,
     "meta": {},
     "name": "testServerAcc",
     "nics": [],
     "owner": {
-        "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-        "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
     },
     "requirements": [],
-    "resource_uri": "/api/2.0/servers/7e76c0b8-87b4-42f7-a690-b06546418e27/",
+    "resource_uri": "/api/2.0/servers/a0b4db4f-d09b-4eda-8b67-29b090b17b9c/",
     "runtime": null,
     "smp": 1,
     "status": "stopped",
     "tags": [],
-    "uuid": "7e76c0b8-87b4-42f7-a690-b06546418e27",
+    "uuid": "a0b4db4f-d09b-4eda-8b67-29b090b17b9c",
     "vnc_password": "testserver"
 }

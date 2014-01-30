@@ -306,18 +306,18 @@ error message format.
 Rate Limits
 -----------
 
-The API server needs to impose call-rate limits to protect the infrastructure from being maliciously overloaded. We can also think of different rated of GET, PUT, POST and DELETE methods as usually these will vary widely in the load impacted on the system.
+The API server needs to impose call-rate limits to protect the infrastructure from being maliciously overloaded.
 
 +------------+------------+------------+
 | Verb       | URI RegEx  | Limit      |
 +============+============+============+
-| **POST**   | .*         | 100 / min  |
+| **POST**   | .*         | 10000 / min|
 +------------+------------+------------+
-| **POST**   | ^/servers/ | 500 / day  |
+| **POST**   | ^/servers/ | 10000 / min|
 +------------+------------+------------+
-| **PUT**    | .*         | 100 / min  |
+| **PUT**    | .*         | 10000 / min|
 +------------+------------+------------+
-| **GET**    | .*         | 100 / min  |
+| **GET**    | .*         | 10000 / min|
 +------------+------------+------------+
 | **DELETE** | .*         | 1000 / min |
 +------------+------------+------------+
@@ -330,3 +330,49 @@ Permitted characters
 --------------------
 
 The API accepts Unicode characters, with the recommended charset being UTF-8. The only special case is ``\0``, which terminates the string.
+
+.. _filtering:
+
+Filtering
+---------
+
+The API allows filtering of returned resources through GET parameters. Specific filtering options are listed in the schema. The semantics of the filters are as follows:
+
+:AND:
+    Separate GET parameters are ANDed together:
+
+    **Example**:
+        ?name=test&tag__name=test_tag
+
+        It will return resources that match: (name = test) AND (has a tag with name = test_tag)
+
+    Same filter applied twice is still ANDed:
+
+    **Example**:
+        ?tag__name=test_tag1&tag__name=test_tag2
+
+        It will return resources that match: (has a tag with name = test_tag1) AND (has a tag with name = test_tag2)
+
+:OR:
+    Within one GET parameter, values are split by comma and ORed together:
+
+    **Example**:
+        ?name=name1,name2
+
+        It will return resources that match (name = name1) OR (name = name2)
+
+    Commas can be escaped by a single backslash and they will be not be used to split and backslashes that precede a comma can be escaped in order to keep allow splitting by commas:
+
+    **Example**:
+        ?name=name\\,long\\\\,name2
+
+        It will return resources that match (name = name,long\\) OR (name = name2)
+
+
+.. note::
+    OR has a higher priority than AND.
+
+        **Example**:
+            ?name=name1,name2&tag__name=test_tag
+
+            It will return resources that match ((name = name1) OR (name = name2)) AND (has a tag with name = test_tag)

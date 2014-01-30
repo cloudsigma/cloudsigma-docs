@@ -155,6 +155,13 @@ Content-Type: application/json; charset=utf-8
             "required": false,
             "type": "boolean"
         },
+        "jobs": {
+            "default": "No default provided.",
+            "help_text": "Background jobs related to this resource",
+            "readonly": true,
+            "required": true,
+            "type": "related"
+        },
         "mem": {
             "default": null,
             "help_text": "Server's Random Access Memory measured in bytes",
@@ -488,8 +495,8 @@ Content-Type: application/json; charset=utf-8
             "type": "string"
         },
         "tags": {
-            "default": [],
-            "help_text": "List of tags this server is associated with",
+            "default": "No default provided.",
+            "help_text": "Many related resources. Can be either a list of URIs or list of individually nested resource data.",
             "readonly": false,
             "required": false,
             "type": "related"
@@ -508,5 +515,11 @@ Content-Type: application/json; charset=utf-8
             "required": true,
             "type": "string"
         }
+    },
+    "filtering": {
+        "name": 0,
+        "name__contains": 0,
+        "tag": "<function get_tag_filter_args at 0x5dd61b8>",
+        "uuid": 0
     }
 }

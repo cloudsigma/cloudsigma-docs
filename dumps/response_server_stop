@@ -4,5 +4,5 @@ Content-Type: application/json; charset=utf-8
 {
     "action": "stop",
     "result": "success",
-    "uuid": "f143dfc2-8155-4841-ae53-102af3222440"
+    "uuid": "358fc613-0bf3-4b74-990e-05700fc40e2d"
 }

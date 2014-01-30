@@ -38,7 +38,7 @@ Actions
 -------
 Actions give information about the operation that created the log. They go in a few categories.
 
-* General actions - related to most resource types like guests, drives and snapshots:
+* General actions - related to most resource types like servers, drives and snapshots:
     - **create:** During resource creation
     - **update:** During resource update
     - **delete:** During resource deletion
@@ -54,7 +54,7 @@ Actions give information about the operation that created the log. They go in a 
       Only staff members can convert drives.
     - **init_upload:** Drive upload is initialized.
 
-* Guest specific actions - these only relate to servers:
+* Server specific actions - these only relate to servers:
     - **start_send:** An attempt to start a server
     - **boot:** The result of a start operation.
     - **stop_send:** An attempt to stop a server.

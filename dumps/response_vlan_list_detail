@@ -11,17 +11,17 @@ Content-Type: application/json; charset=utf-8
         {
             "meta": {},
             "owner": {
-                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
-            "resource_uri": "/api/2.0/vlans/fda95788-5fee-4555-8561-b69b943fca69/",
+            "resource_uri": "/api/2.0/vlans/a21a4e59-b133-487a-ad7b-16b41ac38e9b/",
             "servers": [],
             "subscription": {
-                "id": 518,
-                "resource_uri": "/api/2.0/subscriptions/518/"
+                "id": 8,
+                "resource_uri": "/api/2.0/subscriptions/8/"
             },
             "tags": [],
-            "uuid": "fda95788-5fee-4555-8561-b69b943fca69"
+            "uuid": "a21a4e59-b133-487a-ad7b-16b41ac38e9b"
         }
     ]
 }

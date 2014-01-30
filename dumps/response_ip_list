@@ -10,12 +10,12 @@ Content-Type: application/json; charset=utf-8
     "objects": [
         {
             "owner": {
-                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
-            "resource_uri": "/api/2.0/ips/31.171.248.53/",
+            "resource_uri": "/api/2.0/ips/162.213.37.151/",
             "server": null,
-            "uuid": "31.171.248.53"
+            "uuid": "162.213.37.151"
         }
     ]
 }

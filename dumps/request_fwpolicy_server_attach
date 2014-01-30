@@ -10,7 +10,7 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
             "name": "FirewalledServer",
             "nics": [
                 {
-                    "firewall_policy": "1e4bc042-13eb-44b7-8c50-b39b5ef2457a",
+                    "firewall_policy": "1306879a-1f94-4d12-8c1a-df83004a25ce",
                     "ip_v4_conf": {
                         "conf": "dhcp",
                         "ip": null

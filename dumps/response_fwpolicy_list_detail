@@ -12,22 +12,23 @@ Content-Type: application/json; charset=utf-8
             "meta": {},
             "name": null,
             "owner": {
-                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
-            "resource_uri": "/api/2.0/fwpolicies/9bf522ec-d8d0-4739-871e-96c41b016517/",
+            "resource_uri": "/api/2.0/fwpolicies/e5c328c0-4149-481e-90b1-a17a8de2de2a/",
             "rules": [],
             "servers": [],
-            "uuid": "9bf522ec-d8d0-4739-871e-96c41b016517"
+            "tags": [],
+            "uuid": "e5c328c0-4149-481e-90b1-a17a8de2de2a"
         },
         {
             "meta": {},
             "name": "My awesome policy",
             "owner": {
-                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
-            "resource_uri": "/api/2.0/fwpolicies/2fb0ef96-aad9-4381-b701-e5b13c6628b5/",
+            "resource_uri": "/api/2.0/fwpolicies/fe1f80c6-46be-4971-be78-102e8e4323e3/",
             "rules": [
                 {
                     "action": "drop",
@@ -81,7 +82,8 @@ Content-Type: application/json; charset=utf-8
                 }
             ],
             "servers": [],
-            "uuid": "2fb0ef96-aad9-4381-b701-e5b13c6628b5"
+            "tags": [],
+            "uuid": "fe1f80c6-46be-4971-be78-102e8e4323e3"
         }
     ]
 }

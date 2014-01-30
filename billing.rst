@@ -315,11 +315,12 @@ Listing
 
    :statuscode 200: no error
 
-   * install - These licenses are billed per installation, regardless of whether it is attached to a running guests or not.
-   * instance - These licenses are billed per running instance of a guest. A license attached to a guest that's stopped is not billed.
+   * install - These licenses are billed per installation, regardless of whether it is attached to a running server or not.
+   * instance - These licenses are billed per running instance of a server. A license attached to a guest that's stopped is not billed.
    * stub - These licenses are billed per a metric specified by the customer (i.e. per number of users license)
 
-   The user metric field specifies what attribute on the instance of the guest is used for determining the number of licenses. For example, "smp" will count one license for each CPU/core in the virtual machine.
+   The user metric field specifies what attribute on the instance of the server is used for determining the number of
+   licenses. For example, "smp" will count one license for each CPU/core in the virtual machine.
 
     **Example request**:
 

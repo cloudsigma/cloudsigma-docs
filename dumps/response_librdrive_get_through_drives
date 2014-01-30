@@ -5,35 +5,22 @@ Content-Type: application/json; charset=utf-8
     "affinities": [],
     "allow_multimount": false,
     "jobs": [],
-    "licenses": [
-        {
-            "amount": 1,
-            "license": {
-                "burstable": false,
-                "long_name": "Microsoft Windows Web Server 2008",
-                "name": "msft_lwa_00135",
-                "resource_uri": "/api/2.0/licenses/12/",
-                "type": "instance",
-                "user_metric": ""
-            },
-            "user": null
-        }
-    ],
-    "media": "disk",
+    "licenses": [],
+    "media": "cdrom",
     "meta": {},
     "mounted_on": [],
-    "name": "Windows Server 2003 Standard 32bit English Preinstalled System",
+    "name": "Debian 7.1.0 Netinstall",
     "owner": null,
-    "resource_uri": "/api/2.0/drives/2031d0ac-33e5-41a8-ae47-aeac8d6a14ab/",
+    "resource_uri": "/api/2.0/drives/22bd1b24-ea78-47bb-a59b-a09ed5407867/",
     "runtime": {
-        "is_snapshotable": false,
+        "is_snapshotable": true,
         "snapshots_allocated_size": 0,
         "storage_type": "dssd"
     },
-    "size": 13958643712,
+    "size": 536870912,
     "snapshots": [],
     "status": "unmounted",
     "storage_type": "dssd",
     "tags": [],
-    "uuid": "2031d0ac-33e5-41a8-ae47-aeac8d6a14ab"
+    "uuid": "22bd1b24-ea78-47bb-a59b-a09ed5407867"
 }

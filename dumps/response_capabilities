@@ -4,8 +4,12 @@ Content-Type: application/json; charset=utf-8
 {
     "drives": {
         "dssd": {
-            "max_size": 6309565034183,
+            "max_size": 4391067795456,
             "min_size": 536870912
+        },
+        "zadara": {
+            "max_size": 5905580032000,
+            "min_size": 1073741824
         }
     },
     "servers": {
@@ -14,7 +18,7 @@ Content-Type: application/json; charset=utf-8
             "min": 250
         },
         "cpu_per_smp": {
-            "max": 2200,
+            "max": 2500,
             "min": 1000
         },
         "mem": {

@@ -3,15 +3,10 @@ Content-Type: application/json; charset=utf-8
 
 {
     "allowed_detail_http_methods": [
-        "get",
-        "put",
-        "delete"
+        "get"
     ],
     "allowed_list_http_methods": [
-        "get",
-        "put",
-        "delete",
-        "post"
+        "get"
     ],
     "default_format": "application/json",
     "default_limit": 20,
@@ -30,5 +25,11 @@ Content-Type: application/json; charset=utf-8
             "required": true,
             "type": "dict"
         }
+    },
+    "filtering": {
+        "name": 0,
+        "name__contains": 0,
+        "tag": "<function get_tag_filter_args at 0x5dd61b8>",
+        "uuid": 0
     }
 }

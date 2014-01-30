@@ -1,0 +1,38 @@
+HTTP/1.1 202 ACCEPTED
+Content-Type: application/json; charset=utf-8
+
+{
+    "objects": [
+        {
+            "affinities": [],
+            "allow_multimount": false,
+            "jobs": [
+                {
+                    "resource_uri": "/api/2.0/jobs/900f6128-7a0f-49c3-9394-aa4f261c1b25/",
+                    "uuid": "900f6128-7a0f-49c3-9394-aa4f261c1b25"
+                }
+            ],
+            "licenses": [],
+            "media": "disk",
+            "meta": {},
+            "mounted_on": [],
+            "name": "test_zadara_drive",
+            "owner": {
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+            },
+            "resource_uri": "/api/2.0/drives/203cbccd-0736-42dc-b75a-2bdb4db46909/",
+            "runtime": {
+                "is_snapshotable": null,
+                "snapshots_allocated_size": 0,
+                "storage_type": "zadara"
+            },
+            "size": 1073741824,
+            "snapshots": [],
+            "status": "cloning_dst",
+            "storage_type": "zadara",
+            "tags": [],
+            "uuid": "203cbccd-0736-42dc-b75a-2bdb4db46909"
+        }
+    ]
+}

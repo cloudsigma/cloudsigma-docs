@@ -14,6 +14,7 @@ Welcome to CloudSigma API ver. 2.0's documentation!
     pagination
     errors
     capabilities
+    clone_naming
     
     drives
     snapshots
@@ -26,11 +27,13 @@ Welcome to CloudSigma API ver. 2.0's documentation!
     fwpolicies
     tags
 
+    jobs
     meta
     availability_groups
 
     subscriptions
     accounts
+    audit_logs
     profile
     notification_preferences
     billing

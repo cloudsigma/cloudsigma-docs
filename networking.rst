@@ -126,7 +126,7 @@ IPs
 The IP object, contains the actual IP in it's ``uuid`` attribute.
 
 The list of IPs includes the IPs that are owned (subscribed to) by the user, and the IPs which are dynamically
-assigned to user's guests. The owned IP's are differentiated by dynamically received IPs by the fact that they have a
+assigned to user's servers. The owned IP's are differentiated by dynamically received IPs by the fact that they have a
 subscription attached to them (their ``subscription`` attribute is not empty).
 
 The detailed listing includes more information about the IP object, such as netmask, nameservers, and gateway which

@@ -2,24 +2,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-    "gateway": "31.171.248.1",
+    "gateway": "162.213.37.1",
     "meta": {},
     "nameservers": [
-        "69.194.139.62",
-        "178.22.66.167",
-        "178.22.71.56"
+        "8.8.8.8",
+        "162.213.36.97"
     ],
-    "netmask": 23,
+    "netmask": 24,
     "owner": {
-        "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-        "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
     },
-    "resource_uri": "/api/2.0/ips/31.171.248.53/",
+    "resource_uri": "/api/2.0/ips/162.213.37.151/",
     "server": null,
     "subscription": {
-        "id": 517,
-        "resource_uri": "/api/2.0/subscriptions/517/"
+        "id": 10,
+        "resource_uri": "/api/2.0/subscriptions/10/"
     },
     "tags": [],
-    "uuid": "31.171.248.53"
+    "uuid": "162.213.37.151"
 }

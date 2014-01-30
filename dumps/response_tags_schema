@@ -15,76 +15,58 @@ Content-Type: application/json; charset=utf-8
     "default_limit": 20,
     "fields": {
         "meta": {
-            "default": {},
-            "help_text": "User defined meta information",
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "A dictionary of data. Ex: {'price': 26.73, 'name': 'Daniel'}",
+            "nullable": false,
             "readonly": false,
-            "required": false,
-            "type": "dict"
+            "type": "dict",
+            "unique": false
         },
         "name": {
-            "default": null,
-            "help_text": "Tag name",
-            "readonly": false,
-            "required": true,
-            "type": "string"
-        },
-        "owner": {
-            "default": null,
-            "help_text": "Tag owner",
-            "readonly": true,
-            "required": false,
-            "type": "related"
-        },
-        "resource_uri": {
+            "blank": false,
             "default": "No default provided.",
             "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "owner": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "A single related resource. Can be either a URI or set of nested resource data.",
+            "nullable": false,
             "readonly": true,
-            "required": true,
-            "type": "string"
+            "type": "related",
+            "unique": false
+        },
+        "resource_uri": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": true,
+            "type": "string",
+            "unique": false
         },
         "resources": {
-            "default": [],
-            "fields": {
-                "owner": {
-                    "default": null,
-                    "help_text": "Resource owner",
-                    "readonly": false,
-                    "required": false,
-                    "type": "related"
-                },
-                "res_type": {
-                    "default": null,
-                    "help_text": "Resource type",
-                    "readonly": false,
-                    "required": false,
-                    "type": "string"
-                },
-                "resource_uri": {
-                    "default": "No default provided.",
-                    "help_text": "Unicode string data. Ex: \"Hello World\"",
-                    "readonly": true,
-                    "required": true,
-                    "type": "string"
-                },
-                "uuid": {
-                    "default": null,
-                    "help_text": "Resource UUID",
-                    "readonly": false,
-                    "required": true,
-                    "type": "string"
-                }
-            },
-            "help_text": "Tagged resources",
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Many related resources. Can be either a list of URIs or list of individually nested resource data.",
+            "nullable": true,
             "readonly": false,
-            "required": false,
-            "type": "related"
+            "type": "related",
+            "unique": false
         },
         "uuid": {
-            "default": null,
-            "help_text": "Tag UUID",
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
             "readonly": true,
-            "required": true,
-            "type": "string"
+            "type": "string",
+            "unique": false
         }
     }
 }

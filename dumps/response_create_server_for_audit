@@ -18,16 +18,16 @@ Content-Type: application/json; charset=utf-8
             "name": "test_server",
             "nics": [],
             "owner": {
-                "resource_uri": "/api/2.0/user/d988a923-2b42-4928-8ef8-c3557aa4ad91/",
-                "uuid": "d988a923-2b42-4928-8ef8-c3557aa4ad91"
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/3d175482-052d-4b8f-8231-d926fc2fa821/",
+            "resource_uri": "/api/2.0/servers/6cae5f46-bf10-4523-8c0d-69e4fbbae5b1/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "3d175482-052d-4b8f-8231-d926fc2fa821",
+            "uuid": "6cae5f46-bf10-4523-8c0d-69e4fbbae5b1",
             "vnc_password": "testserver"
         }
     ]

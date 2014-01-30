@@ -1,4 +1,4 @@
-GET /api/2.0/servers/6e4af205-09d7-4274-b75a-d0aa534afc44/ HTTP/1.1
+GET /api/2.0/servers/6b704c22-3423-418f-893e-4e275cd500e1/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

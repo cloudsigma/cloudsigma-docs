@@ -5,49 +5,36 @@ Content-Type: application/json; charset=utf-8
     "meta": {
         "limit": 5,
         "offset": 0,
-        "total_count": 4
+        "total_count": 116
     },
     "objects": [
         {
             "affinities": [],
             "allow_multimount": false,
-            "arch": "32",
+            "arch": "64",
             "category": [
                 "general"
             ],
-            "description": "Please refer to the install notes for a full guide to initial configuration.",
+            "description": "Debian 7.1.0 Netinstall AMD64.",
             "favourite": false,
-            "image_type": "preinst",
-            "install_notes": "<script type=\"text/javascript\">alert(\"a\");</script>***You must update the default Administrator password for Windows Server Standard 2003***\\n\\nPre-installed Windows Server 2003 Standard 32bit English on 08/10/2010\\n==========================================================\\n\\n1. Connecting to your server via VNC\\n--------------------------------------------------\\n\\na) Having installed a compatible VNC client, open a VNC connection to your server.\\n\\nb) Enter your IP address and VNC password as displayed on your Server Summary Window.\\n\\nc) Start to configure your server.\\n\\n\\n2. Minimum Hardware Requirements\\n---------------------------------------------------\\n\\nThe recommended minimum hardware requirements as publishes by Microsoft can be found through \\n\\nthe following link:\\n\\nhttp://technet.microsoft.com/en-us/library/cc738496(WS.10).aspx\\n\\nWe recommend specifying a higher level of RAM for a better user experience.\\n\\n\\n3. Update your administrator password\\n-----------------------------------------------------\\n\\nThe default administrator password is set to: CloudSigma1\\n\\nPlease CHANGE this IMMEDIATELY after first logging on.\\n\\na) Select &quot;Start&quot; | &quot;Administrative Tools&quot; | &quot;Computer Management&quot;\\n\\nb) Select &quot;System Tools&quot; | &quot;Local Users and Groups&quot; | &quot;Users&quot;\\n\\nc) Right click on &quot;Administrator&quot; and select &quot;Set Password&quot;\\n\\nd) Enter a new administrative password\\n\\nProceed to select Users and Groups according to your Domain policies.\\n\\n4. Configuring your Networking\\n------------------------------------------\\n\\na) IP networking can be left as DHCP. Even if you are using a static IP address with this server our management layer will apply the same IP address via DHCP. Using DHCP ensures you will have no issues receiving the correct networking settings. We recommend using DHCP initially if only to receive all the correct networking settings.\\n\\nb) CloudSigma employs an open networking infrastructure. All ports are open for inbound and outbound traffic with the exception of port 25 (SMTP) which is blocked for trial users. It is important that you secure access to your server according to your needs.\\n\\n\\n5. Expanding your drive\\n--------------------------------\\n\\nThe system is fully installed, but you will need to extend the disk partition to cover the whole of your drive. To do this:\\n\\na) Open the &quot;Computer Management&quot; tool from &quot;Administrative Tools&quot; on the &quot;Start&quot; menu.\\n\\nb) Select &quot;Storage&quot; then &quot;Disk Management&quot; in the left hand pane.\\n\\nc) Right-click on the &quot;Unallocated&quot; partition volume and select &quot;New Partition&quot;.\\n\\nd) This will start the &quot;New Partition Wizard&quot;. For the purposes of these instructions we will extend the existing partition.\\n\\ne) Select &quot;Primary Partition&quot; and click &quot;Next&quot;.\\n\\nf) Select the maximum &quot;Partition size in MB&quot; you require or leave the default value. Click &quot;Next&quot;.\\n\\ng) Assign a drive letter, and click &quot;Next&quot;.\\n\\nh) Enter your Format Partition values including the &quot;File System&quot; type, &quot;Allocation unit size&quot; \\n\\nand a &quot;Volume label&quot;. We recommend leaving the default value for the File System format and the Allocation unit size. Click &quot;Next&quot; to continue.\\n\\ni) click Finish to complete the process. The new volume will now be formatted and setup.\\n\\nYou may also use third party tools to create and manage your partitions.\\n\\n\\n6. Enabling Remote Access\\n--------------------------------------\\n\\nAfter logging in to VNC for the first time to configure your new Windows server, we recommend \\nthat if you are logging in from a Windows Desktop that you enable Remote Desktop for better access performance. To do this, follow these instructions:\\n\\na) Select &quot;Start&quot; | &quot;Applications&quot; | &quot;Control Panel&quot;\\n\\nb) Select &quot;System&quot; and select the &quot;Remote&quot; tab\\n\\nc) Enable the &quot;Allow users to connect remotely to this computer&quot; under the &quot;System&quot; checkbox\\n\\n\\n7. Pinging Service\\n-------------------------\\n\\nThe Pinging service has been turned on by default, if you wish to disable it please follow these instructions:\\n\\na) Select &quot;Start&quot; | &quot;Applications&quot; | &quot;Control Panel&quot; | &quot;Windows Firewall&quot;\\n\\nb) Select the &quot;Advanced&quot; tab\\n\\nc) Click on the &quot;Settings&quot; button under the &quot;ICMP&quot; section\\n\\nd) Unselect &quot;Allow incoming echo request&quot; checkbox\\n\\ne) Press &quot;OK&quot; to return to the Windows Firewall, and press &quot;OK&quot; again to finalise the change\\n",
+            "image_type": "install",
+            "install_notes": "1. Attach the CD. \\n\r\nPlease be aware that the CD needs to be attached to the server as IDE. \\n\r\n \\n\r\n2. Attach a Drive. \\n\r\nPlease be aware that the minimum drive size where you are going to install the OS should be 5 GB. \\n\r\n \\n\r\n3. Connecting to your server via VNC. \\n\r\na) Go to the \u201cProperties\u201d tab of the server and Turn on the VNC Tunnel by clicking the button right next to it \\n\r\nb) In order to use the inbuilt client click on the icon right next to the VNC link and choose \u201cOpen in Dialog Window\u201d or \u201cOpen in new browser window/tab\u201d \\n\r\nOR \\n\r\nc) Having installed a compatible VNC client, open a VNC connection to your server through the UI.  \\n\r\nd) Enter your VNC url and VNC password as displayed on your Server Properties Window.  \\n\r\n \\n\r\n4. Minimum Hardware Requirements. \\n\r\nThe recommended minimum hardware requirements as published by debian.org are: 1GB RAM and 1GHz CPU",
             "jobs": [],
-            "licenses": [
-                {
-                    "amount": 1,
-                    "license": {
-                        "burstable": false,
-                        "long_name": "Microsoft Windows Web Server 2008",
-                        "name": "msft_lwa_00135",
-                        "resource_uri": "/api/2.0/licenses/12/",
-                        "type": "instance",
-                        "user_metric": ""
-                    },
-                    "user": null
-                }
-            ],
-            "media": "disk",
+            "licenses": [],
+            "media": "cdrom",
             "meta": {},
             "mounted_on": [],
-            "name": "Windows Server 2003 Standard 32bit English Preinstalled System",
-            "os": "windows",
+            "name": "Debian 7.1.0 Netinstall",
+            "os": "linux",
             "owner": null,
-            "paid": true,
-            "resource_uri": "/api/2.0/libdrives/2031d0ac-33e5-41a8-ae47-aeac8d6a14ab/",
-            "size": 13958643712,
+            "paid": false,
+            "resource_uri": "/api/2.0/libdrives/22bd1b24-ea78-47bb-a59b-a09ed5407867/",
+            "size": 536870912,
             "status": "unmounted",
             "storage_type": null,
             "tags": [],
-            "url": "",
-            "uuid": "2031d0ac-33e5-41a8-ae47-aeac8d6a14ab"
+            "url": "http://debian.org/",
+            "uuid": "22bd1b24-ea78-47bb-a59b-a09ed5407867"
         },
         {
             "affinities": [],
@@ -56,26 +43,26 @@ Content-Type: application/json; charset=utf-8
             "category": [
                 "general"
             ],
-            "description": "",
+            "description": "OpenBSD 5.3 Netinstall CD",
             "favourite": false,
-            "image_type": "preinst",
-            "install_notes": "",
+            "image_type": "install",
+            "install_notes": "1. Attach the CD. \\n\r\nPlease be aware that the CD needs to be attached to the server as IDE. \\n\r\n \\n\r\n2. Attach a Drive. \\n\r\nPlease be aware that the minimum drive size where you are going to install the OS should be 5 GB. \\n\r\n \\n\r\n3. Connecting to your server via VNC. \\n\r\na) Go to the \u201cProperties\u201d tab of the server and Turn on the VNC Tunnel by clicking the button right next to it \\n\r\nb) In order to use the inbuilt client click on the icon right next to the VNC link and choose \u201cOpen in Dialog Window\u201d or \u201cOpen in new browser window/tab\u201d \\n\r\nOR \\n\r\nc) Having installed a compatible VNC client, open a VNC connection to your server through the UI.  \\n\r\nd) Enter your VNC url and VNC password as displayed on your Server Properties Window.  \\n\r\n \\n\r\n4. Minimum Hardware Requirements. \\n\r\nThe recommended minimum hardware requirements as published by openbsd.org: http://www.openbsd.org/faq/faq3.html#SelectHW",
             "jobs": [],
             "licenses": [],
-            "media": "disk",
+            "media": "cdrom",
             "meta": {},
             "mounted_on": [],
-            "name": "atom_for_lib",
+            "name": "OpenBSD 5.3 Netinstall",
             "os": "linux",
             "owner": null,
             "paid": false,
-            "resource_uri": "/api/2.0/libdrives/5489a781-e848-4005-95e0-01fdb2495036/",
-            "size": 11811160064,
+            "resource_uri": "/api/2.0/libdrives/2860a9bc-a210-45df-a46e-42f1a3a0ed75/",
+            "size": 536870912,
             "status": "unmounted",
             "storage_type": null,
             "tags": [],
             "url": "",
-            "uuid": "5489a781-e848-4005-95e0-01fdb2495036"
+            "uuid": "2860a9bc-a210-45df-a46e-42f1a3a0ed75"
         },
         {
             "affinities": [],
@@ -84,59 +71,82 @@ Content-Type: application/json; charset=utf-8
             "category": [
                 "general"
             ],
-            "description": "",
+            "description": "Ubuntu 12.10 Server - 32bit - Install CD\r\n",
             "favourite": false,
             "image_type": "install",
-            "install_notes": "",
+            "install_notes": "1. Attach the CD. \\n\r\nPlease be aware that the CD needs to be attached to the server as IDE. \\n\r\n \\n\r\n2. Attach a Drive. \\n\r\nPlease be aware that the minimum drive size where you are going to install the OS should be 5 GB. \\n\r\n \\n\r\n3. Connecting to your server via VNC. \\n\r\na) Go to the \u201cProperties\u201d tab of the server and Turn on the VNC Tunnel by clicking the button right next to it \\n\r\nb) In order to use the inbuilt client click on the icon right next to the VNC link and choose \u201cOpen in Dialog Window\u201d or \u201cOpen in new browser window/tab\u201d \\n\r\nOR \\n\r\nc) Having installed a compatible VNC client, open a VNC connection to your server through the UI.  \\n\r\nd) Enter your VNC url and VNC password as displayed on your Server Properties Window.  \\n\r\n \\n\r\n4. Minimum Hardware Requirements. \\n\r\nThe recommended minimum hardware requirements as published by ubuntu.org are: 1GB RAM and 1GHz CPU",
             "jobs": [],
             "licenses": [],
             "media": "cdrom",
             "meta": {},
             "mounted_on": [],
-            "name": "Test CD-ROM",
+            "name": "Ubuntu 12.10 Server",
             "os": "linux",
             "owner": null,
             "paid": false,
-            "resource_uri": "/api/2.0/libdrives/1365488f-e767-46fd-9d0b-820314dd6782/",
-            "size": 1073741824,
+            "resource_uri": "/api/2.0/libdrives/582300b5-df62-495d-8c2d-430b3bf0f9e9/",
+            "size": 1000000000,
             "status": "unmounted",
             "storage_type": null,
             "tags": [],
-            "url": "",
-            "uuid": "1365488f-e767-46fd-9d0b-820314dd6782"
+            "url": "http://ubuntu.com/",
+            "uuid": "582300b5-df62-495d-8c2d-430b3bf0f9e9"
         },
         {
             "affinities": [],
             "allow_multimount": false,
-            "arch": "32",
+            "arch": "64",
             "category": [
-                "general",
-                "dbserver",
-                "gateway",
-                "router",
-                "erp",
-                "security"
+                "general"
             ],
-            "description": "This is an empty test drive",
+            "description": "Fedora 20 Beta - 64bit Install DVD",
             "favourite": false,
-            "image_type": "preinst",
-            "install_notes": "",
+            "image_type": "install",
+            "install_notes": "1. Attach the CD. \\n\r\nPlease be aware that the CD needs to be attached to the server as IDE. \\n\r\n \\n\r\n2. Attach a Drive. \\n\r\nPlease be aware that the minimum drive size where you are going to install the OS should be 10GB. \\n\r\n \\n\r\n3. Connecting to your server via VNC. \\n\r\na) Go to the \u201cProperties\u201d tab of the server and Turn on the VNC Tunnel by clicking the button right next to it \\n\r\nb) In order to use the inbuilt client click on the icon right next to the VNC link and choose \u201cOpen in Dialog Window\u201d or \u201cOpen in new browser window/tab\u201d \\n\r\nOR \\n\r\nc) Having installed a compatible VNC client, open a VNC connection to your server through the UI.  \\n\r\nd) Enter your VNC url and VNC password as displayed on your Server Properties Window.  \\n\r\n \\n\r\n4. Minimum Hardware Requirements. \\n\r\nThe recommended minimum hardware requirements as published by Fedoraproject.org are: 1GB RAM and 0.5MHz CPU  \\n\r\n \\n",
             "jobs": [],
             "licenses": [],
-            "media": "disk",
+            "media": "cdrom",
             "meta": {},
             "mounted_on": [],
-            "name": "Test library drive",
-            "os": "other",
+            "name": "Fedora 20 Beta",
+            "os": "linux",
             "owner": null,
             "paid": false,
-            "resource_uri": "/api/2.0/libdrives/e52158ef-d2af-4732-8367-896f23b77cec/",
-            "size": 8589934592,
+            "resource_uri": "/api/2.0/libdrives/7203aa05-a6c3-4056-94b9-a8d940cac706/",
+            "size": 4581228544,
             "status": "unmounted",
             "storage_type": null,
             "tags": [],
-            "url": "http://cloudsigma.com/",
-            "uuid": "e52158ef-d2af-4732-8367-896f23b77cec"
+            "url": "http://fedoraproject.org/",
+            "uuid": "7203aa05-a6c3-4056-94b9-a8d940cac706"
+        },
+        {
+            "affinities": [],
+            "allow_multimount": false,
+            "arch": "64",
+            "category": [
+                "general"
+            ],
+            "description": "NetBSD 6.1.1 - amd64 - CD",
+            "favourite": false,
+            "image_type": "install",
+            "install_notes": "1. Attach the CD. \\n\r\nPlease be aware that the CD needs to be attached to the server as IDE. \\n\r\n \\n\r\n2. Attach a Drive. \\n\r\nPlease be aware that the minimum drive size where you are going to install the OS should be 5GB. \\n\r\n \\n\r\n3. Connecting to your server via VNC. \\n\r\na) Go to the \u201cProperties\u201d tab of the server and Turn on the VNC Tunnel by clicking the button right next to it \\n\r\nb) In order to use the inbuilt client click on the icon right next to the VNC link and choose \u201cOpen in Dialog Window\u201d or \u201cOpen in new browser window/tab\u201d \\n\r\nOR \\n\r\nc) Having installed a compatible VNC client, open a VNC connection to your server through the UI.  \\n\r\nd) Enter your VNC url and VNC password as displayed on your Server Properties Window.  \\n\r\n \\n\r\n4. Minimum Hardware Requirements. \\n\r\nThe recommended minimum hardware requirements as published by Netbsd.org are: 0.5 GB RAM and 0.5GHz CPU  \\n\r\n \\n\r\n",
+            "jobs": [],
+            "licenses": [],
+            "media": "cdrom",
+            "meta": {},
+            "mounted_on": [],
+            "name": "NetBSD 6.1.1",
+            "os": "other",
+            "owner": null,
+            "paid": false,
+            "resource_uri": "/api/2.0/libdrives/b1501e22-bca3-4ec4-a3b0-852bae8773d1/",
+            "size": 536870912,
+            "status": "unmounted",
+            "storage_type": null,
+            "tags": [],
+            "url": "http://www.netbsd.org/",
+            "uuid": "b1501e22-bca3-4ec4-a3b0-852bae8773d1"
         }
     ]
 }

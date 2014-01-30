@@ -6,21 +6,22 @@ Content-Type: application/json; charset=utf-8
         {
             "allocated_size": null,
             "drive": {
-                "resource_uri": "/api/2.0/drives/b7ef4ef8-88d8-4fd6-b978-c2302bbd9aaf/",
-                "uuid": "b7ef4ef8-88d8-4fd6-b978-c2302bbd9aaf"
+                "resource_uri": "/api/2.0/drives/7a555723-d73c-45cf-9f18-21f571626d2b/",
+                "uuid": "7a555723-d73c-45cf-9f18-21f571626d2b"
             },
             "meta": {
                 "key": "val"
             },
             "name": "first_snapshot",
             "owner": {
-                "resource_uri": "/api/2.0/user/42cb107b-d57a-4808-93d9-2d3f9ae4fe71/",
-                "uuid": "42cb107b-d57a-4808-93d9-2d3f9ae4fe71"
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
-            "resource_uri": "/api/2.0/snapshots/6a2f715d-cd61-444b-bb82-a9c383373603/",
+            "resource_uri": "/api/2.0/snapshots/7446f729-ff95-47c4-a3e3-f6f30bce9437/",
             "status": "creating",
-            "timestamp": "2013-12-10 11:41:38.497969+00:00",
-            "uuid": "6a2f715d-cd61-444b-bb82-a9c383373603"
+            "tags": [],
+            "timestamp": "2014-01-30 15:35:27.651816+00:00",
+            "uuid": "7446f729-ff95-47c4-a3e3-f6f30bce9437"
         }
     ]
 }

@@ -4,10 +4,10 @@ Content-Type: application/json; charset=utf-8
 {
     "objects": [
         {
-            "contact": "/api/2.0/notification_contacts/cc15a0ea-6009-408e-8d47-0d39ad25fd70/",
+            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
             "medium": "email",
-            "type": "subscription_renewal_soon",
-            "value": false
+            "type": "payment_cancelled",
+            "value": true
         }
     ]
 }

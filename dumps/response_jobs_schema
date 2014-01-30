@@ -1,0 +1,102 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get"
+    ],
+    "allowed_list_http_methods": [
+        "get"
+    ],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "children": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Background jobs, initiated by this job.",
+            "nullable": true,
+            "readonly": false,
+            "type": "related",
+            "unique": false
+        },
+        "created": {
+            "blank": false,
+            "default": "2014-01-30T15:28:35.527093+00:00",
+            "help_text": "A date & time as a string. Ex: \"2010-11-10T03:07:43\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "datetime",
+            "unique": false
+        },
+        "data": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Meta information related to this background job's execution.",
+            "nullable": true,
+            "readonly": false,
+            "type": "object",
+            "unique": false
+        },
+        "last_modified": {
+            "blank": false,
+            "default": "2014-01-30T15:28:35.527109+00:00",
+            "help_text": "A date & time as a string. Ex: \"2010-11-10T03:07:43\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "datetime",
+            "unique": false
+        },
+        "operation": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": true,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "resource_uri": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": true,
+            "type": "string",
+            "unique": false
+        },
+        "resources": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Resources linked to this background job.",
+            "nullable": true,
+            "readonly": false,
+            "type": "list",
+            "unique": false
+        },
+        "state": {
+            "blank": false,
+            "default": "started",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "uuid": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": true
+        }
+    },
+    "filtering": {
+        "state": 1
+    },
+    "ordering": [
+        "-last_modified"
+    ]
+}

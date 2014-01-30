@@ -1,0 +1,14 @@
+POST /api/2.0/drives/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "objects": [
+        {
+            "media": "disk",
+            "name": "test_zadara_drive",
+            "size": 1073741824,
+            "storage_type": "zadara"
+        }
+    ]
+}

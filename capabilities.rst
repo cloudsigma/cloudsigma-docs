@@ -44,7 +44,7 @@ limits inside the client application.
 
     :cpu_per_smp:
         this means that the cpu, divided by the smp value, if smp > 1, should be in the range between 1000 and 2200 MHz.
-        For example a guest with 2000MHz cpu and 2 smp has 1000MHz per smp and is within the range, but a server with
+        For example a server with 2000MHz cpu and 2 smp has 1000MHz per smp and is within the range, but a server with
         8000MHz cpu and 2 smp has a 4000MHz per smp, which is outside of the allowed range.
 
 

@@ -388,6 +388,11 @@ server.
 .. literalinclude:: dumps/response_server_clone
     :language: javascript
 
+.. note::
+
+    The name of the cloned drive will be changed using the clone naming strategy set in the profile.
+    See :doc:`clone_naming` for more information 
+
 Cloning with Drives on Different Storage (Avoid)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -434,7 +439,7 @@ On every server configuration there are a few advanced options you can setup.
 * ``enable_numa``:
     - Type: true/false
     - Description: This option exposes the NUMA/CPU topology of the hypervisor to the virtual machine. It
-      boosts performance for NUMA aware applications. The option should be set to ``true`` for guests
+      boosts performance for NUMA aware applications. The option should be set to ``true`` for servers
       with SMP bigger than 6, since this is the number of cores we have per NUMA node on the hypervisor.
       If set to ``true``, ``cpus_instead_of_cores`` should also be set to ``true`` for Linux,
       because some Linux distributions do not support multiple NUMA nodes on multple CPU cores,

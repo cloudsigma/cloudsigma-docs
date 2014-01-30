@@ -1,0 +1,7 @@
+POST /api/2.0/drives/3be001aa-16df-453a-a2ab-d13981d56589/action/?do=clone HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "storage_type": "zadara"
+}
