@@ -10,6 +10,7 @@ Content-Type: application/json; charset=utf-8
             "cpus_instead_of_cores": false,
             "drives": [],
             "enable_numa": false,
+            "grantees": [],
             "hv_relaxed": false,
             "hv_tsc": false,
             "jobs": [],
@@ -20,15 +21,15 @@ Content-Type: application/json; charset=utf-8
                 {
                     "boot_order": null,
                     "firewall_policy": {
-                        "resource_uri": "/api/2.0/fwpolicies/1306879a-1f94-4d12-8c1a-df83004a25ce/",
-                        "uuid": "1306879a-1f94-4d12-8c1a-df83004a25ce"
+                        "resource_uri": "/api/2.0/fwpolicies/9cfaab13-e382-4c91-be46-ea15bd1f118b/",
+                        "uuid": "9cfaab13-e382-4c91-be46-ea15bd1f118b"
                     },
                     "ip_v4_conf": {
                         "conf": "dhcp",
                         "ip": null
                     },
                     "ip_v6_conf": null,
-                    "mac": "22:ce:5a:18:32:67",
+                    "mac": "22:ac:25:78:45:25",
                     "model": "virtio",
                     "runtime": null,
                     "vlan": null
@@ -38,13 +39,14 @@ Content-Type: application/json; charset=utf-8
                 "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
+            "permissions": [],
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/ef426213-cf7c-4a76-9ec0-6c143cdd8217/",
+            "resource_uri": "/api/2.0/servers/66dfd3af-543f-468b-bbcb-509daa6f3444/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "ef426213-cf7c-4a76-9ec0-6c143cdd8217",
+            "uuid": "66dfd3af-543f-468b-bbcb-509daa6f3444",
             "vnc_password": "testserver"
         }
     ]

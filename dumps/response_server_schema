@@ -102,6 +102,13 @@ Content-Type: application/json; charset=utf-8
                                     "required": true,
                                     "type": "integer"
                                 },
+                                "count_flush": {
+                                    "default": 0,
+                                    "help_text": "Integer data. Ex: 2673",
+                                    "readonly": false,
+                                    "required": true,
+                                    "type": "integer"
+                                },
                                 "count_read": {
                                     "default": 0,
                                     "help_text": "Integer data. Ex: 2673",
@@ -110,6 +117,27 @@ Content-Type: application/json; charset=utf-8
                                     "type": "integer"
                                 },
                                 "count_written": {
+                                    "default": 0,
+                                    "help_text": "Integer data. Ex: 2673",
+                                    "readonly": false,
+                                    "required": true,
+                                    "type": "integer"
+                                },
+                                "total_time_ns_flush": {
+                                    "default": 0,
+                                    "help_text": "Integer data. Ex: 2673",
+                                    "readonly": false,
+                                    "required": true,
+                                    "type": "integer"
+                                },
+                                "total_time_ns_read": {
+                                    "default": 0,
+                                    "help_text": "Integer data. Ex: 2673",
+                                    "readonly": false,
+                                    "required": true,
+                                    "type": "integer"
+                                },
+                                "total_time_ns_write": {
                                     "default": 0,
                                     "help_text": "Integer data. Ex: 2673",
                                     "readonly": false,
@@ -140,6 +168,13 @@ Content-Type: application/json; charset=utf-8
             "readonly": false,
             "required": false,
             "type": "boolean"
+        },
+        "grantees": {
+            "default": "No default provided.",
+            "help_text": "A list of data. Ex: ['abc', 26.73, 8]",
+            "readonly": false,
+            "required": false,
+            "type": "list"
         },
         "hv_relaxed": {
             "default": false,
@@ -372,6 +407,13 @@ Content-Type: application/json; charset=utf-8
             "required": true,
             "type": "related"
         },
+        "permissions": {
+            "default": "No default provided.",
+            "help_text": "A list of data. Ex: ['abc', 26.73, 8]",
+            "readonly": false,
+            "required": false,
+            "type": "list"
+        },
         "requirements": {
             "default": [],
             "help_text": "A collection of special requirements for this server",
@@ -519,7 +561,7 @@ Content-Type: application/json; charset=utf-8
     "filtering": {
         "name": 0,
         "name__contains": 0,
-        "tag": "<function get_tag_filter_args at 0x5dd61b8>",
+        "tag": "<function get_tag_filter_args at 0x51f1ed8>",
         "uuid": 0
     }
 }

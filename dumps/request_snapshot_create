@@ -5,11 +5,7 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
 {
     "objects": [
         {
-            "drive": "7a555723-d73c-45cf-9f18-21f571626d2b",
-            "meta": {
-                "key": "val"
-            },
-            "name": "first_snapshot"
+            "drive": "16ae1190-de33-4220-a36b-893b47be6004"
         }
     ]
 }

@@ -161,7 +161,7 @@ and returns an error if not possible to completely apply the new drive definitio
 mounted on a running server. The name of the action is ``resize`` because only drive size cannot be changed for a drive
 mounted on a running server.
 
-Note that the resize action is a full definition update (it can update even name and meta), so a full definition
+Note that the resize action is a full definition update (it can update even name and metadata), so a full definition
 should be provided to this call.
 
 **Example:**
@@ -334,7 +334,7 @@ Creating
         :language: javascript
 
 Cloning to the same storage type
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     **Example request**:
 

@@ -2,12 +2,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-    "address": "",
+    "address": "Middle of nowhere",
     "api_https_only": false,
     "autotopup_amount": "200.0000000000000000",
     "autotopup_threshold": "200.0000000000000000",
     "bank_reference": "jdoe123",
-    "clone_naming": "NONE",
+    "clone_naming": "DATE",
     "company": "Newly Set Company Name",
     "country": "US",
     "currency": "USD",
@@ -30,7 +30,7 @@ Content-Type: application/json; charset=utf-8
     "tax_name": null,
     "tax_rate": null,
     "title": "",
-    "town": "",
+    "town": "Sofia",
     "uuid": "6f670b3c-a2e6-433f-aeab-b976b1cdaf03",
     "vat": ""
 }

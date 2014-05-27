@@ -1,0 +1,5 @@
+POST /api/2.0/servers/840d6007-6367-453a-93a5-945c3ba2330a/action/?do=shutdown HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{}

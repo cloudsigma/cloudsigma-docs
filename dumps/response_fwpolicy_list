@@ -15,8 +15,8 @@ Content-Type: application/json; charset=utf-8
                 "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
-            "resource_uri": "/api/2.0/fwpolicies/e5c328c0-4149-481e-90b1-a17a8de2de2a/",
-            "uuid": "e5c328c0-4149-481e-90b1-a17a8de2de2a"
+            "resource_uri": "/api/2.0/fwpolicies/13746d84-c412-4a56-aee1-d585300751fd/",
+            "uuid": "13746d84-c412-4a56-aee1-d585300751fd"
         },
         {
             "meta": {},
@@ -25,8 +25,8 @@ Content-Type: application/json; charset=utf-8
                 "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
-            "resource_uri": "/api/2.0/fwpolicies/fe1f80c6-46be-4971-be78-102e8e4323e3/",
-            "uuid": "fe1f80c6-46be-4971-be78-102e8e4323e3"
+            "resource_uri": "/api/2.0/fwpolicies/cacf13dd-f3ce-429e-8318-9debed83f87f/",
+            "uuid": "cacf13dd-f3ce-429e-8318-9debed83f87f"
         }
     ]
 }

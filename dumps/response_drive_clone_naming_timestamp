@@ -6,22 +6,24 @@ Content-Type: application/json; charset=utf-8
         {
             "affinities": [],
             "allow_multimount": false,
+            "grantees": [],
             "jobs": [
                 {
-                    "resource_uri": "/api/2.0/jobs/128e4ff9-3eb7-46a0-9205-a1505bafa629/",
-                    "uuid": "128e4ff9-3eb7-46a0-9205-a1505bafa629"
+                    "resource_uri": "/api/2.0/jobs/6082485d-5572-4321-8e63-2de48cbce9c3/",
+                    "uuid": "6082485d-5572-4321-8e63-2de48cbce9c3"
                 }
             ],
             "licenses": [],
             "media": "cdrom",
             "meta": {},
             "mounted_on": [],
-            "name": "test_drive_x-2014-01-30 15:25:13",
+            "name": "test_drive_x-2014-05-26 15:54:06",
             "owner": {
                 "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
-            "resource_uri": "/api/2.0/drives/70f66b6b-b931-4e67-b504-4659dbb2d3d6/",
+            "permissions": [],
+            "resource_uri": "/api/2.0/drives/ece3f0d7-a8f8-4a15-8438-9cb867738da6/",
             "runtime": {
                 "is_snapshotable": null,
                 "snapshots_allocated_size": 0,
@@ -32,7 +34,7 @@ Content-Type: application/json; charset=utf-8
             "status": "cloning_dst",
             "storage_type": "dssd",
             "tags": [],
-            "uuid": "70f66b6b-b931-4e67-b504-4659dbb2d3d6"
+            "uuid": "ece3f0d7-a8f8-4a15-8438-9cb867738da6"
         }
     ]
 }

@@ -23,17 +23,6 @@ Querying is done as follows:
         :language: javascript
 
 
-Schema
-------
-
-.. http:get:: /logs/schema/
-
-    .. literalinclude:: dumps/request_audit_log_schema
-        :language: javascript
-
-    .. literalinclude:: dumps/response_audit_log_schema
-        :language: javascript
-
 Actions
 -------
 Actions give information about the operation that created the log. They go in a few categories.
@@ -101,26 +90,52 @@ Upon completion you will see the following log at the top of the audit log list:
 - **success** is *true*, so the operation completed successfully.
 - **uuid** matches the server's uuid
 
-Then we start the server
+
+Then we start the server:
+
     .. literalinclude:: dumps/request_start_server_for_audit
         :language: javascript
+
     .. literalinclude:: dumps/response_start_server_for_audit
         :language: javascript
-We check the logs again. We see that the action is **start_send** and **success** is **true**.
+
+
+We check the logs again. We see that the action is **start_send** and **success** is **true**:
+
     .. literalinclude:: dumps/response_start_server_audit_log
         :language: javascript
+
+
 If the server is fully booted and operational, its status will change to **running**.
 If it failed to boot for some reason, the **error_type**, **error_point** and **error_message** fields will
 explain why that happened. In this particular case, we had a successful start, so the audit log looks like this:
+
     .. literalinclude:: dumps/response_start_server_audit_log_complete
         :language: javascript
+
+
 The pattern is the same when stopping a server:
     * an audit log with action **stop_send** is saved, representing the status of the request to stop a server.
     * If that succeeded i.e. the request to stop a server is successfully send, you can expect a log with action
       **stop**, representing the status of the stop operation i.e. the server actually stopped.
+
+
 .. note::
     If you stop a server from inside, only a log entry with **stop** action will be added.
     This way, you can figure out if the server got stopped from the API or not:
+
         * If there are 2 logs **stop_send** and **stop**, it is stopped via an API request
-        * If only **stop** is present ( no **stop_send** ), it means that the server is stopped by other means
-          (stopped from inside, crashed, etc).
+        * If only **stop** is present ( no **stop_send** ), it means that the server is stopped by other
+          means (stopped from inside, crashed, etc).
+
+
+Schema
+------
+
+.. http:get:: /logs/schema/
+
+    .. literalinclude:: dumps/request_audit_log_schema
+        :language: javascript
+
+    .. literalinclude:: dumps/response_audit_log_schema
+        :language: javascript

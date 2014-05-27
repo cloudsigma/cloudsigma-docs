@@ -1,4 +1,4 @@
-POST /api/2.0/servers/7464e297-12f5-438f-b77b-b9277cc8ca12/action/?do=close_vnc HTTP/1.1
+POST /api/2.0/servers/90af5448-a364-4610-a162-dbd6a8804fa5/action/?do=close_vnc HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

@@ -1,4 +1,4 @@
-POST /api/2.0/servers/6cae5f46-bf10-4523-8c0d-69e4fbbae5b1/action/?do=start HTTP/1.1
+POST /api/2.0/servers/bc72c76e-3c1f-44c2-b7e0-d671b1490b1b/action/?do=start HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

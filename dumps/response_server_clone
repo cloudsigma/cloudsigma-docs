@@ -8,12 +8,13 @@ Content-Type: application/json; charset=utf-8
     "cpus_instead_of_cores": false,
     "drives": [],
     "enable_numa": false,
+    "grantees": [],
     "hv_relaxed": false,
     "hv_tsc": false,
     "jobs": [
         {
-            "resource_uri": "/api/2.0/jobs/f1a4fb2f-8825-43b7-9fdf-39d228fce4db/",
-            "uuid": "f1a4fb2f-8825-43b7-9fdf-39d228fce4db"
+            "resource_uri": "/api/2.0/jobs/9d5643ea-a756-418f-8186-ab95329d623c/",
+            "uuid": "9d5643ea-a756-418f-8186-ab95329d623c"
         }
     ],
     "mem": 536870912,
@@ -24,12 +25,13 @@ Content-Type: application/json; charset=utf-8
         "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
         "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
     },
+    "permissions": [],
     "requirements": [],
-    "resource_uri": "/api/2.0/servers/65127d1a-4766-4677-90da-418246cedc6f/",
+    "resource_uri": "/api/2.0/servers/e1a5f0b7-55a9-4e73-8ecc-eb5aaf489fee/",
     "runtime": null,
     "smp": 1,
     "status": "stopped",
     "tags": [],
-    "uuid": "65127d1a-4766-4677-90da-418246cedc6f",
-    "vnc_password": "GjZ7bn2S"
+    "uuid": "e1a5f0b7-55a9-4e73-8ecc-eb5aaf489fee",
+    "vnc_password": "IMMGqasc"
 }

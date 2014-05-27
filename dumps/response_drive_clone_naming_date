@@ -6,22 +6,24 @@ Content-Type: application/json; charset=utf-8
         {
             "affinities": [],
             "allow_multimount": false,
+            "grantees": [],
             "jobs": [
                 {
-                    "resource_uri": "/api/2.0/jobs/58951f1a-216e-4973-b580-ae2a49979344/",
-                    "uuid": "58951f1a-216e-4973-b580-ae2a49979344"
+                    "resource_uri": "/api/2.0/jobs/56ce06ee-dade-4ad6-950a-2778481e6b5a/",
+                    "uuid": "56ce06ee-dade-4ad6-950a-2778481e6b5a"
                 }
             ],
             "licenses": [],
             "media": "cdrom",
             "meta": {},
             "mounted_on": [],
-            "name": "test_drive_x-2014-01-30",
+            "name": "test_drive_x-2014-05-26",
             "owner": {
                 "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
-            "resource_uri": "/api/2.0/drives/9a1e6106-7b81-444d-9bf9-ff9e868f4400/",
+            "permissions": [],
+            "resource_uri": "/api/2.0/drives/50599289-82bf-41ef-9dd6-8b5cd8d35de8/",
             "runtime": {
                 "is_snapshotable": null,
                 "snapshots_allocated_size": 0,
@@ -32,7 +34,7 @@ Content-Type: application/json; charset=utf-8
             "status": "cloning_dst",
             "storage_type": "dssd",
             "tags": [],
-            "uuid": "9a1e6106-7b81-444d-9bf9-ff9e868f4400"
+            "uuid": "50599289-82bf-41ef-9dd6-8b5cd8d35de8"
         }
     ]
 }

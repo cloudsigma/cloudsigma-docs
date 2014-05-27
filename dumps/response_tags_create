@@ -10,9 +10,9 @@ Content-Type: application/json; charset=utf-8
                 "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
-            "resource_uri": "/api/2.0/tags/6f0328c0-92a1-4a77-ba64-7e8951d495fa/",
+            "resource_uri": "/api/2.0/tags/79d622d7-83a9-4601-b729-d31914e3d618/",
             "resources": [],
-            "uuid": "6f0328c0-92a1-4a77-ba64-7e8951d495fa"
+            "uuid": "79d622d7-83a9-4601-b729-d31914e3d618"
         }
     ]
 }

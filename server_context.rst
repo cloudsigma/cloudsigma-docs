@@ -1,18 +1,32 @@
 Server Context
-===============
+==============
 
 Server context is a way for the VM to get information on the way it was set-up, i.e. get it's definition. Server
 context is communicated over a virtual serial port device, which on UNIX-like operating system would usually appear as
 ``/dev/ttyS1`` and on Windows as ``COM2``. The serial port device for server context is the second serial device
 attached to the VM, because some UNIX operating systems configure a serial console on the first serial port.
 
-Having the server definition accessible by the VM can ve useful in various ways. For example it is possible to easily
+Having the server definition accessible by the VM can be useful in various ways. For example it is possible to easily
 determine from within the VM, which network interfaces are connected to public and which to private network. Another
 use is to pass some data to initial VM setup scripts, like setting the hostname to the VM name or passing ssh public
-keys through server meta.
+keys through server metadata.
+
+At first sight, it might be confusing with the presence of both 'server context' and 'server metadata'.
+'server metadata' is really a subset of 'server context'. The 'server metadata' itself is a key-value store for
+user-defined data on a server definition. The 'server context' on the other hand is one step above. It includes the
+full server definition, as well as the server metadata, along with attached drives definitions.
+
+Context schema
+--------------
+
+The server context has almost the same schema as the */server/<uuid>/detail/* API request schema. It differs in that it
+lacks owner, subscriptions, status, and runtime information. The other difference is that the drives attributes are
+expanded to the corresponding */drive/<uuid>/detail/* which also lacks owner and runtime information. There is also
+a ``global_context`` attribute, which contains context available on all servers (see :ref:`drive edit <drive-edit>`).
+
 
 Setting up the virtual serial port
------------------------------------
+----------------------------------
 
 The virtual serial port device in not connected to a hardware device on the other side, so setting serial port hardware
 settings, such as baud rate and parity bits, does not affect the actual communication. However on Unix-like operating
@@ -46,10 +60,10 @@ If the default EOF character is different on your terminal it may be necessary t
 
 
 Server Context Protocol
-------------------------
+-----------------------
 
 Requesting the complete server context
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 There is a simple protocol to retrieve the server context from the serial device. To request the whole server context
 one needs to send two newlines enclosed between inequality signs (aka pointy brackets, angle brackets). The newline
@@ -92,7 +106,7 @@ Result:
 
 
 Requesting a partial server context or a single value
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To request a part of the definition json one can provide a path in the request. The path contains strings or integers
 separated by a forward slash (/). To request only the part of the json which is the NICs definitoins one can request
@@ -130,17 +144,8 @@ Result:
 .. literalinclude:: dumps/response_context_single_value
 
 
-Context schema
----------------
-
-The server context has almost the same schema as the */server/<uuid>/detail/* API request schema. It differs in that it
-lacks owner, subscriptions, status, and runtime information. The other difference is that the drives attributes are
-expanded to the corresponding */drive/<uuid>/detail/* which also lacks owner and runtime information. There is also
-a ``global_context`` attribute, which contains context available on all servers (see :ref:`drive edit <drive-edit>`).
-
-
 Passing information to the VM
-------------------------------
+-----------------------------
 
 The most suitable place to store information for passing to the VM through the context interface is the server
 ``meta`` field, or drive ``meta``. Check :doc:`meta` for more information on editing the ``meta`` field.
@@ -161,9 +166,9 @@ Result:
 
 .. literalinclude:: dumps/response_context_single_value_ssh_key
 
-Note that there isn't anything special about the ``ssh_public_key`` attribute of the meta. It can be stored under any
-other key in the server meta, as long as client software is aware where to look for it. It is also possible to store
-the key in one of the attached drives' meta.
+Note that there isn't anything special about the ``ssh_public_key`` attribute of the metadata. It can be stored under
+any other key in the server metadata, as long as client software is aware where to look for it. It is also possible to
+store the key in one of the attached drives' meta.
 
 .. _global-context:
 
@@ -178,7 +183,7 @@ Global context is centrally managed at the */global_context/* API url. Within th
 ``global_context`` attribute of the server server definition.
 
 Get or update global context
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. http:get:: /global_context/
 .. http:post:: /global_context/

@@ -10,23 +10,12 @@ Content-Type: application/json; charset=utf-8
     "objects": [
         {
             "meta": {},
-            "name": "MyGroupOfThings",
-            "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
-            },
-            "resource_uri": "/api/2.0/tags/6f0328c0-92a1-4a77-ba64-7e8951d495fa/",
-            "resources": [],
-            "uuid": "6f0328c0-92a1-4a77-ba64-7e8951d495fa"
-        },
-        {
-            "meta": {},
             "name": "TagCreatedWithResource",
             "owner": {
                 "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
-            "resource_uri": "/api/2.0/tags/21014c24-8470-4065-931c-169276fbb9e1/",
+            "resource_uri": "/api/2.0/tags/6744d128-4a03-42c0-ba6f-7990e8600c7e/",
             "resources": [
                 {
                     "owner": {
@@ -43,17 +32,8 @@ Content-Type: application/json; charset=utf-8
                         "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
                     },
                     "res_type": "servers",
-                    "resource_uri": "/api/2.0/servers/4e7702c4-882e-427b-aaba-cb5accd98b6e/",
-                    "uuid": "4e7702c4-882e-427b-aaba-cb5accd98b6e"
-                },
-                {
-                    "owner": {
-                        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
-                    },
-                    "res_type": "drives",
-                    "resource_uri": "/api/2.0/drives/590cab8f-aeca-4dd6-8ea8-12aee1e8cac1/",
-                    "uuid": "590cab8f-aeca-4dd6-8ea8-12aee1e8cac1"
+                    "resource_uri": "/api/2.0/servers/811c2d03-b22d-4b8e-81b0-85fd9bf32f22/",
+                    "uuid": "811c2d03-b22d-4b8e-81b0-85fd9bf32f22"
                 },
                 {
                     "owner": {
@@ -70,11 +50,31 @@ Content-Type: application/json; charset=utf-8
                         "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
                     },
                     "res_type": "servers",
-                    "resource_uri": "/api/2.0/servers/c3c49c01-47e0-45cb-b89e-106427e49706/",
-                    "uuid": "c3c49c01-47e0-45cb-b89e-106427e49706"
+                    "resource_uri": "/api/2.0/servers/a787fb26-4cae-4b65-bdf4-a4e5487b1a29/",
+                    "uuid": "a787fb26-4cae-4b65-bdf4-a4e5487b1a29"
+                },
+                {
+                    "owner": {
+                        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                    },
+                    "res_type": "drives",
+                    "resource_uri": "/api/2.0/drives/b614dd3f-5f66-48e8-9997-201179a836bf/",
+                    "uuid": "b614dd3f-5f66-48e8-9997-201179a836bf"
                 }
             ],
-            "uuid": "21014c24-8470-4065-931c-169276fbb9e1"
+            "uuid": "6744d128-4a03-42c0-ba6f-7990e8600c7e"
+        },
+        {
+            "meta": {},
+            "name": "MyGroupOfThings",
+            "owner": {
+                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
+                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+            },
+            "resource_uri": "/api/2.0/tags/79d622d7-83a9-4601-b729-d31914e3d618/",
+            "resources": [],
+            "uuid": "79d622d7-83a9-4601-b729-d31914e3d618"
         }
     ]
 }

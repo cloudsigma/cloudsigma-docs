@@ -1,4 +1,4 @@
-DELETE /api/2.0/snapshots/7446f729-ff95-47c4-a3e3-f6f30bce9437/ HTTP/1.1
+DELETE /api/2.0/snapshots/e7e694bd-ba74-4cd3-8985-c3eb6d926b69/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

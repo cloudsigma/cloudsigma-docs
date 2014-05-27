@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "filtering": {
         "name": 0,
         "name__contains": 0,
-        "tag": "<function get_tag_filter_args at 0x5dd61b8>",
+        "tag": "<function get_tag_filter_args at 0x51f1ed8>",
         "uuid": 0
     }
 }

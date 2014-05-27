@@ -4,14 +4,16 @@ Content-Type: application/json; charset=utf-8
 {
     "affinities": [],
     "allow_multimount": false,
+    "grantees": [],
     "jobs": [],
     "licenses": [],
     "media": "cdrom",
     "meta": {},
     "mounted_on": [],
-    "name": "Debian 7.1.0 Netinstall",
+    "name": "CentOS 6.5 Server",
     "owner": null,
-    "resource_uri": "/api/2.0/drives/22bd1b24-ea78-47bb-a59b-a09ed5407867/",
+    "permissions": [],
+    "resource_uri": "/api/2.0/drives/1a9979a8-f30d-496d-8422-f2da32b479d4/",
     "runtime": {
         "is_snapshotable": true,
         "snapshots_allocated_size": 0,
@@ -22,5 +24,5 @@ Content-Type: application/json; charset=utf-8
     "status": "unmounted",
     "storage_type": "dssd",
     "tags": [],
-    "uuid": "22bd1b24-ea78-47bb-a59b-a09ed5407867"
+    "uuid": "1a9979a8-f30d-496d-8422-f2da32b479d4"
 }

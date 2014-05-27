@@ -11,49 +11,13 @@ Content-Type: application/json; charset=utf-8
         {
             "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
             "medium": "email",
-            "type": "payment_cancelled",
+            "type": "trial_expire_soon",
             "value": false
         },
         {
             "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
             "medium": "email",
-            "type": "new_account",
-            "value": true
-        },
-        {
-            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
-            "medium": "email",
-            "type": "subscription_expire",
-            "value": true
-        },
-        {
-            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
-            "medium": "email",
-            "type": "subscription_renewal_success",
-            "value": true
-        },
-        {
-            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
-            "medium": "email",
-            "type": "random_upgrade",
-            "value": true
-        },
-        {
-            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
-            "medium": "email",
-            "type": "subscription_expire_very_soon",
-            "value": true
-        },
-        {
-            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
-            "medium": "email",
-            "type": "payment",
-            "value": false
-        },
-        {
-            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
-            "medium": "email",
-            "type": "stop_servers",
+            "type": "payment_withheld",
             "value": false
         },
         {
@@ -65,31 +29,61 @@ Content-Type: application/json; charset=utf-8
         {
             "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
             "medium": "email",
-            "type": "out_of_money_soon",
+            "type": "subscription_expire",
             "value": false
         },
         {
             "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
             "medium": "email",
-            "type": "payment_approved",
-            "value": true
-        },
-        {
-            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
-            "medium": "email",
-            "type": "trial_expire_soon",
+            "type": "payment",
             "value": true
         },
         {
             "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
             "medium": "email",
             "type": "out_of_money_very_soon",
+            "value": true
+        },
+        {
+            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
+            "medium": "email",
+            "type": "subscription_renewal_success",
             "value": false
         },
         {
             "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
             "medium": "email",
-            "type": "payment_withheld",
+            "type": "subscription_renewal_very_soon",
+            "value": true
+        },
+        {
+            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
+            "medium": "email",
+            "type": "drives_delete",
+            "value": true
+        },
+        {
+            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
+            "medium": "email",
+            "type": "out_of_money_soon",
+            "value": false
+        },
+        {
+            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
+            "medium": "email",
+            "type": "stop_servers",
+            "value": false
+        },
+        {
+            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
+            "medium": "email",
+            "type": "payment_approved",
+            "value": false
+        },
+        {
+            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
+            "medium": "email",
+            "type": "random_upgrade",
             "value": true
         },
         {
@@ -101,25 +95,7 @@ Content-Type: application/json; charset=utf-8
         {
             "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
             "medium": "email",
-            "type": "subscription_renewal_very_soon",
-            "value": false
-        },
-        {
-            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
-            "medium": "email",
-            "type": "subscription_renewal_soon",
-            "value": false
-        },
-        {
-            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
-            "medium": "email",
-            "type": "trial_expire",
-            "value": true
-        },
-        {
-            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
-            "medium": "email",
-            "type": "payment_failed",
+            "type": "subscription_expire_very_soon",
             "value": true
         },
         {
@@ -131,13 +107,37 @@ Content-Type: application/json; charset=utf-8
         {
             "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
             "medium": "email",
+            "type": "payment_failed",
+            "value": false
+        },
+        {
+            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
+            "medium": "email",
+            "type": "new_account",
+            "value": true
+        },
+        {
+            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
+            "medium": "email",
+            "type": "trial_expire",
+            "value": true
+        },
+        {
+            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
+            "medium": "email",
+            "type": "subscription_renewal_soon",
+            "value": false
+        },
+        {
+            "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
+            "medium": "email",
             "type": "subscription_expire_soon",
             "value": true
         },
         {
             "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
             "medium": "email",
-            "type": "drives_delete",
+            "type": "payment_cancelled",
             "value": false
         }
     ]

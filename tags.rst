@@ -44,28 +44,6 @@ Gets the list of tags to which the authenticated user has access.
     :language: javascript
 
 
-Detailed listing
-----------------
-
-.. http:get:: /tags/detail/
-
-Gets the detailed list of tags with additional information to which the authenticated user has access,
-like the tagged resource
-
-:statuscode 200: no error
-
-**Example request**:
-
-.. literalinclude:: dumps/request_tags_list_detail
-    :language: javascript
-
-
-**Example response**:
-
-
-.. literalinclude:: dumps/response_tags_list_detail
-    :language: javascript
-
 List single tag
 -----------------
 

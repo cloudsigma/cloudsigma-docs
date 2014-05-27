@@ -5,44 +5,36 @@ Content-Type: application/json; charset=utf-8
     "meta": {
         "limit": 0,
         "offset": 0,
-        "total_count": 9
+        "total_count": 7
     },
     "objects": [
         {
-            "status": "unmounted",
-            "uuid": "2ef7b7c7-7ec4-47a7-9b69-087c9417c0ff"
+            "status": "mounted",
+            "uuid": "8f218274-b39f-4002-ba6d-13180b258711"
         },
         {
             "status": "unmounted",
-            "uuid": "3b30c7ef-1fda-416d-91d1-ba616859360c"
+            "uuid": "5c3b560d-276e-4706-a372-557860ca9503"
         },
         {
             "status": "unmounted",
-            "uuid": "464aed14-8604-4277-be3c-9d53151d53b4"
+            "uuid": "6e2e313a-40a9-43f9-b505-709a5f509349"
         },
         {
             "status": "unmounted",
-            "uuid": "47ec5074-6058-4b0f-9505-78c83bd5a88b"
+            "uuid": "5bf45d62-18f6-4724-9471-ce417768093c"
         },
         {
             "status": "unmounted",
-            "uuid": "7949e52e-c8ba-461b-a84f-3f247221c644"
+            "uuid": "ae23f793-c234-495c-8fc9-72222dd4f2ac"
         },
         {
             "status": "unmounted",
-            "uuid": "81b020b0-8ea0-4602-b778-e4df4539f0f7"
+            "uuid": "ba0a64f8-93cf-4f43-9021-e7b184a0eced"
         },
         {
             "status": "unmounted",
-            "uuid": "baf8fed4-757f-4d9e-a23a-3b3ff81e16c4"
-        },
-        {
-            "status": "unmounted",
-            "uuid": "cae6df75-00a1-490c-a96b-51777b3ec515"
-        },
-        {
-            "status": "unmounted",
-            "uuid": "e15dd971-3ef8-497c-9f92-90d5ca1722bd"
+            "uuid": "1ba4decb-fc6d-478e-b31e-3325c8ca8407"
         }
     ]
 }

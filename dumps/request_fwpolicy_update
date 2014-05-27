@@ -1,4 +1,4 @@
-PUT /api/2.0/fwpolicies/fe1f80c6-46be-4971-be78-102e8e4323e3/ HTTP/1.1
+PUT /api/2.0/fwpolicies/cacf13dd-f3ce-429e-8318-9debed83f87f/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 
@@ -9,7 +9,7 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
         "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
         "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
     },
-    "resource_uri": "/api/2.0/fwpolicies/fe1f80c6-46be-4971-be78-102e8e4323e3/",
+    "resource_uri": "/api/2.0/fwpolicies/cacf13dd-f3ce-429e-8318-9debed83f87f/",
     "rules": [
         {
             "action": "drop",
@@ -24,5 +24,5 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
     ],
     "servers": [],
     "tags": [],
-    "uuid": "fe1f80c6-46be-4971-be78-102e8e4323e3"
+    "uuid": "cacf13dd-f3ce-429e-8318-9debed83f87f"
 }

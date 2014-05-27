@@ -10,6 +10,7 @@ Content-Type: application/json; charset=utf-8
             "cpus_instead_of_cores": false,
             "drives": [],
             "enable_numa": false,
+            "grantees": [],
             "hv_relaxed": false,
             "hv_tsc": false,
             "jobs": [],
@@ -21,13 +22,14 @@ Content-Type: application/json; charset=utf-8
                 "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
+            "permissions": [],
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/b1defe23-e725-474d-acba-e46baa232611/",
+            "resource_uri": "/api/2.0/servers/73381876-d181-4f20-b847-bebf96213828/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "b1defe23-e725-474d-acba-e46baa232611",
+            "uuid": "73381876-d181-4f20-b847-bebf96213828",
             "vnc_password": "testserver"
         },
         {
@@ -37,6 +39,7 @@ Content-Type: application/json; charset=utf-8
             "cpus_instead_of_cores": false,
             "drives": [],
             "enable_numa": false,
+            "grantees": [],
             "hv_relaxed": false,
             "hv_tsc": false,
             "jobs": [],
@@ -48,13 +51,14 @@ Content-Type: application/json; charset=utf-8
                 "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
+            "permissions": [],
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/93a04cd5-84cb-41fc-af17-683e3868ee95/",
+            "resource_uri": "/api/2.0/servers/5ab3216c-6502-4b21-ab71-1bf05d2a62cb/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "93a04cd5-84cb-41fc-af17-683e3868ee95",
+            "uuid": "5ab3216c-6502-4b21-ab71-1bf05d2a62cb",
             "vnc_password": "testserver"
         },
         {
@@ -64,6 +68,7 @@ Content-Type: application/json; charset=utf-8
             "cpus_instead_of_cores": false,
             "drives": [],
             "enable_numa": false,
+            "grantees": [],
             "hv_relaxed": false,
             "hv_tsc": false,
             "jobs": [],
@@ -75,13 +80,14 @@ Content-Type: application/json; charset=utf-8
                 "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
+            "permissions": [],
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/3be1ebc6-1d03-4c4b-88ff-02557b940d19/",
+            "resource_uri": "/api/2.0/servers/7276d6ef-39f2-42b2-bb18-f7d059a47c5f/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "3be1ebc6-1d03-4c4b-88ff-02557b940d19",
+            "uuid": "7276d6ef-39f2-42b2-bb18-f7d059a47c5f",
             "vnc_password": "testserver"
         },
         {
@@ -91,6 +97,7 @@ Content-Type: application/json; charset=utf-8
             "cpus_instead_of_cores": false,
             "drives": [],
             "enable_numa": false,
+            "grantees": [],
             "hv_relaxed": false,
             "hv_tsc": false,
             "jobs": [],
@@ -102,13 +109,14 @@ Content-Type: application/json; charset=utf-8
                 "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
+            "permissions": [],
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/cff0f338-2b84-4846-a028-3ec9e1b86184/",
+            "resource_uri": "/api/2.0/servers/0a2b6946-827e-4cc6-86b4-22e4787bf4ca/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "cff0f338-2b84-4846-a028-3ec9e1b86184",
+            "uuid": "0a2b6946-827e-4cc6-86b4-22e4787bf4ca",
             "vnc_password": "testserver"
         },
         {
@@ -118,6 +126,7 @@ Content-Type: application/json; charset=utf-8
             "cpus_instead_of_cores": false,
             "drives": [],
             "enable_numa": false,
+            "grantees": [],
             "hv_relaxed": false,
             "hv_tsc": false,
             "jobs": [],
@@ -129,13 +138,14 @@ Content-Type: application/json; charset=utf-8
                 "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
+            "permissions": [],
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/43b1110a-31c5-41cc-a3e7-0b806076a913/",
+            "resource_uri": "/api/2.0/servers/4e569fe8-bf0d-4f8d-b285-a7a3b2ca6a09/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "43b1110a-31c5-41cc-a3e7-0b806076a913",
+            "uuid": "4e569fe8-bf0d-4f8d-b285-a7a3b2ca6a09",
             "vnc_password": "testserver"
         }
     ]

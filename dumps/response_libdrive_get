@@ -8,24 +8,24 @@ Content-Type: application/json; charset=utf-8
     "category": [
         "general"
     ],
-    "description": "Debian 7.1.0 Netinstall AMD64.",
+    "description": "CentOS 6.5 Server - 64bit install CD",
     "favourite": false,
     "image_type": "install",
-    "install_notes": "1. Attach the CD. \\n\r\nPlease be aware that the CD needs to be attached to the server as IDE. \\n\r\n \\n\r\n2. Attach a Drive. \\n\r\nPlease be aware that the minimum drive size where you are going to install the OS should be 5 GB. \\n\r\n \\n\r\n3. Connecting to your server via VNC. \\n\r\na) Go to the \u201cProperties\u201d tab of the server and Turn on the VNC Tunnel by clicking the button right next to it \\n\r\nb) In order to use the inbuilt client click on the icon right next to the VNC link and choose \u201cOpen in Dialog Window\u201d or \u201cOpen in new browser window/tab\u201d \\n\r\nOR \\n\r\nc) Having installed a compatible VNC client, open a VNC connection to your server through the UI.  \\n\r\nd) Enter your VNC url and VNC password as displayed on your Server Properties Window.  \\n\r\n \\n\r\n4. Minimum Hardware Requirements. \\n\r\nThe recommended minimum hardware requirements as published by debian.org are: 1GB RAM and 1GHz CPU",
+    "install_notes": "1. Attach the CD. \\n Please be aware that the CD needs to be attached to the server as IDE. \\n \\n 2. Attach a Drive. \\n Please be aware that the minimum drive size where you are going to install the OS should be 5GB. \\n \\n 3. Connecting to your server via VNC. \\n a) Go to the \u201cProperties\u201d tab of the server and Turn on the VNC Tunnel by clicking the button right next to it \\n b) In order to use the inbuilt client click on the icon right next to the VNC link and choose \u201cOpen in Dialog Window\u201d or \u201cOpen in new browser window/tab\u201d \\n OR \\n c) Having installed a compatible VNC client, open a VNC connection to your server through the UI. \\n d) Enter your VNC url and VNC password as displayed on your Server Properties Window. \\n \\n 4. Minimum Hardware Requirements. \\n The recommended minimum hardware requirements as published by Centos.org: 0.5GB RAM and 0.5Ghz CPU \\n \\n",
     "jobs": [],
     "licenses": [],
     "media": "cdrom",
     "meta": {},
     "mounted_on": [],
-    "name": "Debian 7.1.0 Netinstall",
-    "os": "linux",
+    "name": "CentOS 6.5 Server",
+    "os": "GNU/Linux",
     "owner": null,
     "paid": false,
-    "resource_uri": "/api/2.0/libdrives/22bd1b24-ea78-47bb-a59b-a09ed5407867/",
+    "resource_uri": "/api/2.0/libdrives/1a9979a8-f30d-496d-8422-f2da32b479d4/",
     "size": 536870912,
     "status": "mounted",
     "storage_type": null,
     "tags": [],
-    "url": "http://debian.org/",
-    "uuid": "22bd1b24-ea78-47bb-a59b-a09ed5407867"
+    "url": "http://www.centos.org/",
+    "uuid": "1a9979a8-f30d-496d-8422-f2da32b479d4"
 }

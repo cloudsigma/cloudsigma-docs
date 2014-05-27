@@ -33,6 +33,13 @@ Content-Type: application/json; charset=utf-8
             "required": false,
             "type": "boolean"
         },
+        "grantees": {
+            "default": "No default provided.",
+            "help_text": "A list of data. Ex: ['abc', 26.73, 8]",
+            "readonly": false,
+            "required": false,
+            "type": "list"
+        },
         "jobs": {
             "default": "No default provided.",
             "help_text": "Background jobs related to this resource",
@@ -108,6 +115,13 @@ Content-Type: application/json; charset=utf-8
             "readonly": true,
             "required": false,
             "type": "related"
+        },
+        "permissions": {
+            "default": "No default provided.",
+            "help_text": "A list of data. Ex: ['abc', 26.73, 8]",
+            "readonly": false,
+            "required": false,
+            "type": "list"
         },
         "resource_uri": {
             "default": "No default provided.",
@@ -192,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "filtering": {
         "name": 0,
         "name__contains": 0,
-        "tag": "<function get_tag_filter_args at 0x5dd61b8>",
+        "tag": "<function get_tag_filter_args at 0x51f0f50>",
         "uuid": 0
     }
 }

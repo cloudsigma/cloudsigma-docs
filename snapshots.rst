@@ -133,8 +133,8 @@ Editing
     .. literalinclude:: dumps/response_snapshot_edit
         :language: javascript
 
-Meta
------
+Metadata
+--------
 
 It is possible to add arbitrary key-value data to a snapshot definition. See :doc:`meta` for more information.
 

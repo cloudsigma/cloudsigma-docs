@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
         },
         "start_time": {
             "blank": false,
-            "default": "2014-01-30T15:36:24.895426+00:00",
+            "default": "2014-05-26T16:16:51.572916+00:00",
             "help_text": "Start time of subscription",
             "nullable": false,
             "readonly": false,

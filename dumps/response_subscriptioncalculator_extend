@@ -5,9 +5,9 @@ Content-Type: application/json; charset=utf-8
     "amount": "104857600",
     "discount_amount": "0",
     "discount_percent": "0",
-    "end_time": "2014-01-31T12:00:00+00:00",
-    "period": "20:23:36.745055",
+    "end_time": "2014-05-27T12:00:00+00:00",
+    "period": "19:43:09.263230",
     "price": "0.00488281250000000000",
     "resource": "tx",
-    "start_time": "2014-01-30T15:36:23.254945+00:00"
+    "start_time": "2014-05-26T16:16:50.736770+00:00"
 }

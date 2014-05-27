@@ -1,6 +1,20 @@
 Release Notes
 =============
 
+Sodium Release
+--------------
+
+**Date Released:** 2014-05-20
+
+* Documented the :doc:`Firewall Policies <fwpolicies>` delete request.
+
+* Detailed documentation for the special :doc:`Metadata <meta>` fields.
+
+* Better explanation for using :doc:`Server Context <server_context>`.
+
+* Documented server ACPI shutdown API request - :ref:`ACPI Shutdown <acpi_shutdown>`.
+
+
 Neon Release
 ------------
 

@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'CloudSigma API ver. 2.0'
+project = u'CloudSigma API'
 copyright = u'2012, CloudSigma'
 
 # The version info for the project you're documenting, acts as replacement for

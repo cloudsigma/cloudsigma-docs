@@ -20,8 +20,6 @@ Allowed HTTP methods
 
     See :rfc:`2616#section-9` for more details on HTTP methods semantics
 
-.. _server_schema:
-
 Listing
 -------
 
@@ -130,8 +128,8 @@ Attach a drive
     .. literalinclude:: dumps/response_server_attach_drive
        :language: javascript
 
-Meta
------
+Metadata
+--------
 
 It is possible to add arbitrary key-value data to a server definition. See :doc:`meta` for more information.
 
@@ -291,7 +289,8 @@ Stop
 
 .. http:post:: /servers/{uuid}/action/?do=stop
 
-    Stops a server with specific UUID.
+    Stops a server with specific UUID. This action is equivalent to pulling the power cord of a physical server. For
+    more graceful shutdown see `ACPI Shutdown`_.
 
     :statuscode 202: Action accepted, execution is proceeding.
 
@@ -305,6 +304,31 @@ Stop
     .. literalinclude:: dumps/response_server_stop
         :language: javascript
 
+.. _acpi_shutdown:
+
+ACPI Shutdown
+~~~~~~~~~~~~~
+
+.. http:post:: /servers/{uuid}/action/?do=shutdown
+
+    Sends an ACPI shutdowns to a server with specific UUID for a minute. If the VM OS handles ACPI shutdown events
+    (equivalent to pressing the power button), it will shutdown gracefully. As some operating systems don't always
+    handle single ACPI event the shutdown is sent every second for a minute. While the shutdown is initiated, the
+    server is put into status ``stopping`` to prevent interfering actions. If after a minute the server has not
+    powered off during this minute the status is returned to ``running`` to allow the user to `Stop`_ it. If the
+    server shuts down successfully during the one minute period it will be switched to ``stopped`` status.
+
+    :statuscode 202: Action accepted, execution is proceeding.
+
+    **Example request**:
+
+    .. literalinclude:: dumps/request_server_acpi_shutdown
+        :language: javascript
+
+    **Example response**:
+
+    .. literalinclude:: dumps/response_server_acpi_shutdown
+        :language: javascript
 
 Start in a separate availability group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -460,6 +484,8 @@ Server State Diagram
 --------------------
 
 .. image:: images/ServerStates.png
+
+.. _server_schema:
 
 Schema
 ------

@@ -6,6 +6,7 @@ Content-Type: application/json; charset=utf-8
         {
             "affinities": [],
             "allow_multimount": false,
+            "grantees": [],
             "jobs": [],
             "licenses": [],
             "media": "disk",
@@ -16,7 +17,8 @@ Content-Type: application/json; charset=utf-8
                 "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
-            "resource_uri": "/api/2.0/drives/7b9d9eaa-e2b8-46d2-b974-6c144c584bd6/",
+            "permissions": [],
+            "resource_uri": "/api/2.0/drives/7732bc51-f52d-4063-96b5-1df6c6299254/",
             "runtime": {
                 "is_snapshotable": true,
                 "snapshots_allocated_size": 0,
@@ -27,7 +29,7 @@ Content-Type: application/json; charset=utf-8
             "status": "resizing",
             "storage_type": "dssd",
             "tags": [],
-            "uuid": "7b9d9eaa-e2b8-46d2-b974-6c144c584bd6"
+            "uuid": "7732bc51-f52d-4063-96b5-1df6c6299254"
         }
     ]
 }

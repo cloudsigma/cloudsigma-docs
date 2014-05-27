@@ -4,19 +4,21 @@ Content-Type: application/json; charset=utf-8
 {
     "affinities": [],
     "allow_multimount": false,
+    "grantees": [],
     "jobs": [],
     "licenses": [],
     "media": "disk",
     "meta": {},
     "mounted_on": [],
-    "name": "1c16bdd9-8965-45e0-8625-a4738cbb3332__2014-01-30__15_34_48",
+    "name": "6919c8cc-0d8c-4d2a-bee4-e9197bcd0ace__2014-05-26__16_13_31",
     "owner": {
         "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
         "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
     },
+    "permissions": [],
     "resource_uri": {
-        "resource_uri": "/api/2.0/drives/bb300e8d-cd6c-4941-99d9-a600bd8cabb4/",
-        "uuid": "bb300e8d-cd6c-4941-99d9-a600bd8cabb4"
+        "resource_uri": "/api/2.0/drives/c32d8e1e-92f7-4d39-8330-147f0e929471/",
+        "uuid": "c32d8e1e-92f7-4d39-8330-147f0e929471"
     },
     "runtime": {
         "is_snapshotable": null,
@@ -28,5 +30,5 @@ Content-Type: application/json; charset=utf-8
     "status": "cloning_dst",
     "storage_type": null,
     "tags": [],
-    "uuid": "bb300e8d-cd6c-4941-99d9-a600bd8cabb4"
+    "uuid": "c32d8e1e-92f7-4d39-8330-147f0e929471"
 }

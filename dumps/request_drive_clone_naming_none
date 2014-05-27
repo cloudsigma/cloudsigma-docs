@@ -1,8 +1,9 @@
-POST /api/2.0/drives/28802d77-3c90-4f30-9e78-b6d3d756c3eb/action/?do=clone HTTP/1.1
+POST /api/2.0/drives/46444eaa-4297-4b10-a99d-0bafb7cffd31/action/?do=clone HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 
 {
     "affinities": [],
-    "media": "cdrom"
+    "media": "cdrom",
+    "storage_type": "dssd"
 }

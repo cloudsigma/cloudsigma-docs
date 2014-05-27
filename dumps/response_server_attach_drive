@@ -12,13 +12,14 @@ Content-Type: application/json; charset=utf-8
             "dev_channel": "0:0",
             "device": "virtio",
             "drive": {
-                "resource_uri": "/api/2.0/drives/de04bbbb-9f31-4fd9-a459-9ecbeaad36c6/",
-                "uuid": "de04bbbb-9f31-4fd9-a459-9ecbeaad36c6"
+                "resource_uri": "/api/2.0/drives/dc3b358d-65b2-4cd4-b0a6-0081b0013549/",
+                "uuid": "dc3b358d-65b2-4cd4-b0a6-0081b0013549"
             },
             "runtime": null
         }
     ],
     "enable_numa": false,
+    "grantees": [],
     "hv_relaxed": false,
     "hv_tsc": false,
     "jobs": [],
@@ -33,12 +34,13 @@ Content-Type: application/json; charset=utf-8
         "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
         "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
     },
+    "permissions": [],
     "requirements": [],
-    "resource_uri": "/api/2.0/servers/16ed5683-edd5-4b5a-b5be-9d43cdabba83/",
+    "resource_uri": "/api/2.0/servers/3a6cfa60-b44c-4433-942b-d7adaea6a44a/",
     "runtime": null,
     "smp": 1,
     "status": "stopped",
     "tags": [],
-    "uuid": "16ed5683-edd5-4b5a-b5be-9d43cdabba83",
+    "uuid": "3a6cfa60-b44c-4433-942b-d7adaea6a44a",
     "vnc_password": "updated_password"
 }

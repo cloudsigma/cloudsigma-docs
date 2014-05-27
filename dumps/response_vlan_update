@@ -2,6 +2,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
+    "grantees": [],
     "meta": {
         "custom_field": "some custom data",
         "name": "my vlan"
@@ -10,6 +11,7 @@ Content-Type: application/json; charset=utf-8
         "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
         "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
     },
+    "permissions": [],
     "resource_uri": "/api/2.0/vlans/a21a4e59-b133-487a-ad7b-16b41ac38e9b/",
     "servers": [],
     "subscription": {

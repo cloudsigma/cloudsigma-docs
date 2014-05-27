@@ -104,13 +104,13 @@ Currently only VLAN ``meta`` field can be edited.
 .. literalinclude:: dumps/response_vlan_update
     :language: javascript
 
-Meta
------
+Metadata
+--------
 
 It is possible to add arbitrary key-value data to a VLAN definition. See :doc:`meta` for more information.
 
 Deleting
---------------------
+--------
 
 Not applicable - The VLAN will disappear when the subscription for it expires.
 
@@ -121,7 +121,7 @@ A VLAN can be attached to multiple servers. See :doc:`network_interfaces` for mo
 configurations.
 
 IPs
-====
+===
 
 The IP object, contains the actual IP in it's ``uuid`` attribute.
 
@@ -143,7 +143,7 @@ Allowed HTTP methods
 +========+==================================================+
 | GET    | get / list IPs                                   |
 +--------+--------------------------------------------------+
-| PUT    | edit IP meta                                     |
+| PUT    | edit IP metadata                                 |
 +--------+--------------------------------------------------+
 
 .. note::
@@ -173,7 +173,7 @@ Gets the list of IPSs to which the authenticated user has access.
 
 
 Detailed listing
---------------------
+----------------
 
 .. http:get:: /ips/detail/
 
@@ -192,7 +192,7 @@ Detailed listing
 
 
 Get single IP
---------------------
+-------------
 
 .. http:get:: /ips/(uuid:ip_uuid)/
 
@@ -211,12 +211,12 @@ Get single IP
 
 
 Creating
---------------------
+--------
 
 New IPs are created by buying a subscription. See :doc:`subscriptions`.
 
 Editing
---------------------
+-------
 
 Currently only IP ``meta`` field can be edited.
 
@@ -236,13 +236,13 @@ Currently only IP ``meta`` field can be edited.
 .. literalinclude:: dumps/response_ip_update
     :language: javascript
 
-Meta
------
+Metadata
+--------
 
 It is possible to add arbitrary key-value data to an IP definition. See :doc:`meta` for more information.
 
 Deleting
---------------------
+--------
 Not applicable - The IP will disappear when the subscription for it expires.
 
 Attaching To servers
@@ -255,7 +255,7 @@ information on using IPs in NIC configurations.
 
 
 Schema
---------------------
+------
 
 .. literalinclude:: dumps/response_vlan_schema
     :language: javascript

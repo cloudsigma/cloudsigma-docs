@@ -11,7 +11,7 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
                     "boot_order": 1,
                     "dev_channel": "0:0",
                     "device": "virtio",
-                    "drive": "706580a7-cdbf-4b6e-9ef2-5decc94803d4"
+                    "drive": "632da386-31c6-4fac-8af1-7fa3ccc07640"
                 }
             ],
             "mem": 1073741824,
@@ -28,7 +28,7 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
                     "model": "virtio"
                 }
             ],
-            "vnc_password": "499f5bed6d804e87"
+            "vnc_password": "88a6c87da0f54daa"
         }
     ]
 }

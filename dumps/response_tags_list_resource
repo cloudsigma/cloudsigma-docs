@@ -15,12 +15,12 @@ Content-Type: application/json; charset=utf-8
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
             "resource_uri": {
-                "resource_uri": "/api/2.0/servers/c3c49c01-47e0-45cb-b89e-106427e49706/",
-                "uuid": "c3c49c01-47e0-45cb-b89e-106427e49706"
+                "resource_uri": "/api/2.0/servers/811c2d03-b22d-4b8e-81b0-85fd9bf32f22/",
+                "uuid": "811c2d03-b22d-4b8e-81b0-85fd9bf32f22"
             },
             "runtime": null,
             "status": "stopped",
-            "uuid": "c3c49c01-47e0-45cb-b89e-106427e49706"
+            "uuid": "811c2d03-b22d-4b8e-81b0-85fd9bf32f22"
         }
     ]
 }

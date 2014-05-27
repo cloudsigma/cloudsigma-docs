@@ -4,6 +4,6 @@ Content-Type: application/json; charset=utf-8
 {
     "action": "open_vnc",
     "result": "success",
-    "uuid": "7464e297-12f5-438f-b77b-b9277cc8ca12",
-    "vnc_url": "vnc://direct.wdc.cloudsigma.com:42436"
+    "uuid": "90af5448-a364-4610-a162-dbd6a8804fa5",
+    "vnc_url": "vnc://direct.wdc.cloudsigma.com:43162"
 }

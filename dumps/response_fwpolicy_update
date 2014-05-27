@@ -8,7 +8,7 @@ Content-Type: application/json; charset=utf-8
         "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
         "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
     },
-    "resource_uri": "/api/2.0/fwpolicies/fe1f80c6-46be-4971-be78-102e8e4323e3/",
+    "resource_uri": "/api/2.0/fwpolicies/cacf13dd-f3ce-429e-8318-9debed83f87f/",
     "rules": [
         {
             "action": "drop",
@@ -23,5 +23,5 @@ Content-Type: application/json; charset=utf-8
     ],
     "servers": [],
     "tags": [],
-    "uuid": "fe1f80c6-46be-4971-be78-102e8e4323e3"
+    "uuid": "cacf13dd-f3ce-429e-8318-9debed83f87f"
 }

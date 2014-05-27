@@ -6,19 +6,19 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
     {
         "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
         "medium": "email",
-        "type": "payment_cancelled",
-        "value": false
+        "type": "payment_withheld",
+        "value": true
     },
     {
         "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
         "medium": "email",
-        "type": "new_account",
+        "type": "subscription_renewal_failure",
         "value": false
     },
     {
         "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
         "medium": "email",
         "type": "subscription_expire",
-        "value": false
+        "value": true
     }
 ]

@@ -4,6 +4,7 @@ Content-Type: application/json; charset=utf-8
 {
     "affinities": [],
     "allow_multimount": false,
+    "grantees": [],
     "jobs": [],
     "licenses": [],
     "media": "disk",
@@ -14,7 +15,8 @@ Content-Type: application/json; charset=utf-8
         "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
         "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
     },
-    "resource_uri": "/api/2.0/drives/59590574-cf61-4153-898f-62e4a6977ac2/",
+    "permissions": [],
+    "resource_uri": "/api/2.0/drives/8c9c0c98-9dfb-4177-81fc-3031c2415983/",
     "runtime": {
         "is_snapshotable": true,
         "snapshots_allocated_size": 0,
@@ -23,16 +25,16 @@ Content-Type: application/json; charset=utf-8
     "size": 1073741824,
     "snapshots": [
         {
-            "resource_uri": "/api/2.0/snapshots/701a339b-f595-4d47-b194-1c9635c97c37/",
-            "uuid": "701a339b-f595-4d47-b194-1c9635c97c37"
+            "resource_uri": "/api/2.0/snapshots/23119d28-b87d-45b6-8f06-6638a560b00d/",
+            "uuid": "23119d28-b87d-45b6-8f06-6638a560b00d"
         },
         {
-            "resource_uri": "/api/2.0/snapshots/30c62dcd-efb8-452c-acb0-5216434a3528/",
-            "uuid": "30c62dcd-efb8-452c-acb0-5216434a3528"
+            "resource_uri": "/api/2.0/snapshots/3c05b696-15a3-4a52-adb2-15309c5dd3f5/",
+            "uuid": "3c05b696-15a3-4a52-adb2-15309c5dd3f5"
         }
     ],
     "status": "unmounted",
     "storage_type": "dssd",
     "tags": [],
-    "uuid": "59590574-cf61-4153-898f-62e4a6977ac2"
+    "uuid": "8c9c0c98-9dfb-4177-81fc-3031c2415983"
 }

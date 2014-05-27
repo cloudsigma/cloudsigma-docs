@@ -3,10 +3,10 @@ Content-Type: application/json; charset=utf-8
 
 {
     "current": {
-        "cpu": 9,
+        "cpu": 2,
         "dssd": 1,
         "ip": 1,
-        "mem": 5,
+        "mem": 2,
         "msft_7jq_00341": 1,
         "msft_7nq_00302": 1,
         "msft_p71_01031": 1,
@@ -14,20 +14,20 @@ Content-Type: application/json; charset=utf-8
         "msft_tfa_00523": 1,
         "sms": 1,
         "ssd": 1,
-        "tx": 1,
+        "tx": 20,
         "vlan": 1,
         "zadara": 1
     },
     "meta": {
         "limit": 5,
         "offset": 0,
-        "total_count": 388
+        "total_count": 392
     },
     "next": {
-        "cpu": 10,
+        "cpu": 2,
         "dssd": 1,
         "ip": 1,
-        "mem": 5,
+        "mem": 2,
         "msft_7jq_00341": 1,
         "msft_7nq_00302": 1,
         "msft_p71_01031": 1,
@@ -35,54 +35,54 @@ Content-Type: application/json; charset=utf-8
         "msft_tfa_00523": 1,
         "sms": 1,
         "ssd": 1,
-        "tx": 1,
+        "tx": 20,
         "vlan": 1,
         "zadara": 1
     },
     "objects": [
         {
             "currency": "CHF",
-            "id": "696",
+            "id": "700",
             "level": 0,
             "multiplier": 2592000,
-            "price": "1.60000000000000000000",
-            "resource": "msft_p73_04837_core",
+            "price": "350.00000000000000000000",
+            "resource": "msft_7jq_00341",
             "unit": "count/month"
         },
         {
             "currency": "USD",
-            "id": "697",
+            "id": "701",
             "level": 0,
             "multiplier": 2592000,
-            "price": "1.68080000000000000000",
-            "resource": "msft_p73_04837_core",
+            "price": "367.67500000000000000000",
+            "resource": "msft_7jq_00341",
             "unit": "count/month"
         },
         {
             "currency": "EUR",
-            "id": "698",
+            "id": "702",
             "level": 0,
             "multiplier": 2592000,
-            "price": "1.25840000000000000000",
-            "resource": "msft_p73_04837_core",
+            "price": "275.27500000000000000000",
+            "resource": "msft_7jq_00341",
             "unit": "count/month"
         },
         {
             "currency": "GBP",
-            "id": "699",
+            "id": "703",
             "level": 0,
             "multiplier": 2592000,
-            "price": "1.09664000000000000000",
-            "resource": "msft_p73_04837_core",
+            "price": "239.89000000000000000000",
+            "resource": "msft_7jq_00341",
             "unit": "count/month"
         },
         {
             "currency": "CHF",
-            "id": "700",
+            "id": "704",
             "level": 0,
             "multiplier": 2592000,
-            "price": "60.18000000000000000000",
-            "resource": "msft_7jq_00341",
+            "price": "90.00000000000000000000",
+            "resource": "msft_7nq_00302",
             "unit": "count/month"
         }
     ]

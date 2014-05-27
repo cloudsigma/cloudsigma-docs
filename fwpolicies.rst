@@ -115,6 +115,24 @@ Editing
         .. literalinclude:: dumps/response_fwpolicy_update
             :language: javascript
 
+Delete
+------
+.. http:delete:: /fwpolicies/{uuid}/
+
+    Delete a firewall policy
+
+    .. warning::
+        Only policies attached to servers in status **stopped** can be deleted.
+
+    :statuscode 204: no content, object is deleted
+
+    **Example request**:
+
+    .. includejson:: dumps/request_fwpolicy_delete
+
+    **Example response**:
+
+    .. includejson:: dumps/response_fwpolicy_delete
 
 Attach policy to a server
 -------------------------

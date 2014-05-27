@@ -3,17 +3,17 @@ Content-Type: application/json; charset=utf-8
 
 {
     "children": [],
-    "created": "2014-01-30T15:24:42.205092+00:00",
+    "created": "2014-05-26T15:53:05.704080+00:00",
     "data": {
         "progress": 100
     },
-    "last_modified": "2014-01-30T15:24:42.937432+00:00",
+    "last_modified": "2014-05-26T15:53:06.276299+00:00",
     "operation": "drive_clone",
-    "resource_uri": "/api/2.0/jobs/305867d6-5652-41d2-be5c-bbae1eed5676/",
+    "resource_uri": "/api/2.0/jobs/55e96edf-e1f6-4abf-8744-379b49177d76/",
     "resources": [
-        "/api/2.0/drives/df05497c-1504-4fea-af24-2825fc5133cf/",
-        "/api/2.0/drives/db7a095c-622d-4b98-88fd-25a7e34d402e/"
+        "/api/2.0/drives/33c07abc-c189-4e57-9e5d-0625dc5950f2/",
+        "/api/2.0/drives/91ff9479-3e89-471b-a8cc-fd546befcf82/"
     ],
     "state": "success",
-    "uuid": "305867d6-5652-41d2-be5c-bbae1eed5676"
+    "uuid": "55e96edf-e1f6-4abf-8744-379b49177d76"
 }

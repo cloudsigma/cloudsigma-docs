@@ -1,4 +1,4 @@
-GET /api/2.0/tags/6f0328c0-92a1-4a77-ba64-7e8951d495fa/servers/ HTTP/1.1
+GET /api/2.0/tags/79d622d7-83a9-4601-b729-d31914e3d618/servers/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

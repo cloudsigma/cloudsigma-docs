@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
     "meta": {
         "limit": 20,
         "offset": 0,
-        "total_count": 5
+        "total_count": 4
     },
     "objects": [
         {
@@ -25,16 +25,8 @@ Content-Type: application/json; charset=utf-8
             "user_metric": "smp"
         },
         {
-            "burstable": false,
-            "long_name": "Windows Server Datacenter",
-            "name": "msft_p71_01031",
-            "resource_uri": "/api/2.0/licenses/26/",
-            "type": "instance",
-            "user_metric": "smp"
-        },
-        {
-            "burstable": false,
-            "long_name": "Windows Server Standard",
+            "burstable": true,
+            "long_name": "Windows Server",
             "name": "msft_p73_04837_core",
             "resource_uri": "/api/2.0/licenses/22/",
             "type": "instance",

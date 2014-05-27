@@ -10,6 +10,7 @@ Content-Type: application/json; charset=utf-8
     "objects": [
         {
             "gateway": "162.213.37.1",
+            "grantees": [],
             "meta": {},
             "nameservers": [
                 "8.8.8.8",
@@ -20,11 +21,12 @@ Content-Type: application/json; charset=utf-8
                 "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
+            "permissions": [],
             "resource_uri": "/api/2.0/ips/162.213.37.151/",
             "server": null,
             "subscription": {
-                "id": 10,
-                "resource_uri": "/api/2.0/subscriptions/10/"
+                "id": 33918,
+                "resource_uri": "/api/2.0/subscriptions/33918/"
             },
             "tags": [],
             "uuid": "162.213.37.151"

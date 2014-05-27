@@ -74,6 +74,15 @@ Content-Type: application/json; charset=utf-8
             "type": "integer",
             "unique": false
         },
+        "poll_time": {
+            "blank": false,
+            "default": "2014-05-26T15:45:17.717391+00:00",
+            "help_text": "A date & time as a string. Ex: \"2010-11-10T03:07:43\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "datetime",
+            "unique": false
+        },
         "reason": {
             "blank": false,
             "default": "No default provided.",
@@ -94,7 +103,7 @@ Content-Type: application/json; charset=utf-8
         },
         "time": {
             "blank": false,
-            "default": "2014-01-30T15:23:31.935048+00:00",
+            "default": "2014-05-26T15:45:17.717377+00:00",
             "help_text": "A date & time as a string. Ex: \"2010-11-10T03:07:43\"",
             "nullable": false,
             "readonly": false,

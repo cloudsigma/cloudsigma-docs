@@ -10,6 +10,7 @@ Content-Type: application/json; charset=utf-8
             "cpus_instead_of_cores": false,
             "drives": [],
             "enable_numa": false,
+            "grantees": [],
             "hv_relaxed": false,
             "hv_tsc": false,
             "jobs": [],
@@ -21,13 +22,14 @@ Content-Type: application/json; charset=utf-8
                 "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
+            "permissions": [],
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/358fc613-0bf3-4b74-990e-05700fc40e2d/",
+            "resource_uri": "/api/2.0/servers/e7b8d955-2524-4c02-b6ab-3505a56153f5/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "358fc613-0bf3-4b74-990e-05700fc40e2d",
+            "uuid": "e7b8d955-2524-4c02-b6ab-3505a56153f5",
             "vnc_password": "testserver"
         }
     ]

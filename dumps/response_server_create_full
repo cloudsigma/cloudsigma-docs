@@ -14,8 +14,8 @@ Content-Type: application/json; charset=utf-8
                     "dev_channel": "0:0",
                     "device": "ide",
                     "drive": {
-                        "resource_uri": "/api/2.0/drives/f8f0569c-6882-4b87-a2a9-312d3c4fc84d/",
-                        "uuid": "f8f0569c-6882-4b87-a2a9-312d3c4fc84d"
+                        "resource_uri": "/api/2.0/drives/b99cc72b-07fe-477f-9351-c16251dc4ac8/",
+                        "uuid": "b99cc72b-07fe-477f-9351-c16251dc4ac8"
                     },
                     "runtime": null
                 },
@@ -24,13 +24,14 @@ Content-Type: application/json; charset=utf-8
                     "dev_channel": "0:0",
                     "device": "virtio",
                     "drive": {
-                        "resource_uri": "/api/2.0/drives/83c40d9b-57e2-4f8a-88fe-4a0f00d8b483/",
-                        "uuid": "83c40d9b-57e2-4f8a-88fe-4a0f00d8b483"
+                        "resource_uri": "/api/2.0/drives/a58053cb-9d0c-483b-91bf-0b3111538ca9/",
+                        "uuid": "a58053cb-9d0c-483b-91bf-0b3111538ca9"
                     },
                     "runtime": null
                 }
             ],
             "enable_numa": false,
+            "grantees": [],
             "hv_relaxed": false,
             "hv_tsc": false,
             "jobs": [],
@@ -48,7 +49,7 @@ Content-Type: application/json; charset=utf-8
                         "ip": null
                     },
                     "ip_v6_conf": null,
-                    "mac": "22:f2:b1:5c:17:42",
+                    "mac": "22:4a:8a:e4:a6:6c",
                     "model": "virtio",
                     "runtime": null,
                     "vlan": null
@@ -58,13 +59,14 @@ Content-Type: application/json; charset=utf-8
                 "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
                 "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
             },
+            "permissions": [],
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/8c7da857-964b-49e4-a199-fab59f083568/",
+            "resource_uri": "/api/2.0/servers/646ed36f-7f85-427b-a85b-cd34a052bf5d/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "8c7da857-964b-49e4-a199-fab59f083568",
+            "uuid": "646ed36f-7f85-427b-a85b-cd34a052bf5d",
             "vnc_password": "tester"
         }
     ]
