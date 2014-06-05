@@ -2,22 +2,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-    "allocated_size": 0,
+    "allocated_size": null,
     "drive": {
-        "resource_uri": "/api/2.0/drives/0407ad54-dadf-4b5e-a3bf-f9b05b1e6fbc/",
-        "uuid": "0407ad54-dadf-4b5e-a3bf-f9b05b1e6fbc"
+        "resource_uri": "/api/2.0/drives/bb2b8f77-04ee-42c1-b142-47bc31c2824e/",
+        "uuid": "bb2b8f77-04ee-42c1-b142-47bc31c2824e"
     },
     "grantees": [],
     "meta": {},
-    "name": "0407ad54-dadf-4b5e-a3bf-f9b05b1e6fbc__2014-05-26__16_16_05",
+    "name": "bb2b8f77-04ee-42c1-b142-47bc31c2824e__2014-06-05__09_53_31",
     "owner": {
-        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
     },
     "permissions": [],
-    "resource_uri": "/api/2.0/snapshots/77915423-10f5-41c3-9256-87c9413edf09/",
-    "status": "available",
+    "resource_uri": "/api/2.0/snapshots/62c600cf-7a25-4703-8003-b3c4445233af/",
+    "status": "creating",
     "tags": [],
-    "timestamp": "2014-05-26 16:16:06.625739+00:00",
-    "uuid": "77915423-10f5-41c3-9256-87c9413edf09"
+    "timestamp": "2014-06-05 09:53:31.377681+00:00",
+    "uuid": "62c600cf-7a25-4703-8003-b3c4445233af"
 }

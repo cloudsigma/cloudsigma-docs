@@ -6,23 +6,48 @@ Content-Type: application/json; charset=utf-8
     "allow_multimount": false,
     "grantees": [],
     "jobs": [],
-    "licenses": [],
-    "media": "cdrom",
+    "licenses": [
+        {
+            "amount": 1,
+            "license": {
+                "burstable": false,
+                "long_name": "SQL Server Standard Edition",
+                "name": "msft_7nq_00302",
+                "resource_uri": "/api/2.0/licenses/14/",
+                "type": "instance",
+                "user_metric": "smp"
+            },
+            "user": null
+        },
+        {
+            "amount": 1,
+            "license": {
+                "burstable": true,
+                "long_name": "Windows Server",
+                "name": "msft_p73_04837_core",
+                "resource_uri": "/api/2.0/licenses/12/",
+                "type": "instance",
+                "user_metric": "smp"
+            },
+            "user": null
+        }
+    ],
+    "media": "disk",
     "meta": {},
     "mounted_on": [],
-    "name": "CentOS 6.5 Server",
+    "name": "Microsoft SQL Server 2012 Standard Edition with SP1",
     "owner": null,
     "permissions": [],
-    "resource_uri": "/api/2.0/drives/1a9979a8-f30d-496d-8422-f2da32b479d4/",
+    "resource_uri": "/api/2.0/drives/c7105ec8-5d60-43a7-a11b-18dcfc1a4433/",
     "runtime": {
         "is_snapshotable": true,
         "snapshots_allocated_size": 0,
         "storage_type": "dssd"
     },
-    "size": 536870912,
+    "size": 64424509440,
     "snapshots": [],
     "status": "unmounted",
     "storage_type": "dssd",
     "tags": [],
-    "uuid": "1a9979a8-f30d-496d-8422-f2da32b479d4"
+    "uuid": "c7105ec8-5d60-43a7-a11b-18dcfc1a4433"
 }

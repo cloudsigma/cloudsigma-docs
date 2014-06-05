@@ -49,6 +49,13 @@ Content-Type: application/json; charset=utf-8
             "required": false,
             "type": "string"
         },
+        "distribution": {
+            "default": null,
+            "help_text": "OS distribution of the drive.",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
         "favourite": {
             "default": null,
             "help_text": "Favourite drive image for user.",
@@ -208,12 +215,24 @@ Content-Type: application/json; charset=utf-8
             "readonly": true,
             "required": true,
             "type": "string"
+        },
+        "version": {
+            "default": null,
+            "help_text": "OS version of the drive.",
+            "readonly": false,
+            "required": false,
+            "type": "string"
         }
     },
     "filtering": {
-        "name": 0,
-        "name__contains": 0,
-        "tag": "<function get_tag_filter_args at 0x51f0f50>",
-        "uuid": 0
+        "arch": "exact",
+        "category": "exact",
+        "distribution": "exact",
+        "image_type": "exact",
+        "name": "exact",
+        "name__icontains": "exact",
+        "os": "exact",
+        "uuid": "exact",
+        "version": "exact"
     }
 }

@@ -102,9 +102,9 @@ Content-Type: application/json; charset=utf-8
         }
     },
     "filtering": {
-        "name": 0,
-        "name__contains": 0,
-        "tag": "<function get_tag_filter_args at 0x51f0f50>",
-        "uuid": 0
+        "name": "exact",
+        "name__contains": "exact",
+        "tag": "exact",
+        "uuid": "exact"
     }
 }

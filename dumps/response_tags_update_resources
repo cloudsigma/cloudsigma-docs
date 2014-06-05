@@ -5,29 +5,29 @@ Content-Type: application/json; charset=utf-8
     "meta": {},
     "name": "TagCreatedWithResource",
     "owner": {
-        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
     },
-    "resource_uri": "/api/2.0/tags/6744d128-4a03-42c0-ba6f-7990e8600c7e/",
+    "resource_uri": "/api/2.0/tags/c91f7742-e3b9-4794-a178-f0831ee1d3d2/",
     "resources": [
         {
             "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
             },
             "res_type": "drives",
-            "resource_uri": "/api/2.0/drives/b614dd3f-5f66-48e8-9997-201179a836bf/",
-            "uuid": "b614dd3f-5f66-48e8-9997-201179a836bf"
+            "resource_uri": "/api/2.0/drives/08b9874a-4b2c-4c33-a06e-bed5e0bfa6fd/",
+            "uuid": "08b9874a-4b2c-4c33-a06e-bed5e0bfa6fd"
         },
         {
             "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
             },
             "res_type": "snapshots",
-            "resource_uri": "/api/2.0/snapshots/aca64373-77aa-4027-8ef5-f9132e57a7c4/",
-            "uuid": "aca64373-77aa-4027-8ef5-f9132e57a7c4"
+            "resource_uri": "/api/2.0/snapshots/00fc1dd8-893b-4b51-b859-8d5f1ef0cf7f/",
+            "uuid": "00fc1dd8-893b-4b51-b859-8d5f1ef0cf7f"
         }
     ],
-    "uuid": "6744d128-4a03-42c0-ba6f-7990e8600c7e"
+    "uuid": "c91f7742-e3b9-4794-a178-f0831ee1d3d2"
 }

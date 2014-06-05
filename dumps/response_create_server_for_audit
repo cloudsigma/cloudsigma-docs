@@ -19,17 +19,17 @@ Content-Type: application/json; charset=utf-8
             "name": "test_server",
             "nics": [],
             "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
             },
             "permissions": [],
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/bc72c76e-3c1f-44c2-b7e0-d671b1490b1b/",
+            "resource_uri": "/api/2.0/servers/4002da8d-94d7-4093-ab7a-a78d976a9efc/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "bc72c76e-3c1f-44c2-b7e0-d671b1490b1b",
+            "uuid": "4002da8d-94d7-4093-ab7a-a78d976a9efc",
             "vnc_password": "testserver"
         }
     ]

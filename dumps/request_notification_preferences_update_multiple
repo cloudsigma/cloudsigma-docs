@@ -4,21 +4,21 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
 
 [
     {
-        "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
+        "contact": "/api/2.0/notification_contacts/e13c4b8c-68c8-4163-bc00-2a43a86e5937/",
+        "medium": "email",
+        "type": "trial_expire",
+        "value": false
+    },
+    {
+        "contact": "/api/2.0/notification_contacts/e13c4b8c-68c8-4163-bc00-2a43a86e5937/",
         "medium": "email",
         "type": "payment_withheld",
         "value": true
     },
     {
-        "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
+        "contact": "/api/2.0/notification_contacts/e13c4b8c-68c8-4163-bc00-2a43a86e5937/",
         "medium": "email",
-        "type": "subscription_renewal_failure",
+        "type": "payment_failed",
         "value": false
-    },
-    {
-        "contact": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
-        "medium": "email",
-        "type": "subscription_expire",
-        "value": true
     }
 ]

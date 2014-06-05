@@ -13,16 +13,16 @@ Content-Type: application/json; charset=utf-8
             "main": true,
             "name": "Some Name",
             "phone": "",
-            "resource_uri": "/api/2.0/notification_contacts/07819ff1-0fe5-42eb-93c3-e734205a3d15/",
-            "uuid": "07819ff1-0fe5-42eb-93c3-e734205a3d15"
+            "resource_uri": "/api/2.0/notification_contacts/e13c4b8c-68c8-4163-bc00-2a43a86e5937/",
+            "uuid": "e13c4b8c-68c8-4163-bc00-2a43a86e5937"
         },
         {
             "email": "some_email_2@example.com",
             "main": null,
             "name": "Some New Name",
             "phone": "+11235551234",
-            "resource_uri": "/api/2.0/notification_contacts/51c0b3c9-305b-4772-9de0-98225534a2c5/",
-            "uuid": "51c0b3c9-305b-4772-9de0-98225534a2c5"
+            "resource_uri": "/api/2.0/notification_contacts/0103f398-9f85-446a-a285-fe63cf9f0f28/",
+            "uuid": "0103f398-9f85-446a-a285-fe63cf9f0f28"
         }
     ]
 }

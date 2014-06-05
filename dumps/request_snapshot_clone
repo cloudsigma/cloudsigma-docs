@@ -1,4 +1,4 @@
-POST /api/2.0/snapshots/2892846e-d153-44ca-9391-61bc8db04dda/action/?do=clone&avoid=6919c8cc-0d8c-4d2a-bee4-e9197bcd0ace HTTP/1.1
+POST /api/2.0/snapshots/c6368b7c-9d3d-4631-b008-83b73c05f1bd/action/?do=clone&avoid=d7da5038-ac2d-4776-9097-f60167d6e587 HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

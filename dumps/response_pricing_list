@@ -3,14 +3,17 @@ Content-Type: application/json; charset=utf-8
 
 {
     "current": {
-        "cpu": 2,
+        "cpu": 15,
         "dssd": 1,
         "ip": 1,
-        "mem": 2,
+        "mem": 11,
         "msft_7jq_00341": 1,
         "msft_7nq_00302": 1,
+        "msft_lwa_00135": 1,
         "msft_p71_01031": 1,
+        "msft_p73_04837": 1,
         "msft_p73_04837_core": 1,
+        "msft_tfa_00009": 1,
         "msft_tfa_00523": 1,
         "sms": 1,
         "ssd": 1,
@@ -24,14 +27,17 @@ Content-Type: application/json; charset=utf-8
         "total_count": 392
     },
     "next": {
-        "cpu": 2,
+        "cpu": 15,
         "dssd": 1,
         "ip": 1,
-        "mem": 2,
+        "mem": 11,
         "msft_7jq_00341": 1,
         "msft_7nq_00302": 1,
+        "msft_lwa_00135": 1,
         "msft_p71_01031": 1,
+        "msft_p73_04837": 1,
         "msft_p73_04837_core": 1,
+        "msft_tfa_00009": 1,
         "msft_tfa_00523": 1,
         "sms": 1,
         "ssd": 1,
@@ -42,48 +48,48 @@ Content-Type: application/json; charset=utf-8
     "objects": [
         {
             "currency": "CHF",
-            "id": "700",
+            "id": "308",
             "level": 0,
-            "multiplier": 2592000,
-            "price": "350.00000000000000000000",
-            "resource": "msft_7jq_00341",
-            "unit": "count/month"
-        },
-        {
-            "currency": "USD",
-            "id": "701",
-            "level": 0,
-            "multiplier": 2592000,
-            "price": "367.67500000000000000000",
-            "resource": "msft_7jq_00341",
-            "unit": "count/month"
+            "multiplier": 2783138807808000,
+            "price": "0.12600000000000000000",
+            "resource": "ssd",
+            "unit": "GB/month"
         },
         {
             "currency": "EUR",
-            "id": "702",
+            "id": "309",
             "level": 0,
-            "multiplier": 2592000,
-            "price": "275.27500000000000000000",
-            "resource": "msft_7jq_00341",
-            "unit": "count/month"
+            "multiplier": 2783138807808000,
+            "price": "0.10080000000000000000",
+            "resource": "ssd",
+            "unit": "GB/month"
         },
         {
             "currency": "GBP",
-            "id": "703",
+            "id": "310",
             "level": 0,
-            "multiplier": 2592000,
-            "price": "239.89000000000000000000",
-            "resource": "msft_7jq_00341",
-            "unit": "count/month"
+            "multiplier": 2783138807808000,
+            "price": "0.08680000000000000000",
+            "resource": "ssd",
+            "unit": "GB/month"
         },
         {
-            "currency": "CHF",
-            "id": "704",
+            "currency": "USD",
+            "id": "311",
             "level": 0,
+            "multiplier": 2783138807808000,
+            "price": "0.14000000000000000000",
+            "resource": "ssd",
+            "unit": "GB/month"
+        },
+        {
+            "currency": "GBP",
+            "id": "680",
+            "level": 1,
             "multiplier": 2592000,
-            "price": "90.00000000000000000000",
-            "resource": "msft_7nq_00302",
-            "unit": "count/month"
+            "price": "3.10000000000000000000",
+            "resource": "ip",
+            "unit": "IP"
         }
     ]
 }

@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
     "meta": {
         "limit": 0,
         "offset": 0,
-        "total_count": 6
+        "total_count": 5
     },
     "objects": [
         {
@@ -21,49 +21,20 @@ Content-Type: application/json; charset=utf-8
             "jobs": [],
             "mem": 536870912,
             "meta": {},
-            "name": "test_server_2",
+            "name": "test_server_3",
             "nics": [],
             "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
             },
             "permissions": [],
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/7276d6ef-39f2-42b2-bb18-f7d059a47c5f/",
+            "resource_uri": "/api/2.0/servers/3ca429cc-b4f4-42a8-aaa8-3a6df700af06/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "7276d6ef-39f2-42b2-bb18-f7d059a47c5f",
-            "vnc_password": "testserver"
-        },
-        {
-            "context": true,
-            "cpu": 1000,
-            "cpu_model": null,
-            "cpus_instead_of_cores": false,
-            "drives": [],
-            "enable_numa": false,
-            "grantees": [],
-            "hv_relaxed": false,
-            "hv_tsc": false,
-            "jobs": [],
-            "mem": 536870912,
-            "meta": {},
-            "name": "test_server_1",
-            "nics": [],
-            "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
-            },
-            "permissions": [],
-            "requirements": [],
-            "resource_uri": "/api/2.0/servers/5ab3216c-6502-4b21-ab71-1bf05d2a62cb/",
-            "runtime": null,
-            "smp": 1,
-            "status": "stopped",
-            "tags": [],
-            "uuid": "5ab3216c-6502-4b21-ab71-1bf05d2a62cb",
+            "uuid": "3ca429cc-b4f4-42a8-aaa8-3a6df700af06",
             "vnc_password": "testserver"
         },
         {
@@ -82,17 +53,17 @@ Content-Type: application/json; charset=utf-8
             "name": "test_server_0",
             "nics": [],
             "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
             },
             "permissions": [],
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/73381876-d181-4f20-b847-bebf96213828/",
+            "resource_uri": "/api/2.0/servers/f50b672f-a963-4b8a-bf05-809b3ffd9a9f/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "73381876-d181-4f20-b847-bebf96213828",
+            "uuid": "f50b672f-a963-4b8a-bf05-809b3ffd9a9f",
             "vnc_password": "testserver"
         },
         {
@@ -108,78 +79,21 @@ Content-Type: application/json; charset=utf-8
             "jobs": [],
             "mem": 536870912,
             "meta": {},
-            "name": "test_server_3",
+            "name": "test_server_1",
             "nics": [],
             "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
             },
             "permissions": [],
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/0a2b6946-827e-4cc6-86b4-22e4787bf4ca/",
+            "resource_uri": "/api/2.0/servers/5d5f22ea-68ae-4b83-9b19-7d7cdd2eb888/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "0a2b6946-827e-4cc6-86b4-22e4787bf4ca",
+            "uuid": "5d5f22ea-68ae-4b83-9b19-7d7cdd2eb888",
             "vnc_password": "testserver"
-        },
-        {
-            "context": true,
-            "cpu": 2000,
-            "cpu_model": null,
-            "cpus_instead_of_cores": false,
-            "drives": [
-                {
-                    "boot_order": 1,
-                    "dev_channel": "0:0",
-                    "device": "virtio",
-                    "drive": {
-                        "resource_uri": "/api/2.0/drives/8f218274-b39f-4002-ba6d-13180b258711/",
-                        "uuid": "8f218274-b39f-4002-ba6d-13180b258711"
-                    },
-                    "runtime": null
-                }
-            ],
-            "enable_numa": false,
-            "grantees": [],
-            "hv_relaxed": false,
-            "hv_tsc": false,
-            "jobs": [],
-            "mem": 2147483648,
-            "meta": {
-                "description": "",
-                "ssh_public_key": ""
-            },
-            "name": "sudo-make-me-an-atom",
-            "nics": [
-                {
-                    "boot_order": null,
-                    "firewall_policy": null,
-                    "ip_v4_conf": {
-                        "conf": "dhcp",
-                        "ip": null
-                    },
-                    "ip_v6_conf": null,
-                    "mac": "22:23:33:74:00:fe",
-                    "model": "virtio",
-                    "runtime": null,
-                    "vlan": null
-                }
-            ],
-            "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
-            },
-            "permissions": [],
-            "requirements": [],
-            "resource_uri": "/api/2.0/servers/c3bfb46b-58ec-48fb-9992-914aefcd4333/",
-            "runtime": null,
-            "smp": 1,
-            "status": "stopped",
-            "tags": [],
-            "uuid": "c3bfb46b-58ec-48fb-9992-914aefcd4333",
-            "vnc_password": "Hut8Kiq3Sub"
         },
         {
             "context": true,
@@ -197,17 +111,46 @@ Content-Type: application/json; charset=utf-8
             "name": "test_server_4",
             "nics": [],
             "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
             },
             "permissions": [],
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/4e569fe8-bf0d-4f8d-b285-a7a3b2ca6a09/",
+            "resource_uri": "/api/2.0/servers/8d483469-faeb-4408-899b-a10df6bf3587/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "4e569fe8-bf0d-4f8d-b285-a7a3b2ca6a09",
+            "uuid": "8d483469-faeb-4408-899b-a10df6bf3587",
+            "vnc_password": "testserver"
+        },
+        {
+            "context": true,
+            "cpu": 1000,
+            "cpu_model": null,
+            "cpus_instead_of_cores": false,
+            "drives": [],
+            "enable_numa": false,
+            "grantees": [],
+            "hv_relaxed": false,
+            "hv_tsc": false,
+            "jobs": [],
+            "mem": 536870912,
+            "meta": {},
+            "name": "test_server_2",
+            "nics": [],
+            "owner": {
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+            },
+            "permissions": [],
+            "requirements": [],
+            "resource_uri": "/api/2.0/servers/514a790d-9798-4476-93e9-5cecb4b1c6a3/",
+            "runtime": null,
+            "smp": 1,
+            "status": "stopped",
+            "tags": [],
+            "uuid": "514a790d-9798-4476-93e9-5cecb4b1c6a3",
             "vnc_password": "testserver"
         }
     ]

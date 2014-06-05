@@ -3,19 +3,19 @@ Content-Type: application/json; charset=utf-8
 
 {
     "balance": {
-        "balance": "404685.91644451734630819076",
+        "balance": "469291.07488238102453490453",
         "currency": "USD"
     },
     "usage": {
         "cpu": {
             "burst": 0,
-            "subscribed": 20000,
+            "subscribed": 8000,
             "using": 0
         },
         "dssd": {
             "burst": 0,
-            "subscribed": 107374212400,
-            "using": 6442450944
+            "subscribed": 32212254720,
+            "using": 24696061952
         },
         "ip": {
             "burst": 0,
@@ -24,7 +24,7 @@ Content-Type: application/json; charset=utf-8
         },
         "mem": {
             "burst": 0,
-            "subscribed": 42949672960,
+            "subscribed": 17179869184,
             "using": 0
         },
         "msft_7jq_00341": {
@@ -54,12 +54,12 @@ Content-Type: application/json; charset=utf-8
         },
         "ssd": {
             "burst": 0,
-            "subscribed": 107374182401,
+            "subscribed": 0,
             "using": 0
         },
         "tx": {
             "burst": 0,
-            "subscribed": 102524154,
+            "subscribed": 0,
             "using": 0
         },
         "vlan": {

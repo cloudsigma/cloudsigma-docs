@@ -5,32 +5,32 @@ Content-Type: application/json; charset=utf-8
     "children": [
         {
             "children": [],
-            "created": "2014-05-26T16:07:07.268522+00:00",
+            "created": "2014-06-05T09:50:06.771415+00:00",
             "data": {
                 "progress": 100
             },
-            "last_modified": "2014-05-26T16:07:08.190938+00:00",
+            "last_modified": "2014-06-05T09:50:12.817209+00:00",
             "operation": "drive_clone",
-            "resource_uri": "/api/2.0/jobs/c58ba9f9-8ef8-4595-9543-f90470d9ce01/",
+            "resource_uri": "/api/2.0/jobs/5cf1a9e0-c019-4022-9ca5-08af64fa5105/",
             "resources": [
-                "/api/2.0/drives/0105acb2-d0c1-48e9-9a72-9e852c4560cc/",
-                "/api/2.0/drives/a98120e6-ede8-4105-b9f6-c5ff1b0f0cef/"
+                "/api/2.0/drives/4f41610b-b73b-49f0-a7c8-2e5cd110eb31/",
+                "/api/2.0/drives/eaa0b214-7f8c-446d-9d6b-1c106fcd9aba/"
             ],
             "state": "success",
-            "uuid": "c58ba9f9-8ef8-4595-9543-f90470d9ce01"
+            "uuid": "5cf1a9e0-c019-4022-9ca5-08af64fa5105"
         }
     ],
-    "created": "2014-05-26T16:07:03.251301+00:00",
+    "created": "2014-06-05T09:50:06.436976+00:00",
     "data": {
         "progress": 100
     },
-    "last_modified": "2014-05-26T16:07:08.141130+00:00",
+    "last_modified": "2014-06-05T09:50:12.726357+00:00",
     "operation": "server_clone",
-    "resource_uri": "/api/2.0/jobs/c3b3bc26-c42d-4697-9b36-56b54cac72aa/",
+    "resource_uri": "/api/2.0/jobs/4e1944be-a078-4ead-9d19-5f8823a84d42/",
     "resources": [
-        "/api/2.0/servers/59c1dc89-f5a8-4806-abc9-1df7ad7857fa/",
-        "/api/2.0/servers/83f46038-423a-4748-9737-e0664d56c90b/"
+        "/api/2.0/servers/3ee19ba9-fd1a-435b-9dbf-559d188fba90/",
+        "/api/2.0/servers/810850e5-593b-4c21-af9e-a7cadac5b79c/"
     ],
     "state": "success",
-    "uuid": "c3b3bc26-c42d-4697-9b36-56b54cac72aa"
+    "uuid": "4e1944be-a078-4ead-9d19-5f8823a84d42"
 }

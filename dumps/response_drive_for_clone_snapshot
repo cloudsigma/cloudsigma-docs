@@ -14,11 +14,11 @@ Content-Type: application/json; charset=utf-8
             "mounted_on": [],
             "name": "test_drive_snapshot",
             "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
             },
             "permissions": [],
-            "resource_uri": "/api/2.0/drives/6919c8cc-0d8c-4d2a-bee4-e9197bcd0ace/",
+            "resource_uri": "/api/2.0/drives/d7da5038-ac2d-4776-9097-f60167d6e587/",
             "runtime": {
                 "is_snapshotable": null,
                 "snapshots_allocated_size": 0,
@@ -29,7 +29,7 @@ Content-Type: application/json; charset=utf-8
             "status": "creating",
             "storage_type": "dssd",
             "tags": [],
-            "uuid": "6919c8cc-0d8c-4d2a-bee4-e9197bcd0ace"
+            "uuid": "d7da5038-ac2d-4776-9097-f60167d6e587"
         }
     ]
 }

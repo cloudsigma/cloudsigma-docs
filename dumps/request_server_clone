@@ -1,4 +1,4 @@
-POST /api/2.0/servers/b95d36de-f8a1-4830-8d22-d60ec65ead0d/action/?do=clone HTTP/1.1
+POST /api/2.0/servers/39898df9-3ea5-49b8-b498-c856277214fe/action/?do=clone HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

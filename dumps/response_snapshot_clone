@@ -10,15 +10,15 @@ Content-Type: application/json; charset=utf-8
     "media": "disk",
     "meta": {},
     "mounted_on": [],
-    "name": "6919c8cc-0d8c-4d2a-bee4-e9197bcd0ace__2014-05-26__16_13_31",
+    "name": "d7da5038-ac2d-4776-9097-f60167d6e587__2014-06-05__09_52_13",
     "owner": {
-        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
     },
     "permissions": [],
     "resource_uri": {
-        "resource_uri": "/api/2.0/drives/c32d8e1e-92f7-4d39-8330-147f0e929471/",
-        "uuid": "c32d8e1e-92f7-4d39-8330-147f0e929471"
+        "resource_uri": "/api/2.0/drives/fadfc92d-1bfa-4eb2-bddd-491c54df2fae/",
+        "uuid": "fadfc92d-1bfa-4eb2-bddd-491c54df2fae"
     },
     "runtime": {
         "is_snapshotable": null,
@@ -30,5 +30,5 @@ Content-Type: application/json; charset=utf-8
     "status": "cloning_dst",
     "storage_type": null,
     "tags": [],
-    "uuid": "c32d8e1e-92f7-4d39-8330-147f0e929471"
+    "uuid": "fadfc92d-1bfa-4eb2-bddd-491c54df2fae"
 }

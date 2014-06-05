@@ -7,58 +7,58 @@ Content-Type: application/json; charset=utf-8
             "meta": {},
             "name": "TagCreatedWithResource",
             "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
             },
-            "resource_uri": "/api/2.0/tags/6744d128-4a03-42c0-ba6f-7990e8600c7e/",
+            "resource_uri": "/api/2.0/tags/c91f7742-e3b9-4794-a178-f0831ee1d3d2/",
             "resources": [
                 {
                     "owner": {
-                        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
-                    },
-                    "res_type": "drives",
-                    "resource_uri": "/api/2.0/drives/b614dd3f-5f66-48e8-9997-201179a836bf/",
-                    "uuid": "b614dd3f-5f66-48e8-9997-201179a836bf"
-                },
-                {
-                    "owner": {
-                        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
-                    },
-                    "res_type": "servers",
-                    "resource_uri": "/api/2.0/servers/a787fb26-4cae-4b65-bdf4-a4e5487b1a29/",
-                    "uuid": "a787fb26-4cae-4b65-bdf4-a4e5487b1a29"
-                },
-                {
-                    "owner": {
-                        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
                     },
                     "res_type": "vlans",
-                    "resource_uri": "/api/2.0/vlans/a21a4e59-b133-487a-ad7b-16b41ac38e9b/",
-                    "uuid": "a21a4e59-b133-487a-ad7b-16b41ac38e9b"
+                    "resource_uri": "/api/2.0/vlans/96537817-f4b6-496b-a861-e74192d3ccb0/",
+                    "uuid": "96537817-f4b6-496b-a861-e74192d3ccb0"
                 },
                 {
                     "owner": {
-                        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+                    },
+                    "res_type": "drives",
+                    "resource_uri": "/api/2.0/drives/08b9874a-4b2c-4c33-a06e-bed5e0bfa6fd/",
+                    "uuid": "08b9874a-4b2c-4c33-a06e-bed5e0bfa6fd"
+                },
+                {
+                    "owner": {
+                        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
                     },
                     "res_type": "servers",
-                    "resource_uri": "/api/2.0/servers/811c2d03-b22d-4b8e-81b0-85fd9bf32f22/",
-                    "uuid": "811c2d03-b22d-4b8e-81b0-85fd9bf32f22"
+                    "resource_uri": "/api/2.0/servers/cdeca2cf-4628-4169-8a3a-ceebedd9ea3a/",
+                    "uuid": "cdeca2cf-4628-4169-8a3a-ceebedd9ea3a"
                 },
                 {
                     "owner": {
-                        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+                    },
+                    "res_type": "servers",
+                    "resource_uri": "/api/2.0/servers/f52db291-f754-4434-acac-77268cbac94f/",
+                    "uuid": "f52db291-f754-4434-acac-77268cbac94f"
+                },
+                {
+                    "owner": {
+                        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
                     },
                     "res_type": "ips",
-                    "resource_uri": "/api/2.0/ips/162.213.37.151/",
-                    "uuid": "162.213.37.151"
+                    "resource_uri": "/api/2.0/ips/185.12.6.183/",
+                    "uuid": "185.12.6.183"
                 }
             ],
-            "uuid": "6744d128-4a03-42c0-ba6f-7990e8600c7e"
+            "uuid": "c91f7742-e3b9-4794-a178-f0831ee1d3d2"
         }
     ]
 }

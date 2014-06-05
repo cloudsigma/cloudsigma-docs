@@ -1,4 +1,4 @@
-PUT /api/2.0/servers/3a6cfa60-b44c-4433-942b-d7adaea6a44a/ HTTP/1.1
+PUT /api/2.0/servers/0e94a85a-d195-488e-b25d-ba6980fe21e4/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

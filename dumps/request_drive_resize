@@ -1,4 +1,4 @@
-PUT /api/2.0/drives/5f4fd67b-dedd-496a-b3b4-de5c57d283f4/ HTTP/1.1
+PUT /api/2.0/drives/4dc73d5d-29de-427b-a984-cde253c14ed6/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

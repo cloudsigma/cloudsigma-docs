@@ -24,23 +24,23 @@ Content-Type: application/json; charset=utf-8
                 "ip": null
             },
             "ip_v6_conf": null,
-            "mac": "22:85:56:b5:ad:24",
+            "mac": "22:a5:f0:db:fe:da",
             "model": "virtio",
             "runtime": null,
             "vlan": null
         }
     ],
     "owner": {
-        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
     },
     "permissions": [],
     "requirements": [],
-    "resource_uri": "/api/2.0/servers/fa76b41e-236c-4de1-a647-6a0f88f754e0/",
+    "resource_uri": "/api/2.0/servers/f2208a27-bcee-4842-accf-9ac473cbe6b4/",
     "runtime": null,
     "smp": 1,
     "status": "stopped",
     "tags": [],
-    "uuid": "fa76b41e-236c-4de1-a647-6a0f88f754e0",
+    "uuid": "f2208a27-bcee-4842-accf-9ac473cbe6b4",
     "vnc_password": "testserver"
 }

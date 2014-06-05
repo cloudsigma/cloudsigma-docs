@@ -1,4 +1,4 @@
-GET /api/2.0/snapshots/detail/?limit=0&drive=8c9c0c98-9dfb-4177-81fc-3031c2415983 HTTP/1.1
+GET /api/2.0/snapshots/detail/?limit=0&drive=b7cb6615-b6a5-4c31-b755-b86980c64d59 HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

@@ -9,21 +9,21 @@ Content-Type: application/json; charset=utf-8
             "grantees": [],
             "jobs": [
                 {
-                    "resource_uri": "/api/2.0/jobs/56ce06ee-dade-4ad6-950a-2778481e6b5a/",
-                    "uuid": "56ce06ee-dade-4ad6-950a-2778481e6b5a"
+                    "resource_uri": "/api/2.0/jobs/98c77767-7192-4fc3-bd37-21cf9a1e383b/",
+                    "uuid": "98c77767-7192-4fc3-bd37-21cf9a1e383b"
                 }
             ],
             "licenses": [],
             "media": "cdrom",
             "meta": {},
             "mounted_on": [],
-            "name": "test_drive_x-2014-05-26",
+            "name": "test_drive_x-2014-06-05",
             "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
             },
             "permissions": [],
-            "resource_uri": "/api/2.0/drives/50599289-82bf-41ef-9dd6-8b5cd8d35de8/",
+            "resource_uri": "/api/2.0/drives/fc3483c9-2b68-4513-a443-b58f73d264ed/",
             "runtime": {
                 "is_snapshotable": null,
                 "snapshots_allocated_size": 0,
@@ -34,7 +34,7 @@ Content-Type: application/json; charset=utf-8
             "status": "cloning_dst",
             "storage_type": "dssd",
             "tags": [],
-            "uuid": "50599289-82bf-41ef-9dd6-8b5cd8d35de8"
+            "uuid": "fc3483c9-2b68-4513-a443-b58f73d264ed"
         }
     ]
 }

@@ -5,10 +5,10 @@ Content-Type: application/json; charset=utf-8
     "meta": {},
     "name": "My awesome policy",
     "owner": {
-        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
     },
-    "resource_uri": "/api/2.0/fwpolicies/cacf13dd-f3ce-429e-8318-9debed83f87f/",
+    "resource_uri": "/api/2.0/fwpolicies/ffc71b41-4ce8-4eda-98f8-24c1bd808928/",
     "rules": [
         {
             "action": "drop",
@@ -23,5 +23,5 @@ Content-Type: application/json; charset=utf-8
     ],
     "servers": [],
     "tags": [],
-    "uuid": "cacf13dd-f3ce-429e-8318-9debed83f87f"
+    "uuid": "ffc71b41-4ce8-4eda-98f8-24c1bd808928"
 }

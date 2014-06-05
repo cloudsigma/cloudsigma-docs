@@ -4,5 +4,5 @@ Content-Type: application/json; charset=utf-8
 {
     "action": "close_vnc",
     "result": "success",
-    "uuid": "90af5448-a364-4610-a162-dbd6a8804fa5"
+    "uuid": "80751bc7-37cc-48c1-bb08-fd04b46090bf"
 }

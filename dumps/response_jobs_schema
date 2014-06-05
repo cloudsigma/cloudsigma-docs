@@ -22,7 +22,7 @@ Content-Type: application/json; charset=utf-8
         },
         "created": {
             "blank": false,
-            "default": "2014-05-26T15:56:33.178216+00:00",
+            "default": "2014-06-05T09:46:41.793232+00:00",
             "help_text": "A date & time as a string. Ex: \"2010-11-10T03:07:43\"",
             "nullable": false,
             "readonly": false,
@@ -40,7 +40,7 @@ Content-Type: application/json; charset=utf-8
         },
         "last_modified": {
             "blank": false,
-            "default": "2014-05-26T15:56:33.178233+00:00",
+            "default": "2014-06-05T09:46:41.793249+00:00",
             "help_text": "A date & time as a string. Ex: \"2010-11-10T03:07:43\"",
             "nullable": false,
             "readonly": false,

@@ -12,18 +12,18 @@ Content-Type: application/json; charset=utf-8
             "dev_channel": "0:0",
             "device": "virtio",
             "drive": {
-                "resource_uri": "/api/2.0/drives/b4c2e00d-399c-4882-b2f6-4d875a4c9d53/",
-                "uuid": "b4c2e00d-399c-4882-b2f6-4d875a4c9d53"
+                "resource_uri": "/api/2.0/drives/64528400-2b45-40c5-b776-a8c92a34c596/",
+                "uuid": "64528400-2b45-40c5-b776-a8c92a34c596"
             },
             "runtime": {
                 "io": {
-                    "bytes_read": 512,
+                    "bytes_read": 0,
                     "bytes_written": 0,
                     "count_flush": 0,
-                    "count_read": 1,
+                    "count_read": 0,
                     "count_written": 0,
                     "total_time_ns_flush": 0,
-                    "total_time_ns_read": 301676,
+                    "total_time_ns_read": 0,
                     "total_time_ns_write": 0
                 }
             }
@@ -46,7 +46,7 @@ Content-Type: application/json; charset=utf-8
                 "ip": null
             },
             "ip_v6_conf": null,
-            "mac": "22:9e:fd:5e:99:4c",
+            "mac": "22:78:87:54:83:80",
             "model": "virtio",
             "runtime": {
                 "interface_type": "public",
@@ -57,8 +57,8 @@ Content-Type: application/json; charset=utf-8
                     "packets_sent": 0
                 },
                 "ip_v4": {
-                    "resource_uri": "/api/2.0/ips/162.213.37.178/",
-                    "uuid": "162.213.37.178"
+                    "resource_uri": "/api/2.0/ips/162.213.38.81/",
+                    "uuid": "162.213.38.81"
                 },
                 "ip_v6": null
             },
@@ -66,14 +66,14 @@ Content-Type: application/json; charset=utf-8
         }
     ],
     "owner": {
-        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
     },
     "permissions": [],
     "requirements": [],
-    "resource_uri": "/api/2.0/servers/aae7e0e4-c182-41ee-a5ad-fd07daa9b90e/",
+    "resource_uri": "/api/2.0/servers/c6bffbaf-6e28-40f9-b2fd-7a71dd4eaab2/",
     "runtime": {
-        "active_since": "2014-05-26T16:09:57+00:00",
+        "active_since": "2014-06-05T09:51:08+00:00",
         "nics": [
             {
                 "interface_type": "public",
@@ -84,17 +84,17 @@ Content-Type: application/json; charset=utf-8
                     "packets_sent": 0
                 },
                 "ip_v4": {
-                    "resource_uri": "/api/2.0/ips/162.213.37.178/",
-                    "uuid": "162.213.37.178"
+                    "resource_uri": "/api/2.0/ips/162.213.38.81/",
+                    "uuid": "162.213.38.81"
                 },
                 "ip_v6": null,
-                "mac": "22:9e:fd:5e:99:4c"
+                "mac": "22:78:87:54:83:80"
             }
         ]
     },
     "smp": 1,
     "status": "running",
     "tags": [],
-    "uuid": "aae7e0e4-c182-41ee-a5ad-fd07daa9b90e",
+    "uuid": "c6bffbaf-6e28-40f9-b2fd-7a71dd4eaab2",
     "vnc_password": "testserver"
 }

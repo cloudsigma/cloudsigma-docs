@@ -9,8 +9,8 @@ Content-Type: application/json; charset=utf-8
             "grantees": [],
             "jobs": [
                 {
-                    "resource_uri": "/api/2.0/jobs/aa9062f0-503f-4238-a1ce-d78c91f11d08/",
-                    "uuid": "aa9062f0-503f-4238-a1ce-d78c91f11d08"
+                    "resource_uri": "/api/2.0/jobs/3564c1c2-c498-40d8-b063-aa173e2ec0c5/",
+                    "uuid": "3564c1c2-c498-40d8-b063-aa173e2ec0c5"
                 }
             ],
             "licenses": [],
@@ -19,11 +19,11 @@ Content-Type: application/json; charset=utf-8
             "mounted_on": [],
             "name": "test_drive_x_1",
             "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
             },
             "permissions": [],
-            "resource_uri": "/api/2.0/drives/c144281e-4bc0-492a-8e7e-02e60202118f/",
+            "resource_uri": "/api/2.0/drives/86164dec-fe21-4590-b2d7-a5733c38b24f/",
             "runtime": {
                 "is_snapshotable": null,
                 "snapshots_allocated_size": 0,
@@ -34,7 +34,7 @@ Content-Type: application/json; charset=utf-8
             "status": "cloning_dst",
             "storage_type": "dssd",
             "tags": [],
-            "uuid": "c144281e-4bc0-492a-8e7e-02e60202118f"
+            "uuid": "86164dec-fe21-4590-b2d7-a5733c38b24f"
         }
     ]
 }

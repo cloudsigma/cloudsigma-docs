@@ -21,12 +21,12 @@ Content-Type: application/json; charset=utf-8
             "firewall_policy": null,
             "ip_v4_conf": null,
             "ip_v6_conf": null,
-            "mac": "22:85:56:b5:ad:24",
+            "mac": "22:a5:f0:db:fe:da",
             "model": "virtio",
             "runtime": null,
             "vlan": {
-                "resource_uri": "/api/2.0/vlans/a21a4e59-b133-487a-ad7b-16b41ac38e9b/",
-                "uuid": "a21a4e59-b133-487a-ad7b-16b41ac38e9b"
+                "resource_uri": "/api/2.0/vlans/96537817-f4b6-496b-a861-e74192d3ccb0/",
+                "uuid": "96537817-f4b6-496b-a861-e74192d3ccb0"
             }
         },
         {
@@ -35,28 +35,28 @@ Content-Type: application/json; charset=utf-8
             "ip_v4_conf": {
                 "conf": "static",
                 "ip": {
-                    "resource_uri": "/api/2.0/ips/162.213.37.151/",
-                    "uuid": "162.213.37.151"
+                    "resource_uri": "/api/2.0/ips/185.12.6.183/",
+                    "uuid": "185.12.6.183"
                 }
             },
             "ip_v6_conf": null,
-            "mac": "22:3f:64:4c:23:74",
+            "mac": "22:dc:29:30:ac:81",
             "model": "e1000",
             "runtime": null,
             "vlan": null
         }
     ],
     "owner": {
-        "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-        "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
     },
     "permissions": [],
     "requirements": [],
-    "resource_uri": "/api/2.0/servers/fa76b41e-236c-4de1-a647-6a0f88f754e0/",
+    "resource_uri": "/api/2.0/servers/f2208a27-bcee-4842-accf-9ac473cbe6b4/",
     "runtime": null,
     "smp": 1,
     "status": "stopped",
     "tags": [],
-    "uuid": "fa76b41e-236c-4de1-a647-6a0f88f754e0",
+    "uuid": "f2208a27-bcee-4842-accf-9ac473cbe6b4",
     "vnc_password": "testserver"
 }

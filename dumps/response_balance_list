@@ -2,6 +2,6 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-    "balance": "404685.91644451734630819076",
+    "balance": "469291.07488238102453490453",
     "currency": "USD"
 }

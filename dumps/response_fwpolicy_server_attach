@@ -21,32 +21,32 @@ Content-Type: application/json; charset=utf-8
                 {
                     "boot_order": null,
                     "firewall_policy": {
-                        "resource_uri": "/api/2.0/fwpolicies/9cfaab13-e382-4c91-be46-ea15bd1f118b/",
-                        "uuid": "9cfaab13-e382-4c91-be46-ea15bd1f118b"
+                        "resource_uri": "/api/2.0/fwpolicies/abb98bcb-2d3c-4758-b59c-3094b54b5c9e/",
+                        "uuid": "abb98bcb-2d3c-4758-b59c-3094b54b5c9e"
                     },
                     "ip_v4_conf": {
                         "conf": "dhcp",
                         "ip": null
                     },
                     "ip_v6_conf": null,
-                    "mac": "22:ac:25:78:45:25",
+                    "mac": "22:e2:23:bc:a9:2c",
                     "model": "virtio",
                     "runtime": null,
                     "vlan": null
                 }
             ],
             "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
             },
             "permissions": [],
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/66dfd3af-543f-468b-bbcb-509daa6f3444/",
+            "resource_uri": "/api/2.0/servers/9d462272-28a2-4ed6-acba-49ed838064c9/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "66dfd3af-543f-468b-bbcb-509daa6f3444",
+            "uuid": "9d462272-28a2-4ed6-acba-49ed838064c9",
             "vnc_password": "testserver"
         }
     ]

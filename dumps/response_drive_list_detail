@@ -12,1324 +12,32 @@ Content-Type: application/json; charset=utf-8
             "affinities": [],
             "allow_multimount": false,
             "grantees": [],
-            "jobs": [
-                {
-                    "resource_uri": "/api/2.0/jobs/2c194429-de87-4b0f-b188-90fb6f0948e7/",
-                    "uuid": "2c194429-de87-4b0f-b188-90fb6f0948e7"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/b3b6a939-6c93-45e8-86b6-d9c030d1eed9/",
-                    "uuid": "b3b6a939-6c93-45e8-86b6-d9c030d1eed9"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/a9f7e382-50b6-40c2-b318-98063876431c/",
-                    "uuid": "a9f7e382-50b6-40c2-b318-98063876431c"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/af604077-c5e8-487c-b37f-c91c6d2d1d92/",
-                    "uuid": "af604077-c5e8-487c-b37f-c91c6d2d1d92"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/8a7f812a-ea75-4fbe-a0ff-cb4d102c688a/",
-                    "uuid": "8a7f812a-ea75-4fbe-a0ff-cb4d102c688a"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/fd66305d-a1b9-4050-bcc7-ef174a25bc44/",
-                    "uuid": "fd66305d-a1b9-4050-bcc7-ef174a25bc44"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/fb66c453-d317-4154-8ad4-de3f7567f66f/",
-                    "uuid": "fb66c453-d317-4154-8ad4-de3f7567f66f"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/806af0e0-7cdc-4133-8a2c-d54f59bff4fd/",
-                    "uuid": "806af0e0-7cdc-4133-8a2c-d54f59bff4fd"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/7e25ae7b-2a48-4dac-982d-474a46ff93b0/",
-                    "uuid": "7e25ae7b-2a48-4dac-982d-474a46ff93b0"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/a4503dd8-434b-40be-acdc-cf1e5a4d6396/",
-                    "uuid": "a4503dd8-434b-40be-acdc-cf1e5a4d6396"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/cabb9ee9-234b-4500-88ee-f90c74d19804/",
-                    "uuid": "cabb9ee9-234b-4500-88ee-f90c74d19804"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/6f97a64a-b84a-4a56-9a6e-3ba378b7697a/",
-                    "uuid": "6f97a64a-b84a-4a56-9a6e-3ba378b7697a"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/79d86b19-d2a0-470a-941b-6bc131540089/",
-                    "uuid": "79d86b19-d2a0-470a-941b-6bc131540089"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/9b56ff49-b402-449e-9a82-31efebdb0f5f/",
-                    "uuid": "9b56ff49-b402-449e-9a82-31efebdb0f5f"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/8c031769-6787-48be-bdec-b03055ed1e03/",
-                    "uuid": "8c031769-6787-48be-bdec-b03055ed1e03"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/84d9a4f2-cb99-4e28-bac6-fcb089f0e8a6/",
-                    "uuid": "84d9a4f2-cb99-4e28-bac6-fcb089f0e8a6"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/6471914a-4f5e-47f4-a1dc-5f2073d49b81/",
-                    "uuid": "6471914a-4f5e-47f4-a1dc-5f2073d49b81"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/d4e7dca2-b71c-4198-be93-70bef81afc23/",
-                    "uuid": "d4e7dca2-b71c-4198-be93-70bef81afc23"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/08989385-cab5-4c90-80e4-40c7cebb4f14/",
-                    "uuid": "08989385-cab5-4c90-80e4-40c7cebb4f14"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/6889afc5-18ce-4862-851b-21238548eaf5/",
-                    "uuid": "6889afc5-18ce-4862-851b-21238548eaf5"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/4181e54c-a54e-4541-8c73-49dd8cddd181/",
-                    "uuid": "4181e54c-a54e-4541-8c73-49dd8cddd181"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/0ded8aac-b7a5-44fd-a142-e97ea0f561c7/",
-                    "uuid": "0ded8aac-b7a5-44fd-a142-e97ea0f561c7"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/4f9e73c2-4cb6-4bf6-a9f4-c6f5809c199a/",
-                    "uuid": "4f9e73c2-4cb6-4bf6-a9f4-c6f5809c199a"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/59dcf9ee-9be0-493f-bbb9-c10dc6540c78/",
-                    "uuid": "59dcf9ee-9be0-493f-bbb9-c10dc6540c78"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/197ca27c-3fb1-4a60-b87c-68fa8da7a2ba/",
-                    "uuid": "197ca27c-3fb1-4a60-b87c-68fa8da7a2ba"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/91fa6f95-fe18-4009-b497-1ab9b65bc331/",
-                    "uuid": "91fa6f95-fe18-4009-b497-1ab9b65bc331"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/f3eeba73-6d80-4b53-84d4-0597eb29926c/",
-                    "uuid": "f3eeba73-6d80-4b53-84d4-0597eb29926c"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/1a63535e-65c7-43c8-ab5b-0914f498ae3b/",
-                    "uuid": "1a63535e-65c7-43c8-ab5b-0914f498ae3b"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/cea425bf-ada5-4b7e-aee8-effb78e6147b/",
-                    "uuid": "cea425bf-ada5-4b7e-aee8-effb78e6147b"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/52842dc4-2518-4a48-a7f0-6332f9be694d/",
-                    "uuid": "52842dc4-2518-4a48-a7f0-6332f9be694d"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/7667619e-7789-499c-8778-99304eb8ef0b/",
-                    "uuid": "7667619e-7789-499c-8778-99304eb8ef0b"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/fa04b852-4911-48d6-99da-94534f035cf1/",
-                    "uuid": "fa04b852-4911-48d6-99da-94534f035cf1"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/15346667-d528-4fa8-a68e-23662957c5a2/",
-                    "uuid": "15346667-d528-4fa8-a68e-23662957c5a2"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/27cccf9a-c01a-4e2a-a13e-9c8cdf14444c/",
-                    "uuid": "27cccf9a-c01a-4e2a-a13e-9c8cdf14444c"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/ede764c9-467e-44e2-8243-9dedc24f66eb/",
-                    "uuid": "ede764c9-467e-44e2-8243-9dedc24f66eb"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/d708e54a-b636-4f96-ac11-7d8fcb180135/",
-                    "uuid": "d708e54a-b636-4f96-ac11-7d8fcb180135"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/6f0d1da7-b838-4fa4-be85-8188b93bfcff/",
-                    "uuid": "6f0d1da7-b838-4fa4-be85-8188b93bfcff"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/6cff3e58-018f-42e2-b15e-793ba5bad5ba/",
-                    "uuid": "6cff3e58-018f-42e2-b15e-793ba5bad5ba"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/a0c03287-a8bf-41cf-8b42-4c3ecb8a8167/",
-                    "uuid": "a0c03287-a8bf-41cf-8b42-4c3ecb8a8167"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/e5f0e8eb-1e7b-4d19-8bf1-0aeeb2c51cb9/",
-                    "uuid": "e5f0e8eb-1e7b-4d19-8bf1-0aeeb2c51cb9"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/d037bcb8-e3f0-4a4b-98f5-efb44ad144a3/",
-                    "uuid": "d037bcb8-e3f0-4a4b-98f5-efb44ad144a3"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/1e61f5c5-80a3-42e1-832b-89f6ff82863e/",
-                    "uuid": "1e61f5c5-80a3-42e1-832b-89f6ff82863e"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/5a818e12-bb02-40d9-8605-528aa2ab177a/",
-                    "uuid": "5a818e12-bb02-40d9-8605-528aa2ab177a"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/d52762c8-e7b6-4479-93d1-553665f4e6df/",
-                    "uuid": "d52762c8-e7b6-4479-93d1-553665f4e6df"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/d8108a9b-a813-422c-ba6b-b776b7c6845a/",
-                    "uuid": "d8108a9b-a813-422c-ba6b-b776b7c6845a"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/28e03b7f-7e43-478c-955a-6f192212d746/",
-                    "uuid": "28e03b7f-7e43-478c-955a-6f192212d746"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/8b899826-03c9-4e10-be90-297dd40db500/",
-                    "uuid": "8b899826-03c9-4e10-be90-297dd40db500"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/84072efa-897f-4abf-8bd4-b8a4ce4fe6d7/",
-                    "uuid": "84072efa-897f-4abf-8bd4-b8a4ce4fe6d7"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/5dc046bb-bcf7-425b-93a1-ab694ce829d6/",
-                    "uuid": "5dc046bb-bcf7-425b-93a1-ab694ce829d6"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/ed729b43-bb7b-4e13-bec2-08901bba8650/",
-                    "uuid": "ed729b43-bb7b-4e13-bec2-08901bba8650"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/585f0d2c-12de-4db3-a344-4f42572660cb/",
-                    "uuid": "585f0d2c-12de-4db3-a344-4f42572660cb"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/54603f0f-ec2a-4b88-a8ad-830e2ccbd35f/",
-                    "uuid": "54603f0f-ec2a-4b88-a8ad-830e2ccbd35f"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/103f62ec-a4d5-4f6d-9c1b-eaa4de2cbf65/",
-                    "uuid": "103f62ec-a4d5-4f6d-9c1b-eaa4de2cbf65"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/60380a60-ba7b-4327-8327-00561f4902b4/",
-                    "uuid": "60380a60-ba7b-4327-8327-00561f4902b4"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/ea23acaf-fc2a-4c21-bfe4-16cb8e8b302e/",
-                    "uuid": "ea23acaf-fc2a-4c21-bfe4-16cb8e8b302e"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/9ad4a7fd-c249-4345-8685-f268b9c9914a/",
-                    "uuid": "9ad4a7fd-c249-4345-8685-f268b9c9914a"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/29737a5f-dc3c-4dcc-9a06-05a2eb681124/",
-                    "uuid": "29737a5f-dc3c-4dcc-9a06-05a2eb681124"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/b2c63e5a-50da-4bc4-95d5-1120a8ae598d/",
-                    "uuid": "b2c63e5a-50da-4bc4-95d5-1120a8ae598d"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/982dd8f1-b6b6-45fc-8eba-e2af72c29785/",
-                    "uuid": "982dd8f1-b6b6-45fc-8eba-e2af72c29785"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/4abd3578-8a2a-4682-8d18-4ce68fe2ed13/",
-                    "uuid": "4abd3578-8a2a-4682-8d18-4ce68fe2ed13"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/9a33e294-e0df-4534-813c-ae5402b4d4e3/",
-                    "uuid": "9a33e294-e0df-4534-813c-ae5402b4d4e3"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/350794e5-306c-447b-bf4b-1f671cb58920/",
-                    "uuid": "350794e5-306c-447b-bf4b-1f671cb58920"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/c2bfbf5f-72ab-4d51-a6fc-d83b14df941c/",
-                    "uuid": "c2bfbf5f-72ab-4d51-a6fc-d83b14df941c"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/b8357068-7379-41da-aaa5-63550f7dc8cb/",
-                    "uuid": "b8357068-7379-41da-aaa5-63550f7dc8cb"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/f5c5dd0f-5701-4af2-81db-b66b79774157/",
-                    "uuid": "f5c5dd0f-5701-4af2-81db-b66b79774157"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/606b674b-82f1-4c3f-8a47-4948f1b6a227/",
-                    "uuid": "606b674b-82f1-4c3f-8a47-4948f1b6a227"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/295a6c60-8cf0-4312-93c4-642442a18ad2/",
-                    "uuid": "295a6c60-8cf0-4312-93c4-642442a18ad2"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/cca89e34-d114-4beb-9984-f9d84dd5c20b/",
-                    "uuid": "cca89e34-d114-4beb-9984-f9d84dd5c20b"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/451628d8-4964-4bc0-9730-0eb7df062655/",
-                    "uuid": "451628d8-4964-4bc0-9730-0eb7df062655"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/c5d207df-f5d8-4d3b-9795-8a23c99f3490/",
-                    "uuid": "c5d207df-f5d8-4d3b-9795-8a23c99f3490"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/ffb6a08b-550f-49d4-aee6-bd9ce3164837/",
-                    "uuid": "ffb6a08b-550f-49d4-aee6-bd9ce3164837"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/b2313efb-2222-4100-8897-d189d740cdf0/",
-                    "uuid": "b2313efb-2222-4100-8897-d189d740cdf0"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/da1f4390-1cc2-4290-9afc-4ed416e4d1ec/",
-                    "uuid": "da1f4390-1cc2-4290-9afc-4ed416e4d1ec"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/bd377fef-5597-4320-bc0c-cb09a6af4cca/",
-                    "uuid": "bd377fef-5597-4320-bc0c-cb09a6af4cca"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/7e85af85-6043-4e68-93c0-d1739dbe4464/",
-                    "uuid": "7e85af85-6043-4e68-93c0-d1739dbe4464"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/1ce0b8e7-38e6-430d-ac97-a265f09a6847/",
-                    "uuid": "1ce0b8e7-38e6-430d-ac97-a265f09a6847"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/deb6b37f-174c-453d-8179-c43b0c666ecc/",
-                    "uuid": "deb6b37f-174c-453d-8179-c43b0c666ecc"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/5bc516a5-0297-4fbf-8d4e-a11eed393bf3/",
-                    "uuid": "5bc516a5-0297-4fbf-8d4e-a11eed393bf3"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/cfb73ac6-64e0-4567-8edb-e122672586d6/",
-                    "uuid": "cfb73ac6-64e0-4567-8edb-e122672586d6"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/33205163-4cd0-4930-98db-3d758e9869d9/",
-                    "uuid": "33205163-4cd0-4930-98db-3d758e9869d9"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/3f090f2c-fbed-4ded-8a89-06e6b454988a/",
-                    "uuid": "3f090f2c-fbed-4ded-8a89-06e6b454988a"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/6f170fbb-d6d4-4eac-b10f-725c1b9e3199/",
-                    "uuid": "6f170fbb-d6d4-4eac-b10f-725c1b9e3199"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/acf87787-3a77-4a13-a638-8428ae4afbba/",
-                    "uuid": "acf87787-3a77-4a13-a638-8428ae4afbba"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/8f4a9574-d2b9-40fb-81c5-d2569242d004/",
-                    "uuid": "8f4a9574-d2b9-40fb-81c5-d2569242d004"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/b23c3bde-fa76-4818-b1ab-8dafb1d234df/",
-                    "uuid": "b23c3bde-fa76-4818-b1ab-8dafb1d234df"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/69d41486-bee8-4d60-88fd-9c1660ff6f7d/",
-                    "uuid": "69d41486-bee8-4d60-88fd-9c1660ff6f7d"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/bff4d853-2ba7-43e3-b95a-47817e2faca2/",
-                    "uuid": "bff4d853-2ba7-43e3-b95a-47817e2faca2"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/e5134104-57e3-4e40-997d-65b9248188c3/",
-                    "uuid": "e5134104-57e3-4e40-997d-65b9248188c3"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/796105ae-83a3-45fd-a0d5-be5e38af8daa/",
-                    "uuid": "796105ae-83a3-45fd-a0d5-be5e38af8daa"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/9e5e1759-e444-48e7-877a-bfe048467baa/",
-                    "uuid": "9e5e1759-e444-48e7-877a-bfe048467baa"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/246e0f74-0058-4d9e-9a1e-1770374cfc1d/",
-                    "uuid": "246e0f74-0058-4d9e-9a1e-1770374cfc1d"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/88999e96-e8f0-449d-9b73-a7b968475e11/",
-                    "uuid": "88999e96-e8f0-449d-9b73-a7b968475e11"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/21f64886-9de6-417b-a032-d2cb94d32012/",
-                    "uuid": "21f64886-9de6-417b-a032-d2cb94d32012"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/252b7100-d315-471b-859d-64a5f4c7b507/",
-                    "uuid": "252b7100-d315-471b-859d-64a5f4c7b507"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/6036c86d-7ef8-4662-a6aa-f9323808f6b1/",
-                    "uuid": "6036c86d-7ef8-4662-a6aa-f9323808f6b1"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/47335d53-546b-4ede-8a95-66e0bd79dc3c/",
-                    "uuid": "47335d53-546b-4ede-8a95-66e0bd79dc3c"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/cd06924b-a74c-46b7-90e4-e40dab5d2d39/",
-                    "uuid": "cd06924b-a74c-46b7-90e4-e40dab5d2d39"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/26bc6343-6cc9-4a0e-aabf-2d8271372878/",
-                    "uuid": "26bc6343-6cc9-4a0e-aabf-2d8271372878"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/ccc8a131-8161-44ff-80f8-81a32e68ae5a/",
-                    "uuid": "ccc8a131-8161-44ff-80f8-81a32e68ae5a"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/0a037be9-e0d3-44a0-9e2d-a920bbbf207f/",
-                    "uuid": "0a037be9-e0d3-44a0-9e2d-a920bbbf207f"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/f1446683-1309-4dc9-af0b-196a9743d4a8/",
-                    "uuid": "f1446683-1309-4dc9-af0b-196a9743d4a8"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/0c27ff1b-1e5e-4fb4-a30b-4bfd3324e2ad/",
-                    "uuid": "0c27ff1b-1e5e-4fb4-a30b-4bfd3324e2ad"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/2a429abf-05ca-4a54-a133-b475b74ef8b4/",
-                    "uuid": "2a429abf-05ca-4a54-a133-b475b74ef8b4"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/32cebcb5-9a4f-4a78-bbbc-5a387802238e/",
-                    "uuid": "32cebcb5-9a4f-4a78-bbbc-5a387802238e"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/6ba32e55-cc6e-47a6-ae27-86b7635b1e90/",
-                    "uuid": "6ba32e55-cc6e-47a6-ae27-86b7635b1e90"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/c862f9ce-c1fe-440a-adc7-1511d4090264/",
-                    "uuid": "c862f9ce-c1fe-440a-adc7-1511d4090264"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/eacdedd4-0ae1-43fd-9847-4bdf2b132db9/",
-                    "uuid": "eacdedd4-0ae1-43fd-9847-4bdf2b132db9"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/0e9d994e-c5fa-4a26-84d5-1156f31f41e4/",
-                    "uuid": "0e9d994e-c5fa-4a26-84d5-1156f31f41e4"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/85e5dfc7-17fb-4c3c-b8cd-bb1da5acb986/",
-                    "uuid": "85e5dfc7-17fb-4c3c-b8cd-bb1da5acb986"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/99d02426-d424-4bc0-a5d3-521c496ba098/",
-                    "uuid": "99d02426-d424-4bc0-a5d3-521c496ba098"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/7c9a3d62-d4e8-4369-9c25-57d9cc2fb072/",
-                    "uuid": "7c9a3d62-d4e8-4369-9c25-57d9cc2fb072"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/28dd5f88-1b92-4080-accf-cc3904d59e75/",
-                    "uuid": "28dd5f88-1b92-4080-accf-cc3904d59e75"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/7db52ceb-ca06-4a6f-ace9-356195b7322c/",
-                    "uuid": "7db52ceb-ca06-4a6f-ace9-356195b7322c"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/a9e282ad-54c5-4f0b-955f-f82c5722667e/",
-                    "uuid": "a9e282ad-54c5-4f0b-955f-f82c5722667e"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/9cbdb34a-428b-4c00-b7f8-e9d1b87432d8/",
-                    "uuid": "9cbdb34a-428b-4c00-b7f8-e9d1b87432d8"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/44c17d61-8349-45d6-bacc-a2530897a05d/",
-                    "uuid": "44c17d61-8349-45d6-bacc-a2530897a05d"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/f4604d05-1d82-4508-a017-30423d0c8399/",
-                    "uuid": "f4604d05-1d82-4508-a017-30423d0c8399"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/daee603b-a420-4268-81b6-d737c3f64bb6/",
-                    "uuid": "daee603b-a420-4268-81b6-d737c3f64bb6"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/5fc62d21-2295-472c-bc25-3c57dcc4cb16/",
-                    "uuid": "5fc62d21-2295-472c-bc25-3c57dcc4cb16"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/a65107c9-6697-4773-99ad-94bbb2070cc3/",
-                    "uuid": "a65107c9-6697-4773-99ad-94bbb2070cc3"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/69858cbd-42e2-44f7-9c80-0ab093bd81a5/",
-                    "uuid": "69858cbd-42e2-44f7-9c80-0ab093bd81a5"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/9705e9d1-3c15-46b2-aebf-fd49d7d49fc6/",
-                    "uuid": "9705e9d1-3c15-46b2-aebf-fd49d7d49fc6"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/8666ae06-3323-417f-bbf6-3ed2569c1706/",
-                    "uuid": "8666ae06-3323-417f-bbf6-3ed2569c1706"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/2700463a-50bd-45f4-81cb-f46f663b1cfb/",
-                    "uuid": "2700463a-50bd-45f4-81cb-f46f663b1cfb"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/96659e42-93d7-4b00-9e75-23c59baf8a72/",
-                    "uuid": "96659e42-93d7-4b00-9e75-23c59baf8a72"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/b0e53be0-3e35-49c7-9968-22d14528d63d/",
-                    "uuid": "b0e53be0-3e35-49c7-9968-22d14528d63d"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/c96442f8-cc44-40da-972b-287d8de73c07/",
-                    "uuid": "c96442f8-cc44-40da-972b-287d8de73c07"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/9c1aec04-88f5-4de8-92cc-403ce42b93c0/",
-                    "uuid": "9c1aec04-88f5-4de8-92cc-403ce42b93c0"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/a4fb3ca5-0103-4a45-b6d2-3457ad43ea8b/",
-                    "uuid": "a4fb3ca5-0103-4a45-b6d2-3457ad43ea8b"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/c69dc48e-8353-4eff-af2a-444f002b26e1/",
-                    "uuid": "c69dc48e-8353-4eff-af2a-444f002b26e1"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/4377fefa-da02-412d-b0af-9eec1c8f2d7b/",
-                    "uuid": "4377fefa-da02-412d-b0af-9eec1c8f2d7b"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/1b0b2313-ab30-4180-aa70-05875bec515a/",
-                    "uuid": "1b0b2313-ab30-4180-aa70-05875bec515a"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/fa463b76-2981-4561-a9a4-c49e42ff556e/",
-                    "uuid": "fa463b76-2981-4561-a9a4-c49e42ff556e"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/1b7aabf1-f2e9-4129-8975-be44674844c8/",
-                    "uuid": "1b7aabf1-f2e9-4129-8975-be44674844c8"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/345fec90-4b94-47dd-b1f5-378a215dbca6/",
-                    "uuid": "345fec90-4b94-47dd-b1f5-378a215dbca6"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/2c508dda-8151-40de-8eea-010def3678bf/",
-                    "uuid": "2c508dda-8151-40de-8eea-010def3678bf"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/7f9bc5ed-9b9c-4cad-9369-dfdb630358b5/",
-                    "uuid": "7f9bc5ed-9b9c-4cad-9369-dfdb630358b5"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/56c5e27c-73a2-439c-9751-c9860f8f75b0/",
-                    "uuid": "56c5e27c-73a2-439c-9751-c9860f8f75b0"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/c93c9946-c35d-4ad1-a674-56490e3b718c/",
-                    "uuid": "c93c9946-c35d-4ad1-a674-56490e3b718c"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/bad9d8d2-63da-42ab-a89f-608d7bdaaf2b/",
-                    "uuid": "bad9d8d2-63da-42ab-a89f-608d7bdaaf2b"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/80f708bd-2725-48ac-876d-bd5f055e5a6e/",
-                    "uuid": "80f708bd-2725-48ac-876d-bd5f055e5a6e"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/7456ad7c-5c1e-41dd-b72f-375d330885db/",
-                    "uuid": "7456ad7c-5c1e-41dd-b72f-375d330885db"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/4854c1db-dd73-427c-8431-28dea59e452c/",
-                    "uuid": "4854c1db-dd73-427c-8431-28dea59e452c"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/3dbc4a76-1fcd-4a39-9921-02103d68bf57/",
-                    "uuid": "3dbc4a76-1fcd-4a39-9921-02103d68bf57"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/6c075489-95e7-42f9-a1cc-f0a295654b86/",
-                    "uuid": "6c075489-95e7-42f9-a1cc-f0a295654b86"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/c4c0477c-5b7f-4fcb-8fc8-60d9c00e2e96/",
-                    "uuid": "c4c0477c-5b7f-4fcb-8fc8-60d9c00e2e96"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/866b532c-3a5c-48a5-9751-9b9206b30ede/",
-                    "uuid": "866b532c-3a5c-48a5-9751-9b9206b30ede"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/802dfd59-9ddc-4463-9109-28b24e323860/",
-                    "uuid": "802dfd59-9ddc-4463-9109-28b24e323860"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/bdc51f74-d72f-401d-8424-9aa0319bf6b8/",
-                    "uuid": "bdc51f74-d72f-401d-8424-9aa0319bf6b8"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/4acdac00-e49f-4437-8170-b431bc91463b/",
-                    "uuid": "4acdac00-e49f-4437-8170-b431bc91463b"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/745410d9-8fd2-4a19-a588-5f7ac068c3e0/",
-                    "uuid": "745410d9-8fd2-4a19-a588-5f7ac068c3e0"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/ef7d6616-7127-4312-8aa4-3f4651225d88/",
-                    "uuid": "ef7d6616-7127-4312-8aa4-3f4651225d88"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/9d6ccaa8-2f9a-43d5-bdb9-f08ff31d4202/",
-                    "uuid": "9d6ccaa8-2f9a-43d5-bdb9-f08ff31d4202"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/e23d05f8-ca6d-45da-911b-d16b44329050/",
-                    "uuid": "e23d05f8-ca6d-45da-911b-d16b44329050"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/eabe4d24-a7f2-4dda-af88-4d615396b939/",
-                    "uuid": "eabe4d24-a7f2-4dda-af88-4d615396b939"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/31d917da-a185-4373-bb66-bb09d7072ddd/",
-                    "uuid": "31d917da-a185-4373-bb66-bb09d7072ddd"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/d6fec120-94fb-4dc6-afc4-a13b77960c34/",
-                    "uuid": "d6fec120-94fb-4dc6-afc4-a13b77960c34"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/36698f4d-45b8-4d4f-b461-6c97c7b6db9b/",
-                    "uuid": "36698f4d-45b8-4d4f-b461-6c97c7b6db9b"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/d3e191f7-72d8-436d-862a-19a0ce334639/",
-                    "uuid": "d3e191f7-72d8-436d-862a-19a0ce334639"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/36c6bfb7-b644-476d-8f1d-8cec5014782b/",
-                    "uuid": "36c6bfb7-b644-476d-8f1d-8cec5014782b"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/288c0e67-be10-4b15-b3cb-a93b5acabb68/",
-                    "uuid": "288c0e67-be10-4b15-b3cb-a93b5acabb68"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/191ccbc9-aacb-4854-92da-523205b93c25/",
-                    "uuid": "191ccbc9-aacb-4854-92da-523205b93c25"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/c7728e1b-4939-46d0-b70c-8afa15ce0eb9/",
-                    "uuid": "c7728e1b-4939-46d0-b70c-8afa15ce0eb9"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/a600eeca-5845-4385-a1d1-e12009832dd1/",
-                    "uuid": "a600eeca-5845-4385-a1d1-e12009832dd1"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/dd44e480-2995-449b-989c-376b1d68c264/",
-                    "uuid": "dd44e480-2995-449b-989c-376b1d68c264"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/c21ae81c-baf6-491f-af30-e0c3c49d0ef1/",
-                    "uuid": "c21ae81c-baf6-491f-af30-e0c3c49d0ef1"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/e9b152a8-5b08-47aa-8ef5-92dfa5865890/",
-                    "uuid": "e9b152a8-5b08-47aa-8ef5-92dfa5865890"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/7df1d4e5-2400-45d8-92a7-467c445992c3/",
-                    "uuid": "7df1d4e5-2400-45d8-92a7-467c445992c3"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/430218ec-e8f8-42bd-91a2-133a4a7097e5/",
-                    "uuid": "430218ec-e8f8-42bd-91a2-133a4a7097e5"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/dc3504f3-ee74-4239-b5fe-279f35d439ad/",
-                    "uuid": "dc3504f3-ee74-4239-b5fe-279f35d439ad"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/b3122421-5b55-4b4d-81c0-e6949da836aa/",
-                    "uuid": "b3122421-5b55-4b4d-81c0-e6949da836aa"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/96d11535-c554-4b30-864a-b36346fa950d/",
-                    "uuid": "96d11535-c554-4b30-864a-b36346fa950d"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/4940b2a7-878b-431a-89f7-4a82c5d9b636/",
-                    "uuid": "4940b2a7-878b-431a-89f7-4a82c5d9b636"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/23177e02-094e-4f06-9912-0b0846469bcf/",
-                    "uuid": "23177e02-094e-4f06-9912-0b0846469bcf"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/2e335b58-5318-4aae-9a8d-ea50f4ef922a/",
-                    "uuid": "2e335b58-5318-4aae-9a8d-ea50f4ef922a"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/79f3dfdc-e7ca-4fd3-b1ef-e535647c81ff/",
-                    "uuid": "79f3dfdc-e7ca-4fd3-b1ef-e535647c81ff"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/46c005ac-e951-494d-91c2-7807dcfdd049/",
-                    "uuid": "46c005ac-e951-494d-91c2-7807dcfdd049"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/34b21901-df3e-47ed-b042-21d5f0df49b2/",
-                    "uuid": "34b21901-df3e-47ed-b042-21d5f0df49b2"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/3cba9e40-cb7a-4086-9ecd-e817a1ea1145/",
-                    "uuid": "3cba9e40-cb7a-4086-9ecd-e817a1ea1145"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/5b3fdd6d-99fb-4980-aa79-9cef0792d6e0/",
-                    "uuid": "5b3fdd6d-99fb-4980-aa79-9cef0792d6e0"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/57c91034-10bf-4ae6-8f2b-daa922b4b553/",
-                    "uuid": "57c91034-10bf-4ae6-8f2b-daa922b4b553"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/141b5064-f0a1-428e-9146-7e44cd5586c6/",
-                    "uuid": "141b5064-f0a1-428e-9146-7e44cd5586c6"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/8fc40df7-8d9a-4584-aea8-397bb2ada511/",
-                    "uuid": "8fc40df7-8d9a-4584-aea8-397bb2ada511"
-                }
-            ],
+            "jobs": [],
             "licenses": [],
             "media": "disk",
             "meta": {
-                "description": ""
+                "description": "",
+                "install_notes": ""
             },
-            "mounted_on": [
-                {
-                    "resource_uri": "/api/2.0/servers/c3bfb46b-58ec-48fb-9992-914aefcd4333/",
-                    "uuid": "c3bfb46b-58ec-48fb-9992-914aefcd4333"
-                }
-            ],
-            "name": "new-atom-prototype",
-            "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
-            },
-            "permissions": [],
-            "resource_uri": "/api/2.0/drives/8f218274-b39f-4002-ba6d-13180b258711/",
-            "runtime": {
-                "is_snapshotable": true,
-                "snapshots_allocated_size": 0,
-                "storage_type": "dssd"
-            },
-            "size": 3221225472,
-            "snapshots": [],
-            "status": "mounted",
-            "storage_type": "dssd",
-            "tags": [],
-            "uuid": "8f218274-b39f-4002-ba6d-13180b258711"
-        },
-        {
-            "affinities": [],
-            "allow_multimount": false,
-            "grantees": [],
-            "jobs": [],
-            "licenses": [],
-            "media": "disk",
-            "meta": {},
             "mounted_on": [],
-            "name": "test_drive_2",
+            "name": "otom-0-take2",
             "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
             },
             "permissions": [],
-            "resource_uri": "/api/2.0/drives/5c3b560d-276e-4706-a372-557860ca9503/",
+            "resource_uri": "/api/2.0/drives/3d504199-6bac-4612-a19e-691c9c6c6728/",
             "runtime": {
                 "is_snapshotable": true,
                 "snapshots_allocated_size": 0,
                 "storage_type": "dssd"
             },
-            "size": 1073741824,
+            "size": 12348030976,
             "snapshots": [],
             "status": "unmounted",
             "storage_type": "dssd",
             "tags": [],
-            "uuid": "5c3b560d-276e-4706-a372-557860ca9503"
-        },
-        {
-            "affinities": [],
-            "allow_multimount": false,
-            "grantees": [],
-            "jobs": [],
-            "licenses": [],
-            "media": "disk",
-            "meta": {},
-            "mounted_on": [],
-            "name": "test_drive_3",
-            "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
-            },
-            "permissions": [],
-            "resource_uri": "/api/2.0/drives/6e2e313a-40a9-43f9-b505-709a5f509349/",
-            "runtime": {
-                "is_snapshotable": true,
-                "snapshots_allocated_size": 0,
-                "storage_type": "dssd"
-            },
-            "size": 1073741824,
-            "snapshots": [],
-            "status": "unmounted",
-            "storage_type": "dssd",
-            "tags": [],
-            "uuid": "6e2e313a-40a9-43f9-b505-709a5f509349"
-        },
-        {
-            "affinities": [],
-            "allow_multimount": false,
-            "grantees": [],
-            "jobs": [],
-            "licenses": [],
-            "media": "disk",
-            "meta": {},
-            "mounted_on": [],
-            "name": "test_drive_0",
-            "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
-            },
-            "permissions": [],
-            "resource_uri": "/api/2.0/drives/5bf45d62-18f6-4724-9471-ce417768093c/",
-            "runtime": {
-                "is_snapshotable": true,
-                "snapshots_allocated_size": 0,
-                "storage_type": "dssd"
-            },
-            "size": 1073741824,
-            "snapshots": [],
-            "status": "unmounted",
-            "storage_type": "dssd",
-            "tags": [],
-            "uuid": "5bf45d62-18f6-4724-9471-ce417768093c"
-        },
-        {
-            "affinities": [],
-            "allow_multimount": false,
-            "grantees": [],
-            "jobs": [
-                {
-                    "resource_uri": "/api/2.0/jobs/c9821429-1607-4d57-ab86-c0ab5bc252e8/",
-                    "uuid": "c9821429-1607-4d57-ab86-c0ab5bc252e8"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/58ef1a2a-4414-41b6-90ed-0d30f44c2a5b/",
-                    "uuid": "58ef1a2a-4414-41b6-90ed-0d30f44c2a5b"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/b92b0509-2c39-473b-a315-dcbbaff1a70c/",
-                    "uuid": "b92b0509-2c39-473b-a315-dcbbaff1a70c"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/ae8f79be-a1e5-41e9-8270-d797eddd9545/",
-                    "uuid": "ae8f79be-a1e5-41e9-8270-d797eddd9545"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/86d464f4-a484-41a4-b9f3-817d78650dc1/",
-                    "uuid": "86d464f4-a484-41a4-b9f3-817d78650dc1"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/81ac4311-d84c-4ad3-ab7e-755172ed581b/",
-                    "uuid": "81ac4311-d84c-4ad3-ab7e-755172ed581b"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/82adf06e-af58-4448-9ae1-f4c87b63d96f/",
-                    "uuid": "82adf06e-af58-4448-9ae1-f4c87b63d96f"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/c299be57-6c55-4bc8-b70c-139cd29995e0/",
-                    "uuid": "c299be57-6c55-4bc8-b70c-139cd29995e0"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/a0cf3499-bb88-4f4c-b725-3180b9e54edc/",
-                    "uuid": "a0cf3499-bb88-4f4c-b725-3180b9e54edc"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/cc75c243-9c60-4951-a8d8-1d36261c9304/",
-                    "uuid": "cc75c243-9c60-4951-a8d8-1d36261c9304"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/0c756306-aa4f-4bfc-8f9e-1c7747336486/",
-                    "uuid": "0c756306-aa4f-4bfc-8f9e-1c7747336486"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/742e93e5-7fb2-4538-8717-824aeb021dfd/",
-                    "uuid": "742e93e5-7fb2-4538-8717-824aeb021dfd"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/1d93aed6-8a95-42e6-8571-d3cd65bb8b90/",
-                    "uuid": "1d93aed6-8a95-42e6-8571-d3cd65bb8b90"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/247a7ec7-d276-458f-b684-7c70a4a40df8/",
-                    "uuid": "247a7ec7-d276-458f-b684-7c70a4a40df8"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/34237aaf-3965-44fd-a69e-77b16d469e96/",
-                    "uuid": "34237aaf-3965-44fd-a69e-77b16d469e96"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/9ba7ca98-469a-4fe6-bbad-cb1459889317/",
-                    "uuid": "9ba7ca98-469a-4fe6-bbad-cb1459889317"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/ddeaa682-5f59-465d-a361-895aa84db12e/",
-                    "uuid": "ddeaa682-5f59-465d-a361-895aa84db12e"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/af988a94-d0cc-49fe-86c6-5644a30ef231/",
-                    "uuid": "af988a94-d0cc-49fe-86c6-5644a30ef231"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/8193017a-404a-4cbf-ab52-1faaa1a9a9f8/",
-                    "uuid": "8193017a-404a-4cbf-ab52-1faaa1a9a9f8"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/0481be33-0a57-4c49-8532-66b36b803e9c/",
-                    "uuid": "0481be33-0a57-4c49-8532-66b36b803e9c"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/ba36ca24-6f97-4d3f-afff-1d9e04a08b42/",
-                    "uuid": "ba36ca24-6f97-4d3f-afff-1d9e04a08b42"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/a27324d2-d314-49cb-901d-e7916a8c7a59/",
-                    "uuid": "a27324d2-d314-49cb-901d-e7916a8c7a59"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/185ff9de-fda4-4313-bc7c-ad6e4fe69d97/",
-                    "uuid": "185ff9de-fda4-4313-bc7c-ad6e4fe69d97"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/003c6d7e-a036-4c68-b20b-2786c9f5ca9c/",
-                    "uuid": "003c6d7e-a036-4c68-b20b-2786c9f5ca9c"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/0fa80126-eca7-4e58-b161-e74b92761206/",
-                    "uuid": "0fa80126-eca7-4e58-b161-e74b92761206"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/9689b93e-dd5f-4f96-a9ce-b005feebb326/",
-                    "uuid": "9689b93e-dd5f-4f96-a9ce-b005feebb326"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/c7813375-771c-45c0-a587-1651af47a997/",
-                    "uuid": "c7813375-771c-45c0-a587-1651af47a997"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/3d68d06e-761b-49bc-83e6-541b737194b5/",
-                    "uuid": "3d68d06e-761b-49bc-83e6-541b737194b5"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/672adf93-84cd-4947-bd57-cfe2a3c070c0/",
-                    "uuid": "672adf93-84cd-4947-bd57-cfe2a3c070c0"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/6d25fddf-f3c4-41d7-8dcb-20f64a5c31de/",
-                    "uuid": "6d25fddf-f3c4-41d7-8dcb-20f64a5c31de"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/820c2529-0f4e-48b5-a16b-dc53dd0e3b71/",
-                    "uuid": "820c2529-0f4e-48b5-a16b-dc53dd0e3b71"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/ab408db7-f5e4-44a0-9c5e-daaecea63c50/",
-                    "uuid": "ab408db7-f5e4-44a0-9c5e-daaecea63c50"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/1d4b9b5d-6ae2-4f6d-afb2-aa2d565fb405/",
-                    "uuid": "1d4b9b5d-6ae2-4f6d-afb2-aa2d565fb405"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/67d43db1-599d-4989-bbcf-f586e6f96648/",
-                    "uuid": "67d43db1-599d-4989-bbcf-f586e6f96648"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/7aa7749b-021e-4334-9bea-ce94c670a7a8/",
-                    "uuid": "7aa7749b-021e-4334-9bea-ce94c670a7a8"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/5ede0d2e-17e7-4735-beaf-5e923274e4d2/",
-                    "uuid": "5ede0d2e-17e7-4735-beaf-5e923274e4d2"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/a726accb-3f1a-4d07-afae-e7912f24aa30/",
-                    "uuid": "a726accb-3f1a-4d07-afae-e7912f24aa30"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/2740ae01-f924-4499-85c4-f01227357d14/",
-                    "uuid": "2740ae01-f924-4499-85c4-f01227357d14"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/9ac76526-78e9-444c-bc2b-ec58f9c50d51/",
-                    "uuid": "9ac76526-78e9-444c-bc2b-ec58f9c50d51"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/39085b07-015a-47ba-87ac-ca61ce6b5231/",
-                    "uuid": "39085b07-015a-47ba-87ac-ca61ce6b5231"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/5e699e45-9194-4a50-91dc-5ec60094189d/",
-                    "uuid": "5e699e45-9194-4a50-91dc-5ec60094189d"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/768ac07c-ff1d-4709-98a8-85ad9a648815/",
-                    "uuid": "768ac07c-ff1d-4709-98a8-85ad9a648815"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/c99cbb73-1b41-4de4-a088-918c1b7122ed/",
-                    "uuid": "c99cbb73-1b41-4de4-a088-918c1b7122ed"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/e939b95d-4c3c-4810-b61e-d95a141a8152/",
-                    "uuid": "e939b95d-4c3c-4810-b61e-d95a141a8152"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/59c90372-373a-46fd-843c-25268bcadceb/",
-                    "uuid": "59c90372-373a-46fd-843c-25268bcadceb"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/51e31c3d-163c-4995-88bb-e620b7e1266a/",
-                    "uuid": "51e31c3d-163c-4995-88bb-e620b7e1266a"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/9f58bf07-99a3-45a8-884d-45c38c6b0410/",
-                    "uuid": "9f58bf07-99a3-45a8-884d-45c38c6b0410"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/f14d5bb6-6a9c-42f9-9352-787a5d561f3f/",
-                    "uuid": "f14d5bb6-6a9c-42f9-9352-787a5d561f3f"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/a29f302f-4824-4189-80b5-420dfd9ecba8/",
-                    "uuid": "a29f302f-4824-4189-80b5-420dfd9ecba8"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/230d5c38-34a9-4a3c-b5f1-b1859999823b/",
-                    "uuid": "230d5c38-34a9-4a3c-b5f1-b1859999823b"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/3efbb3c6-4336-4ab7-ba9a-877be80db8b3/",
-                    "uuid": "3efbb3c6-4336-4ab7-ba9a-877be80db8b3"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/d6572a75-3e6e-482e-ae28-43de2eb67bd5/",
-                    "uuid": "d6572a75-3e6e-482e-ae28-43de2eb67bd5"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/0283348f-f138-4eec-a1b9-353371433f5b/",
-                    "uuid": "0283348f-f138-4eec-a1b9-353371433f5b"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/e1c608bb-85f2-46fa-825c-6cfac2861302/",
-                    "uuid": "e1c608bb-85f2-46fa-825c-6cfac2861302"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/539fe60c-4cf1-4246-b02b-0abf75c1835c/",
-                    "uuid": "539fe60c-4cf1-4246-b02b-0abf75c1835c"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/1b0ba71f-4c21-4d98-8bdc-51a09cd29a45/",
-                    "uuid": "1b0ba71f-4c21-4d98-8bdc-51a09cd29a45"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/b4c78c90-e480-4904-82b3-fe76acf636af/",
-                    "uuid": "b4c78c90-e480-4904-82b3-fe76acf636af"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/851f46c4-ffff-49a3-8bed-6cd1f498ae20/",
-                    "uuid": "851f46c4-ffff-49a3-8bed-6cd1f498ae20"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/289b7d0e-4e59-4963-a956-7ff5a4919775/",
-                    "uuid": "289b7d0e-4e59-4963-a956-7ff5a4919775"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/4fd76f9d-a613-47e6-a0b6-5d32dff13492/",
-                    "uuid": "4fd76f9d-a613-47e6-a0b6-5d32dff13492"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/89ebad86-4cb6-421a-90de-9bf701e810fa/",
-                    "uuid": "89ebad86-4cb6-421a-90de-9bf701e810fa"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/f9b121f0-3745-4614-a709-ed7cfe33b2a0/",
-                    "uuid": "f9b121f0-3745-4614-a709-ed7cfe33b2a0"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/e64ea9c8-3c21-490b-b4b9-80153029412f/",
-                    "uuid": "e64ea9c8-3c21-490b-b4b9-80153029412f"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/976040d8-fd67-43c4-8460-be3c992ffa56/",
-                    "uuid": "976040d8-fd67-43c4-8460-be3c992ffa56"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/132662c0-115b-4ba6-8ec0-6dab2440ef3c/",
-                    "uuid": "132662c0-115b-4ba6-8ec0-6dab2440ef3c"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/19d67518-ed15-443b-8d5b-c385d09677d6/",
-                    "uuid": "19d67518-ed15-443b-8d5b-c385d09677d6"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/e476846e-1bd7-4be2-8289-7bcc851b60bd/",
-                    "uuid": "e476846e-1bd7-4be2-8289-7bcc851b60bd"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/c0209d35-049c-4c9b-b46e-432d65a6c6e7/",
-                    "uuid": "c0209d35-049c-4c9b-b46e-432d65a6c6e7"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/e206acda-36f6-4fcb-9fd5-1703a705e45e/",
-                    "uuid": "e206acda-36f6-4fcb-9fd5-1703a705e45e"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/7af60621-a3db-40af-af5b-2a9672503d81/",
-                    "uuid": "7af60621-a3db-40af-af5b-2a9672503d81"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/19cc5205-5203-468c-8c97-a414b04a733a/",
-                    "uuid": "19cc5205-5203-468c-8c97-a414b04a733a"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/28c9df78-301e-4ae6-9767-ca771c49d302/",
-                    "uuid": "28c9df78-301e-4ae6-9767-ca771c49d302"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/cc37f320-2a33-41de-aff8-4cd3f6dcddef/",
-                    "uuid": "cc37f320-2a33-41de-aff8-4cd3f6dcddef"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/75d8c077-737f-48a7-bf50-af8ea7c22baf/",
-                    "uuid": "75d8c077-737f-48a7-bf50-af8ea7c22baf"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/af2d6ace-4929-46fd-9956-b6d2c661e0ed/",
-                    "uuid": "af2d6ace-4929-46fd-9956-b6d2c661e0ed"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/1e70cb26-a1f9-4664-8e15-0364f31466f6/",
-                    "uuid": "1e70cb26-a1f9-4664-8e15-0364f31466f6"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/6b672d1b-37da-4945-bb58-eb385f5f70ec/",
-                    "uuid": "6b672d1b-37da-4945-bb58-eb385f5f70ec"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/2a5f10ad-0b73-4984-b4cf-33b127daa66d/",
-                    "uuid": "2a5f10ad-0b73-4984-b4cf-33b127daa66d"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/3afe23f4-3d87-4793-94ae-3ac01a5dd5f9/",
-                    "uuid": "3afe23f4-3d87-4793-94ae-3ac01a5dd5f9"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/40acc875-57d1-4983-8ec5-b827e1345f29/",
-                    "uuid": "40acc875-57d1-4983-8ec5-b827e1345f29"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/f0101312-68d2-4057-97bb-324568503087/",
-                    "uuid": "f0101312-68d2-4057-97bb-324568503087"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/523b4a57-2138-429b-bdae-d7155d8828b2/",
-                    "uuid": "523b4a57-2138-429b-bdae-d7155d8828b2"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/ea1bd5be-9292-4eec-b58d-c98f50f7008b/",
-                    "uuid": "ea1bd5be-9292-4eec-b58d-c98f50f7008b"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/bea2b3e5-92a6-41e4-896f-0002c16daed4/",
-                    "uuid": "bea2b3e5-92a6-41e4-896f-0002c16daed4"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/fbd6480c-ad90-4c9c-b674-6ac4520b371e/",
-                    "uuid": "fbd6480c-ad90-4c9c-b674-6ac4520b371e"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/7a05ff27-8696-4fe4-9b08-cf9c14c03b1d/",
-                    "uuid": "7a05ff27-8696-4fe4-9b08-cf9c14c03b1d"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/dacb3f57-f1cd-4891-a8b5-e6b7eed7204a/",
-                    "uuid": "dacb3f57-f1cd-4891-a8b5-e6b7eed7204a"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/7215a17a-8950-469a-a2ed-b67694211c21/",
-                    "uuid": "7215a17a-8950-469a-a2ed-b67694211c21"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/ea81e295-bd3b-4574-8ea2-220a3e24c56e/",
-                    "uuid": "ea81e295-bd3b-4574-8ea2-220a3e24c56e"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/2110d400-1d28-45c6-afed-4f1c3e719f5c/",
-                    "uuid": "2110d400-1d28-45c6-afed-4f1c3e719f5c"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/cd0df249-b997-4bbd-8144-d57943558701/",
-                    "uuid": "cd0df249-b997-4bbd-8144-d57943558701"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/bacc5065-d0e5-4972-8cef-73f0d3b73b5c/",
-                    "uuid": "bacc5065-d0e5-4972-8cef-73f0d3b73b5c"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/ce10854e-0750-4d05-ad11-5e8469ab2f13/",
-                    "uuid": "ce10854e-0750-4d05-ad11-5e8469ab2f13"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/b1526da7-f5d5-49b6-b5fd-977f26437e23/",
-                    "uuid": "b1526da7-f5d5-49b6-b5fd-977f26437e23"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/4c6c112e-8ece-4fbf-b27a-4cfbaeb5956a/",
-                    "uuid": "4c6c112e-8ece-4fbf-b27a-4cfbaeb5956a"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/ad6f665c-ecb5-435b-aac2-a5afee805864/",
-                    "uuid": "ad6f665c-ecb5-435b-aac2-a5afee805864"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/e4b4b5d1-70eb-4c60-9574-ddb625379071/",
-                    "uuid": "e4b4b5d1-70eb-4c60-9574-ddb625379071"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/58c77ee2-5da0-46e2-80f9-febaf249cfac/",
-                    "uuid": "58c77ee2-5da0-46e2-80f9-febaf249cfac"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/48bd3fc6-4460-48a9-b420-779eb5dfa7ae/",
-                    "uuid": "48bd3fc6-4460-48a9-b420-779eb5dfa7ae"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/0f85531f-42be-460c-9442-7a6f687ea5f3/",
-                    "uuid": "0f85531f-42be-460c-9442-7a6f687ea5f3"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/8f8ece1f-6d17-450e-b7ca-a779f20601a0/",
-                    "uuid": "8f8ece1f-6d17-450e-b7ca-a779f20601a0"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/6ce6d146-4fb0-43bf-8526-0cf2d0713966/",
-                    "uuid": "6ce6d146-4fb0-43bf-8526-0cf2d0713966"
-                },
-                {
-                    "resource_uri": "/api/2.0/jobs/e23ceb6c-1f66-4983-9884-0aca7d71c0d1/",
-                    "uuid": "e23ceb6c-1f66-4983-9884-0aca7d71c0d1"
-                }
-            ],
-            "licenses": [],
-            "media": "disk",
-            "meta": {
-                "description": ""
-            },
-            "mounted_on": [],
-            "name": "atom",
-            "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
-            },
-            "permissions": [],
-            "resource_uri": "/api/2.0/drives/ae23f793-c234-495c-8fc9-72222dd4f2ac/",
-            "runtime": {
-                "is_snapshotable": true,
-                "snapshots_allocated_size": 0,
-                "storage_type": "dssd"
-            },
-            "size": 3221225472,
-            "snapshots": [],
-            "status": "unmounted",
-            "storage_type": "dssd",
-            "tags": [],
-            "uuid": "ae23f793-c234-495c-8fc9-72222dd4f2ac"
-        },
-        {
-            "affinities": [],
-            "allow_multimount": false,
-            "grantees": [],
-            "jobs": [],
-            "licenses": [],
-            "media": "disk",
-            "meta": {},
-            "mounted_on": [],
-            "name": "test_drive_1",
-            "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
-            },
-            "permissions": [],
-            "resource_uri": "/api/2.0/drives/ba0a64f8-93cf-4f43-9021-e7b184a0eced/",
-            "runtime": {
-                "is_snapshotable": true,
-                "snapshots_allocated_size": 0,
-                "storage_type": "dssd"
-            },
-            "size": 1073741824,
-            "snapshots": [],
-            "status": "unmounted",
-            "storage_type": "dssd",
-            "tags": [],
-            "uuid": "ba0a64f8-93cf-4f43-9021-e7b184a0eced"
+            "uuid": "3d504199-6bac-4612-a19e-691c9c6c6728"
         },
         {
             "affinities": [],
@@ -1342,11 +50,11 @@ Content-Type: application/json; charset=utf-8
             "mounted_on": [],
             "name": "test_drive_4",
             "owner": {
-                "resource_uri": "/api/2.0/user/80cb30fb-0ea3-43db-b27b-a125752cc0bf/",
-                "uuid": "80cb30fb-0ea3-43db-b27b-a125752cc0bf"
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
             },
             "permissions": [],
-            "resource_uri": "/api/2.0/drives/1ba4decb-fc6d-478e-b31e-3325c8ca8407/",
+            "resource_uri": "/api/2.0/drives/b969d04b-b63f-4b67-9a92-c878d9d53232/",
             "runtime": {
                 "is_snapshotable": true,
                 "snapshots_allocated_size": 0,
@@ -1357,7 +65,627 @@ Content-Type: application/json; charset=utf-8
             "status": "unmounted",
             "storage_type": "dssd",
             "tags": [],
-            "uuid": "1ba4decb-fc6d-478e-b31e-3325c8ca8407"
+            "uuid": "b969d04b-b63f-4b67-9a92-c878d9d53232"
+        },
+        {
+            "affinities": [],
+            "allow_multimount": false,
+            "grantees": [],
+            "jobs": [],
+            "licenses": [],
+            "media": "disk",
+            "meta": {},
+            "mounted_on": [],
+            "name": "test_drive_1",
+            "owner": {
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+            },
+            "permissions": [],
+            "resource_uri": "/api/2.0/drives/cd9580ef-692c-4da2-b64d-59c88809c30b/",
+            "runtime": {
+                "is_snapshotable": true,
+                "snapshots_allocated_size": 0,
+                "storage_type": "dssd"
+            },
+            "size": 1073741824,
+            "snapshots": [],
+            "status": "unmounted",
+            "storage_type": "dssd",
+            "tags": [],
+            "uuid": "cd9580ef-692c-4da2-b64d-59c88809c30b"
+        },
+        {
+            "affinities": [],
+            "allow_multimount": false,
+            "grantees": [],
+            "jobs": [
+                {
+                    "resource_uri": "/api/2.0/jobs/e81fae7b-7966-46f6-917f-d366a799b550/",
+                    "uuid": "e81fae7b-7966-46f6-917f-d366a799b550"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/3a458646-73ea-4755-a398-953a33e8200d/",
+                    "uuid": "3a458646-73ea-4755-a398-953a33e8200d"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/e048129a-7652-4ab8-a9c3-11c419954b93/",
+                    "uuid": "e048129a-7652-4ab8-a9c3-11c419954b93"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/ea3cc85a-3ab1-45dd-bea5-60ab6eda7d95/",
+                    "uuid": "ea3cc85a-3ab1-45dd-bea5-60ab6eda7d95"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/1c3b2c65-84c1-4509-b4cf-c6bb40aa67f4/",
+                    "uuid": "1c3b2c65-84c1-4509-b4cf-c6bb40aa67f4"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/e222c128-02bc-4109-ab8c-e8eaec2deb84/",
+                    "uuid": "e222c128-02bc-4109-ab8c-e8eaec2deb84"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/d73a977d-13e2-4af7-bb46-9f90a3cdb709/",
+                    "uuid": "d73a977d-13e2-4af7-bb46-9f90a3cdb709"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/9751e954-6272-4170-ace4-749234beda41/",
+                    "uuid": "9751e954-6272-4170-ace4-749234beda41"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/8d1914a9-ef59-4ca5-b0b9-94e5100e01f1/",
+                    "uuid": "8d1914a9-ef59-4ca5-b0b9-94e5100e01f1"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/8882034b-8149-4381-8e3b-3d63df48a089/",
+                    "uuid": "8882034b-8149-4381-8e3b-3d63df48a089"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/8961f56a-009e-4d70-b39a-363c86e2797f/",
+                    "uuid": "8961f56a-009e-4d70-b39a-363c86e2797f"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/b18335fd-5c38-43a0-a6ad-5e4150609317/",
+                    "uuid": "b18335fd-5c38-43a0-a6ad-5e4150609317"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/15e31b74-49bd-4d5f-b300-b1104dcebda2/",
+                    "uuid": "15e31b74-49bd-4d5f-b300-b1104dcebda2"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/ca481dd7-f6ee-48aa-b8fe-7d2ba14da03a/",
+                    "uuid": "ca481dd7-f6ee-48aa-b8fe-7d2ba14da03a"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/0d8ae7db-72e3-4a9c-bc5e-20b767fefb46/",
+                    "uuid": "0d8ae7db-72e3-4a9c-bc5e-20b767fefb46"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/f9a362a3-1c0c-4672-857d-78533e8745a4/",
+                    "uuid": "f9a362a3-1c0c-4672-857d-78533e8745a4"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/eeaf59bb-a3b4-4f07-9a5e-fac08a51bb73/",
+                    "uuid": "eeaf59bb-a3b4-4f07-9a5e-fac08a51bb73"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/5c5e4b51-21b7-446e-8dc5-d2adba7a8b72/",
+                    "uuid": "5c5e4b51-21b7-446e-8dc5-d2adba7a8b72"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/b65998cb-a061-4526-b9b8-8939e0caa726/",
+                    "uuid": "b65998cb-a061-4526-b9b8-8939e0caa726"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/2e11ce11-2016-47cd-a6cd-081961337692/",
+                    "uuid": "2e11ce11-2016-47cd-a6cd-081961337692"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/e05d7f4d-2982-47ac-aa2d-ce0cc72c2292/",
+                    "uuid": "e05d7f4d-2982-47ac-aa2d-ce0cc72c2292"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/a755c06f-0345-4233-b65b-55823e0224e7/",
+                    "uuid": "a755c06f-0345-4233-b65b-55823e0224e7"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/a4d98424-b23e-40b9-af71-aa1c772100eb/",
+                    "uuid": "a4d98424-b23e-40b9-af71-aa1c772100eb"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/61dd578a-7f91-4259-ac18-3c95faab172b/",
+                    "uuid": "61dd578a-7f91-4259-ac18-3c95faab172b"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/86d899d3-940c-401e-bc26-d8394089f993/",
+                    "uuid": "86d899d3-940c-401e-bc26-d8394089f993"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/ad920c1d-4efe-4ed4-87fd-d9d9da718667/",
+                    "uuid": "ad920c1d-4efe-4ed4-87fd-d9d9da718667"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/4d043d40-ebc4-4501-8386-9751ac19f9b9/",
+                    "uuid": "4d043d40-ebc4-4501-8386-9751ac19f9b9"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/9c05f3a1-13a5-45af-8faf-6bb47a53e2d8/",
+                    "uuid": "9c05f3a1-13a5-45af-8faf-6bb47a53e2d8"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/c7e7fe31-179b-4b38-a5fa-e3f399f683f2/",
+                    "uuid": "c7e7fe31-179b-4b38-a5fa-e3f399f683f2"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/3c31b43f-55d8-426a-8124-02c71a0b3b4e/",
+                    "uuid": "3c31b43f-55d8-426a-8124-02c71a0b3b4e"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/08312509-d90a-44e9-9f07-280d2e2935ae/",
+                    "uuid": "08312509-d90a-44e9-9f07-280d2e2935ae"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/1cd69a16-5aee-45a9-99ec-698a1266c514/",
+                    "uuid": "1cd69a16-5aee-45a9-99ec-698a1266c514"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/f1f2db65-5681-4404-888a-46aa97df6d9a/",
+                    "uuid": "f1f2db65-5681-4404-888a-46aa97df6d9a"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/11f45314-d3c1-469c-aaa0-d30d3574a62b/",
+                    "uuid": "11f45314-d3c1-469c-aaa0-d30d3574a62b"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/9ac68490-9e85-4b41-a76d-754df657dbd1/",
+                    "uuid": "9ac68490-9e85-4b41-a76d-754df657dbd1"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/93110b55-ad01-46e7-a71c-c10365e746b4/",
+                    "uuid": "93110b55-ad01-46e7-a71c-c10365e746b4"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/7e6036be-b47b-4b7a-86c8-50e9ed585404/",
+                    "uuid": "7e6036be-b47b-4b7a-86c8-50e9ed585404"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/e8d70c86-7ce2-4506-87ea-7c4a0d1eb9e5/",
+                    "uuid": "e8d70c86-7ce2-4506-87ea-7c4a0d1eb9e5"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/0b1280ae-b715-4dbc-a902-86c25603474d/",
+                    "uuid": "0b1280ae-b715-4dbc-a902-86c25603474d"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/401d7916-359a-4cca-8abd-f6f832c97983/",
+                    "uuid": "401d7916-359a-4cca-8abd-f6f832c97983"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/ad1d412b-c51a-4cca-8ff9-81f5976471dd/",
+                    "uuid": "ad1d412b-c51a-4cca-8ff9-81f5976471dd"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/bf3ff2b7-52b6-4ac8-921a-7d44b80711bb/",
+                    "uuid": "bf3ff2b7-52b6-4ac8-921a-7d44b80711bb"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/9ce2ce9d-587c-46f6-b3bd-991ebf26b121/",
+                    "uuid": "9ce2ce9d-587c-46f6-b3bd-991ebf26b121"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/79aed1c7-570a-4191-897a-337476ebc074/",
+                    "uuid": "79aed1c7-570a-4191-897a-337476ebc074"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/1d630913-cef6-4e60-a472-125ded470400/",
+                    "uuid": "1d630913-cef6-4e60-a472-125ded470400"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/51f61346-6d9b-48b7-8cf5-4f70acc1dd97/",
+                    "uuid": "51f61346-6d9b-48b7-8cf5-4f70acc1dd97"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/ec58e294-0906-495f-86a2-4dd423fdd7b6/",
+                    "uuid": "ec58e294-0906-495f-86a2-4dd423fdd7b6"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/ce301022-90ef-4b7d-819a-5b6172b942f2/",
+                    "uuid": "ce301022-90ef-4b7d-819a-5b6172b942f2"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/09b4a45d-1b79-4116-bf01-96331f939d07/",
+                    "uuid": "09b4a45d-1b79-4116-bf01-96331f939d07"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/1287eee1-8b2c-443e-b177-0235a76a3ab3/",
+                    "uuid": "1287eee1-8b2c-443e-b177-0235a76a3ab3"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/7b71312d-fb1c-43c6-962b-6fd15e637ad9/",
+                    "uuid": "7b71312d-fb1c-43c6-962b-6fd15e637ad9"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/e4e5b16d-abca-41e0-8755-75fbb0d434c6/",
+                    "uuid": "e4e5b16d-abca-41e0-8755-75fbb0d434c6"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/dc7c4fca-6a66-4efb-87b8-db1d2dc9730a/",
+                    "uuid": "dc7c4fca-6a66-4efb-87b8-db1d2dc9730a"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/c61d1361-633f-4304-b80b-aff64785ac91/",
+                    "uuid": "c61d1361-633f-4304-b80b-aff64785ac91"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/5ee1a46b-4e58-4ec0-9dae-e7b919ae6e52/",
+                    "uuid": "5ee1a46b-4e58-4ec0-9dae-e7b919ae6e52"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/a2021f29-9f12-4443-87b3-0b2fdb9a76b5/",
+                    "uuid": "a2021f29-9f12-4443-87b3-0b2fdb9a76b5"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/38def946-1616-4215-b216-16035a1fb738/",
+                    "uuid": "38def946-1616-4215-b216-16035a1fb738"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/02255a54-8b9f-43ec-b751-89a4afc18a90/",
+                    "uuid": "02255a54-8b9f-43ec-b751-89a4afc18a90"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/ec61caa4-2baf-45ec-8f59-61e5716395ca/",
+                    "uuid": "ec61caa4-2baf-45ec-8f59-61e5716395ca"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/ae8ecbcb-68e9-42b6-9c04-6ff9ffd7f88f/",
+                    "uuid": "ae8ecbcb-68e9-42b6-9c04-6ff9ffd7f88f"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/1fbbcfcf-5027-4100-a93b-83ff73ff80cb/",
+                    "uuid": "1fbbcfcf-5027-4100-a93b-83ff73ff80cb"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/f12e8cd7-d76e-4b8a-b692-f4c22266e792/",
+                    "uuid": "f12e8cd7-d76e-4b8a-b692-f4c22266e792"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/728f1e12-2701-4618-a1ec-ff1a2cac63d0/",
+                    "uuid": "728f1e12-2701-4618-a1ec-ff1a2cac63d0"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/43f28ca1-e523-4481-966b-1c85fbb673fa/",
+                    "uuid": "43f28ca1-e523-4481-966b-1c85fbb673fa"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/9a1cc534-e426-4b68-b001-75f37119b353/",
+                    "uuid": "9a1cc534-e426-4b68-b001-75f37119b353"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/3d18c709-1601-4a7f-af9d-530ab86ef825/",
+                    "uuid": "3d18c709-1601-4a7f-af9d-530ab86ef825"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/a93b3d0d-e294-4f02-bc44-3cfd36d24ddb/",
+                    "uuid": "a93b3d0d-e294-4f02-bc44-3cfd36d24ddb"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/f47b65e9-14ca-40f6-9b2a-60c27091a75f/",
+                    "uuid": "f47b65e9-14ca-40f6-9b2a-60c27091a75f"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/69713c13-b1bb-4f84-972c-eb7adf55a051/",
+                    "uuid": "69713c13-b1bb-4f84-972c-eb7adf55a051"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/8d650bc8-80f9-4272-b190-11cd4b086d91/",
+                    "uuid": "8d650bc8-80f9-4272-b190-11cd4b086d91"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/12684b6c-fc57-4edb-916f-efe78a0e3f51/",
+                    "uuid": "12684b6c-fc57-4edb-916f-efe78a0e3f51"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/564c53a1-69c0-45de-8836-f52b49baff18/",
+                    "uuid": "564c53a1-69c0-45de-8836-f52b49baff18"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/26b24ab4-a89b-44d6-9194-e7324faa8922/",
+                    "uuid": "26b24ab4-a89b-44d6-9194-e7324faa8922"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/e24ed38b-1d3a-4f1d-8c91-2812f8c13c5f/",
+                    "uuid": "e24ed38b-1d3a-4f1d-8c91-2812f8c13c5f"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/52a1d9da-ee39-4973-b047-9233ae4e09ed/",
+                    "uuid": "52a1d9da-ee39-4973-b047-9233ae4e09ed"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/7c7d954c-58d9-49cf-9d9b-645adeb072de/",
+                    "uuid": "7c7d954c-58d9-49cf-9d9b-645adeb072de"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/6043d2cf-d1d3-4221-bc3a-6aa3c782e68d/",
+                    "uuid": "6043d2cf-d1d3-4221-bc3a-6aa3c782e68d"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/c718ce2d-0ba6-4964-be73-d35282a1024d/",
+                    "uuid": "c718ce2d-0ba6-4964-be73-d35282a1024d"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/3c92ad0f-e5a8-40b8-8d15-5dbb37ab5090/",
+                    "uuid": "3c92ad0f-e5a8-40b8-8d15-5dbb37ab5090"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/3e849dc8-f88e-4aa9-a7bb-5c245c892098/",
+                    "uuid": "3e849dc8-f88e-4aa9-a7bb-5c245c892098"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/fbc30ede-7ec5-4e11-8c51-6b729875bc41/",
+                    "uuid": "fbc30ede-7ec5-4e11-8c51-6b729875bc41"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/243e1c08-3b5f-4a87-acee-ff6aefb1dcbd/",
+                    "uuid": "243e1c08-3b5f-4a87-acee-ff6aefb1dcbd"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/592437ff-0cb0-4f62-a62c-ac964f5e6d45/",
+                    "uuid": "592437ff-0cb0-4f62-a62c-ac964f5e6d45"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/34502453-dba1-4530-bc75-7aadddbd6376/",
+                    "uuid": "34502453-dba1-4530-bc75-7aadddbd6376"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/3246e6e6-ea98-47cf-8e1c-174beec2b466/",
+                    "uuid": "3246e6e6-ea98-47cf-8e1c-174beec2b466"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/a7269f26-a630-4289-9195-322807e5d626/",
+                    "uuid": "a7269f26-a630-4289-9195-322807e5d626"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/9050f1d1-9ac3-4cfb-bd30-0d4b169cc873/",
+                    "uuid": "9050f1d1-9ac3-4cfb-bd30-0d4b169cc873"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/0649e5fe-1a17-4b16-8473-fa847cabb603/",
+                    "uuid": "0649e5fe-1a17-4b16-8473-fa847cabb603"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/db26bfbf-a615-4eb4-a631-9ba85140dc3b/",
+                    "uuid": "db26bfbf-a615-4eb4-a631-9ba85140dc3b"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/4eb78262-9f34-4ed8-81de-00b9ac11bfd8/",
+                    "uuid": "4eb78262-9f34-4ed8-81de-00b9ac11bfd8"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/2a3ac055-0133-4b6e-a999-1c9c197bd55c/",
+                    "uuid": "2a3ac055-0133-4b6e-a999-1c9c197bd55c"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/16a02c3f-f5eb-48b6-a8da-8185a39f17a2/",
+                    "uuid": "16a02c3f-f5eb-48b6-a8da-8185a39f17a2"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/85ecfbc9-9857-49e4-909a-2c7cdcbc1adc/",
+                    "uuid": "85ecfbc9-9857-49e4-909a-2c7cdcbc1adc"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/18d1b2ae-3f9b-4cae-b5f4-6086f868d5e5/",
+                    "uuid": "18d1b2ae-3f9b-4cae-b5f4-6086f868d5e5"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/7879e9e0-de4b-4b85-b69f-b416243527d9/",
+                    "uuid": "7879e9e0-de4b-4b85-b69f-b416243527d9"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/13bfc35b-6374-480d-aed7-d06e9b69f52b/",
+                    "uuid": "13bfc35b-6374-480d-aed7-d06e9b69f52b"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/fcc07794-94e0-4f6b-a9f0-32c52098b7f2/",
+                    "uuid": "fcc07794-94e0-4f6b-a9f0-32c52098b7f2"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/bce778e4-5003-4cb0-b60b-e86717e11584/",
+                    "uuid": "bce778e4-5003-4cb0-b60b-e86717e11584"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/3d7cf702-917a-4864-9a22-b8b1c0ddd0da/",
+                    "uuid": "3d7cf702-917a-4864-9a22-b8b1c0ddd0da"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/002b43f6-f12e-4b4a-9566-3affc49cbff5/",
+                    "uuid": "002b43f6-f12e-4b4a-9566-3affc49cbff5"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/f6f9423d-e239-48bf-b3e1-7eef57f41df5/",
+                    "uuid": "f6f9423d-e239-48bf-b3e1-7eef57f41df5"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/80498624-4b6a-4c23-8db3-0402b8bc61e0/",
+                    "uuid": "80498624-4b6a-4c23-8db3-0402b8bc61e0"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/57cd32c3-8969-4286-b4f3-d8e4132648db/",
+                    "uuid": "57cd32c3-8969-4286-b4f3-d8e4132648db"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/e4ff1f15-d0ee-4717-89a1-2c0ad024391c/",
+                    "uuid": "e4ff1f15-d0ee-4717-89a1-2c0ad024391c"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/a3e72cd9-bcf3-4810-b2b8-40c0db8ba2d2/",
+                    "uuid": "a3e72cd9-bcf3-4810-b2b8-40c0db8ba2d2"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/aa4a37ed-a657-4544-bcea-35c8b87f7382/",
+                    "uuid": "aa4a37ed-a657-4544-bcea-35c8b87f7382"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/9ecbc462-7fae-4b23-aabb-5a6d05c8c106/",
+                    "uuid": "9ecbc462-7fae-4b23-aabb-5a6d05c8c106"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/4b97a416-bef0-4d9c-ab19-715fb228f7f6/",
+                    "uuid": "4b97a416-bef0-4d9c-ab19-715fb228f7f6"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/ff128f6d-c51b-4d01-8932-14be8748f9dd/",
+                    "uuid": "ff128f6d-c51b-4d01-8932-14be8748f9dd"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/bd4b2465-09b7-4e12-8cfa-7d8779281ee7/",
+                    "uuid": "bd4b2465-09b7-4e12-8cfa-7d8779281ee7"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/03ecdbd7-9799-48c8-aa71-06d072d04b3f/",
+                    "uuid": "03ecdbd7-9799-48c8-aa71-06d072d04b3f"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/871aa701-cda8-47f6-b10b-df6d33f87cc9/",
+                    "uuid": "871aa701-cda8-47f6-b10b-df6d33f87cc9"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/23f8bdc6-5ab4-477c-8f7c-7bdb5952b483/",
+                    "uuid": "23f8bdc6-5ab4-477c-8f7c-7bdb5952b483"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/10f675b4-aff6-4158-98ab-16a285f8705e/",
+                    "uuid": "10f675b4-aff6-4158-98ab-16a285f8705e"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/bcc7eddf-cecd-455c-86e9-64425b26b39e/",
+                    "uuid": "bcc7eddf-cecd-455c-86e9-64425b26b39e"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/16589be9-9bfb-4991-b75a-268a0f5c629d/",
+                    "uuid": "16589be9-9bfb-4991-b75a-268a0f5c629d"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/ad6b508e-882f-4554-962e-10df50a46e51/",
+                    "uuid": "ad6b508e-882f-4554-962e-10df50a46e51"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/ebd647a3-6ad1-4ae9-8bfb-b618072f0545/",
+                    "uuid": "ebd647a3-6ad1-4ae9-8bfb-b618072f0545"
+                },
+                {
+                    "resource_uri": "/api/2.0/jobs/799c758f-2e68-44ab-9808-04271937331b/",
+                    "uuid": "799c758f-2e68-44ab-9808-04271937331b"
+                }
+            ],
+            "licenses": [],
+            "media": "disk",
+            "meta": {
+                "description": "",
+                "install_notes": ""
+            },
+            "mounted_on": [],
+            "name": "atom-sol",
+            "owner": {
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+            },
+            "permissions": [],
+            "resource_uri": "/api/2.0/drives/b9a2e66c-81d1-4de3-aac0-b6f2bde806f1/",
+            "runtime": {
+                "is_snapshotable": true,
+                "snapshots_allocated_size": 0,
+                "storage_type": "dssd"
+            },
+            "size": 12348030976,
+            "snapshots": [],
+            "status": "unmounted",
+            "storage_type": "dssd",
+            "tags": [],
+            "uuid": "b9a2e66c-81d1-4de3-aac0-b6f2bde806f1"
+        },
+        {
+            "affinities": [],
+            "allow_multimount": false,
+            "grantees": [],
+            "jobs": [],
+            "licenses": [],
+            "media": "disk",
+            "meta": {},
+            "mounted_on": [],
+            "name": "test_drive_2",
+            "owner": {
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+            },
+            "permissions": [],
+            "resource_uri": "/api/2.0/drives/ea31b27b-807a-4710-b37c-c092f64bf4f7/",
+            "runtime": {
+                "is_snapshotable": true,
+                "snapshots_allocated_size": 0,
+                "storage_type": "dssd"
+            },
+            "size": 1073741824,
+            "snapshots": [],
+            "status": "unmounted",
+            "storage_type": "dssd",
+            "tags": [],
+            "uuid": "ea31b27b-807a-4710-b37c-c092f64bf4f7"
+        },
+        {
+            "affinities": [],
+            "allow_multimount": false,
+            "grantees": [],
+            "jobs": [],
+            "licenses": [],
+            "media": "disk",
+            "meta": {},
+            "mounted_on": [],
+            "name": "test_drive_3",
+            "owner": {
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+            },
+            "permissions": [],
+            "resource_uri": "/api/2.0/drives/e3898bfb-32d5-48d1-afd3-c28f4c8ef6d0/",
+            "runtime": {
+                "is_snapshotable": true,
+                "snapshots_allocated_size": 0,
+                "storage_type": "dssd"
+            },
+            "size": 1073741824,
+            "snapshots": [],
+            "status": "unmounted",
+            "storage_type": "dssd",
+            "tags": [],
+            "uuid": "e3898bfb-32d5-48d1-afd3-c28f4c8ef6d0"
+        },
+        {
+            "affinities": [],
+            "allow_multimount": false,
+            "grantees": [],
+            "jobs": [],
+            "licenses": [],
+            "media": "disk",
+            "meta": {},
+            "mounted_on": [],
+            "name": "test_drive_0",
+            "owner": {
+                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
+                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+            },
+            "permissions": [],
+            "resource_uri": "/api/2.0/drives/b582ed29-0cab-4e40-bf91-40d4b4dcc964/",
+            "runtime": {
+                "is_snapshotable": true,
+                "snapshots_allocated_size": 0,
+                "storage_type": "dssd"
+            },
+            "size": 1073741824,
+            "snapshots": [],
+            "status": "unmounted",
+            "storage_type": "dssd",
+            "tags": [],
+            "uuid": "b582ed29-0cab-4e40-bf91-40d4b4dcc964"
         }
     ]
 }
