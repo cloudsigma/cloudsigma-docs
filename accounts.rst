@@ -14,11 +14,23 @@ Create account
 
 .. http:post:: /accounts/action/?do=create
 
-    Create an account on the system.
+    Creates an account on the system. In case of succes, the user has to check
+    his email for a confirmation link, which will ask him to create a password
+    for the account.
 
    :statuscode 200: no error
    :param email: The email of the account to be created
+   :param promo: Promo code for initial subscriptions and demo server (optional)
 
+   **Example request**:
+
+   .. literalinclude:: dumps/request_account_create
+       :language: javascript
+
+   **Example response**:
+
+   .. literalinclude:: dumps/response_account_create
+       :language: javascript
 
 Login/Logout
 ------------

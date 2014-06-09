@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "success": true,
+    "uuid": "ba8cce4c-9809-4389-a41e-2f9faabf87e9"
+}
