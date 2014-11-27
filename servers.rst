@@ -343,7 +343,7 @@ See :ref:`servers-avoid`.
 Open Serial Console Connection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. http:post:: /servers/{uuid}/action/?do=open_vnc
+.. http:post:: /servers/{uuid}/action/?do=open_console
 
     Each server has a virtual serial device, which is tunneled to a TCP socket. The serial device is seen as /dev/ttyS0
     or COM1 on most operating systems. If your OS supports it, you can configure a serial console on this virtual

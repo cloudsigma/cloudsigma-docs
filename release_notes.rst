@@ -17,6 +17,9 @@ Aluminium Release
 * We now support Solaris Kernel Zones in some cloud locations. Improved details and split sections depending
   on hypervisor - see :doc:`servers`, :doc:`servers_kvm` and :doc:`servers_solariskz`
 
+* Support for serial console to a server -  see :doc:`servers`. Servers running under KVM hypervisor
+  also allow VNC as before - :doc:`servers_kvm`.
+
 
 Magnesium Release
 -----------------

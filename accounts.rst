@@ -25,7 +25,7 @@ Create account
    **Example request**:
 
    .. literalinclude:: dumps/request_account_create
-       :language: javascript
+       :language: http
 
    **Example response**:
 
