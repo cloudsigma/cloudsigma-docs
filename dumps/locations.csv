@@ -1,0 +1,5 @@
+Location,Location Code,API Endpoint
+"Honolulu, United States",HNL,https://hnl.cloudsigma.com/api/2.0/
+"San Jose, United States",SJC,https://sjc.cloudsigma.com/api/2.0/
+"Washington DC, United States",WDC,https://wdc.cloudsigma.com/api/2.0/
+"Zurich, Switzerland",ZRH,https://zrh.cloudsigma.com/api/2.0/

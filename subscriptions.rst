@@ -32,7 +32,7 @@ Gets the list of subscriptions of the user.
 **Example request**:
 
 .. literalinclude:: dumps/request_subscription_list
-    :language: javascript
+    :language: http
 
 
 **Example response**:
@@ -165,7 +165,7 @@ Calculator
     **Example request**:
 
     .. literalinclude:: dumps/request_subscriptioncalculator
-        :language: javascript
+        :language: http
 
 
     **Example response**:
@@ -180,7 +180,7 @@ Calculator
     **Example request**:
 
     .. literalinclude:: dumps/request_subscriptioncalculator_extend
-        :language: javascript
+        :language: http
 
 
     **Example response**:

@@ -17,6 +17,8 @@ Allowed HTTP methods
     
     See :rfc:`2616#section-9` for more details on HTTP methods semantics
 
+.. _profile_get:
+
 Listing
 -------
 
@@ -29,7 +31,7 @@ Gets the user profile. Note that *profile* is a single object so the API does no
 **Example request**:
 
 .. literalinclude:: dumps/request_profile
-    :language: javascript
+    :language: http
 
 
 **Example response**:
@@ -50,7 +52,7 @@ Edits a user profile.
 **Example request**:
 
 .. literalinclude:: dumps/request_profile_update
-    :language: javascript
+    :language: http
 
 
 **Example response**:

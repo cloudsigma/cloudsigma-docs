@@ -1,0 +1,79 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "drives": {
+        "dssd": {
+            "max_size": 6944541268377,
+            "min_size": 536870912
+        }
+    },
+    "hosts": {
+        "amd": {
+            "cpu": {
+                "max": 40000,
+                "min": 250
+            },
+            "cpu_per_smp": {
+                "max": 2200,
+                "min": 1000
+            },
+            "mem": {
+                "max": 68719476736,
+                "min": 268435456
+            },
+            "smp": {
+                "max": 24,
+                "min": 1
+            }
+        },
+        "intel": {
+            "cpu": {
+                "max": 40000,
+                "min": 250
+            },
+            "cpu_per_smp": {
+                "max": 2200,
+                "min": 1000
+            },
+            "mem": {
+                "max": 68719476736,
+                "min": 268435456
+            },
+            "smp": {
+                "max": 32,
+                "min": 1
+            }
+        }
+    },
+    "hypervisors": {
+        "kvm": [
+            "amd"
+        ],
+        "solaris-kz": [
+            "intel"
+        ]
+    },
+    "servers": {
+        "cpu": {
+            "max": 40000,
+            "min": 250
+        },
+        "cpu_per_smp": {
+            "max": 2200,
+            "min": 1000
+        },
+        "mem": {
+            "max": 68719476736,
+            "min": 268435456
+        },
+        "smp": {
+            "max": 24,
+            "min": 1
+        }
+    },
+    "snapshots": {
+        "current": 0,
+        "max": 600
+    }
+}

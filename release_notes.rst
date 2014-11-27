@@ -1,6 +1,39 @@
 Release Notes
 =============
 
+Aluminium Release
+-----------------
+
+**Date Released:** 2014-11-26
+
+* Extended :doc:`Capabilities <capabilities>` call
+
+* Support of Zadara storage type :doc:`Drives <drives>`
+
+* Better explained firewall restrictions depending on account state :doc:`Firewall Policies <fwpolicies>`
+
+* Fixed list of API endpoints in :doc:`general` and :doc:`locations`
+
+* We now support Solaris Kernel Zones in some cloud locations. Improved details and split sections depending
+  on hypervisor - see :doc:`servers`, :doc:`servers_kvm` and :doc:`servers_solariskz`
+
+
+Magnesium Release
+-----------------
+
+**Date Released:** 2014-09-08
+
+* Various stability and performance improvements.
+
+* Better explanation of :ref:`storage types <storage_type>` and explanation of default
+  :ref:`network restrictions <firewall_restrictions>`.
+
+* Support for Juju simple streams.
+
+* Now it is possible to specify size for :ref:`drive clone <drive_cloning>` call, so that the new drive is bigger than
+  the original.
+
+
 Sodium Release
 --------------
 
@@ -26,21 +59,24 @@ Neon Release
 
 * Asnychronous operations now are exposed via a :doc:`jobs <jobs>` API.
 
-* Cloning drives and servers can now :doc:`change <clone_naming>` the destinations' names to differentiate between source and destination.
+* Cloning drives and servers can now :doc:`change <clone_naming>` the destinations' names to differentiate between
+  source and destination.
 
 * Added :doc:`audit log <audit_logs>` documentation.
 
 
 Fluorine Release
------------------
+----------------
 
 **Date Released:** 2013-12-10
 
 * Notification preferences functionality allowing multiple recipients. See :doc:`notification_preferences`.
 
-* Server runtime details now report I/O statistics for the attached drives in the ``drives/runtime/io`` object from the response. See :ref:`server-runtime`.
+* Server runtime details now report I/O statistics for the attached drives in the ``drives/runtime/io`` object from
+  the response. See :ref:`server-runtime`.
 
-* Capabilities call now includes the count allowed snapshots in the ``snapshots`` object from the response. See :doc:`capabilities`.
+* Capabilities call now includes the count allowed snapshots in the ``snapshots`` object from the response.
+  See :doc:`capabilities`.
 
 * API now returns all numbers as integer literals instead of string literals
 
@@ -75,7 +111,7 @@ Fluorine Release
   The user can manually configure it on his public network interfaces and it will JUST work.
 
 Oxygen Release
-----------------
+--------------
 
 **Date Released:** 2013-10-07
 
@@ -95,7 +131,7 @@ Oxygen Release
 
 
 Nitrogen Release
------------------
+----------------
 
 **Date Released:** 2013-08-01
 
@@ -106,7 +142,7 @@ Nitrogen Release
     See :ref:`drives-avoid`.
 
 Carbon Release
----------------
+--------------
 
 **Date Released:** 2013-07-08
 
@@ -150,9 +186,11 @@ Boron Release
 API HTTP response status code changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * HTTP status for PUT (update) requests is changed from 202 Accepted to 200 OK.
-* HTTP status for creation of objects is changed from 202 Accepted to 201 Created. This affects Subscription, Servers, Drives, and Tags creation.
+* HTTP status for creation of objects is changed from 202 Accepted to 201 Created. This affects Subscription, Servers,
+  Drives, and Tags creation.
 * HTTP status for Subscriptions Calcultaor is changed from 202 Accepted to 200 OK.
-* HTTP status for actions with asynchronous results is changed from 200 to 202. This affects action calls on Servers (start, stop, clone, open_vnc, close_vnc) and Drives (clone).
+* HTTP status for actions with asynchronous results is changed from 200 to 202. This affects action calls on
+  Servers (start, stop, clone, open_vnc, close_vnc) and Drives (clone).
 
 Berilium Release
 ----------------

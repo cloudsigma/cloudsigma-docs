@@ -33,7 +33,7 @@ Gets the list of VLANs to which the authenticated user has access.
 **Example request**:
 
 .. literalinclude:: dumps/request_vlan_list
-    :language: javascript
+    :language: http
 
 
 **Example response**:
@@ -52,7 +52,7 @@ Detailed listing
 **Example request**:
 
 .. literalinclude:: dumps/request_vlan_list_detail
-    :language: javascript
+    :language: http
 
 
 **Example response**:
@@ -70,7 +70,7 @@ Get single VLAN
 **Example request**:
 
 .. literalinclude:: dumps/request_vlan_get
-    :language: javascript
+    :language: http
 
 
 **Example response**:
@@ -96,7 +96,7 @@ Currently only VLAN ``meta`` field can be edited.
 **Example request**:
 
 .. literalinclude:: dumps/request_vlan_update
-    :language: javascript
+    :language: http
 
 
 **Example response**:
@@ -163,7 +163,7 @@ Gets the list of IPSs to which the authenticated user has access.
 **Example request**:
 
 .. literalinclude:: dumps/request_ip_list
-    :language: javascript
+    :language: http
 
 
 **Example response**:
@@ -182,7 +182,7 @@ Detailed listing
 **Example request**:
 
 .. literalinclude:: dumps/request_ip_list_detail
-    :language: javascript
+    :language: http
 
 
 **Example response**:
@@ -201,7 +201,7 @@ Get single IP
 **Example request**:
 
 .. literalinclude:: dumps/request_ip_get
-    :language: javascript
+    :language: http
 
 
 **Example response**:
@@ -228,7 +228,7 @@ Currently only IP ``meta`` field can be edited.
 **Example request**:
 
 .. literalinclude:: dumps/request_ip_update
-    :language: javascript
+    :language: http
 
 
 **Example response**:

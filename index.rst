@@ -11,6 +11,7 @@ Welcome to CloudSigma API documentation!
     
     release_notes
     general
+    locations
     pagination
     errors
     capabilities
@@ -21,6 +22,8 @@ Welcome to CloudSigma API documentation!
     libdrives
     upload_download
     servers
+    servers_kvm
+    servers_solariskz
     server_context
     network_interfaces
     networking
@@ -37,6 +40,7 @@ Welcome to CloudSigma API documentation!
     profile
     notification_preferences
     billing
+    burst_usage
     current_usage
     async
 

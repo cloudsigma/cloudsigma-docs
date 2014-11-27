@@ -6,7 +6,7 @@ from docutils import nodes
 
 from sphinx.util import parselinenos
 from sphinx.util.nodes import set_source_info
-import simplejson
+import json
 
 class IncludeJson(Directive):
     """
@@ -67,7 +67,7 @@ class IncludeJson(Directive):
         keys = self.options.get('keys')
         if accessor or keys:
             try:
-                traversed = simplejson.loads(body)
+                traversed = json.loads(body)
             except:
                 return [document.reporter.warning(
                     'Include file %r does not contain valid json' % filename, line=self.lineno)]
@@ -86,7 +86,7 @@ class IncludeJson(Directive):
             else:
                 res = traversed
 
-            body = simplejson.dumps(res, sort_keys=True, indent=4)
+            body = json.dumps(res, sort_keys=True, indent=4)
 
 
         text=""

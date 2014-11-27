@@ -56,7 +56,7 @@ To add ``meta`` to the following drive:
 one has to use update call:
 
 .. literalinclude:: dumps/request_drive_update_meta
-    :language: javascript
+    :language: http
 
 Response is:
 
@@ -74,7 +74,7 @@ In order to remove *meta_key1*, it is just skipped in the ``meta`` definition. K
 achieved by redefining it, and new key *meta_key3* is added by defining it:
 
 .. literalinclude:: dumps/request_server_edit_meta
-    :language: javascript
+    :language: http
 
 The final result is:
 

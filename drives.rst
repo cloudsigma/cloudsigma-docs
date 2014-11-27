@@ -33,7 +33,7 @@ Listing
     **Example request 1 - default list**:
 
     .. literalinclude:: dumps/request_drive_list
-        :language: javascript
+        :language: http
 
     **Example response 1 - default list**:
 
@@ -43,7 +43,7 @@ Listing
     **Example request 2 - just uuid and status fields**:
 
     .. literalinclude:: dumps/request_drive_list_just_uuid_and_status
-        :language: javascript
+        :language: http
 
     **Example response 2 - just uuid and status fields**:
 
@@ -63,7 +63,7 @@ Detailed listing
     **Example request**:
 
     .. literalinclude:: dumps/request_drive_list_detail
-        :language: javascript
+        :language: http
 
 
     **Example response**:
@@ -84,7 +84,7 @@ List single drive
     **Example request**:
 
     .. literalinclude:: dumps/request_drive_get_unmounted
-        :language: javascript
+        :language: http
 
 
     **Example response**:
@@ -142,7 +142,7 @@ Editing
     **Example request**:
 
     .. literalinclude:: dumps/request_drive_edit
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -152,7 +152,7 @@ Editing
 .. _drive-resize:
 
 Resizing (Update or Fail)
----------------------------
+-------------------------
 
 .. http:post:: /drives/{uuid}/action/?do=resize
 
@@ -167,7 +167,7 @@ should be provided to this call.
 **Example:**
 
 .. literalinclude:: dumps/request_drive_resize_action
-    :language: javascript
+    :language: http
 
 Note that the drive in the response is with status resizing:
 
@@ -175,7 +175,7 @@ Note that the drive in the response is with status resizing:
     :language: javascript
 
 Meta
------
+----
 
 It is possible to add arbitrary key-value data to a drive definition. See :doc:`meta` for more information.
 
@@ -194,7 +194,7 @@ Single drive
     **Example request**:
 
     .. literalinclude:: dumps/request_drive_delete
-        :language: javascript
+        :language: http
 
 
     **Example response**:
@@ -246,14 +246,14 @@ Cloning
 .. http:post:: /drives/{uuid}/action/?do=clone
 
     Clones a drive. Request body is optional and any or all of the key/value
-    pairs can be omitted.
+    pairs from the drive definition can be omitted. Size of the cloned drive can only be bigger or the same.
 
     :statuscode 202: Action accepted, execution is proceeding.
 
     **Example request**:
 
     .. literalinclude:: dumps/request_drive_clone
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -262,8 +262,9 @@ Cloning
 
 .. note::
 
-    The name of the cloned drive will be changed using the clone naming strategy set in the profile.
-    See :doc:`clone_naming` for more information 
+    If no name is specified in the clone call, the name of the cloned drive will be changed using the clone naming
+    strategy set in the profile.
+    See :doc:`clone_naming` for more information.
 
 
 Request schema
@@ -293,7 +294,7 @@ Availability Groups
 It is possible to query which drives share common storage hosts. See :ref:`drive-availability`.
 
 Creating or Cloning Drives to Different Infrastructure (avoid)
----------------------------------------------------------------
+--------------------------------------------------------------
 
 It is possible to hint the system which drives are preferred to be on separate physical storage host.
 See :ref:`drives-avoid`.
@@ -302,8 +303,8 @@ Licenses
 --------
 
 Drives can have licenses attached to them. This means usage of the given drive on a running server requires either 
-posession of subscriptions for the given licenses or additional payment. Typical such example are some drives in the drives library, 
-see :ref:`libdrives-licensed` and :ref:`billing-license` 
+posession of subscriptions for the given licenses or additional payment. Typical such example are some drives in the
+drives library, see :ref:`libdrives-licensed` and :ref:`billing-license`
 
 .. _storage_type:
 
@@ -311,10 +312,21 @@ Storage Types
 -------------
 
 Every drive has a ``storage_type`` on which they live and cannot be changed after creation. New drives by default go to
-``dssd``, and :ref:`clones <drive_cloning>` go to the same medium as their origin, but this can be overriden by passing
-a ``storage_type`` parameter. Allowed storage types can be different per location, so you should refer to the **drives**
-section of the :doc:`capabilities <capabilities>` call response, where each storage type is specified alongside with
-the minimum and maximum size of a single drive.
+``dssd``, and :ref:`clones <drive_cloning>` go to the same medium as their origin, but this can be overridden by
+passing a ``storage_type`` parameter. Allowed storage types can be different per location, so you should refer to the
+**drives** section of the :doc:`capabilities <capabilities>` call response, where each storage type is specified
+alongside with the minimum and maximum size of a single drive.
+
+Currently the following storage types are available:
+
+``dssd``
+    The UI name for ``dssd`` is "Distributed SSD". As the name implies, the storage uses high-performance SSD drives,
+    which makes this storage type suitable for IO-sensitive applications.
+
+``zadara``
+    The UI name for ``zadara`` is "Scale-out Magnetic". Zadara storage is suitable for less IO sensitive applications,
+    which require large amounts of storage, like hundreds of gigabytes or even terabytes. This storage is also
+    cheaper per gigabyte than ``dssd``.
 
     .. versionadded:: Neon
 
@@ -325,7 +337,7 @@ Creating
     **Example request**:
 
     .. literalinclude:: dumps/request_drive_create_zadara
-        :language: javascript
+        :language: http
 
 
     **Example response**:
@@ -339,7 +351,7 @@ Cloning to the same storage type
     **Example request**:
 
     .. literalinclude:: dumps/request_drive_clone_zadara_zadara
-        :language: javascript
+        :language: http
 
 
     **Example response**:
@@ -354,7 +366,7 @@ Cloning to another storage type
     **Example request**:
 
     .. literalinclude:: dumps/request_drive_clone_dssd_zadara
-        :language: javascript
+        :language: http
 
 
     **Example response**:

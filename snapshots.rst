@@ -44,7 +44,7 @@ Listing
     **Example request - default list**:
 
     .. literalinclude:: dumps/request_snapshot_list
-        :language: javascript
+        :language: http
 
     **Example response - default list**:
 
@@ -64,7 +64,7 @@ Detailed listing
     **Example request**:
 
     .. literalinclude:: dumps/request_snapshot_list_detail
-        :language: javascript
+        :language: http
 
 
     **Example response**:
@@ -85,7 +85,7 @@ List single snapshot
     **Example request**:
 
     .. literalinclude:: dumps/request_snapshot_get
-        :language: javascript
+        :language: http
 
 
     **Example response**:
@@ -126,7 +126,7 @@ Editing
     **Example request**:
 
     .. literalinclude:: dumps/request_snapshot_edit
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -153,7 +153,7 @@ Single snapshot
     **Example request**:
 
     .. literalinclude:: dumps/request_snapshot_delete
-        :language: javascript
+        :language: http
 
 
     **Example response**:
@@ -212,7 +212,7 @@ Cloning
     **Example request**:
 
     .. literalinclude:: dumps/request_snapshot_clone
-        :language: javascript
+        :language: http
 
     **Example response**:
     The response is actually a drive definition

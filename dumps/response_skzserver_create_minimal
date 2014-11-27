@@ -1,0 +1,63 @@
+HTTP/1.1 201 CREATED
+Content-Type: application/json; charset=utf-8
+
+{
+    "objects": [
+        {
+            "context": true,
+            "cpu": 1000,
+            "cpu_model": null,
+            "cpu_type": "intel",
+            "cpus_instead_of_cores": false,
+            "drives": [
+                {
+                    "boot_order": 1,
+                    "dev_channel": "0:0",
+                    "device": "virtio",
+                    "drive": {
+                        "resource_uri": "/api/2.0/drives/4756666c-3755-4a55-9848-07f9bb403ba4/",
+                        "uuid": "4756666c-3755-4a55-9848-07f9bb403ba4"
+                    },
+                    "runtime": null
+                }
+            ],
+            "enable_numa": false,
+            "grantees": [],
+            "hv_relaxed": false,
+            "hv_tsc": false,
+            "hypervisor": "solaris-kz",
+            "jobs": [],
+            "mem": 1073741824,
+            "meta": {},
+            "name": "test_skzserver",
+            "nics": [
+                {
+                    "boot_order": null,
+                    "firewall_policy": null,
+                    "ip_v4_conf": {
+                        "conf": "dhcp",
+                        "ip": null
+                    },
+                    "ip_v6_conf": null,
+                    "mac": "22:ec:5c:9b:18:e1",
+                    "model": "virtio",
+                    "runtime": null,
+                    "vlan": null
+                }
+            ],
+            "owner": {
+                "resource_uri": "/api/2.0/user/c2fc9982-cf2e-434a-bf63-e22a27b39f00/",
+                "uuid": "c2fc9982-cf2e-434a-bf63-e22a27b39f00"
+            },
+            "permissions": [],
+            "requirements": [],
+            "resource_uri": "/api/2.0/servers/0dcd3592-702a-4fd0-9b69-0b2407f95222/",
+            "runtime": null,
+            "smp": 1,
+            "status": "stopped",
+            "tags": [],
+            "uuid": "0dcd3592-702a-4fd0-9b69-0b2407f95222",
+            "vnc_password": "testskzserver"
+        }
+    ]
+}

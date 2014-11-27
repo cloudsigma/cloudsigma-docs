@@ -17,7 +17,7 @@ Querying is done as follows:
     :statuscode 200: no error
 
     .. literalinclude:: dumps/request_audit_log_list
-        :language: javascript
+        :language: http
 
     .. literalinclude:: dumps/response_audit_log_list
         :language: javascript
@@ -70,7 +70,7 @@ The following example will show all the logged information during a server's lif
 First we create a server:
 
     .. literalinclude:: dumps/request_create_server_for_audit
-        :language: javascript
+        :language: http
 
     .. literalinclude:: dumps/response_create_server_for_audit
         :language: javascript
@@ -79,7 +79,7 @@ First we create a server:
 Upon completion you will see the following log at the top of the audit log list:
 
     .. literalinclude:: dumps/request_create_server_audit_log
-        :language: javascript
+        :language: http
 
     .. literalinclude:: dumps/response_create_server_audit_log
         :language: javascript
@@ -94,7 +94,7 @@ Upon completion you will see the following log at the top of the audit log list:
 Then we start the server:
 
     .. literalinclude:: dumps/request_start_server_for_audit
-        :language: javascript
+        :language: http
 
     .. literalinclude:: dumps/response_start_server_for_audit
         :language: javascript
@@ -135,7 +135,7 @@ Schema
 .. http:get:: /logs/schema/
 
     .. literalinclude:: dumps/request_audit_log_schema
-        :language: javascript
+        :language: http
 
     .. literalinclude:: dumps/response_audit_log_schema
         :language: javascript

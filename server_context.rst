@@ -77,7 +77,7 @@ cooked mode it is possible that the EOT character is interpreted as End-Of-File 
 The example below is for a server with the following definition:
 
 .. literalinclude:: dumps/request_guest_for_context
-    :language: javascript
+    :language: http
 
 Below is an example of making a request, reading the result, and printing it on Linux in the bash shell:
 
@@ -194,7 +194,7 @@ Get or update global context
 Add a value to the global context.
 
 .. literalinclude:: dumps/request_update_global_context
-    :language: javascript
+    :language: http
 
 The resulting global context is:
 

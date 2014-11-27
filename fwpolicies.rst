@@ -27,7 +27,7 @@ Listing
     **Example request**:
 
     .. literalinclude:: dumps/request_fwpolicy_list
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -46,7 +46,7 @@ Detailed listing
     **Example request**:
 
     .. literalinclude:: dumps/request_fwpolicy_list_detail
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -65,7 +65,7 @@ Create
     **Example request - minimal**:
 
     .. literalinclude:: dumps/request_fwpolicy_create_minimal
-        :language: javascript
+        :language: http
 
     **Example response - minimal**:
 
@@ -78,7 +78,7 @@ Create
     **Example request - full**:
 
     .. literalinclude:: dumps/request_fwpolicy_create_full
-        :language: javascript
+        :language: http
 
     **Example response - full**:
 
@@ -109,7 +109,7 @@ Editing
 
     **Update request**:
         .. literalinclude:: dumps/request_fwpolicy_update
-            :language: javascript
+            :language: http
 
     **Update response**:
         .. literalinclude:: dumps/response_fwpolicy_update
@@ -149,24 +149,31 @@ the :ref:`create <server_create>` or :ref:`edit <server_edit>` server calls
 
 .. _firewall_restrictions:
 
-Default restrictions
---------------------
-Depending on your account's current state, the following restrictions are applied:
+Default network restrictions
+----------------------------
+Depending on your account's current state, the following network restrictions are applied to
+the public interfaces of your running servers:
 
-    * Level 0 - for *REGULAR* users:
+    * **regular** - for *REGULAR* users:
         Running servers have limits set on originating broadcast and multicast traffic:
             * broadcast - limited to 5 packets/second with burst of 100
             * multicast - limited to 10 packets/second with burst of 100
 
-    * Level 1 - for *TRIAL* users:
-        Running servers cannot open communication channels to ports 22, 23, 25, 7777, 43594, 43595 and 25565
+    * **no_outgoing_email** - for new *REGULAR* users:
+        Same as **regular**, but users cannot send emails from running servers.
 
-    * Level 2 - for *GUEST* and *NEW* users:
-        Running servers can only send ICMP requests, request a DHCP IP, query a DNS server and
-        send requests to TCP port 80 and 443 ( usually HTTP and HTTPS )
+    * **trial** - for *TRIAL* users:
+        Applies **regular** restrictions plus running servers cannot open communication
+        channels to ports 22, 23, 25, 7777, 43594, 43595 and 25565
 
-Each restriction level applies all the rules from the previous one - i.e. Level 0 rules are applied to Level 1, etc.
+    * **guest** - for *GUEST* and *NEW* users:
+        Applies **regular** restrictions plus running servers can only send ICMP requests,
+        request a DHCP IP, query a DNS server and send requests to TCP port 80 and 443 ( usually HTTP and HTTPS )
+
+
 Please contact support if any of these restrictions breaks your workflow.
+You can check your effective network restrictions via
+the **network_restrictions** field on the :ref:`user profile <profile_get>`
 
 .. note::
     When converting from one user type to another, restrictions are automatically adjusted - no need to

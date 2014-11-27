@@ -34,7 +34,7 @@ Gets the list of tags to which the authenticated user has access.
 **Example request**:
 
 .. literalinclude:: dumps/request_tags_list
-    :language: javascript
+    :language: http
 
 
 **Example response**:
@@ -56,7 +56,7 @@ Gets detailed information for tag identified by `tag_uuid`.
 **Example request**:
 
 .. literalinclude:: dumps/request_tags_get
-    :language: javascript
+    :language: http
 
 
 **Example response**:
@@ -77,7 +77,7 @@ Creates a new tag or multiple tags.
 **Example request**:
 
 .. literalinclude:: dumps/request_tags_create
-    :language: javascript
+    :language: http
 
 
 **Example response**:
@@ -91,7 +91,7 @@ It is possible to add resources to a tag at creation time. Just specify their UU
 **Example request**:
 
 .. literalinclude:: dumps/request_tags_create_with_resource
-    :language: javascript
+    :language: http
 
 
 **Example response**:
@@ -113,7 +113,7 @@ Edits a tag. It is possible to add or remove resources to a tag by replacing the
 **Example request**:
 
 .. literalinclude:: dumps/request_tags_update_resources
-    :language: javascript
+    :language: http
 
 **Example response**:
 
@@ -126,7 +126,7 @@ add a tag from a server:
 **Example request**:
 
 .. literalinclude:: dumps/request_tags_update_tag_from_resource
-    :language: javascript
+    :language: http
 
 **Example response**:
 
@@ -145,7 +145,7 @@ Deletes a single tag.
 **Example request**:
 
 .. literalinclude:: dumps/request_tags_delete
-    :language: javascript
+    :language: http
 
 **Example response**:
 
@@ -167,7 +167,7 @@ Lists the objects of the given *resource_type* which is one of 'servers', 'drive
 **Example request**:
 
 .. literalinclude:: dumps/request_tags_list_resource
-    :language: javascript
+    :language: http
 
 **Example response**:
 

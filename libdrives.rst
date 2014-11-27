@@ -28,7 +28,7 @@ Gets the list of library drives to which the authenticated user has access.
 **Example request**:
 
 .. literalinclude:: dumps/request_libdrive_list
-    :language: javascript
+    :language: http
 
 **Example response**:
 

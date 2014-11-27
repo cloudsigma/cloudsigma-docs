@@ -12,7 +12,7 @@ All the API requests that return lists of objects support pagination. This is do
     **Example request**:
 
     .. literalinclude:: dumps/request_server_list
-        :language: javascript
+        :language: http
 
 
     **Example response**:
@@ -27,4 +27,5 @@ Meta information
 The API returns an object with meta information about the request:
 
     .. includejson:: dumps/response_server_list
+        :hide_header: true
         :keys: meta

@@ -1,6 +1,19 @@
 Servers / VMs
 =============
 
+Hypervisors
+-----------
+
+Servers have `hypervisor` and `cpu_type` :ref:`parameters <hypervisors>` whose combination must match the one in the
+capabilities of the cloud. This page deals with generic server operations. There are specifics for each type of
+hypervisor:
+
+* :doc:`kvm <servers_kvm>`
+* :doc:`solaris_kz <servers_solariskz>`
+
+The default `hypervisor` is `kvm` to maintain backwards compatibility and the default `cpu_type` is `amd`. If you
+specifiy a different `hypervisor` and no `cpu_type`, the API will still use `amd`.
+
 Allowed HTTP methods
 --------------------
 
@@ -33,7 +46,7 @@ Listing
     **Example request**:
 
     .. literalinclude:: dumps/request_server_list
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -53,7 +66,7 @@ Detailed listing
     **Example request**:
 
     .. literalinclude:: dumps/request_server_list_detail
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -74,7 +87,7 @@ Creating
     **Example request**:
 
     .. literalinclude:: dumps/request_server_create_minimal
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -98,7 +111,7 @@ Editing
     **Example request**:
 
     .. literalinclude:: dumps/request_server_edit_minimal
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -121,7 +134,7 @@ Attach a drive
     **Example request**:
 
     .. literalinclude:: dumps/request_server_attach_drive
-       :language: javascript
+       :language: http
 
     **Example response**:
 
@@ -132,16 +145,6 @@ Metadata
 --------
 
 It is possible to add arbitrary key-value data to a server definition. See :doc:`meta` for more information.
-
-Device channel
-~~~~~~~~~~~~~~
-Device channel is used to specify the controller number and unit number for each attached drive. This is used so
-every time you reboot your virtual machine, the drive remains on the same place in your guest OS ( ex: /dev/sdc )
-You specify the channel in the following format - {controller}:{unit} with the following limits for ide and virtio
-device types:
-
-    * ide - 0:0, 0:1, 1:0, 1:1 ( total of 4 drives, max 2 units per controller, i.e 0-1)
-    * virtio - 0:0, ..., 0:5, ..., 1:0, etc ( total of 1024 drives, max 6 units per controller i.e 0-5)
 
 Deleting
 --------
@@ -158,7 +161,7 @@ Single server
     **Example request**:
 
     .. literalinclude:: dumps/request_server_delete
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -201,7 +204,7 @@ The following drives are available in the account:
 The server is recursively deleted with all drives:
 
 .. literalinclude:: dumps/request_server_recurse_del_all_drives_delete
-    :language: javascript
+    :language: http
 
 After ``DELETE`` of the server the, drives attached to the server are deleted:
 
@@ -223,7 +226,7 @@ The following drives are available in the account:
 The server is recursively deleted with all attached drives with media type ``disk``:
 
 .. literalinclude:: dumps/request_server_recurse_del_disks_delete
-    :language: javascript
+    :language: http
 
 After ``DELETE`` of the server, only drives with media type ``disk`` attached to the server are deleted. CDROMs are
 left intact:
@@ -251,7 +254,7 @@ Server Runtime and Server Details
     **Example request**:
 
     .. literalinclude:: dumps/request_server_get_running
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -273,7 +276,7 @@ Start
     **Example request**:
 
     .. literalinclude:: dumps/request_server_start
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -297,7 +300,7 @@ Stop
     **Example request**:
 
     .. literalinclude:: dumps/request_server_stop
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -323,7 +326,7 @@ ACPI Shutdown
     **Example request**:
 
     .. literalinclude:: dumps/request_server_acpi_shutdown
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -337,35 +340,48 @@ It is possible to hint the system which servers are preferred to run on separate
 See :ref:`servers-avoid`.
 
 
-Open VNC Tunnel
-~~~~~~~~~~~~~~~
+Open Serial Console Connection
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. http:post:: /servers/{uuid}/action/?do=open_vnc
 
-    Opens a VNC tunnel to a server with specific UUID.
+    Each server has a virtual serial device, which is tunneled to a TCP socket. The serial device is seen as /dev/ttyS0
+    or COM1 on most operating systems. If your OS supports it, you can configure a serial console on this virtual
+    serial port, which might be more conviniet to use than VNC, as it generally uses less bandwidth and allows you to
+    copy-paste in the virtual terminal.
 
     :statuscode 202: Action accepted, execution is proceeding.
 
-    .. note::
-
-      VNC URL will be different each time you close/open the tunnel.
-
     **Example request**:
 
-    .. literalinclude:: dumps/request_server_open_vnc
+    .. literalinclude:: dumps/request_server_open_console
         :language: javascript
 
     **Example response**:
 
-    .. literalinclude:: dumps/response_server_open_vnc
+    .. literalinclude:: dumps/response_server_open_console
         :language: javascript
 
+    The return object contains ``console_url`` formatted as csconsole://<cs-domain>:<port>.
+    You can connect to it using telnet:
+
+    .. sourcecode:: bash
+
+        telnet direct.zrh.clousigma.com 12345
+
+    Before being connected to the actual serial console, the server's ``vnc_password`` is required to prevent
+    unauthorized access.
+
+    Most telnet clients start in line mode, which usually interferes with standard unix shells and programs, so they
+    need to be set to character mode. It is advisable to enter your password in line mode and then change to character
+    mode. Refer to your telnet client manual. On some clients that is done by pressing ctrl+] (^]) and then entering
+    "mode character" at the prompt.
 
 
-Close VNC Tunnel
-~~~~~~~~~~~~~~~~
+Close Serial Console Connection
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. http:post:: /servers/{uuid}/action/?do=close_vnc
+.. http:post:: /servers/{uuid}/action/?do=close_console
 
     Closes a VNC tunnel to a server with specific UUID.
 
@@ -373,13 +389,15 @@ Close VNC Tunnel
 
     **Example request**:
 
-    .. literalinclude:: dumps/request_server_close_vnc
+    .. literalinclude:: dumps/request_server_close_console
         :language: javascript
+
 
     **Example response**:
 
-    .. literalinclude:: dumps/response_server_close_vnc
+    .. literalinclude:: dumps/response_server_close_console
         :language: javascript
+
 
 
 Cloning
@@ -405,7 +423,7 @@ server.
 **Example clone request**:
 
 .. literalinclude:: dumps/request_server_clone
-    :language: javascript
+    :language: http
 
 **Example clone response**:
 
@@ -444,41 +462,6 @@ Availability groups
 
 It is possible to query which servers share common hardware hosts. See :ref:`server-availability`.
 
-Advanced settings
------------------
-On every server configuration there are a few advanced options you can setup.
-
-.. includejson:: dumps/response_server_create_full
-    :hide_header: true
-    :accessor: objects.0
-    :keys: enable_numa,hv_relaxed,hv_tsc,cpus_instead_of_cores
-
-
-* ``cpus_instead_of_cores``:
-    - Type: true/false
-    - Description: selects whether the SMP is exposed as cores of a single CPU or separate CPUs.
-      This should be set to ``false`` for Windows, because there are license requirements for multiple CPUs.
-
-
-* ``enable_numa``:
-    - Type: true/false
-    - Description: This option exposes the NUMA/CPU topology of the hypervisor to the virtual machine. It
-      boosts performance for NUMA aware applications. The option should be set to ``true`` for servers
-      with SMP bigger than 6, since this is the number of cores we have per NUMA node on the hypervisor.
-      If set to ``true``, ``cpus_instead_of_cores`` should also be set to ``true`` for Linux,
-      because some Linux distributions do not support multiple NUMA nodes on multple CPU cores,
-      but only on multiple CPUs.
-
-* ``hv_relaxed``
-    - Type: true/false
-    - Description: Relax constraints on timers. This improves the behavior of VMs running Windows.
-
-* ``hv_tsc``:
-    - Type: true/false
-    - Description: Enables more precise timers for Windows. This boost performance for timer specific code.
-
-.. warning::
-    ``hv_relaxed`` and `hv_tsc` should be set to ``false`` for VMs running Linux
 
 Server State Diagram
 --------------------

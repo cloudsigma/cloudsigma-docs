@@ -1,0 +1,5 @@
+POST /api/2.0/servers/0dcd3592-702a-4fd0-9b69-0b2407f95222/action/?do=open_console HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{}

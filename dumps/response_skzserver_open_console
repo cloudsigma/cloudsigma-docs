@@ -1,0 +1,9 @@
+HTTP/1.1 202 ACCEPTED
+Content-Type: application/json; charset=utf-8
+
+{
+    "action": "open_console",
+    "console_url": "csconsole://tbc.cloudsigma.com:42496",
+    "result": "success",
+    "uuid": "0dcd3592-702a-4fd0-9b69-0b2407f95222"
+}

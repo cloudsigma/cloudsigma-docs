@@ -19,13 +19,11 @@ that base.
 
 Currently the following CloudSigma location endpoints are available:
 
-+---------------------------+-----------------------------------------+
-| Location                  | API endpoint                            |
-+===========================+=========================================+
-| Zurich, Switzerland       | ``https://zrh.cloudsigma.com/api/2.0/`` |
-+---------------------------+-----------------------------------------+
-| Las Vegas, United States  | ``https://lvs.cloudsigma.com/api/2.0/`` |
-+---------------------------+-----------------------------------------+
+.. csv-table::
+    :header-rows: 1
+    :file: dumps/locations.csv
+
+See also :doc:`Locations <locations>` API call for an automated way to get all currently available locations.
 
 API Versions
 ------------
@@ -336,7 +334,12 @@ The API accepts Unicode characters, with the recommended charset being UTF-8. Th
 Filtering
 ---------
 
-The API allows filtering of returned resources through GET parameters. Specific filtering options are listed in the schema. The semantics of the filters are as follows:
+The API allows filtering of returned resources through GET parameters. Specific filtering options are listed in the schema. There are two types of filters:
+
+:exact: Matches the exact value of the field
+:contains: Matches, case insensitive, a substring of the value.
+
+The semantics of the filters are as follows:
 
 :AND:
     Separate GET parameters are ANDed together:

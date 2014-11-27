@@ -34,7 +34,7 @@ Listing
     **Example request**:
 
     .. literalinclude:: dumps/request_balance_list
-        :language: javascript
+        :language: http
 
 
     **Example response**:
@@ -80,7 +80,7 @@ Listing
     **Example request**:
 
     .. literalinclude:: dumps/request_pricing_list
-        :language: javascript
+        :language: http
 
 
     **Example response**:
@@ -131,7 +131,7 @@ Listing
     **Example request**:
 
     .. literalinclude:: dumps/request_discount_list
-        :language: javascript
+        :language: http
 
 
     **Example response**:
@@ -178,7 +178,7 @@ Listing
     **Example request**:
 
     .. literalinclude:: dumps/request_ledger_list
-        :language: javascript
+        :language: http
 
 
     **Example response**:
@@ -224,7 +224,7 @@ Listing
     **Example request**:
 
     .. literalinclude:: dumps/request_discount_list
-        :language: javascript
+        :language: http
 
 
     **Example response**:
@@ -271,7 +271,7 @@ Listing
     **Example request**:
 
     .. literalinclude:: dumps/request_currentusage_list
-        :language: javascript
+        :language: http
 
 
     **Example response**:
@@ -325,7 +325,7 @@ Listing
     **Example request**:
 
     .. literalinclude:: dumps/request_licenses_list
-        :language: javascript
+        :language: http
 
 
     **Example response**:

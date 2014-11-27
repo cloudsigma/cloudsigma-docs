@@ -13,7 +13,7 @@ Listing
     **Example request**:
 
     .. literalinclude:: dumps/request_notification_contacts_list_1
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -34,7 +34,7 @@ Creating
     **Example request**:
 
     .. literalinclude:: dumps/request_notification_contacts_create
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -54,7 +54,7 @@ Editing
     **Example request**:
 
     .. literalinclude:: dumps/request_notification_contacts_update
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -73,7 +73,7 @@ Deleting
     **Example request**:
 
     .. literalinclude:: dumps/request_notification_contacts_delete
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -98,7 +98,7 @@ Listing
     **Example request**:
 
     .. literalinclude:: dumps/request_notification_preferences_list_1
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -118,7 +118,7 @@ Updating
     **Example request**:
 
     .. literalinclude:: dumps/request_notification_preferences_update
-        :language: javascript
+        :language: http
 
     **Example response**:
 
@@ -131,7 +131,7 @@ Updating
     **Example request**:
 
     .. literalinclude:: dumps/request_notification_preferences_update_multiple
-        :language: javascript
+        :language: http
 
     **Example response**:
 
