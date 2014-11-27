@@ -1,0 +1,8 @@
+HTTP/1.1 202 ACCEPTED
+Content-Type: application/json; charset=utf-8
+
+{
+    "action": "close_console",
+    "result": "success",
+    "uuid": "7a3a67e0-93e4-46db-a4a2-c0f886987dc0"
+}
