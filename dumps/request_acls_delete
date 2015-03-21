@@ -1,0 +1,5 @@
+DELETE /api/2.0/acls/adf048e8-5445-47cf-a09c-fc3cfb2c823f/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+

@@ -1,4 +1,4 @@
-POST /api/2.0/servers/7a3a67e0-93e4-46db-a4a2-c0f886987dc0/action/?do=close_console HTTP/1.1
+POST /api/2.0/servers/e27eacc3-0f20-4c1f-9f7d-eac705bf2d02/action/?do=close_console HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 

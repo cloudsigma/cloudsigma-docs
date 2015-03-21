@@ -1,0 +1,14 @@
+POST /api/2.0/acls/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "objects": [
+        {
+            "grantees": [],
+            "name": "test_acl",
+            "rules": [],
+            "tags": []
+        }
+    ]
+}

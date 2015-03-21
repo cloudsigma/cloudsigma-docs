@@ -2,22 +2,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
+    "bottom_vlan_tag": null,
     "grantees": [],
     "meta": {
         "custom_field": "some custom data",
         "name": "my vlan"
     },
     "owner": {
-        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
-        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+        "resource_uri": "/api/2.0/user/c2fc9982-cf2e-434a-bf63-e22a27b39f00/",
+        "uuid": "c2fc9982-cf2e-434a-bf63-e22a27b39f00"
     },
     "permissions": [],
-    "resource_uri": "/api/2.0/vlans/96537817-f4b6-496b-a861-e74192d3ccb0/",
+    "resource_uri": "/api/2.0/vlans/10619300-edda-42ba-91e0-7e3df0689d00/",
     "servers": [],
     "subscription": {
-        "id": 7272,
-        "resource_uri": "/api/2.0/subscriptions/7272/"
+        "id": 12,
+        "resource_uri": "/api/2.0/subscriptions/12/"
     },
     "tags": [],
-    "uuid": "96537817-f4b6-496b-a861-e74192d3ccb0"
+    "uuid": "10619300-edda-42ba-91e0-7e3df0689d00"
 }

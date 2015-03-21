@@ -1,6 +1,6 @@
-=============
+===========
 Burst Usage
-=============
+===========
 
 Allowed HTTP methods
 --------------------
@@ -21,7 +21,7 @@ Listing
 
 .. http:get:: /burstusage/
 
-    Gets bursted usage of the authenticated user for the specified period (last 30 days by default).
+    Get the burst usage of the authenticated user for the specified period (last 30 days by default).
 
 
     :statuscode 200: no error
@@ -71,8 +71,9 @@ Listing
             ]
         }
 
+
 Filtering
-----------
+---------
 
 It's possible to specify period of burst usage using :ref:`filtering <filtering>` by date:
 
@@ -89,3 +90,106 @@ It's possible to specify period of burst usage using :ref:`filtering <filtering>
       GET /api/2.0/burstusage/?date__gte=2014-07-01&date__lt=2014-08-01 HTTP/1.1
       Content-Type: application/json
       Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+
+
+=================
+Daily Burst Usage
+=================
+
+Allowed HTTP methods
+--------------------
+
++--------+--------------------------------------------------+
+| Method | Description                                      |
++========+==================================================+
+| GET    | get / list object/s                              |
++--------+--------------------------------------------------+
+
+.. note::
+
+    See :rfc:`2616#section-9` for more details on HTTP methods semantics
+
+
+Listing
+-------
+
+.. http:get:: /dailyburstusage/
+
+    Get the daily burst usage of the authenticated user for the specified period (last 30 days by default).
+
+
+    :statuscode 200: no error
+
+
+    **Example request**:
+
+    .. sourcecode:: http
+
+      GET /api/2.0/dailyburstusage/?date__gt=2014-11-15&date__lt=2014-11-19 HTTP/1.1
+      Content-Type: application/json
+      Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+
+    **Example response**:
+
+    .. sourcecode:: javascript
+
+        HTTP/1.0 200 OK
+        Content-Type: application/json; charset=utf-8
+
+        {
+            "meta": {
+                "limit": 20,
+                "offset": 0,
+                "total_count": 4
+            },
+            "objects": [
+                {
+                    "amount": "0.00886683986848225317",
+                    "date": "2014-11-17",
+                    "resource_type": "dssd",
+                    "usage": 309237645312
+                },
+                {
+                    "amount": "0.00886684598104320994",
+                    "date": "2014-11-16",
+                    "resource_type": "dssd",
+                    "usage": 309237645312
+                },
+                {
+                    "amount": "0.00514153897280246914",
+                    "date": "2014-11-18",
+                    "resource_type": "dssd",
+                    "usage": 179314884608
+                },
+                {
+                    "amount": "0.00886683701903935188",
+                    "date": "2014-11-15",
+                    "resource_type": "dssd",
+                    "usage": 309237645312
+                }
+            ]
+        }
+
+
+Filtering
+---------
+
+It's possible to specify period of burst usage using :ref:`filtering <filtering>` by date:
+
+* Lower than: `?date__lt=2014-10-21`
+* Greater than: `?date__gt=2014-10-21`
+
+    **Example for retreiving burst usage for the whole July 2014**:
+
+    .. sourcecode:: http
+
+      GET /api/2.0/dailyburstusage/?date__gt=2014-07-01&date__lt=2014-08-01 HTTP/1.1
+      Content-Type: application/json
+      Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+
+.. note::
+    The date is actually a full time, which means that 2014-11-11 is actually 2014-11-11 00:00. This matters when trying
+    to filter because when using less than, it will not include the day, whereas it will be included for greater then.

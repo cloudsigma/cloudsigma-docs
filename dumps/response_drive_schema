@@ -182,10 +182,17 @@ Content-Type: application/json; charset=utf-8
             "type": "string"
         },
         "storage_type": {
-            "default": "No default provided.",
+            "choices": [
+                "magnetic",
+                "ssd",
+                "dssd",
+                "zadara",
+                "solidfire"
+            ],
+            "default": null,
             "help_text": "Underlying storage",
             "readonly": false,
-            "required": true,
+            "required": false,
             "type": "string"
         },
         "tags": {

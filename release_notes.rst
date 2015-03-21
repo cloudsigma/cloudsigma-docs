@@ -1,6 +1,16 @@
 Release Notes
 =============
 
+Silicon Release
+---------------
+
+**Date Released:** 2015-03-26
+
+* Allow resources to be shared and accessed between accounts :doc:`Access Control Lists <acls>`
+
+* Allow SSH keys to be imported and managed by the cloud and attached to servers :doc:`SSH key pairs <keypairs>`
+
+
 Aluminium Release
 -----------------
 

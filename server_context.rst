@@ -79,6 +79,52 @@ The example below is for a server with the following definition:
 .. literalinclude:: dumps/request_guest_for_context
     :language: http
 
+
+Request the complete server context using python
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The best way to access the context is to use a serial port communication library from your favourite programming
+language. Below is an example using the Python programming language and the pySerial libraray:
+
+.. sourcecode:: python
+
+    #!/bin/env python
+
+    # This will work on python 2.6 and python 2.7
+
+    import serial;  # pySerial module is called 'serial'
+
+    s = serial.Serial("/dev/ttyS1")  # initialize a serial connection to '/dev/ttyS1'
+    s.write("<\n\n>")  # write an empty request to get the full context
+
+    context_str_raw = s.readline()  # read one line, which is the whole context as there are no newlines in the context
+    # Take the context string and remove any starting/trailing newlines and \x04 symbols
+    context_str = context_str_raw.strip("\x04\n")
+    print context_str  # print the context to stdout
+
+Here the same code, as a one-liner, which can be executed directly in bash, or another shell:
+
+.. literalinclude:: dumps/request_context_all_robust
+    :language: bash
+
+**Example:**
+
+.. literalinclude:: dumps/request_context_all_robust
+    :language: bash
+
+Result:
+
+.. literalinclude:: dumps/response_context_all
+    :language: javascript
+
+
+Request the complete server context using bash
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+It is also possible to issue the reques using just standard commands such as ``read``, ``echo``, and ``cat``.
+Unfortunately that method is prone to errors because it breaks if there are escaped json values, such as
+``"value contains quote: \""``, so it is higly recommended to use a serial communication library, such as the python
+example above.
 Below is an example of making a request, reading the result, and printing it on Linux in the bash shell:
 
 .. sourcecode:: bash
@@ -92,7 +138,7 @@ Below is an example of making a request, reading the result, and printing it on 
     # read with timeout of 3 seconds and print the value which is put in the variable READVALUE
     read -t 3 READVALUE < /dev/ttyS1 && echo $READVALUE
 
-**Examples:**
+**Example:**
 
 Request command. Including a flushing read before the actual request with echo:
 
@@ -134,8 +180,6 @@ OS is to use ``echo -e $READVALUE``.
 
 **Examples:**
 
-Request command. Including a flushing read before the actual request with echo:
-
 .. literalinclude:: dumps/request_context_single_value
     :language: bash
 
@@ -153,7 +197,7 @@ The most suitable place to store information for passing to the VM through the c
 For example in the server definition from above examples, the meta looks like:
 
 .. includejson:: dumps/response_guest_for_context
-    :accessor: objects.0.meta
+    :accessor: meta
     :keys: ssh_public_key
     :hide_header: true
 
@@ -205,7 +249,7 @@ Using the server from examples above, we can check the context from the server s
 
 Request command:
 
-.. literalinclude:: dumps/request_global_context_all
+.. literalinclude:: dumps/request_global_context_all_robust
     :language: bash
 
 Result:

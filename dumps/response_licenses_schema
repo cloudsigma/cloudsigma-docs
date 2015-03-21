@@ -36,7 +36,7 @@ Content-Type: application/json; charset=utf-8
             "nullable": false,
             "readonly": false,
             "type": "string",
-            "unique": false
+            "unique": true
         },
         "resource_uri": {
             "blank": false,

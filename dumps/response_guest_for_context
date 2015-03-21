@@ -1,63 +1,105 @@
-HTTP/1.1 201 CREATED
+HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-    "objects": [
+    "context": true,
+    "cpu": 1000,
+    "cpu_model": null,
+    "cpu_type": "amd",
+    "cpus_instead_of_cores": false,
+    "drives": [
         {
-            "context": true,
-            "cpu": 1000,
-            "cpu_model": null,
-            "cpus_instead_of_cores": false,
-            "drives": [
-                {
-                    "boot_order": 1,
-                    "dev_channel": "0:0",
-                    "device": "virtio",
-                    "drive": {
-                        "resource_uri": "/api/2.0/drives/13168369-8450-4070-8909-444f56b747e8/",
-                        "uuid": "13168369-8450-4070-8909-444f56b747e8"
-                    },
-                    "runtime": null
-                }
-            ],
-            "enable_numa": false,
-            "grantees": [],
-            "hv_relaxed": false,
-            "hv_tsc": false,
-            "jobs": [],
-            "mem": 1073741824,
-            "meta": {
-                "ssh_public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCy4XpmD3kEfRZ+LCwFh3Xmqrkm7rSiDu8v+ZCTOA3vlNjmy/ZOc3vy9Zr+IhWPP4yipiApkGRsBM63tTgnxqUUn/WU7qkbBNktZBcs5p7Mj/zO4ZHkk4VoTczFzHlPGwuak2P4wTftEj7sU8IRutaAbMoKj4AMuFF50j4sIgF7P5b5FtTIM2b5HSW8BlDz10b67+xsj6s3Jv05xxbBs+RWj+v7D5yjMVeeErXoSui8dlHpUu6QOVKn8LLmdpxvehc6ns8yW7cbQvWmLjOICMnm6BXdVtOKWBncDq9FGLmKF3fUeZZPbv79Z7dyZs+xGZGMHbpaNHpuY9QhNS/hQ5D5 dave@hal"
+            "boot_order": 1,
+            "dev_channel": "0:0",
+            "device": "virtio",
+            "drive": {
+                "resource_uri": "/api/2.0/drives/ca360a3f-55e4-4b5f-92ba-ada83fca2940/",
+                "uuid": "ca360a3f-55e4-4b5f-92ba-ada83fca2940"
             },
-            "name": "test_server",
-            "nics": [
-                {
-                    "boot_order": null,
-                    "firewall_policy": null,
-                    "ip_v4_conf": {
-                        "conf": "dhcp",
-                        "ip": null
-                    },
-                    "ip_v6_conf": null,
-                    "mac": "22:51:c1:18:7b:4a",
-                    "model": "virtio",
-                    "runtime": null,
-                    "vlan": null
+            "runtime": {
+                "io": {
+                    "bytes_read": 89888768,
+                    "bytes_written": 1025024,
+                    "count_flush": 4,
+                    "count_read": 4129,
+                    "count_written": 24,
+                    "total_time_ns_flush": 1078101,
+                    "total_time_ns_read": 59316944256,
+                    "total_time_ns_write": 802874160
                 }
-            ],
-            "owner": {
-                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
-                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
-            },
-            "permissions": [],
-            "requirements": [],
-            "resource_uri": "/api/2.0/servers/e83c79b3-ef07-4b8e-968e-dff5c386a053/",
-            "runtime": null,
-            "smp": 1,
-            "status": "stopped",
-            "tags": [],
-            "uuid": "e83c79b3-ef07-4b8e-968e-dff5c386a053",
-            "vnc_password": "3022962f5d944b97"
+            }
         }
-    ]
+    ],
+    "enable_numa": false,
+    "grantees": [],
+    "hv_relaxed": false,
+    "hv_tsc": false,
+    "hypervisor": "kvm",
+    "jobs": [],
+    "mem": 1073741824,
+    "meta": {
+        "ssh_public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCy4XpmD3kEfRZ+LCwFh3Xmqrkm7rSiDu8v+ZCTOA3vlNjmy/ZOc3vy9Zr+IhWPP4yipiApkGRsBM63tTgnxqUUn/WU7qkbBNktZBcs5p7Mj/zO4ZHkk4VoTczFzHlPGwuak2P4wTftEj7sU8IRutaAbMoKj4AMuFF50j4sIgF7P5b5FtTIM2b5HSW8BlDz10b67+xsj6s3Jv05xxbBs+RWj+v7D5yjMVeeErXoSui8dlHpUu6QOVKn8LLmdpxvehc6ns8yW7cbQvWmLjOICMnm6BXdVtOKWBncDq9FGLmKF3fUeZZPbv79Z7dyZs+xGZGMHbpaNHpuY9QhNS/hQ5D5 dave@hal"
+    },
+    "name": "test_srv_test_guest_context",
+    "nics": [
+        {
+            "boot_order": null,
+            "firewall_policy": null,
+            "ip_v4_conf": {
+                "conf": "dhcp",
+                "ip": null
+            },
+            "ip_v6_conf": null,
+            "mac": "22:81:c9:73:91:e4",
+            "model": "virtio",
+            "runtime": {
+                "interface_type": "public",
+                "io": {
+                    "bytes_recv": 6056,
+                    "bytes_sent": 10311,
+                    "packets_recv": 42,
+                    "packets_sent": 149
+                },
+                "ip_v4": {
+                    "resource_uri": "/api/2.0/ips/94.26.101.144/",
+                    "uuid": "94.26.101.144"
+                },
+                "ip_v6": null
+            },
+            "vlan": null
+        }
+    ],
+    "owner": {
+        "resource_uri": "/api/2.0/user/c2fc9982-cf2e-434a-bf63-e22a27b39f00/",
+        "uuid": "c2fc9982-cf2e-434a-bf63-e22a27b39f00"
+    },
+    "permissions": [],
+    "pubkeys": [],
+    "requirements": [],
+    "resource_uri": "/api/2.0/servers/e0fcf2ae-020e-45e1-bf69-982b17da4b6a/",
+    "runtime": {
+        "active_since": "2015-03-19T13:44:33+00:00",
+        "nics": [
+            {
+                "interface_type": "public",
+                "io": {
+                    "bytes_recv": 6056,
+                    "bytes_sent": 10311,
+                    "packets_recv": 42,
+                    "packets_sent": 149
+                },
+                "ip_v4": {
+                    "resource_uri": "/api/2.0/ips/94.26.101.144/",
+                    "uuid": "94.26.101.144"
+                },
+                "ip_v6": null,
+                "mac": "22:81:c9:73:91:e4"
+            }
+        ]
+    },
+    "smp": 1,
+    "status": "running",
+    "tags": [],
+    "uuid": "e0fcf2ae-020e-45e1-bf69-982b17da4b6a",
+    "vnc_password": "1132f1963f9f47b4"
 }

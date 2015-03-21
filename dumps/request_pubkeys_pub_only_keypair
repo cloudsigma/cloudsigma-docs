@@ -1,0 +1,5 @@
+GET /api/2.0/pubkeys/6d7db550-d1c5-4e3b-9c0a-e83f6a2b8244/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+

@@ -7,29 +7,32 @@ Content-Type: application/json; charset=utf-8
             "context": true,
             "cpu": 1000,
             "cpu_model": null,
+            "cpu_type": "amd",
             "cpus_instead_of_cores": false,
             "drives": [],
             "enable_numa": false,
             "grantees": [],
             "hv_relaxed": false,
             "hv_tsc": false,
+            "hypervisor": "kvm",
             "jobs": [],
             "mem": 536870912,
             "meta": {},
             "name": "test_server",
             "nics": [],
             "owner": {
-                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
-                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+                "resource_uri": "/api/2.0/user/c2fc9982-cf2e-434a-bf63-e22a27b39f00/",
+                "uuid": "c2fc9982-cf2e-434a-bf63-e22a27b39f00"
             },
             "permissions": [],
+            "pubkeys": [],
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/4002da8d-94d7-4093-ab7a-a78d976a9efc/",
+            "resource_uri": "/api/2.0/servers/973a1039-8014-4622-9a6a-8caf21e08e7e/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "4002da8d-94d7-4093-ab7a-a78d976a9efc",
+            "uuid": "973a1039-8014-4622-9a6a-8caf21e08e7e",
             "vnc_password": "testserver"
         }
     ]

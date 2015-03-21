@@ -18,6 +18,13 @@ Content-Type: application/json; charset=utf-8
             "required": true,
             "type": "decimal"
         },
+        "credit_limit": {
+            "default": "No default provided.",
+            "help_text": "Credit limit applied to the account, if present",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        },
         "currency": {
             "default": "No default provided.",
             "help_text": "Currency of the account",

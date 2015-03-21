@@ -1,4 +1,4 @@
-PUT /api/2.0/servers/cdeca2cf-4628-4169-8a3a-ceebedd9ea3a/ HTTP/1.1
+PUT /api/2.0/servers/3576136a-0a7e-4ece-8050-f2e408fbca96/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 
@@ -6,31 +6,34 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
     "context": true,
     "cpu": 1000,
     "cpu_model": null,
+    "cpu_type": "amd",
     "cpus_instead_of_cores": false,
     "drives": [],
     "enable_numa": false,
     "grantees": [],
     "hv_relaxed": false,
     "hv_tsc": false,
+    "hypervisor": "kvm",
     "jobs": [],
     "mem": 536870912,
     "meta": {},
     "name": "test_server2",
     "nics": [],
     "owner": {
-        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
-        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+        "resource_uri": "/api/2.0/user/c2fc9982-cf2e-434a-bf63-e22a27b39f00/",
+        "uuid": "c2fc9982-cf2e-434a-bf63-e22a27b39f00"
     },
     "permissions": [],
+    "pubkeys": [],
     "requirements": [],
-    "resource_uri": "/api/2.0/servers/cdeca2cf-4628-4169-8a3a-ceebedd9ea3a/",
+    "resource_uri": "/api/2.0/servers/3576136a-0a7e-4ece-8050-f2e408fbca96/",
     "runtime": null,
     "smp": 1,
     "status": "stopped",
     "tags": [
-        "7b102579-e850-47cf-adf9-9c1a499b08f8",
-        "c91f7742-e3b9-4794-a178-f0831ee1d3d2"
+        "00f4ea87-891c-4ee9-a28f-21e25b96dd48",
+        "c66a2113-be9b-4157-93ac-fb8c0e82087c"
     ],
-    "uuid": "cdeca2cf-4628-4169-8a3a-ceebedd9ea3a",
+    "uuid": "3576136a-0a7e-4ece-8050-f2e408fbca96",
     "vnc_password": "pass"
 }

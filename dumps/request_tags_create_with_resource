@@ -7,11 +7,11 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
         {
             "name": "TagCreatedWithResource",
             "resources": [
-                "f52db291-f754-4434-acac-77268cbac94f",
-                "cdeca2cf-4628-4169-8a3a-ceebedd9ea3a",
-                "08b9874a-4b2c-4c33-a06e-bed5e0bfa6fd",
-                "185.12.6.183",
-                "96537817-f4b6-496b-a861-e74192d3ccb0"
+                "401d5ba4-6544-47ef-bf61-54bafe59d871",
+                "3576136a-0a7e-4ece-8050-f2e408fbca96",
+                "9214aa22-10db-4aff-92f2-779a043b13c7",
+                "94.26.101.182",
+                "10619300-edda-42ba-91e0-7e3df0689d00"
             ]
         }
     ]

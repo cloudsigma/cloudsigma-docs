@@ -1,0 +1,29 @@
+POST /api/2.0/servers/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "objects": [
+        {
+            "cpu": 1000,
+            "cpu_type": "amd",
+            "drives": [],
+            "hypervisor": "kvm",
+            "mem": 1073741824,
+            "name": "test_srv_test_pubkeys",
+            "nics": [
+                {
+                    "ip_v4_conf": {
+                        "conf": "dhcp"
+                    },
+                    "model": "virtio"
+                }
+            ],
+            "pubkeys": [
+                "fdd6fbba-644b-49d8-9324-ff6589179da3",
+                "6d7db550-d1c5-4e3b-9c0a-e83f6a2b8244"
+            ],
+            "vnc_password": "7b08b0f03aa840ff"
+        }
+    ]
+}

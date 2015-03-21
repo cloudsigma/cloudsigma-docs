@@ -2,12 +2,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-    "amount": "1",
-    "discount_amount": "11.50000000000000000000000000",
-    "discount_percent": "0.1000000000",
-    "end_time": "2016-01-11T12:00:00+00:00",
-    "period": "345 days, 0:00:00",
-    "price": "103.5000000000000000000000000",
-    "resource": "vlan",
-    "start_time": "2015-01-31T12:00:00+00:00"
+    "amount": "32212254720",
+    "discount_amount": "9.60750000000000000",
+    "discount_percent": "0.2500000000",
+    "discounts": {
+        "period": "0.2500000000"
+    },
+    "end_time": "2016-08-26T12:00:00+00:00",
+    "free_tier": false,
+    "period": "366 days, 0:00:00",
+    "price": "28.82250000000000000000",
+    "resource": "dssd",
+    "start_time": "2015-08-26T12:00:00+00:00",
+    "was_billed": true
 }

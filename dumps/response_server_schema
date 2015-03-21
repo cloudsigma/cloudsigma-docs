@@ -40,6 +40,19 @@ Content-Type: application/json; charset=utf-8
             "required": false,
             "type": "string"
         },
+        "cpu_type": {
+            "choices": [
+                "amd",
+                "intel",
+                "sparc_t4",
+                "sparc_t5"
+            ],
+            "default": "amd",
+            "help_text": "Specify the CPU type of the host on which this virtual server should run",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
         "cpus_instead_of_cores": {
             "default": false,
             "help_text": "Expose server SMPs as separate CPUs, instead of cores of a single CPU.",
@@ -190,6 +203,17 @@ Content-Type: application/json; charset=utf-8
             "required": false,
             "type": "boolean"
         },
+        "hypervisor": {
+            "choices": [
+                "kvm",
+                "solaris-kz"
+            ],
+            "default": "kvm",
+            "help_text": "Specify hypervisor on which this server should run",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
         "jobs": {
             "default": "No default provided.",
             "help_text": "Background jobs related to this resource",
@@ -244,10 +268,10 @@ Content-Type: application/json; charset=utf-8
                                 "static",
                                 "manual"
                             ],
-                            "default": null,
+                            "default": "dhcp",
                             "help_text": "Configuration type",
                             "readonly": false,
-                            "required": false,
+                            "required": true,
                             "type": "string"
                         },
                         "ip": {
@@ -272,10 +296,10 @@ Content-Type: application/json; charset=utf-8
                                 "static",
                                 "manual"
                             ],
-                            "default": null,
+                            "default": "dhcp",
                             "help_text": "Configuration type",
                             "readonly": false,
-                            "required": false,
+                            "required": true,
                             "type": "string"
                         },
                         "ip": {
@@ -413,6 +437,13 @@ Content-Type: application/json; charset=utf-8
             "readonly": false,
             "required": false,
             "type": "list"
+        },
+        "pubkeys": {
+            "default": [],
+            "help_text": "List of SSH keys for that server",
+            "readonly": false,
+            "required": false,
+            "type": "related"
         },
         "requirements": {
             "default": [],

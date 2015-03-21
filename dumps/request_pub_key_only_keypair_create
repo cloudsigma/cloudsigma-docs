@@ -1,0 +1,12 @@
+POST /api/2.0/keypairs/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "objects": [
+        {
+            "name": "test_another_pub",
+            "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDFGtYDl+/Oua9uBXqwcbE84QUBBbDdMMzaZ6MAGg1Bmus9VEW0P8kK6npZ0SaUnB2xRrBNwCv0Q0uZBJ70UicgsrhBjCXIVa7K6yQYrFzMxfN8saNAjJvGDdWGSvcMxJdpYwXiOQhFan36eJCCwQjni7I538Ii9chPD8/tyJcBIw=="
+        }
+    ]
+}

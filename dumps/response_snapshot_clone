@@ -5,30 +5,35 @@ Content-Type: application/json; charset=utf-8
     "affinities": [],
     "allow_multimount": false,
     "grantees": [],
-    "jobs": [],
+    "jobs": [
+        {
+            "resource_uri": "/api/2.0/jobs/260512fc-e9ac-470f-880d-52b4dfcc2b72/",
+            "uuid": "260512fc-e9ac-470f-880d-52b4dfcc2b72"
+        }
+    ],
     "licenses": [],
     "media": "disk",
     "meta": {},
     "mounted_on": [],
-    "name": "d7da5038-ac2d-4776-9097-f60167d6e587__2014-06-05__09_52_13",
+    "name": "7fbfb2ac-5b21-4c5a-81cb-d4343fca71a1__2015-03-19__13_53_52",
     "owner": {
-        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
-        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+        "resource_uri": "/api/2.0/user/c2fc9982-cf2e-434a-bf63-e22a27b39f00/",
+        "uuid": "c2fc9982-cf2e-434a-bf63-e22a27b39f00"
     },
     "permissions": [],
     "resource_uri": {
-        "resource_uri": "/api/2.0/drives/fadfc92d-1bfa-4eb2-bddd-491c54df2fae/",
-        "uuid": "fadfc92d-1bfa-4eb2-bddd-491c54df2fae"
+        "resource_uri": "/api/2.0/drives/be62f52e-0b0f-480c-89b2-73e108dd2cef/",
+        "uuid": "be62f52e-0b0f-480c-89b2-73e108dd2cef"
     },
     "runtime": {
         "is_snapshotable": null,
         "snapshots_allocated_size": 0,
-        "storage_type": null
+        "storage_type": "dssd"
     },
     "size": 1073741824,
     "snapshots": [],
     "status": "cloning_dst",
-    "storage_type": null,
+    "storage_type": "dssd",
     "tags": [],
-    "uuid": "fadfc92d-1bfa-4eb2-bddd-491c54df2fae"
+    "uuid": "be62f52e-0b0f-480c-89b2-73e108dd2cef"
 }

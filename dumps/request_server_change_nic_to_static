@@ -1,4 +1,4 @@
-PUT /api/2.0/servers/f2208a27-bcee-4842-accf-9ac473cbe6b4/ HTTP/1.1
+PUT /api/2.0/servers/3b3616df-16dc-4a49-bfca-5c2192e1f089/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 
@@ -6,12 +6,14 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
     "context": true,
     "cpu": 1000,
     "cpu_model": null,
+    "cpu_type": "amd",
     "cpus_instead_of_cores": false,
     "drives": [],
     "enable_numa": false,
     "grantees": [],
     "hv_relaxed": false,
     "hv_tsc": false,
+    "hypervisor": "kvm",
     "jobs": [],
     "mem": 536870912,
     "meta": {},
@@ -22,10 +24,10 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
             "firewall_policy": null,
             "ip_v4_conf": {
                 "conf": "static",
-                "ip": "185.12.6.183"
+                "ip": "94.26.101.182"
             },
             "ip_v6_conf": null,
-            "mac": "22:dc:29:30:ac:81",
+            "mac": "22:cd:d0:81:97:c8",
             "model": "e1000",
             "runtime": null,
             "vlan": null
@@ -35,26 +37,27 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
             "firewall_policy": null,
             "ip_v4_conf": null,
             "ip_v6_conf": null,
-            "mac": "22:a5:f0:db:fe:da",
+            "mac": "22:25:57:2a:dc:cc",
             "model": "virtio",
             "runtime": null,
             "vlan": {
-                "resource_uri": "/api/2.0/vlans/96537817-f4b6-496b-a861-e74192d3ccb0/",
-                "uuid": "96537817-f4b6-496b-a861-e74192d3ccb0"
+                "resource_uri": "/api/2.0/vlans/10619300-edda-42ba-91e0-7e3df0689d00/",
+                "uuid": "10619300-edda-42ba-91e0-7e3df0689d00"
             }
         }
     ],
     "owner": {
-        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
-        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+        "resource_uri": "/api/2.0/user/c2fc9982-cf2e-434a-bf63-e22a27b39f00/",
+        "uuid": "c2fc9982-cf2e-434a-bf63-e22a27b39f00"
     },
     "permissions": [],
+    "pubkeys": [],
     "requirements": [],
-    "resource_uri": "/api/2.0/servers/f2208a27-bcee-4842-accf-9ac473cbe6b4/",
+    "resource_uri": "/api/2.0/servers/3b3616df-16dc-4a49-bfca-5c2192e1f089/",
     "runtime": null,
     "smp": 1,
     "status": "stopped",
     "tags": [],
-    "uuid": "f2208a27-bcee-4842-accf-9ac473cbe6b4",
+    "uuid": "3b3616df-16dc-4a49-bfca-5c2192e1f089",
     "vnc_password": "testserver"
 }

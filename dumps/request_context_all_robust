@@ -1,0 +1,1 @@
+python -c 'import serial; s = serial.Serial("/dev/ttyS1");s.write("<\n\n>"); print s.readline().strip("\x04\n")'

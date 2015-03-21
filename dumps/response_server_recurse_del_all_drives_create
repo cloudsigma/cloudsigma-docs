@@ -7,6 +7,7 @@ Content-Type: application/json; charset=utf-8
             "context": true,
             "cpu": 1000,
             "cpu_model": null,
+            "cpu_type": "amd",
             "cpus_instead_of_cores": false,
             "drives": [
                 {
@@ -14,8 +15,8 @@ Content-Type: application/json; charset=utf-8
                     "dev_channel": "0:0",
                     "device": "ide",
                     "drive": {
-                        "resource_uri": "/api/2.0/drives/f2af396d-6821-4d8d-87ea-8c967468e220/",
-                        "uuid": "f2af396d-6821-4d8d-87ea-8c967468e220"
+                        "resource_uri": "/api/2.0/drives/3df825cb-9c1b-470d-acbd-03e1a966c046/",
+                        "uuid": "3df825cb-9c1b-470d-acbd-03e1a966c046"
                     },
                     "runtime": null
                 },
@@ -24,8 +25,8 @@ Content-Type: application/json; charset=utf-8
                     "dev_channel": "0:0",
                     "device": "virtio",
                     "drive": {
-                        "resource_uri": "/api/2.0/drives/f1888988-7754-4d89-a004-693fbf62e7a6/",
-                        "uuid": "f1888988-7754-4d89-a004-693fbf62e7a6"
+                        "resource_uri": "/api/2.0/drives/52f03c84-0397-494a-962b-2bf7b08e26d3/",
+                        "uuid": "52f03c84-0397-494a-962b-2bf7b08e26d3"
                     },
                     "runtime": null
                 }
@@ -34,6 +35,7 @@ Content-Type: application/json; charset=utf-8
             "grantees": [],
             "hv_relaxed": false,
             "hv_tsc": false,
+            "hypervisor": "kvm",
             "jobs": [],
             "mem": 268435456,
             "meta": {
@@ -49,24 +51,25 @@ Content-Type: application/json; charset=utf-8
                         "ip": null
                     },
                     "ip_v6_conf": null,
-                    "mac": "22:60:6f:c9:4d:64",
+                    "mac": "22:20:d8:4d:24:ca",
                     "model": "virtio",
                     "runtime": null,
                     "vlan": null
                 }
             ],
             "owner": {
-                "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
-                "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+                "resource_uri": "/api/2.0/user/c2fc9982-cf2e-434a-bf63-e22a27b39f00/",
+                "uuid": "c2fc9982-cf2e-434a-bf63-e22a27b39f00"
             },
             "permissions": [],
+            "pubkeys": [],
             "requirements": [],
-            "resource_uri": "/api/2.0/servers/ffb4ffc9-6b73-479b-a8d1-84cfc1c48dd1/",
+            "resource_uri": "/api/2.0/servers/dc3a65b4-0e6f-4f4e-8e34-02cefb9f9eae/",
             "runtime": null,
             "smp": 1,
             "status": "stopped",
             "tags": [],
-            "uuid": "ffb4ffc9-6b73-479b-a8d1-84cfc1c48dd1",
+            "uuid": "dc3a65b4-0e6f-4f4e-8e34-02cefb9f9eae",
             "vnc_password": "tester"
         }
     ]

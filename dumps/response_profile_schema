@@ -121,6 +121,15 @@ Content-Type: application/json; charset=utf-8
             "type": "boolean",
             "unique": false
         },
+        "has_tx_autotopup": {
+            "blank": false,
+            "default": false,
+            "help_text": "Boolean data. Ex: True",
+            "nullable": false,
+            "readonly": false,
+            "type": "boolean",
+            "unique": false
+        },
         "invoicing": {
             "blank": false,
             "default": true,
@@ -184,6 +193,15 @@ Content-Type: application/json; charset=utf-8
             "type": "string",
             "unique": false
         },
+        "network_restrictions": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": true,
+            "readonly": true,
+            "type": "string",
+            "unique": false
+        },
         "nickname": {
             "blank": false,
             "default": "",
@@ -222,7 +240,7 @@ Content-Type: application/json; charset=utf-8
         },
         "signup_time": {
             "blank": false,
-            "default": "2014-06-05T09:47:34.474924+00:00",
+            "default": "2015-03-19T13:49:15.421660+00:00",
             "help_text": "A date & time as a string. Ex: \"2010-11-10T03:07:43\"",
             "nullable": false,
             "readonly": false,
@@ -272,6 +290,24 @@ Content-Type: application/json; charset=utf-8
             "nullable": false,
             "readonly": false,
             "type": "string",
+            "unique": false
+        },
+        "tx_autotopup_amount": {
+            "blank": false,
+            "default": 0,
+            "help_text": "Fixed precision numeric data. Ex: 26.73",
+            "nullable": false,
+            "readonly": false,
+            "type": "decimal",
+            "unique": false
+        },
+        "tx_autotopup_threshold": {
+            "blank": false,
+            "default": 0,
+            "help_text": "Fixed precision numeric data. Ex: 26.73",
+            "nullable": false,
+            "readonly": false,
+            "type": "decimal",
             "unique": false
         },
         "uuid": {

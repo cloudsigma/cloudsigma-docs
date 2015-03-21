@@ -5,6 +5,7 @@ Content-Type: application/json; charset=utf-8
     "context": true,
     "cpu": 2000,
     "cpu_model": null,
+    "cpu_type": "amd",
     "cpus_instead_of_cores": false,
     "drives": [
         {
@@ -12,8 +13,8 @@ Content-Type: application/json; charset=utf-8
             "dev_channel": "0:0",
             "device": "virtio",
             "drive": {
-                "resource_uri": "/api/2.0/drives/b403f8e8-737d-4f9d-bb10-6de82508a6db/",
-                "uuid": "b403f8e8-737d-4f9d-bb10-6de82508a6db"
+                "resource_uri": "/api/2.0/drives/756f5728-2123-4381-bc7c-f73dc2a3f55f/",
+                "uuid": "756f5728-2123-4381-bc7c-f73dc2a3f55f"
             },
             "runtime": null
         }
@@ -22,6 +23,7 @@ Content-Type: application/json; charset=utf-8
     "grantees": [],
     "hv_relaxed": false,
     "hv_tsc": false,
+    "hypervisor": "kvm",
     "jobs": [],
     "mem": 536870912,
     "meta": {
@@ -31,16 +33,17 @@ Content-Type: application/json; charset=utf-8
     "name": "test_server_updated",
     "nics": [],
     "owner": {
-        "resource_uri": "/api/2.0/user/5b4a69a3-8e78-4c45-a8ba-8b13f0895e23/",
-        "uuid": "5b4a69a3-8e78-4c45-a8ba-8b13f0895e23"
+        "resource_uri": "/api/2.0/user/c2fc9982-cf2e-434a-bf63-e22a27b39f00/",
+        "uuid": "c2fc9982-cf2e-434a-bf63-e22a27b39f00"
     },
     "permissions": [],
+    "pubkeys": [],
     "requirements": [],
-    "resource_uri": "/api/2.0/servers/0e94a85a-d195-488e-b25d-ba6980fe21e4/",
+    "resource_uri": "/api/2.0/servers/0dacaaf7-1ba8-451d-b135-8848e76381ee/",
     "runtime": null,
     "smp": 1,
     "status": "stopped",
     "tags": [],
-    "uuid": "0e94a85a-d195-488e-b25d-ba6980fe21e4",
+    "uuid": "0dacaaf7-1ba8-451d-b135-8848e76381ee",
     "vnc_password": "updated_password"
 }

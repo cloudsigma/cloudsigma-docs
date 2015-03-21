@@ -1,0 +1,19 @@
+HTTP/1.1 201 CREATED
+Content-Type: application/json; charset=utf-8
+
+{
+    "objects": [
+        {
+            "fingerprint": "79:20:0b:49:72:11:b1:bc:df:73:94:09:3d:f8:90:71",
+            "grantees": [],
+            "meta": {},
+            "name": "test_pub",
+            "permissions": [],
+            "private_key": "-----BEGIN RSA PRIVATE KEY-----\nMIICXwIBAAKCAIEAuU+9enw6UwtDPW+82mLpkEKitLn1drCWuLvWdhdeCfMUCVAL\nZAQiQZkzwyD6xxav2uRyzP3P7nLGuFD/bF+xqL6qq/7KvqzKb79SfLYEOLrpLAwB\n+8AXgNtLXZHEE0KTBIGpT9I/RKXfeWZAmQWSigTREjuuAOQcby7tb4IgoisCAwEA\nAQKCAIBl9QORUqxcaIP0V3gWx/kt0BvpR69QQFSNC3wxuSWaX82UWiAKRWP7p6kd\nIRYZV9glnS+0rakrzqabXqVKIVSDTbHT7SbP56t2pjfi/se/zTQeWYz65AGIfJV4\nNa8e3qN6ivMjTHHgvjbpFIjnFyO5O173deQFSWZXH+l9DuGGUQJBANQVYJqqqGn9\nNCzdLaEnA/+FIPI2jNXxvSqWUr8JolOXaBqxJYUJZNaVFq80NspYJuNHkCaddq1K\nTBe5CEk1FXcCQQDfrysb6prO9Caduozt2ms1R06bVw1i89mn48RFylOHRLNm8Xm/\n+bQErrzFbrPgln7pTmszeBZdpP5ejVOqzxXtAkEAy4ikiGqFbApa+z9cng7icGOk\nJa+iY2Q25dsUGFC3nz9r4knltxI32xODjKswdeo5j99LATQXA+GMuyuRPyiZqwJA\nOXMD32eh2wVZ5ajECVLPth9aUQtKpN98R2J4RnRwf41lhkr+ug+n7Iv0b8C+8i+0\n6Lb7UXzGQcbejeo+UuBdAQJBAMY5mf78YtmOW4i2kPYkS8wsjr9IE1ewUKezBSjj\nTHHog0pafFboifN/aFoO/jL1v7+8XLZ+uZwx5hPQ1L9fzO8=\n-----END RSA PRIVATE KEY-----\n",
+            "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQC5T716fDpTC0M9b7zaYumQQqK0ufV2sJa4u9Z2F14J8xQJUAtkBCJBmTPDIPrHFq/a5HLM/c/ucsa4UP9sX7Govqqr/sq+rMpvv1J8tgQ4uuksDAH7wBeA20tdkcQTQpMEgalP0j9Epd95ZkCZBZKKBNESO64A5BxvLu1vgiCiKw==",
+            "resource_uri": "/api/2.0/keypairs/fdd6fbba-644b-49d8-9324-ff6589179da3/",
+            "tags": [],
+            "uuid": "fdd6fbba-644b-49d8-9324-ff6589179da3"
+        }
+    ]
+}

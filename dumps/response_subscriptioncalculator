@@ -1,18 +1,21 @@
-HTTP/1.1 200 OK
+HTTP/1.1 200 CREATED
 Content-Type: application/json; charset=utf-8
 
 {
     "objects": [
         {
             "amount": "10000000000",
-            "discount_amount": "0",
+            "discount_amount": "0E-24",
             "discount_percent": "0",
-            "end_time": "2014-07-05T12:00:00+00:00",
-            "period": "30 days, 2:06:15.033246",
-            "price": "1.303851604461669921875",
+            "discounts": {},
+            "end_time": "2015-04-20T12:00:00+00:00",
+            "free_tier": false,
+            "period": "31 days, 22:04:59.904871",
+            "price": "1.010484993457794189453125",
             "resource": "dssd",
-            "start_time": "2014-06-05T09:53:44.966754+00:00"
+            "start_time": "2015-03-19T13:55:00.095129+00:00",
+            "was_billed": true
         }
     ],
-    "price": "1.303851604461669921875"
+    "price": "1.010484993457794189453125"
 }

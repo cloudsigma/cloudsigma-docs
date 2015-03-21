@@ -171,7 +171,7 @@ Single server
 .. _servers-delete-recursive:
 
 Delete Server together with attached drives (recursive delete)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. http:delete:: /servers/{uuid}/?recurse={recurse_option}
 
@@ -238,7 +238,7 @@ left intact:
 .. _server-runtime:
 
 Server Runtime and Server Details
-----------------------------------
+---------------------------------
 
 .. http:get:: /servers/{uuid}/
 
@@ -462,6 +462,12 @@ Availability groups
 
 It is possible to query which servers share common hardware hosts. See :ref:`server-availability`.
 
+Public keys
+-----------
+
+The ``pubkeys`` attribute contains a list of :doc:`keypairs <keypairs>` references. The attached pubkeys are available
+in the :doc:`server context <server_context>`, and can be used by scripts inside the VM, such as cloudinit, to set
+the public keys automatically. See the :ref:`attaching keys to a server <attach_pubkeys_to_server>` section.
 
 Server State Diagram
 --------------------

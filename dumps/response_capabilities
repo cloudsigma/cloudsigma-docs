@@ -4,13 +4,56 @@ Content-Type: application/json; charset=utf-8
 {
     "drives": {
         "dssd": {
-            "max_size": 4391067795456,
-            "min_size": 536870912
-        },
-        "zadara": {
-            "max_size": 5905580032000,
-            "min_size": 1073741824
+            "max_size": 4971194891468,
+            "min_size": 536870912,
+            "size": {
+                "max": 4971194891468,
+                "min": 536870912
+            }
         }
+    },
+    "hosts": {
+        "amd": {
+            "cpu": {
+                "max": 40000,
+                "min": 250
+            },
+            "cpu_per_smp": {
+                "max": 2400,
+                "min": 1000
+            },
+            "mem": {
+                "max": 68719476736,
+                "min": 268435456
+            },
+            "smp": {
+                "max": 24,
+                "min": 1
+            }
+        },
+        "intel": {
+            "cpu": {
+                "max": 40000,
+                "min": 250
+            },
+            "cpu_per_smp": {
+                "max": 2400,
+                "min": 1000
+            },
+            "mem": {
+                "max": 68719476736,
+                "min": 268435456
+            },
+            "smp": {
+                "max": 48,
+                "min": 1
+            }
+        }
+    },
+    "hypervisors": {
+        "kvm": [
+            "amd"
+        ]
     },
     "servers": {
         "cpu": {
@@ -18,7 +61,7 @@ Content-Type: application/json; charset=utf-8
             "min": 250
         },
         "cpu_per_smp": {
-            "max": 2500,
+            "max": 2400,
             "min": 1000
         },
         "mem": {

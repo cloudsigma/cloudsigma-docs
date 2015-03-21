@@ -1,0 +1,62 @@
+HTTP/1.1 201 CREATED
+Content-Type: application/json; charset=utf-8
+
+{
+    "objects": [
+        {
+            "context": true,
+            "cpu": 1000,
+            "cpu_model": null,
+            "cpu_type": "amd",
+            "cpus_instead_of_cores": false,
+            "drives": [],
+            "enable_numa": false,
+            "grantees": [],
+            "hv_relaxed": false,
+            "hv_tsc": false,
+            "hypervisor": "kvm",
+            "jobs": [],
+            "mem": 1073741824,
+            "meta": {},
+            "name": "test_srv_test_pubkeys",
+            "nics": [
+                {
+                    "boot_order": null,
+                    "firewall_policy": null,
+                    "ip_v4_conf": {
+                        "conf": "dhcp",
+                        "ip": null
+                    },
+                    "ip_v6_conf": null,
+                    "mac": "22:30:3d:8a:b6:59",
+                    "model": "virtio",
+                    "runtime": null,
+                    "vlan": null
+                }
+            ],
+            "owner": {
+                "resource_uri": "/api/2.0/user/c2fc9982-cf2e-434a-bf63-e22a27b39f00/",
+                "uuid": "c2fc9982-cf2e-434a-bf63-e22a27b39f00"
+            },
+            "permissions": [],
+            "pubkeys": [
+                {
+                    "resource_uri": "/api/2.0/pubkeys/fdd6fbba-644b-49d8-9324-ff6589179da3/",
+                    "uuid": "fdd6fbba-644b-49d8-9324-ff6589179da3"
+                },
+                {
+                    "resource_uri": "/api/2.0/pubkeys/6d7db550-d1c5-4e3b-9c0a-e83f6a2b8244/",
+                    "uuid": "6d7db550-d1c5-4e3b-9c0a-e83f6a2b8244"
+                }
+            ],
+            "requirements": [],
+            "resource_uri": "/api/2.0/servers/f400243b-7005-4222-b319-dff0a376c4ea/",
+            "runtime": null,
+            "smp": 1,
+            "status": "stopped",
+            "tags": [],
+            "uuid": "f400243b-7005-4222-b319-dff0a376c4ea",
+            "vnc_password": "7b08b0f03aa840ff"
+        }
+    ]
+}

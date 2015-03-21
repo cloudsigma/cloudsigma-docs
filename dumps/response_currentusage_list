@@ -3,19 +3,29 @@ Content-Type: application/json; charset=utf-8
 
 {
     "balance": {
-        "balance": "469291.07488238102453490453",
-        "currency": "USD"
+        "balance": "155367.99237092264288897986",
+        "currency": "EUR"
     },
     "usage": {
+        "amd_cpu": {
+            "burst": 0,
+            "subscribed": 10000,
+            "using": 0
+        },
+        "amd_mem": {
+            "burst": 0,
+            "subscribed": 17179869184,
+            "using": 0
+        },
         "cpu": {
             "burst": 0,
-            "subscribed": 8000,
+            "subscribed": 10000,
             "using": 0
         },
         "dssd": {
             "burst": 0,
             "subscribed": 32212254720,
-            "using": 24696061952
+            "using": 30064771072
         },
         "ip": {
             "burst": 0,
@@ -52,6 +62,16 @@ Content-Type: application/json; charset=utf-8
             "subscribed": 0,
             "using": 0
         },
+        "sparc_t4_cpu": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
+        "sparc_t4_mem": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
+        },
         "ssd": {
             "burst": 0,
             "subscribed": 0,
@@ -66,6 +86,11 @@ Content-Type: application/json; charset=utf-8
             "burst": 0,
             "subscribed": 1,
             "using": 1
+        },
+        "vlan_ecx": {
+            "burst": 0,
+            "subscribed": 0,
+            "using": 0
         },
         "zadara": {
             "burst": 0,

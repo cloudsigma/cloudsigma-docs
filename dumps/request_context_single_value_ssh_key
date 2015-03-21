@@ -1,1 +1,1 @@
-v=$(read -t 13 READVALUE < /dev/ttyS1 && echo $READVALUE & sleep 1; echo -en "<\n/meta/ssh_public_key\n>" > /dev/ttyS1; wait %1); echo $v
+python -c 'import serial; s = serial.Serial("/dev/ttyS1");s.write("<\n/meta/ssh_public_key\n>"); print s.readline().strip("\x04\n")'

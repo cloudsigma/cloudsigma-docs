@@ -1,4 +1,4 @@
-PUT /api/2.0/servers/0e94a85a-d195-488e-b25d-ba6980fe21e4/ HTTP/1.1
+PUT /api/2.0/servers/0dacaaf7-1ba8-451d-b135-8848e76381ee/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 
@@ -9,7 +9,7 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
             "boot_order": 1,
             "dev_channel": "0:0",
             "device": "virtio",
-            "drive": "b403f8e8-737d-4f9d-bb10-6de82508a6db"
+            "drive": "756f5728-2123-4381-bc7c-f73dc2a3f55f"
         }
     ],
     "mem": 536870912,

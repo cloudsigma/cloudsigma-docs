@@ -3,93 +3,91 @@ Content-Type: application/json; charset=utf-8
 
 {
     "current": {
-        "cpu": 15,
+        "cpu": 20,
         "dssd": 1,
         "ip": 1,
-        "mem": 11,
+        "mem": 17,
         "msft_7jq_00341": 1,
         "msft_7nq_00302": 1,
-        "msft_lwa_00135": 1,
-        "msft_p71_01031": 1,
-        "msft_p73_04837": 1,
         "msft_p73_04837_core": 1,
-        "msft_tfa_00009": 1,
         "msft_tfa_00523": 1,
         "sms": 1,
+        "sparc_t4_cpu": 1,
+        "sparc_t4_mem": 1,
         "ssd": 1,
-        "tx": 20,
+        "tx": 1,
         "vlan": 1,
+        "vlan_ecx": 1,
         "zadara": 1
     },
     "meta": {
         "limit": 5,
         "offset": 0,
-        "total_count": 392
+        "total_count": 484
     },
     "next": {
-        "cpu": 15,
+        "cpu": 20,
         "dssd": 1,
         "ip": 1,
-        "mem": 11,
+        "mem": 17,
         "msft_7jq_00341": 1,
         "msft_7nq_00302": 1,
-        "msft_lwa_00135": 1,
-        "msft_p71_01031": 1,
-        "msft_p73_04837": 1,
         "msft_p73_04837_core": 1,
-        "msft_tfa_00009": 1,
         "msft_tfa_00523": 1,
         "sms": 1,
+        "sparc_t4_cpu": 1,
+        "sparc_t4_mem": 1,
         "ssd": 1,
-        "tx": 20,
+        "tx": 1,
         "vlan": 1,
+        "vlan_ecx": 1,
         "zadara": 1
     },
     "objects": [
         {
-            "currency": "CHF",
-            "id": "308",
-            "level": 0,
+            "currency": "GBP",
+            "id": "656",
+            "level": 1,
             "multiplier": 2783138807808000,
-            "price": "0.12600000000000000000",
-            "resource": "ssd",
+            "price": "0.18200000000000000000",
+            "resource": "dssd",
             "unit": "GB/month"
         },
         {
             "currency": "EUR",
-            "id": "309",
-            "level": 0,
+            "id": "636",
+            "level": 1,
             "multiplier": 2783138807808000,
-            "price": "0.10080000000000000000",
-            "resource": "ssd",
-            "unit": "GB/month"
-        },
-        {
-            "currency": "GBP",
-            "id": "310",
-            "level": 0,
-            "multiplier": 2783138807808000,
-            "price": "0.08680000000000000000",
-            "resource": "ssd",
+            "price": "0.21000000000000000000",
+            "resource": "dssd",
             "unit": "GB/month"
         },
         {
             "currency": "USD",
-            "id": "311",
-            "level": 0,
+            "id": "616",
+            "level": 1,
             "multiplier": 2783138807808000,
-            "price": "0.14000000000000000000",
-            "resource": "ssd",
+            "price": "0.28000000000000000000",
+            "resource": "dssd",
             "unit": "GB/month"
         },
         {
-            "currency": "GBP",
-            "id": "680",
+            "currency": "CHF",
+            "id": "596",
             "level": 1,
-            "multiplier": 2592000,
-            "price": "3.10000000000000000000",
-            "resource": "ip",
-            "unit": "IP"
+            "multiplier": 2783138807808000,
+            "price": "0.26600000000000000000",
+            "resource": "dssd",
+            "unit": "GB/month"
+        },
+        {
+            "currency": "USD",
+            "id": "307",
+            "level": 0,
+            "multiplier": 2783138807808000,
+            "price": "0.14000000000000000000",
+            "resource": "dssd",
+            "unit": "GB/month"
         }
     ]
 }

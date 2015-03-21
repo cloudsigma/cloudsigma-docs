@@ -24,11 +24,13 @@ Welcome to CloudSigma API documentation!
     servers
     servers_kvm
     servers_solariskz
+    keypairs
     server_context
     network_interfaces
     networking
     fwpolicies
     tags
+    acls
 
     jobs
     meta

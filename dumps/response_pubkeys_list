@@ -1,0 +1,48 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "meta": {
+        "limit": 0,
+        "offset": 0,
+        "total_count": 3
+    },
+    "objects": [
+        {
+            "fingerprint": "79:20:0b:49:72:11:b1:bc:df:73:94:09:3d:f8:90:71",
+            "grantees": [],
+            "has_private_key": true,
+            "meta": {},
+            "name": "test_pub",
+            "permissions": [],
+            "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQC5T716fDpTC0M9b7zaYumQQqK0ufV2sJa4u9Z2F14J8xQJUAtkBCJBmTPDIPrHFq/a5HLM/c/ucsa4UP9sX7Govqqr/sq+rMpvv1J8tgQ4uuksDAH7wBeA20tdkcQTQpMEgalP0j9Epd95ZkCZBZKKBNESO64A5BxvLu1vgiCiKw==",
+            "resource_uri": "/api/2.0/pubkeys/fdd6fbba-644b-49d8-9324-ff6589179da3/",
+            "tags": [],
+            "uuid": "fdd6fbba-644b-49d8-9324-ff6589179da3"
+        },
+        {
+            "fingerprint": "8c:71:a2:f0:bc:a4:45:66:a8:59:77:6d:80:d5:a0:89",
+            "grantees": [],
+            "has_private_key": true,
+            "meta": {},
+            "name": "ala",
+            "permissions": [],
+            "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9E5ykn/RPmJlTN9HJ2wkjjMJu5AB8YfcGX9uKCA9jVq0urN+LPqVy1jzCzPaxi2z05Cia0IH/G0w99SMdmkuDUQ/j+F8/U0Ja2whsiINgqvM0QWAClI7UCSoFny1UvaCk9S5J1ork/eU+ORu3jd2CdOEjIy82iLSDueALovqz3rQm8Gq5qY693zBVpb9WlvJmsqpHC+awwfWkYSuFIB4SsiY53AzzC0J10tLc7ifF+2zTqnIRwaG6m8fyWmH2r6MonGmDvCFSQ4nJmgw3VeAO+1EVvP0++XGo/RI55wQc/7jII6ANwlrr0tIUXGaVKiD0GK0K/mpEXCu8oawxhx6x",
+            "resource_uri": "/api/2.0/pubkeys/186106ac-afb5-40e5-a0de-6f0feba5a3d5/",
+            "tags": [],
+            "uuid": "186106ac-afb5-40e5-a0de-6f0feba5a3d5"
+        },
+        {
+            "fingerprint": "e8:ee:43:72:38:09:6d:1e:8e:46:9e:76:80:a3:0a:01",
+            "grantees": [],
+            "has_private_key": false,
+            "meta": {},
+            "name": "test_another_pub",
+            "permissions": [],
+            "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDFGtYDl+/Oua9uBXqwcbE84QUBBbDdMMzaZ6MAGg1Bmus9VEW0P8kK6npZ0SaUnB2xRrBNwCv0Q0uZBJ70UicgsrhBjCXIVa7K6yQYrFzMxfN8saNAjJvGDdWGSvcMxJdpYwXiOQhFan36eJCCwQjni7I538Ii9chPD8/tyJcBIw==",
+            "resource_uri": "/api/2.0/pubkeys/6d7db550-d1c5-4e3b-9c0a-e83f6a2b8244/",
+            "tags": [],
+            "uuid": "6d7db550-d1c5-4e3b-9c0a-e83f6a2b8244"
+        }
+    ]
+}

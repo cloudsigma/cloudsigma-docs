@@ -2,6 +2,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-    "balance": "469291.07488238102453490453",
-    "currency": "USD"
+    "balance": "155367.99237092264288897986",
+    "credit_limit": null,
+    "currency": "EUR"
 }

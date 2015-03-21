@@ -1,4 +1,7 @@
 __author__ = 'islavov'
+
+import logging
+
 import codecs
 
 from docutils.parsers.rst import Directive, directives
@@ -7,6 +10,9 @@ from docutils import nodes
 from sphinx.util import parselinenos
 from sphinx.util.nodes import set_source_info
 import json
+
+
+LOG = logging.getLogger(__name__)
 
 class IncludeJson(Directive):
     """
@@ -39,6 +45,7 @@ class IncludeJson(Directive):
         env = document.settings.env
         rel_filename, filename = env.relfn2path(self.arguments[0])
 
+        LOG.debug('rel_filenane = %r, filename = %r', rel_filename, filename)
         encoding = self.options.get('encoding', env.config.source_encoding)
         codec_info = codecs.lookup(encoding)
         try:
@@ -72,21 +79,30 @@ class IncludeJson(Directive):
                 return [document.reporter.warning(
                     'Include file %r does not contain valid json' % filename, line=self.lineno)]
 
-            if accessor:
-                for acc in accessor.split('.'):
-                    if isinstance(traversed, dict):
-                        traversed = traversed[acc]
-                    else:
-                        traversed = traversed[int(acc)]
+            try:
+                if accessor:
+                    for acc in accessor.split('.'):
+                        if isinstance(traversed, dict):
+                            traversed = traversed[acc]
+                        else:
+                            traversed = traversed[int(acc)]
 
-            if isinstance(traversed, dict) and keys is not None:
-                res = {}
-                for key in keys.split(','):
-                    res[key] = traversed[key]
-            else:
-                res = traversed
+                if isinstance(traversed, dict) and keys is not None:
+                    res = {}
+                    for key in keys.split(','):
+                        res[key] = traversed[key]
+                else:
+                    res = traversed
 
-            body = json.dumps(res, sort_keys=True, indent=4)
+                body = json.dumps(res, sort_keys=True, indent=4)
+            except Exception as exc:
+                LOG.exception('Error processing %r', filename)
+                return [
+                    document.reporter.warning(
+                        'Error processing {}: {!r}'.format(filename, exc),
+                        line=self.lineno
+                    )
+                ]
 
 
         text=""

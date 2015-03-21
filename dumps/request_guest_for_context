@@ -1,34 +1,5 @@
-POST /api/2.0/servers/ HTTP/1.1
+GET /api/2.0/servers/e0fcf2ae-020e-45e1-bf69-982b17da4b6a/ HTTP/1.1
 Content-Type: application/json
 Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
 
-{
-    "objects": [
-        {
-            "cpu": 1000,
-            "drives": [
-                {
-                    "boot_order": 1,
-                    "dev_channel": "0:0",
-                    "device": "virtio",
-                    "drive": "13168369-8450-4070-8909-444f56b747e8"
-                }
-            ],
-            "mem": 1073741824,
-            "meta": {
-                "ssh_public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCy4XpmD3kEfRZ+LCwFh3Xmqrkm7rSiDu8v+ZCTOA3vlNjmy/ZOc3vy9Zr+IhWPP4yipiApkGRsBM63tTgnxqUUn/WU7qkbBNktZBcs5p7Mj/zO4ZHkk4VoTczFzHlPGwuak2P4wTftEj7sU8IRutaAbMoKj4AMuFF50j4sIgF7P5b5FtTIM2b5HSW8BlDz10b67+xsj6s3Jv05xxbBs+RWj+v7D5yjMVeeErXoSui8dlHpUu6QOVKn8LLmdpxvehc6ns8yW7cbQvWmLjOICMnm6BXdVtOKWBncDq9FGLmKF3fUeZZPbv79Z7dyZs+xGZGMHbpaNHpuY9QhNS/hQ5D5 dave@hal"
-            },
-            "name": "test_server",
-            "nics": [
-                {
-                    "ip_v4_conf": {
-                        "conf": "dhcp",
-                        "ip": null
-                    },
-                    "model": "virtio"
-                }
-            ],
-            "vnc_password": "3022962f5d944b97"
-        }
-    ]
-}
+

@@ -1,0 +1,63 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get"
+    ],
+    "allowed_list_http_methods": [
+        "get"
+    ],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "amount": {
+            "blank": false,
+            "default": 0,
+            "help_text": "Amount of money billed",
+            "nullable": false,
+            "readonly": false,
+            "type": "decimal",
+            "unique": false
+        },
+        "date": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "A date & time as a string. Ex: \"2010-11-10T03:07:43\"",
+            "nullable": true,
+            "readonly": true,
+            "type": "datetime",
+            "unique": false
+        },
+        "resource_type": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Type of the used resource (e.g cpu, dssd, mem, ip, vlan)",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "usage": {
+            "blank": false,
+            "default": 0,
+            "help_text": "Usage recorded for the day",
+            "nullable": false,
+            "readonly": false,
+            "type": "integer",
+            "unique": false
+        },
+        "uuid": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        }
+    },
+    "filtering": {
+        "date": 1
+    }
+}

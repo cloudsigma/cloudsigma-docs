@@ -1,0 +1,92 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get",
+        "put",
+        "delete"
+    ],
+    "allowed_list_http_methods": [
+        "get",
+        "put",
+        "post",
+        "delete"
+    ],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "grantees": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Many related resources. Can be either a list of URIs or list of individually nested resource data.",
+            "nullable": true,
+            "readonly": false,
+            "type": "related",
+            "unique": false
+        },
+        "meta": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "A dictionary of data. Ex: {'price': 26.73, 'name': 'Daniel'}",
+            "nullable": false,
+            "readonly": false,
+            "type": "dict",
+            "unique": false
+        },
+        "name": {
+            "blank": false,
+            "default": "",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": false,
+            "type": "string",
+            "unique": false
+        },
+        "owner": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "A single related resource. Can be either a URI or set of nested resource data.",
+            "nullable": false,
+            "readonly": true,
+            "type": "related",
+            "unique": false
+        },
+        "resource_uri": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": true,
+            "type": "string",
+            "unique": false
+        },
+        "rules": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "ACL rules",
+            "nullable": true,
+            "readonly": false,
+            "type": "related",
+            "unique": false
+        },
+        "tags": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Many related resources. Can be either a list of URIs or list of individually nested resource data.",
+            "nullable": true,
+            "readonly": false,
+            "type": "related",
+            "unique": false
+        },
+        "uuid": {
+            "blank": false,
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "nullable": false,
+            "readonly": true,
+            "type": "string",
+            "unique": false
+        }
+    }
+}

@@ -1,0 +1,56 @@
+HTTP/1.1 201 CREATED
+Content-Type: application/json; charset=utf-8
+
+{
+    "objects": [
+        {
+            "context": true,
+            "cpu": 1000,
+            "cpu_model": null,
+            "cpu_type": "amd",
+            "cpus_instead_of_cores": false,
+            "drives": [],
+            "enable_numa": false,
+            "grantees": [
+                {
+                    "permissions": [
+                        "EDIT",
+                        "LIST"
+                    ],
+                    "user": {
+                        "email": "nikola+acceptancetests@cloudsigma.com",
+                        "resource_uri": "/api/2.0/user/c2fc9982-cf2e-434a-bf63-e22a27b39f00/",
+                        "uuid": "c2fc9982-cf2e-434a-bf63-e22a27b39f00"
+                    }
+                }
+            ],
+            "hv_relaxed": false,
+            "hv_tsc": false,
+            "hypervisor": "kvm",
+            "jobs": [],
+            "mem": 536870912,
+            "meta": {},
+            "name": "test_server",
+            "nics": [],
+            "owner": {
+                "resource_uri": "/api/2.0/user/3516e556-eb0e-4f0c-bf95-8b642194b8fd/",
+                "uuid": "3516e556-eb0e-4f0c-bf95-8b642194b8fd"
+            },
+            "permissions": [],
+            "pubkeys": [],
+            "requirements": [],
+            "resource_uri": "/api/2.0/servers/e97f8858-4c59-476f-b7e6-08ec2ec85582/",
+            "runtime": null,
+            "smp": 1,
+            "status": "stopped",
+            "tags": [
+                {
+                    "resource_uri": "/api/2.0/tags/6d302107-fc0b-433a-99b1-9f2d3692eefc/",
+                    "uuid": "6d302107-fc0b-433a-99b1-9f2d3692eefc"
+                }
+            ],
+            "uuid": "e97f8858-4c59-476f-b7e6-08ec2ec85582",
+            "vnc_password": "pass"
+        }
+    ]
+}
