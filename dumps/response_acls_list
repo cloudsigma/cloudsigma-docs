@@ -11,7 +11,7 @@ Content-Type: application/json; charset=utf-8
         {
             "grantees": [
                 {
-                    "email": "nikola+acceptancetests2@cloudsigma.com",
+                    "email": "user2@example.com",
                     "resource_uri": {
                         "resource_uri": "/api/2.0/user/3516e556-eb0e-4f0c-bf95-8b642194b8fd/",
                         "uuid": "3516e556-eb0e-4f0c-bf95-8b642194b8fd"
@@ -58,7 +58,7 @@ Content-Type: application/json; charset=utf-8
         {
             "grantees": [
                 {
-                    "email": "nikola+acceptancetests2@cloudsigma.com",
+                    "email": "user2@example.com",
                     "resource_uri": {
                         "resource_uri": "/api/2.0/user/3516e556-eb0e-4f0c-bf95-8b642194b8fd/",
                         "uuid": "3516e556-eb0e-4f0c-bf95-8b642194b8fd"

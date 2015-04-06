@@ -7,7 +7,7 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
         {
             "grantees": [
                 {
-                    "email": "nikola+acceptancetests@cloudsigma.com",
+                    "email": "user@example.com",
                     "uuid": "c2fc9982-cf2e-434a-bf63-e22a27b39f00"
                 }
             ],

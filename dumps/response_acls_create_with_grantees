@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
         {
             "grantees": [
                 {
-                    "email": "nikola+acceptancetests@cloudsigma.com",
+                    "email": "user@example.com",
                     "resource_uri": {
                         "resource_uri": "/api/2.0/user/c2fc9982-cf2e-434a-bf63-e22a27b39f00/",
                         "uuid": "c2fc9982-cf2e-434a-bf63-e22a27b39f00"
