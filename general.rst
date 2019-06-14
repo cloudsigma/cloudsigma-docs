@@ -30,7 +30,7 @@ API Versions
 
 The API version is embedded into the URL. The currently active one is '2.0', e.g. ::
 
-   https://lvs.cloudsigma.com/api/2.0/
+   https://zrh.cloudsigma.com/api/2.0/
 
 General URL Format
 ------------------
