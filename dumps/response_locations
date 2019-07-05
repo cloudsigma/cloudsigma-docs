@@ -2,59 +2,167 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-    "meta": {
-        "limit": 0,
-        "offset": 0,
-        "total_count": 4
+    "meta":{
+        "limit":0,
+        "offset":0,
+        "total_count":13
     },
-    "objects": [
+    "objects":[
         {
-            "alternative_frontend_url": "https://wdc.cloudsigma.com/ui/",
-            "api_endpoint": "https://wdc.cloudsigma.com/api/2.0/",
-            "country_code": "US",
-            "default_frontend_signup_url": "https://wdc.cloudsigma.com/ui/",
-            "default_frontend_url": "https://wdc.cloudsigma.com/ui/",
-            "display_name": "Washington DC, United States",
-            "documentation_url": "https://cloudsigma-docs.readthedocs.org/en/2.11/",
-            "id": "WDC",
-            "upload_url": "https://direct.wdc.cloudsigma.com/api/2.0/",
-            "websocket_url": "wss://direct.wdc.cloudsigma.com/websocket"
+            "alternative_frontend_url":"https://zrh.cloudsigma.com/ui/2.0/",
+            "api_endpoint":"https://zrh.cloudsigma.com/api/2.0/",
+            "country_code":"CH",
+            "default_frontend_signup_url":"https://zrh.cloudsigma.com/ui/",
+            "default_frontend_url":"https://zrh.cloudsigma.com/ui/",
+            "display_name":"Zurich, Switzerland",
+            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.14/",
+            "id":"ZRH",
+            "upload_url":"https://direct.zrh.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.zrh.cloudsigma.com/websocket"
         },
         {
-            "alternative_frontend_url": "https://hnl.cloudsigma.com/ui/",
-            "api_endpoint": "https://hnl.cloudsigma.com/api/2.0/",
-            "country_code": "US",
-            "default_frontend_signup_url": "https://hnl.cloudsigma.com/ui/",
-            "default_frontend_url": "https://hnl.cloudsigma.com/ui/",
-            "display_name": "Honolulu, United States",
-            "documentation_url": "https://cloudsigma-docs.readthedocs.org/en/2.11/",
-            "id": "HNL",
-            "upload_url": "https://direct.hnl.cloudsigma.com/api/2.0/",
-            "websocket_url": "wss://direct.hnl.cloudsigma.com/websocket"
+            "alternative_frontend_url":"https://mel.cloudsigma.com/ui/",
+            "api_endpoint":"https://mel.cloudsigma.com/api/2.0/",
+            "country_code":"AU",
+            "default_frontend_signup_url":"https://mel.cloudsigma.com/ui/",
+            "default_frontend_url":"https://mel.cloudsigma.com/ui/",
+            "display_name":"Melbourne, Australia",
+            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
+            "id":"MEL",
+            "upload_url":"https://direct.mel.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.mel.cloudsigma.com/websocket"
         },
         {
-            "alternative_frontend_url": "https://sjc.cloudsigma.com/ui/",
-            "api_endpoint": "https://sjc.cloudsigma.com/api/2.0/",
-            "country_code": "US",
-            "default_frontend_signup_url": "https://sjc.cloudsigma.com/ui/",
-            "default_frontend_url": "https://sjc.cloudsigma.com/ui/",
-            "display_name": "San Jose, United States",
-            "documentation_url": "https://cloudsigma-docs.readthedocs.org/en/2.11/",
-            "id": "SJC",
-            "upload_url": "https://direct.sjc.cloudsigma.com/api/2.0/",
-            "websocket_url": "wss://direct.sjc.cloudsigma.com/websocket"
+            "alternative_frontend_url":"https://per.cloudsigma.com/ui/",
+            "api_endpoint":"https://per.cloudsigma.com/api/2.0/",
+            "country_code":"AU",
+            "default_frontend_signup_url":"https://per.cloudsigma.com/ui/",
+            "default_frontend_url":"https://per.cloudsigma.com/ui/",
+            "display_name":"Perth, Australia",
+            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
+            "id":"PER",
+            "upload_url":"https://direct.per.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.per.cloudsigma.com/websocket"
         },
         {
-            "alternative_frontend_url": "https://zrh.cloudsigma.com/ui/",
-            "api_endpoint": "https://zrh.cloudsigma.com/api/2.0/",
-            "country_code": "CH",
-            "default_frontend_signup_url": "https://zrh.cloudsigma.com/ui/",
-            "default_frontend_url": "https://zrh.cloudsigma.com/ui/",
-            "display_name": "Zurich, Switzerland",
-            "documentation_url": "https://cloudsigma-docs.readthedocs.org/en/2.11/",
-            "id": "ZRH",
-            "upload_url": "https://direct.zrh.cloudsigma.com/api/2.0/",
-            "websocket_url": "wss://direct.zrh.cloudsigma.com/websocket"
+            "alternative_frontend_url":"https://fra.cloudsigma.com/ui/",
+            "api_endpoint":"https://fra.cloudsigma.com/api/2.0/",
+            "country_code":"DE",
+            "default_frontend_signup_url":"https://fra.cloudsigma.com/ui/",
+            "default_frontend_url":"https://fra.cloudsigma.com/ui/",
+            "display_name":"Frankfurt, Germany",
+            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
+            "id":"FRA",
+            "upload_url":"https://direct.fra.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.fra.cloudsigma.com/websocket"
+        },
+        {
+            "alternative_frontend_url":"https://ec.servecentric.com/ui/",
+            "api_endpoint":"https://ec.servecentric.com/api/2.0/",
+            "country_code":"IE",
+            "default_frontend_signup_url":"https://ec.servecentric.com/ui/",
+            "default_frontend_url":"https://ec.servecentric.com/ui/",
+            "display_name":"Dublin, Ireland",
+            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
+            "id":"DUB",
+            "upload_url":"https://direct.ec.servecentric.com/api/2.0/",
+            "websocket_url":"wss://direct.ec.servecentric.com/websocket"
+        },
+        {
+            "alternative_frontend_url":"https://tyo.cloudsigma.com/ui/",
+            "api_endpoint":"https://tyo.cloudsigma.com/api/2.0/",
+            "country_code":"JP",
+            "default_frontend_signup_url":"https://tyo.cloudsigma.com/ui/",
+            "default_frontend_url":"https://tyo.cloudsigma.com/ui/",
+            "display_name":"Tokyo, Japan",
+            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
+            "id":"TYO",
+            "upload_url":"https://direct.tyo.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.tyo.cloudsigma.com/websocket"
+        },
+        {
+            "alternative_frontend_url":"https://mnl.cloudsigma.com/ui/",
+            "api_endpoint":"https://mnl.cloudsigma.com/api/2.0/",
+            "country_code":"PH",
+            "default_frontend_signup_url":"https://mnl.cloudsigma.com/ui/",
+            "default_frontend_url":"https://mnl.cloudsigma.com/ui/",
+            "display_name":"Manila, Philippines",
+            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
+            "id":"MNL",
+            "upload_url":"https://direct.mnl.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.mnl.cloudsigma.com/websocket"
+        },
+        {
+            "alternative_frontend_url":"https://ruh.cloudsigma.com/ui/",
+            "api_endpoint":"https://ruh.cloudsigma.com/api/2.0/",
+            "country_code":"SA",
+            "default_frontend_signup_url":"https://ruh.cloudsigma.com/ui/",
+            "default_frontend_url":"https://ruh.cloudsigma.com/ui/",
+            "display_name":"Riyadh, Saudi Arabia",
+            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
+            "id":"RUH",
+            "upload_url":"https://direct.ruh.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.ruh.cloudsigma.com/websocket"
+        },
+        {
+            "alternative_frontend_url":"https://gva.cloudsigma.com/ui/",
+            "api_endpoint":"https://gva.cloudsigma.com/api/2.0/",
+            "country_code":"CH",
+            "default_frontend_signup_url":"https://gva.cloudsigma.com/ui/",
+            "default_frontend_url":"https://gva.cloudsigma.com/ui/",
+            "display_name":"Geneva, Switzerland",
+            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
+            "id":"GVA",
+            "upload_url":"https://direct.gva.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.gva.cloudsigma.com/websocket"
+        },
+        {
+            "alternative_frontend_url":"https://hnl.cloudsigma.com/ui/",
+            "api_endpoint":"https://hnl.cloudsigma.com/api/2.0/",
+            "country_code":"US",
+            "default_frontend_signup_url":"https://hnl.cloudsigma.com/ui/",
+            "default_frontend_url":"https://hnl.cloudsigma.com/ui/",
+            "display_name":"Honolulu, United States",
+            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
+            "id":"HNL",
+            "upload_url":"https://direct.hnl.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.hnl.cloudsigma.com/websocket"
+        },
+        {
+            "alternative_frontend_url":"https://mia.cloudsigma.com/ui/",
+            "api_endpoint":"https://mia.cloudsigma.com/api/2.0/",
+            "country_code":"US",
+            "default_frontend_signup_url":"https://mia.cloudsigma.com/ui/",
+            "default_frontend_url":"https://mia.cloudsigma.com/ui/",
+            "display_name":"Miami, United States",
+            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
+            "id":"MIA",
+            "upload_url":"https://direct.mia.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.mia.cloudsigma.com/websocket"
+        },
+        {
+            "alternative_frontend_url":"https://sjc.cloudsigma.com/ui/",
+            "api_endpoint":"https://sjc.cloudsigma.com/api/2.0/",
+            "country_code":"US",
+            "default_frontend_signup_url":"https://sjc.cloudsigma.com/ui/",
+            "default_frontend_url":"https://sjc.cloudsigma.com/ui/",
+            "display_name":"San Jose, United States",
+            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
+            "id":"SJC",
+            "upload_url":"https://direct.sjc.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.sjc.cloudsigma.com/websocket"
+        },
+        {
+            "alternative_frontend_url":"https://wdc.cloudsigma.com/ui/",
+            "api_endpoint":"https://wdc.cloudsigma.com/api/2.0/",
+            "country_code":"US",
+            "default_frontend_signup_url":"https://wdc.cloudsigma.com/ui/",
+            "default_frontend_url":"https://wdc.cloudsigma.com/ui/",
+            "display_name":"Washington DC, United States",
+            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
+            "id":"WDC",
+            "upload_url":"https://direct.wdc.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.wdc.cloudsigma.com/websocket"
         }
     ]
 }
