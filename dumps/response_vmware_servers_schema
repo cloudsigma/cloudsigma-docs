@@ -1,0 +1,160 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get"
+    ],
+    "allowed_list_http_methods": [
+        "get"
+    ],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "name": {
+            "default": null,
+            "help_text": "Name of the VMWare server",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
+        "powered": {
+            "default": false,
+            "help_text": "Indicates if the server is powered on",
+            "readonly": false,
+            "required": true,
+            "type": "boolean"
+        },
+        "deployed": {
+            "default": false,
+            "help_text": "Indicates if the server has been deployed",
+            "readonly": false,
+            "required": true,
+            "type": "boolean"
+        },
+        "description": {
+            "default": null,
+            "help_text": "Description of the server",
+            "readonly": false,
+            "required": true,
+            "type": "string"
+        },
+        "cpus": {
+            "default": null,
+            "help_text": "The number of CPUs assigned to the server",
+            "readonly": false,
+            "required": true,
+            "type": "integer"
+        },
+        "cores_per_socket": {
+            "default": null,
+            "help_text": "The number of cores per CPU socket",
+            "readonly": false,
+            "required": true,
+            "type": "integer"
+        },
+        "memory": {
+            "default": null,
+            "help_text": "The amount of memory in MB",
+            "readonly": false,
+            "required": true,
+            "type": "integer"
+        },
+        "enabled": {
+            "default": false,
+            "help_text": "Indicates if the server has been enabled",
+            "readonly": false,
+            "required": true,
+            "type": "boolean"
+        },
+        "organisation": {
+            "default": null,
+            "help_text": "UUID of the server's parent organisation",
+            "readonly": false,
+            "required": true,
+            "type": "string"
+        },
+        "nics": {
+            "default": null,
+            "fields": {
+                "index": {
+                    "default": null,
+                    "help_text": "Index of network adapter",
+                    "readonly": false,
+                    "required": false,
+                    "type": "string"
+                },
+                "connected": {
+                    "default": null,
+                    "help_text": "Indicator if the network adapter is connected",
+                    "readonly": false,
+                    "required": false,
+                    "type": "string"
+                },
+                "primary": {
+                    "default": null,
+                    "help_text": "Indicator if the network adapter is primary",
+                    "readonly": false,
+                    "required": false,
+                    "type": "string"
+                },
+                "network": {
+                    "default": null,
+                    "help_text": "Name of the network used",
+                    "readonly": false,
+                    "required": false,
+                    "type": "string"
+                },
+                "ip_address_mode": {
+                    "default": null,
+                    "help_text": "Mode of the IP address configuration",
+                    "readonly": false,
+                    "required": false,
+                    "type": "string"
+                },
+                "ip_address": {
+                    "default": null,
+                    "help_text": "IP address of the network adapter",
+                    "readonly": false,
+                    "required": false,
+                    "type": "string"
+                },
+                "mac_address": {
+                    "default": null,
+                    "help_text": "MAC address of the network adapter",
+                    "readonly": false,
+                    "required": false,
+                    "type": "string"
+                },
+        "disk": [{
+          "fields": {
+              "diskElementName": {
+                "help_text": "Name of the hard disk",
+                "readonly": true,
+                "type": "string"
+              },
+              "diskVirtualQuantityInBytes": {
+                "help_text": "Size of disk in bytes",
+                "readonly": true,
+                "type": "string"
+              }
+          }
+        }],
+        "media": [{
+          "fields": {
+              "mediaCdElementName": {
+                "help_text": "Name of attached media",
+                "readonly": true,
+                "type": "string"
+              },
+              "mediaCdHostResource": {
+                "help_text": "Filename of source used to create the virtual media",
+                "readonly": true,
+                "type": "string"
+              }
+          }
+        }]
+      }
+    }
+  }
+}

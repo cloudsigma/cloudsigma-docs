@@ -21,6 +21,7 @@ Welcome to CloudSigma API documentation!
     snapshots
     libdrives
     upload_download
+    servers_vmware
     servers
     servers_kvm
     servers_solariskz
