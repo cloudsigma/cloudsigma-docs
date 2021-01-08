@@ -54,6 +54,26 @@ Detailed listing
         :language: javascript
 
 
+List single policy
+------------------
+.. http:get:: /fwpolicies/(uuid:fwpolicy_uuid)/
+
+Gets detailed information for firewall policy identified by `fwpolicy_uuid`.
+
+:statuscode 200: no error
+
+**Example request**:
+
+.. literalinclude:: dumps/request_fwpolicy_get
+    :language: http
+
+
+**Example response**:
+
+
+.. literalinclude:: dumps/response_fwpolicy_get
+    :language: javascript
+
 Create
 ------
 .. http:post:: /fwpolicies/
