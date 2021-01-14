@@ -1,4 +1,5 @@
 Location,Location Code,API Endpoint
+"Clark, Philippines",CRK,https://crk.cloudsigma.com/api/2.0/
 "Dublin, Ireland",DUB,https://ec.servecentric.com/api/2.0/
 "Frankfurt, Germany",FRA,https://fra.cloudsigma.com/api/2.0/
 "Geneva, Switzerland",GVA,https://gva.cloudsigma.com/api/2.0/
