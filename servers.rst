@@ -102,7 +102,7 @@ Editing
 
 .. http:put:: /servers/{uuid}/
 
-    Edits a server. Used also for attaching NIC's and drives to servers. Note that if a server is running, only
+    Edits a server. Used also for attaching NICs and drives to servers. Note that if a server is running, only
     ``name``, ``meta``, and ``tags`` fields can be changed, and all other changes to the definition of a running server
     will be ignored.
 
@@ -175,7 +175,7 @@ Delete Server together with attached drives (recursive delete)
 
 .. http:delete:: /servers/{uuid}/?recurse={recurse_option}
 
-It is possible to delete a server together with it's drives (recursive delete). There are three options: delete all
+It is possible to delete a server together with its drives (recursive delete). There are three options: delete all
 attached drives, delete only disks(non-cdrom drives), or delete only attached cdroms. To recursively delete drives,
 supply a ``recurse`` URL parameter with a value as described in the following table:
 

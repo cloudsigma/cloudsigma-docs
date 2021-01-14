@@ -13,8 +13,8 @@ API endpoint
 Given a server running the CloudSigma API it will be available on the following base URL e.g.::
 
    https://{loc}.cloudsigma.com/api/2.0/
-   
-Where {loc} is a subdomain for a specific location. In the rest of the documentation the URL's will be given relative to
+
+Where {loc} is a subdomain for a specific location. In the rest of the documentation the URLs will be given relative to
 that base.
 
 Currently the following CloudSigma location endpoints are available:
