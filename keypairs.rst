@@ -122,7 +122,7 @@ Creating a keypair with only a public key:
 .. literalinclude:: dumps/response_pub_key_only_keypair_create
     :language: javascript
 
-Results in a corresponding ``pubkeys`` object with ``hast_private_key``, which is `false`:
+Results in a corresponding ``pubkeys`` object with ``has_private_key``, which is `false`:
 
 .. literalinclude:: dumps/request_pubkeys_pub_only_keypair
     :language: http
