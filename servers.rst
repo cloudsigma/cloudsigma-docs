@@ -469,6 +469,24 @@ The ``pubkeys`` attribute contains a list of :doc:`keypairs <keypairs>` referenc
 in the :doc:`server context <server_context>`, and can be used by scripts inside the VM, such as cloudinit, to set
 the public keys automatically. See the :ref:`attaching keys to a server <attach_pubkeys_to_server>` section.
 
+vGPUs
+-----
+
+The ``gpus`` attribute contains a list of model definitions for attaching vGPU to servers. The available vGPU models can be acquired through the :doc:`capabilities <capabilities>` API call. The actual vGPU is acquired on server start. The capacity can be reserved by creating subscriptions for the desired GPU models.
+
+.. includejson:: dumps/request_server_add_gpu
+
+.. includejson:: dumps/response_server_add_gpu
+
+SGX
+---
+
+SGX enclaves can be defined by setting the ``epcs`` attribute. Each enclave is defined with its size in bytes. The available SGX capacity can be acquired through the :doc:`capabilities <capabilities>` API call.
+
+.. includejson:: dumps/request_server_add_sgx
+
+.. includejson:: dumps/response_server_add_sgx
+
 Server State Diagram
 --------------------
 
