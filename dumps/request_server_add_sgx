@@ -1,0 +1,11 @@
+PUT /api/2.0/servers/2b943154-2b0f-4325-8d4a-60e2eb631511/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "epcs": [
+        {
+            "size": 1073741824
+        }
+    ],
+}
