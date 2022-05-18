@@ -48,7 +48,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'CloudSigma API'
-copyright = u'2012, CloudSigma'
+copyright = u'2022, CloudSigma'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
