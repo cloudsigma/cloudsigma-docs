@@ -16,6 +16,20 @@ Content-Type: application/json; charset=utf-8
     "default_format": "application/json",
     "default_limit": 20,
     "fields": {
+        "allocation_pool": {
+            "default": null,
+            "help_text": "Host Allocation Pool associated to the server",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
+        "auto_start": {
+            "default": false,
+            "help_text": "Enable auto starting of the guest after a clone.",
+            "readonly": false,
+            "required": false,
+            "type": "boolean"
+        },
         "context": {
             "default": true,
             "help_text": "Enable guest context serial device",
@@ -45,7 +59,8 @@ Content-Type: application/json; charset=utf-8
                 "amd",
                 "intel",
                 "sparc_t4",
-                "sparc_t5"
+                "sparc_t5",
+                "vmware"
             ],
             "default": "amd",
             "help_text": "Specify the CPU type of the host on which this virtual server should run",
@@ -80,7 +95,8 @@ Content-Type: application/json; charset=utf-8
                 "device": {
                     "choices": [
                         "ide",
-                        "virtio"
+                        "virtio",
+                        "scsi"
                     ],
                     "default": null,
                     "help_text": "Device emulation type",
@@ -182,6 +198,82 @@ Content-Type: application/json; charset=utf-8
             "required": false,
             "type": "boolean"
         },
+        "epcs": {
+            "default": [],
+            "fields": {
+                "size": {
+                    "default": null,
+                    "help_text": "Size of the EPC in bytes",
+                    "readonly": false,
+                    "required": true,
+                    "type": "integer"
+                }
+            },
+            "help_text": "List of defined EPCs",
+            "readonly": false,
+            "required": false,
+            "type": "related"
+        },
+        "gpus": {
+            "default": [],
+            "fields": {
+                "gpu": {
+                    "default": "No default provided.",
+                    "fields": {
+                        "model_id": {
+                            "default": null,
+                            "help_text": "Short model name of the GPU",
+                            "readonly": false,
+                            "required": true,
+                            "type": "string"
+                        },
+                        "owner": {
+                            "default": null,
+                            "help_text": "GPU owner",
+                            "readonly": false,
+                            "required": false,
+                            "type": "related"
+                        },
+                        "resource_uri": {
+                            "default": "No default provided.",
+                            "help_text": "Unicode string data. Ex: \"Hello World\"",
+                            "readonly": true,
+                            "required": true,
+                            "type": "string"
+                        },
+                        "subscription": {
+                            "default": null,
+                            "help_text": "Subscription related to this GPU",
+                            "readonly": false,
+                            "required": false,
+                            "type": "related"
+                        },
+                        "uuid": {
+                            "default": null,
+                            "help_text": "UUID of the GPU",
+                            "readonly": false,
+                            "required": false,
+                            "type": "string"
+                        }
+                    },
+                    "help_text": "GPU details",
+                    "readonly": true,
+                    "required": false,
+                    "type": "related"
+                },
+                "model": {
+                    "default": null,
+                    "help_text": "Model of the GPU",
+                    "readonly": false,
+                    "required": true,
+                    "type": "string"
+                }
+            },
+            "help_text": "List of attached GPUs",
+            "readonly": false,
+            "required": false,
+            "type": "related"
+        },
         "grantees": {
             "default": "No default provided.",
             "help_text": "A list of data. Ex: ['abc', 26.73, 8]",
@@ -213,6 +305,13 @@ Content-Type: application/json; charset=utf-8
             "readonly": false,
             "required": false,
             "type": "string"
+        },
+        "is_grey": {
+            "default": false,
+            "help_text": "Specifies if server can be used to fill up free capacity",
+            "readonly": false,
+            "required": false,
+            "type": "boolean"
         },
         "jobs": {
             "default": "No default provided.",
@@ -324,12 +423,6 @@ Content-Type: application/json; charset=utf-8
                 },
                 "model": {
                     "choices": [
-                        "ne2k_isa",
-                        "i82551",
-                        "i82557b",
-                        "i82559er",
-                        "ne2k_pci",
-                        "pcnet",
                         "rtl8139",
                         "e1000",
                         "virtio"
@@ -404,6 +497,34 @@ Content-Type: application/json; charset=utf-8
                             "readonly": false,
                             "required": false,
                             "type": "string"
+                        },
+                        "rx_foreign": {
+                            "default": 0,
+                            "help_text": "Bytes received on this interface",
+                            "readonly": false,
+                            "required": false,
+                            "type": "integer"
+                        },
+                        "rx_local": {
+                            "default": 0,
+                            "help_text": "Bytes received on this interface",
+                            "readonly": false,
+                            "required": false,
+                            "type": "integer"
+                        },
+                        "tx_foreign": {
+                            "default": 0,
+                            "help_text": "Bytes sent from this interface",
+                            "readonly": false,
+                            "required": false,
+                            "type": "integer"
+                        },
+                        "tx_local": {
+                            "default": 0,
+                            "help_text": "Bytes sent from this interface",
+                            "readonly": false,
+                            "required": false,
+                            "type": "integer"
                         }
                     },
                     "help_text": "NIC runtime information",
@@ -540,6 +661,34 @@ Content-Type: application/json; charset=utf-8
                             "readonly": false,
                             "required": false,
                             "type": "string"
+                        },
+                        "rx_foreign": {
+                            "default": 0,
+                            "help_text": "Bytes received on this interface",
+                            "readonly": false,
+                            "required": false,
+                            "type": "integer"
+                        },
+                        "rx_local": {
+                            "default": 0,
+                            "help_text": "Bytes received on this interface",
+                            "readonly": false,
+                            "required": false,
+                            "type": "integer"
+                        },
+                        "tx_foreign": {
+                            "default": 0,
+                            "help_text": "Bytes sent from this interface",
+                            "readonly": false,
+                            "required": false,
+                            "type": "integer"
+                        },
+                        "tx_local": {
+                            "default": 0,
+                            "help_text": "Bytes sent from this interface",
+                            "readonly": false,
+                            "required": false,
+                            "type": "integer"
                         }
                     },
                     "help_text": "The list of this server's NICs runtime",
@@ -594,5 +743,9 @@ Content-Type: application/json; charset=utf-8
         "name__contains": "exact",
         "tag": "exact",
         "uuid": "exact"
-    }
+    },
+    "ordering": [
+        "uuid",
+        "name"
+    ]
 }
