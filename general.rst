@@ -139,7 +139,7 @@ in the ``X-CSRFToken`` header::
     X-CSRFToken: J24Zr4nEcxZcHtdoaNG02WiWoA0qXFg5
 
 To logout (invalidate current ``sessionid`` and ``csrftoken``), one needs to send a *POST* to
-``/api/2.0/accounts/action/?do=login`` with an empty object:
+``/api/2.0/accounts/action/?do=logout`` with an empty object:
 
 .. sourcecode:: http
 
