@@ -1,0 +1,8 @@
+POST /api/2.0/driveusers/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "drive": "e26fd531-7336-40e7-9a6f-db42e7a6b9f2",
+    "amount": 5
+}
