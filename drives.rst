@@ -375,6 +375,105 @@ Cloning to another storage type
         :language: javascript
 
 
+RDS Drives
+----------
+
+
+Listing
+~~~~~~~
+
+.. http:get:: /driveusers/
+
+    Gets the list of the RDS drive records to which the authenticated user has access.
+
+    :statuscode 200: no error
+
+    **Example request**:
+
+    .. literalinclude:: dumps/request_rds_drive_list
+        :language: http
+
+    **Example response - default list**:
+
+    .. literalinclude:: dumps/response_rds_drive_list
+        :language: javascript
+
+RDS Drive Detail (single drive)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. http:get:: /driveusers/{drive_uuid}/
+
+    Gets the details of the requested RDS drive identified by the {drive_uuid}, e.g. the ``users amount`` for the drive.
+
+    :statuscode 200: no error
+
+    **Example request**:
+
+    .. literalinclude:: dumps/request_rds_drive_detail
+        :language: http
+
+    **Example response**:
+
+    .. literalinclude:: dumps/response_rds_drive_detail
+        :language: javascript
+
+Creating - Defining RDS Drive
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. http:post:: /driveusers/
+
+    Creates an RDS drive with the ``user count`` when creating a server with a ``Windows drive``.
+
+    :statuscode 201: object created
+
+    **Example request**:
+
+    .. literalinclude:: dumps/request_rds_drive_create
+        :language: http
+
+    **Example response**:
+
+    .. literalinclude:: dumps/response_rds_drive_create
+        :language: javascript
+
+Editing - Updating RDS Drive
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. http:put:: /driveusers/{drive_uuid}/
+
+    Updates the RDS ``user count`` identified by the {drive_uuid}.
+
+    :statuscode 200:  no error
+
+    **Example request**:
+
+    .. literalinclude:: dumps/request_rds_drive_update
+        :language: http
+
+    **Example response**:
+
+    .. literalinclude:: dumps/response_rds_drive_update
+        :language: javascript
+
+Deleting
+~~~~~~~~
+
+.. http:delete:: /driveusers/{drive_uuid}/
+
+    Deletes a single drive record. Note if the drive is mounted on a server then the record cannot be deleted.
+
+    :statuscode 204: No content
+
+    **Example request**:
+
+    .. literalinclude:: dumps/request_rds_drive_delete
+        :language: http
+
+    **Example response**:
+
+    .. literalinclude:: dumps/response_rds_drive_delete
+        :language: javascript
+
 
 Drive State Diagram
 -------------------
