@@ -4,8 +4,7 @@ Location,Location Code,API Endpoint
 "Frankfurt, Germany",FRA,https://fra.cloudsigma.com/api/2.0/
 "Geneva, Switzerland",GVA,https://gva.cloudsigma.com/api/2.0/
 "Honolulu, United States",HNL,https://hnl.cloudsigma.com/api/2.0/
-"Boden, Sweden",LLA,https://cloud.hydro66.com/api/2.0/
-"Melbourne, Australia",MEL,https://mel.cloudsigma.com/api/2.0/
+"London, UK",LON, https://lon.cloudsigma.com/api/2.0/
 "Manila, Philippines",MNL,https://mnl.cloudsigma.com/api/2.0/
 "Manila-2, Philippines",MNL2,https://mnl2.cloudsigma.com/api/2.0/
 "Perth, Australia",PER,https://per.cloudsigma.com/api/2.0/
