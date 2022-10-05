@@ -1,16 +1,15 @@
 Location,Location Code,API Endpoint
-"Clark, Philippines",CRK,https://crk.cloudsigma.com/api/2.0/
-"Dublin, Ireland",DUB,https://ec.servecentric.com/api/2.0/
-"Frankfurt, Germany",FRA,https://fra.cloudsigma.com/api/2.0/
-"Geneva, Switzerland",GVA,https://gva.cloudsigma.com/api/2.0/
-"Honolulu, United States",HNL,https://hnl.cloudsigma.com/api/2.0/
-"Boden, Sweden",LLA,https://cloud.hydro66.com/api/2.0/
-"Melbourne, Australia",MEL,https://mel.cloudsigma.com/api/2.0/
-"Manila, Philippines",MNL,https://mnl.cloudsigma.com/api/2.0/
-"Manila-2, Philippines",MNL2,https://mnl2.cloudsigma.com/api/2.0/
-"Perth, Australia",PER,https://per.cloudsigma.com/api/2.0/
-"Riyadh, Saudi Arabia",RUH,https://ruh.cloudsigma.com/api/2.0/
-"San Jose, United States",SJC,https://sjc.cloudsigma.com/api/2.0/
-"Tokyo, Japan",TYO,https://tyo.cloudsigma.com/api/2.0/
-"Washington DC, United States",WDC,https://wdc.cloudsigma.com/api/2.0/
-"Zurich, Switzerland",ZRH,https://zrh.cloudsigma.com/api/2.0/
+"Philippines, Clark",CRK,https://crk.cloudsigma.com/api/2.0/
+"Ireland, Dublin",DUB,https://ec.servecentric.com/api/2.0/
+"Germany, Frankfurt",FRA,https://fra.cloudsigma.com/api/2.0/
+"Switzerland, Geneva",GVA,https://gva.cloudsigma.com/api/2.0/
+"United States, Honolulu",HNL,https://hnl.cloudsigma.com/api/2.0/
+"UK, London",LON, https://lon.cloudsigma.com/api/2.0/
+"Philippines, Manila",MNL,https://mnl.cloudsigma.com/api/2.0/
+"Philippines, Manila-2",MNL2,https://mnl2.cloudsigma.com/api/2.0/
+"Australia, Perth",PER,https://per.cloudsigma.com/api/2.0/
+"Saudi Arabia, Riyadh",RUH,https://ruh.cloudsigma.com/api/2.0/
+"United States, San Jose",SJC,https://sjc.cloudsigma.com/api/2.0/
+"Japan, Tokyo",TYO,https://tyo.cloudsigma.com/api/2.0/
+"United States, Washington DC",WDC,https://wdc.cloudsigma.com/api/2.0/
+"Switzerland, Zurich",ZRH,https://zrh.cloudsigma.com/api/2.0/
