@@ -9,7 +9,7 @@ Location,Location Code,API Endpoint
 "Philippines, Manila-2",MNL2,https://mnl2.cloudsigma.com/api/2.0/
 "Australia, Perth",PER,https://per.cloudsigma.com/api/2.0/
 "Saudi Arabia, Riyadh",RUH,https://ruh.cloudsigma.com/api/2.0/
-"United States, San Jose",SJC,https://sjc.cloudsigma.com/api/2.0/
+"United States, San Jose",SJC,https://sjc.alpha3cloud.com/api/2.0/
 "Japan, Tokyo",TYO,https://tyo.cloudsigma.com/api/2.0/
-"United States, Washington DC",WDC,https://wdc.cloudsigma.com/api/2.0/
+"United States, Washington DC",WDC,https://wdc.alpha3cloud.com/api/2.0/
 "Switzerland, Zurich",ZRH,https://zrh.cloudsigma.com/api/2.0/
