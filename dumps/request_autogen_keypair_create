@@ -5,7 +5,8 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
 {
     "objects": [
         {
-            "name": "test_name"
+            "name": "test_name",
+            "algorithm_type": "rsa"  # or "ed25519"
         }
     ]
 }
