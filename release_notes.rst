@@ -1,6 +1,17 @@
 Release Notes
 =============
 
+Chlorine-17.2302 Release
+---------------
+
+**Date Released:** 2023-02-16
+
+* Password Reset Link requests now expires after one 24 hours.
+* Fixed an issue related to notification text when an account has no saved credit card.
+* Fixed an issue related to the error message "incorrect email", when a customer already activated a Guest session from the same IP.
+* A number of other Bug Fixes & minor UI Improvements
+
+
 Silicon Release
 ---------------
 
