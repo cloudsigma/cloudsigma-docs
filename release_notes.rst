@@ -1,6 +1,19 @@
 Release Notes
 =============
 
+Chlorine-17.2303 Release
+---------------
+
+**Date Released:** 2023-03-16
+
+* A new notification is introduced, for the rare condition when a Virtual Machine is terminated because of resource exhaustion (memory).
+* SSH keys will now be synced to the PAAS service.
+* A name adjustment for our UK, London location
+* A new notifications is introduced, which will send a digest with all subscriptions and notifications on the first day of each month.
+* A new storage type is introduced to our infrastructure - NVMe
+* A number of other Bug Fixes & minor UI Improvements
+
+
 Chlorine-17.2302 Release
 ---------------
 
