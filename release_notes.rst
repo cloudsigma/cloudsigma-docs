@@ -1,15 +1,27 @@
 Release Notes
 =============
 
+Chlorine-17.2304 Release
+---------------
+
+**Date Released:** 2023-04-11
+
+* We enabled a new SSH Key type (ED25519) as an option for new VM creation and new SSH key creation.
+* We are improving the SQL server experience. After a SQL Server subscription has expired, the resource will continue to operate on burst pricing, instead of stopping abruptly.
+* A new notification type for SQL Server bursting is introduced.
+* An issue regarding metadata was resolved (SSH keys remain in Metadata after deletion).
+* A number of other Bug Fixes & minor UI Improvements.
+
+
 Chlorine-17.2303 Release
 ---------------
 
 **Date Released:** 2023-03-16
 
-* A name adjustment for our UK, London location
+* A name adjustment for our UK, London location.
 * A new notification is introduced, which will send a digest with all subscriptions and notifications on the first day of each month.
-* A new storage type is introduced to our infrastructure - NVMe
-* A number of other Bug Fixes & minor UI Improvements
+* A new storage type is introduced to our infrastructure - NVMe.
+* A number of other Bug Fixes & minor UI Improvements.
 
 
 Chlorine-17.2302 Release
@@ -20,7 +32,7 @@ Chlorine-17.2302 Release
 * Password Reset Link requests now expires after 24 hours.
 * Fixed an issue related to notification text when an account has no saved credit card.
 * Fixed an issue related to the error message "incorrect email", when a customer already activated a Guest session from the same IP.
-* A number of other Bug Fixes & minor UI Improvements
+* A number of other Bug Fixes & minor UI Improvements.
 
 
 Silicon Release
