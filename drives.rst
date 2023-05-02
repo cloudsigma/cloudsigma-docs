@@ -345,6 +345,14 @@ Currently the following storage types are available:
 
     .. versionadded:: Neon
 
+``nvme``
+    The UI name for nvme is "NVMe". NVMe (nonvolatile memory express) is a new storage access and transport protocol
+    for flash and next-generation solid-state drives (SSDs) that delivers the highest throughput and fastest response times
+    yet for all types of enterprise workloads.
+
+    .. versionadded:: Chlorine
+
+
 
 Creating
 ~~~~~~~~
