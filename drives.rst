@@ -103,10 +103,25 @@ Creating
 
     **Example request**:
 
-    Create a drive
+    Create a drive:
 
     .. includejson:: dumps/request_drive_create_bulk
         :accessor: objects.0
+
+    You can also pass the **storage type**:
+
+    .. includejson:: dumps/request_drive_storage_type
+
+    .. includejson:: dumps/request_drive_storage_type
+        :accessor: objects.0
+
+    **Example response**
+
+    .. literalinclude:: dumps/response_drive_storage_type
+        :language: javascript
+
+    Please note that in some cases when NVMe storage is not provided in the locations you might get the following error:
+    *We currently cannot provide enough resources to create a nvme drive*
 
     or create multiple drives
 
