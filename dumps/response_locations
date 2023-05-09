@@ -187,6 +187,18 @@ Content-Type: application/json; charset=utf-8
             "id":"WDC",
             "upload_url":"https://direct.wdc.alpha3cloud.com/api/2.0/",
             "websocket_url":"wss://direct.wdc.alpha3cloud.com/websocket"
+        },
+        {
+            "alternative_frontend_url":"https://cwl.cloudsigma.com/ui/",
+            "api_endpoint":"https://cwl.cloudsigma.com/api/2.0/",
+            "country_code":"GB",
+            "default_frontend_signup_url":"https://cwl.cloudsigma.com/ui/",
+            "default_frontend_url":"https://cwl.cloudsigma.com/ui/",
+            "display_name":"Newport, Wales",
+            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
+            "id":"CWL",
+            "upload_url":"https://direct.cwl.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.cwl.cloudsigma.com/websocket"
         }
     ]
 }
