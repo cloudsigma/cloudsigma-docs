@@ -1,6 +1,18 @@
 Release Notes
 =============
 
+Chlorine-17.2305 Release
+---------------
+
+**Date Released:** 2023-05-10
+
+* We are proud to announce that our cloud is growing with another new location, CWL - "Newport, Wales".
+* We have tweaked the subject of our email notifications to be more informational by including the cloud location 3-letter code.
+* We changed the API call to create drives, if no drive type is specified, we will take a default input as defined per cloud location.
+* We did a lot of under-the-hood work, to make your cloud computing experience seamless.
+* A number of other Bug Fixes & minor UI Improvements.
+
+
 Chlorine-17.2304 Release
 ---------------
 
