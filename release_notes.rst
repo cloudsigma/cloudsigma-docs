@@ -1,6 +1,18 @@
 Release Notes
 =============
 
+Chlorine-17.2306 Release
+---------------
+
+**Date Released:** 2023-06-15
+
+* This month's release mainly focuses on making our platform shinier behind the scenes. While nothing major to report, we have a few things to note.
+* We've improved an out-of-memory notification event.
+* We improved the invoice generation capabilities that were having a hiccup with some languages.
+* We added support for our new soon-to-be-announced location under the hood.
+* A number of other Bug Fixes & minor UI Improvements.
+
+
 Chlorine-17.2305 Release
 ---------------
 
