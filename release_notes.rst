@@ -1,6 +1,17 @@
 Release Notes
 =============
 
+Chlorine-17.2307 Release
+---------------
+
+**Date Released:** 2023-07-19
+
+* We fixed a minor issue regarding drive resizing by the grantee when a drive is shared with them.
+* We've fixed a rarely occurring issue related to our scheduler for migrations.
+* Some of our clouds are receiving better stability when operating with GPUs in pass-through mode.
+* We are making further improvements under the hood so that our next-gen UI can bring your beloved cloud experience.
+
+
 Chlorine-17.2306 Release
 ---------------
 
