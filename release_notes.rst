@@ -1,6 +1,17 @@
 Release Notes
 =============
 
+Chlorine-17.2308 Release
+---------------
+
+**Date Released:** 2023-08-15
+
+* We fixed an issue that prevented our system from sending automated monthly transactions and subscription reports. Your highly valuable report is back in action now!
+* We've disabled the account country change per API call. If you need to change your country, please contact our support department.
+* We've improved payment method creation logic, so your payment experience is better and our bank account - is happier!
+* And many others, which are not-so-interesting.
+
+
 Chlorine-17.2307 Release
 ---------------
 
