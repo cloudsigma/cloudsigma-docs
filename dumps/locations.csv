@@ -5,7 +5,6 @@ Location,Location Code,API Endpoint
 "Switzerland, Geneva",GVA,https://gva.cloudsigma.com/api/2.0/
 "United States, Honolulu",HNL,https://hnl.cloudsigma.com/api/2.0/
 "UK, London",LON, https://lon.cloudsigma.com/api/2.0/
-"Philippines, Manila",MNL,https://mnl.cloudsigma.com/api/2.0/
 "Philippines, Manila-2",MNL2,https://mnl2.cloudsigma.com/api/2.0/
 "Australia, Perth",PER,https://per.cloudsigma.com/api/2.0/
 "Saudi Arabia, Riyadh",RUH,https://ruh.cloudsigma.com/api/2.0/
@@ -13,3 +12,4 @@ Location,Location Code,API Endpoint
 "Japan, Tokyo",TYO,https://tyo.cloudsigma.com/api/2.0/
 "United States, Washington DC",WDC,https://wdc.alpha3cloud.com/api/2.0/
 "Switzerland, Zurich",ZRH,https://zrh.cloudsigma.com/api/2.0/
+"UK, Cardiff",CWL,https://cwl.cloudsigma.com/api/2.0/

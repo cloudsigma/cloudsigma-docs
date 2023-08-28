@@ -93,18 +93,6 @@ Content-Type: application/json; charset=utf-8
             "websocket_url":"wss://direct.crk.cloudsigma.com/websocket"
         },
         {
-            "alternative_frontend_url":"https://mnl.cloudsigma.com/ui/",
-            "api_endpoint":"https://mnl.cloudsigma.com/api/2.0/",
-            "country_code":"PH",
-            "default_frontend_signup_url":"https://mnl.cloudsigma.com/ui/",
-            "default_frontend_url":"https://mnl.cloudsigma.com/ui/",
-            "display_name":"Manila, Philippines",
-            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
-            "id":"MNL",
-            "upload_url":"https://direct.mnl.cloudsigma.com/api/2.0/",
-            "websocket_url":"wss://direct.mnl.cloudsigma.com/websocket"
-        },
-        {
             "alternative_frontend_url":"https://mnl2.cloudsigma.com/ui/",
             "api_endpoint":"https://mnl2.cloudsigma.com/api/2.0/",
             "country_code":"PH",
