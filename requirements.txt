@@ -3,3 +3,4 @@ sphinxcontrib-programoutput==0.14
 simplejson
 urllib3==1.26.15
 requests==2.29.0
+sphinx-rtd-theme
