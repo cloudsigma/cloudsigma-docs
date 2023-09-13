@@ -222,7 +222,7 @@ Multiple drives
 
 .. http:delete:: /drives/
 
-   Deletes multiple mounted or unmounted drives specified by their UUID's.
+   Deletes multiple mounted or unmounted drives specified by their UUIDs.
 
       :statuscode 204: No content, object deletion started.
 

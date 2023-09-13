@@ -8,7 +8,7 @@ Welcome to CloudSigma API documentation!
 
 .. toctree::
     :maxdepth: 2
-    
+
     release_notes
     general
     locations
@@ -16,9 +16,10 @@ Welcome to CloudSigma API documentation!
     errors
     capabilities
     clone_naming
-    
+
     drives
     snapshots
+    remote_snapshots
     libdrives
     upload_download
     servers_vmware
@@ -29,7 +30,6 @@ Welcome to CloudSigma API documentation!
     server_context
     network_interfaces
     networking
-    fwpolicies
     tags
     acls
 
@@ -53,4 +53,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-

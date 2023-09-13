@@ -98,7 +98,7 @@ Creating
 
 .. http:post:: /snapshots/
 
-    Creates a new snapshot or multiple snapshots.
+    Creates a new snapshot.
 
     :statuscode 201: object created
 
@@ -166,7 +166,7 @@ Multiple snapshots
 
 .. http:delete:: /snapshots/
 
-   Deletes multiple mounted or unmounted snapshots specified by their UUID's.
+   Deletes multiple snapshots specified by their UUIDs.
 
       :statuscode 204: No content, object deletion started.
 

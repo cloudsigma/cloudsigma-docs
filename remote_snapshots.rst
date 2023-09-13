@@ -2,8 +2,15 @@ Remote Snapshots
 ================
 
 Remote snapshots are point-in-time versions of a drive. They can be 
-:ref:`cloned <snapshot_cloning>` to a full drive, which
+:ref:`cloned <remote_snapshot_cloning>` to a full drive, which
 makes it possible to restore an older version of a VM image.
+
+Remote snapshots are our backup solution. If the drive gets deleted and
+the remote snapshot is created, the remote snapshot won't disappear.
+All remote snapshots (backups) of deleted drives can be found in the
+UI -> Storage -> Backups.
+But the remote snapshots of active drives can be found at the
+Storage -> Drives -> A drive in detailed view -> Backups section.
 
 Remote snapshots are billed based on their occupied size. Since only the 
 differences from the current drive image are stored, a
@@ -11,8 +18,11 @@ single remote snapshot's size will be equal to the size of the data which has
 changed since the remote snapshot has taken. If no data
 has changed, the remote snapshot's size will be zero.
 
-Note that remote snapshots are billed as ``storage``, so storage subscriptions
+Note that remote snapshots are billed as ``backup``, so backup subscriptions
 should be bought in order not to burst on remote snapshots usage.
+
+We have remote snapshots in the following locations:
+``GVA, ZRH, FRA, CWL, LON, and DUB``
 
 Allowed HTTP methods
 --------------------
@@ -46,12 +56,12 @@ Listing
 
     **Example request - default list**:
 
-    .. literalinclude:: dumps/remote_snapshots/request_snapshot_list
+    .. literalinclude:: dumps/request_snapshot_list
         :language: http
 
     **Example response - default list**:
 
-    .. literalinclude:: dumps/remote_snapshots/response_snapshot_list
+    .. literalinclude:: dumps/response_snapshot_list
         :language: javascript
 
 Detailed listing
@@ -67,13 +77,13 @@ Detailed listing
 
     **Example request**:
 
-    .. literalinclude:: dumps/remote_snapshots/request_snapshot_list_detail
+    .. literalinclude:: dumps/request_snapshot_list_detail
         :language: http
 
 
     **Example response**:
 
-    .. literalinclude:: dumps/remote_snapshots/response_snapshot_list_detail
+    .. literalinclude:: dumps/response_snapshot_list_detail
         :language: javascript
 
 List single remote snapshot
@@ -89,38 +99,41 @@ List single remote snapshot
 
     **Example request**:
 
-    .. literalinclude:: dumps/remote_snapshots/request_snapshot_get
+    .. literalinclude:: dumps/request_snapshot_get
         :language: http
 
 
     **Example response**:
 
-    .. literalinclude:: dumps/remote_snapshots/response_snapshot_get
+    .. literalinclude:: dumps/response_snapshot_get
         :language: javascript
 
 Creating
 --------
+Please note that you cannot create more than one remote snapshot of a drive within 30 minutes.
+And also you cannot create a second remote snapshot of a drive when the previous one is in ``transferring`` or ``creating`` state.
 
 .. http:post:: /remotesnapshots/
 
-    Creates a new snapshot or multiple snapshots.
+    Creates a new remote snapshot.
 
     :statuscode 201: object created
 
     **Example request**:
 
-    Create a snapshot
+    Create a remote snapshot
 
-    .. includejson:: dumps/remote_snapshots/request_snapshot_create
+    .. includejson:: dumps/request_snapshot_create
         :accessor: objects.0
 
     **Example response**
 
-    .. literalinclude:: dumps/remote_snapshots/response_snapshot_create
+    .. literalinclude:: dumps/response_snapshot_create
         :language: javascript
 
 Editing
 -------
+Please note that you cannot edit a remote snapshot when the state is ``transferring`` or ``creating``.
 
 .. http:put:: /remotesnapshots/{uuid}/
 
@@ -130,12 +143,12 @@ Editing
 
     **Example request**:
 
-    .. literalinclude:: dumps/remote_snapshots/request_snapshot_edit
+    .. literalinclude:: dumps/request_snapshot_edit
         :language: http
 
     **Example response**:
 
-    .. literalinclude:: dumps/remote_snapshots/response_snapshot_edit
+    .. literalinclude:: dumps/response_snapshot_edit
         :language: javascript
 
 Metadata
@@ -147,9 +160,10 @@ See
 
 Deleting
 --------
+Please note that you cannot delete a remote snapshot when the state is ``transferring`` or ``creating``.
 
-Single snapshot
-~~~~~~~~~~~~~~~
+Single Remote snapshot
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. http:delete:: /remotesnapshots/{uuid}/
 
@@ -159,21 +173,21 @@ Single snapshot
 
     **Example request**:
 
-    .. literalinclude:: dumps/remote_snapshots/request_snapshot_delete
+    .. literalinclude:: dumps/request_snapshot_delete
         :language: http
 
 
     **Example response**:
    
-    .. literalinclude:: dumps/remote_snapshots/response_snapshot_delete
+    .. literalinclude:: dumps/response_snapshot_delete
         :language: javascript
 
-Multiple snapshots
-~~~~~~~~~~~~~~~~~~
+Multiple remote snapshots
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. http:delete:: /remotesnapshots/
 
-   Deletes multiple mounted or unmounted remote snapshots specified by their UUID's.
+   Deletes multiple remote snapshots specified by their UUIDs.
 
 
       :statuscode 204: No content, object deletion started.
@@ -205,10 +219,11 @@ Multiple snapshots
    
       HTTP/1.0 204 NO CONTENT
    
-.. _snapshot_cloning:
+.. _remote_snapshot_cloning:
 
 Cloning
 -------
+Please note that you cannot clone (promote to a full drive) a remote snapshot when the state is ``transferring`` or ``creating``.
 
 .. http:post:: /remotesnapshots/{uuid}/action/?do=clone
 
@@ -219,13 +234,13 @@ Cloning
 
     **Example request**:
 
-    .. literalinclude:: dumps/remote_snapshots/request_snapshot_clone
+    .. literalinclude:: dumps/request_snapshot_clone
         :language: http
 
     **Example response**:
     The response is actually a drive definition.
 
-    .. literalinclude:: dumps/remote_snapshots/response_snapshot_clone
+    .. literalinclude:: dumps/response_snapshot_clone
         :language: javascript
 
 .. note::
@@ -247,12 +262,12 @@ You can apply a drive filter to remote snapshots.
 
     **Example request**:
 
-    .. literalinclude:: dumps/remote_snapshots/request_snapshot_list_for_drive
+    .. literalinclude:: dumps/request_snapshot_list_for_drive
         :language: javascript
 
     **Example response**:
 
-    .. literalinclude:: dumps/remote_snapshots/response_snapshot_list_for_drive
+    .. literalinclude:: dumps/response_snapshot_list_for_drive
         :language: javascript
 
 In drive definition
@@ -265,12 +280,12 @@ In the detailed drive definition there is a "remote_snapshots" field.
 
     **Example request**:
 
-    .. literalinclude:: dumps/remote_snapshots/request_snapshots_in_drive_def
+    .. literalinclude:: dumps/request_snapshots_in_drive_def
         :language: javascript
 
     **Example response**:
 
-    .. literalinclude:: dumps/remote_snapshots/response_snapshots_in_drive_def
+    .. literalinclude:: dumps/response_snapshots_in_drive_def
         :language: javascript
 
 Request schema
@@ -297,6 +312,6 @@ Request schema
 Schema
 ------
 
-   .. literalinclude:: dumps/remote_snapshots/response_snapshot_schema
+   .. literalinclude:: dumps/response_snapshot_schema
         :language: javascript
 

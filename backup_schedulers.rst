@@ -13,6 +13,9 @@ There are three different types of schedulers:
 * migration
 * backup
 
+.. note::
+
+    This document is related to backup schedulers only.
 
 Allowed HTTP methods
 --------------------
@@ -86,7 +89,7 @@ Detailed listing
 
     Gets the detailed list of backup schedulers with additional information to
     which the authenticated user has access.
-   
+
     :statuscode 200: no error
 
 
@@ -202,7 +205,7 @@ Single backup scheduler
 
 
     **Example response**:
-   
+
     .. literalinclude:: dumps/backupschedulers/response_backup_scheduler_delete
         :language: javascript
 
@@ -211,7 +214,7 @@ Deletes multiple backup schedulers
 
 .. http:delete:: /backupschedulers/
 
-   Deletes multiple backup schedulers specified by their UUID's.
+   Deletes multiple backup schedulers specified by their UUIDs.
 
       :statuscode 204: No content, object deletion started.
 
@@ -237,9 +240,9 @@ Deletes multiple backup schedulers
 
 
    **Example response**:
-   
+
    .. sourcecode:: http
-   
+
       HTTP/1.0 204 NO CONTENT
 
 Set scheduler to a drive

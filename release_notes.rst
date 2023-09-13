@@ -2,7 +2,7 @@ Release Notes
 =============
 
 Chlorine-17.2308 Release
----------------
+------------------------
 
 **Date Released:** 2023-08-15
 
@@ -13,7 +13,7 @@ Chlorine-17.2308 Release
 
 
 Chlorine-17.2307 Release
----------------
+------------------------
 
 **Date Released:** 2023-07-19
 
@@ -24,7 +24,7 @@ Chlorine-17.2307 Release
 
 
 Chlorine-17.2306 Release
----------------
+------------------------
 
 **Date Released:** 2023-06-15
 
@@ -36,7 +36,7 @@ Chlorine-17.2306 Release
 
 
 Chlorine-17.2305 Release
----------------
+------------------------
 
 **Date Released:** 2023-05-10
 
@@ -48,7 +48,7 @@ Chlorine-17.2305 Release
 
 
 Chlorine-17.2304 Release
----------------
+------------------------
 
 **Date Released:** 2023-04-11
 
@@ -60,7 +60,7 @@ Chlorine-17.2304 Release
 
 
 Chlorine-17.2303 Release
----------------
+------------------------
 
 **Date Released:** 2023-03-16
 
@@ -71,7 +71,7 @@ Chlorine-17.2303 Release
 
 
 Chlorine-17.2302 Release
----------------
+------------------------
 
 **Date Released:** 2023-02-16
 
