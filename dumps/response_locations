@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
     "meta":{
         "limit":0,
         "offset":0,
-        "total_count":15
+        "total_count":16
     },
     "objects":[
         {
@@ -19,18 +19,6 @@ Content-Type: application/json; charset=utf-8
             "id":"ZRH",
             "upload_url":"https://direct.zrh.cloudsigma.com/api/2.0/",
             "websocket_url":"wss://direct.zrh.cloudsigma.com/websocket"
-        },
-        {
-            "alternative_frontend_url":"https://mel.cloudsigma.com/ui/",
-            "api_endpoint":"https://mel.cloudsigma.com/api/2.0/",
-            "country_code":"AU",
-            "default_frontend_signup_url":"https://mel.cloudsigma.com/ui/",
-            "default_frontend_url":"https://mel.cloudsigma.com/ui/",
-            "display_name":"Melbourne, Australia",
-            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
-            "id":"MEL",
-            "upload_url":"https://direct.mel.cloudsigma.com/api/2.0/",
-            "websocket_url":"wss://direct.mel.cloudsigma.com/websocket"
         },
         {
             "alternative_frontend_url":"https://per.cloudsigma.com/ui/",
@@ -187,6 +175,30 @@ Content-Type: application/json; charset=utf-8
             "id":"CWL",
             "upload_url":"https://direct.cwl.cloudsigma.com/api/2.0/",
             "websocket_url":"wss://direct.cwl.cloudsigma.com/websocket"
+        },
+        {
+            "alternative_frontend_url":"https://bom.cloudsigma.com/ui/",
+            "api_endpoint":"https://bom.cloudsigma.com/api/2.0/",
+            "country_code":"IN",
+            "default_frontend_signup_url":"https://bom.cloudsigma.com/ui/",
+            "default_frontend_url":"https://bom.cloudsigma.com/ui/",
+            "display_name":"Mumbai, India",
+            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
+            "id":"BOM",
+            "upload_url":"https://direct.bom.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.bom.cloudsigma.com/websocket"
+        },
+        {
+            "alternative_frontend_url":"https://mnl.cloudsigma.com/ui/",
+            "api_endpoint":"https://mnl.cloudsigma.com/api/2.0/",
+            "country_code":"PH",
+            "default_frontend_signup_url":"https://mnl.cloudsigma.com/ui/",
+            "default_frontend_url":"https://mnl.cloudsigma.com/ui/",
+            "display_name":"Manila, Philippines",
+            "documentation_url":"https://cloudsigma-docs.readthedocs.org/en/2.11/",
+            "id":"MNL",
+            "upload_url":"https://direct.mnl.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.mnl.cloudsigma.com/websocket"
         }
     ]
 }
