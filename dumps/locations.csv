@@ -13,5 +13,4 @@ Location,Location Code,API Endpoint
 "United States, Washington DC",WDC,https://wdc.alpha3cloud.com/api/2.0/
 "Switzerland, Zurich",ZRH,https://zrh.cloudsigma.com/api/2.0/
 "UK, Cardiff",CWL,https://cwl.cloudsigma.com/api/2.0/
-"Mumbai, India",BOM,https://bom.cloudsigma.com/api/2.0/
 "Manila, Philippines",MNL,https://mnl.cloudsigma.com/api/2.0/
