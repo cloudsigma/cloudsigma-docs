@@ -4,6 +4,15 @@ Release Notes
 Chlorine Release
 ----------------
 
+Chlorine-17.2311
+~~~~~~~~~~~~~~~~
+
+**Date Released:** 2023-11-13
+
+* For this release, we've introduced a number of improvements under the hood, 23 to be precise.
+* The system behaves the exact same way as before, just better.
+
+
 Chlorine-17.2310
 ~~~~~~~~~~~~~~~~
 
