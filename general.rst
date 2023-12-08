@@ -52,6 +52,10 @@ Here is a list of the possible URL formats relative to the base url (https://{ap
     For example a server object has a start action which is called on the following URL:
     */servers/6e5ceaaa-0cf8-417a-bf47-53e56d4fcaaa/action/?do=start*
 
+Cloud Status API
+----------------
+The Cloud Status API is mainly being used by the WebApp, but you can also use it if you
+
 Authentication
 --------------
 

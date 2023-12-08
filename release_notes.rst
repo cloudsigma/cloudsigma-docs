@@ -11,7 +11,7 @@ Chlorine-17.2312
 
 * We fixed a rare condition, which could cause a problem when trying to save a payment method while making a payment.
 * We are happy to announce that our cloud is growing again with more locations! So we did the magic under the hood, so they work just as well.
-* We also introduced 20 improvements under the hood, 9 to be precise.
+* We also introduced 20 improvements under the hood.
 
 
 Chlorine-17.2311
