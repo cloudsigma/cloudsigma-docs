@@ -2,79 +2,192 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-    "drives": {
-        "dssd": {
-            "max_size": 4971194891468,
-            "min_size": 536870912,
-            "size": {
-                "max": 4971194891468,
-                "min": 536870912
-            }
-        }
+  "backfilling": false,
+  "currencies": [
+    {
+      "id": "CHF",
+      "name": "chf"
     },
-    "hosts": {
-        "amd": {
-            "cpu": {
-                "max": 40000,
-                "min": 250
-            },
-            "cpu_per_smp": {
-                "max": 2400,
-                "min": 1000
-            },
-            "mem": {
-                "max": 68719476736,
-                "min": 268435456
-            },
-            "smp": {
-                "max": 24,
-                "min": 1
-            }
-        },
-        "intel": {
-            "cpu": {
-                "max": 40000,
-                "min": 250
-            },
-            "cpu_per_smp": {
-                "max": 2400,
-                "min": 1000
-            },
-            "mem": {
-                "max": 68719476736,
-                "min": 268435456
-            },
-            "smp": {
-                "max": 48,
-                "min": 1
-            }
-        }
+    {
+      "id": "USD",
+      "name": "usd"
     },
-    "hypervisors": {
-        "kvm": [
-            "amd"
-        ]
+    {
+      "id": "EUR",
+      "name": "eur"
     },
-    "servers": {
-        "cpu": {
-            "max": 40000,
-            "min": 250
-        },
-        "cpu_per_smp": {
-            "max": 2400,
-            "min": 1000
-        },
-        "mem": {
-            "max": 68719476736,
-            "min": 268435456
-        },
-        "smp": {
-            "max": 24,
-            "min": 1
-        }
+    {
+      "id": "GBP",
+      "name": "gbp"
     },
-    "snapshots": {
-        "current": 0,
-        "max": 600
+    {
+      "id": "PHP",
+      "name": "php"
+    },
+    {
+      "id": "AUD",
+      "name": "aud"
+    },
+    {
+      "id": "SAR",
+      "name": "sar"
+    },
+    {
+      "id": "JPY",
+      "name": "jpy"
     }
+  ],
+  "default_inactive_period": 45,
+  "default_storage_type": "dssd",
+  "drives": {
+    "dssd": {
+      "iops": {
+        "base": 30000,
+        "max": 60000,
+        "min": 1
+      },
+      "max_size": 15087863484255,
+      "min_size": 536870912,
+      "size": {
+        "max": 15087863484255,
+        "min": 536870912
+      }
+    },
+    "nvme": {
+      "iops": {
+        "base": 30000,
+        "max": 60000,
+        "min": 1
+      },
+      "max_size": 12079598531766,
+      "min_size": 536870912,
+      "size": {
+        "max": 12079598531766,
+        "min": 536870912
+      }
+    },
+    "zadara": {
+      "iops": {
+        "base": 4000,
+        "max": 8000,
+        "min": 1
+      },
+      "max_size": 13775679960716,
+      "min_size": 1073741824.0,
+      "size": {
+        "max": 13775679960716,
+        "min": 1073741824.0
+      }
+    }
+  },
+  "epc": {
+    "epc_mem_ratio": 0.5,
+    "max_per_host": 68719476736
+  },
+  "gpus": {
+    "nvidia_a100": {
+      "max_cpu_per_host": 378000,
+      "max_memory_per_host": 455886655488,
+      "max_per_host": 2,
+      "max_smp_per_host": 108,
+      "model_name": "GPU Nvidia A100"
+    }
+  },
+  "hosts": {
+    "amd": {
+      "cpu": {
+        "max": 96000,
+        "min": 250
+      },
+      "cpu_per_smp": {
+        "max": 2893,
+        "min": 1000
+      },
+      "mem": {
+        "max": 558345748480,
+        "min": 268435456
+      },
+      "smp": {
+        "max": 32,
+        "min": 1
+      }
+    },
+    "intel": {
+      "cpu": {
+        "max": 96000,
+        "min": 250
+      },
+      "cpu_per_smp": {
+        "max": 3000,
+        "min": 1000
+      },
+      "mem": {
+        "max": 558345748480,
+        "min": 268435456
+      },
+      "smp": {
+        "max": 32,
+        "min": 1
+      }
+    }
+  },
+  "hypervisors": {
+    "kvm": [
+      "intel",
+      "amd"
+    ]
+  },
+  "inactive_period_range": {
+    "max": 250,
+    "min": 0
+  },
+  "remote_snapshots": {
+    "current": 0,
+    "max": 600,
+    "remote_locations": [
+      "TBC"
+    ]
+  },
+  "servers": {
+    "cpu": {
+      "max": 96000,
+      "min": 250
+    },
+    "cpu_per_smp": {
+      "max": 3000,
+      "min": 1000
+    },
+    "default_start_method": "regular",
+    "mem": {
+      "max": 558345748480,
+      "min": 268435456
+    },
+    "smp": {
+      "max": 32,
+      "min": 1
+    },
+    "start_methods": [
+      "eager",
+      "lazy",
+      "regular"
+    ]
+  },
+  "snapshots": {
+    "current": 0,
+    "max": 700,
+    "max_per_drive": 90
+  },
+  "vmware_drives": {
+    "storage_capacity": {
+      "limit": 6291200.0,
+      "units": "MB",
+      "used": 2127040.0
+    }
+  },
+  "vmware_servers": {
+    "compute_capacity": {
+      "cpu_max": 117797,
+      "mem_max": 271061
+    }
+  }
 }
