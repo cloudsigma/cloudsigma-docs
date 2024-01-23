@@ -1,6 +1,19 @@
 Release Notes
 =============
 
+2024 Release
+------------
+
+2401
+~~~~
+
+**Date Released:** 2024-01-18
+
+* Starting with this version, we are adding a few changes to the required data for all our accounts such as "state/province" and "mobile number".
+* We improved the accuracy of the out-of-memory exception, which all our customers received.
+* We fixed a minor issue in the Backup Scheduler.
+* And 30 other bugs and improvements.
+
 Chlorine Release
 ----------------
 
