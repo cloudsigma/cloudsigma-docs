@@ -67,7 +67,8 @@ is disabled, it will disappear from the result of this call. Most entries are ob
 
 * name: It is the common or display name for the currency. In this case, "chf" represents the abbreviation or name used to refer to the Swiss Franc.
 
-So, this entry indicates that the system supports the Swiss Franc (CHF) as a currency, and "chf" is the identifier or name used within the system for this currency.
+ > [!NOTE] 
+ > So, this entry indicates that the system supports the Swiss Franc (CHF) as a currency, and "chf" is the identifier or name used within the system for this currency.
 
 * default_inactive_period: The default inactive period is defined as days. A value of 45 indicates the inactive period is 45 days.
 
