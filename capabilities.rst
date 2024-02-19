@@ -76,6 +76,7 @@ This value is used to find the users with the last login made 45 days ago(using 
 * default_storage_type: Indicates the default storage type (e.g., "dssd").
 
 * drives: Provides detailed information about available drive types and their limitations, including IOPS and size ranges. Example:
+
 ```
 {
   "dssd": {
