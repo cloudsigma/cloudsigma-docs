@@ -60,7 +60,3 @@ is disabled, it will disappear from the result of this call. Most entries are ob
 
 .. literalinclude:: dumps/response_capabilities
     :language: javascript
-
-
-
-
