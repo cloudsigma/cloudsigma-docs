@@ -4,6 +4,16 @@ Release Notes
 2024 Release
 ------------
 
+2402
+~~~~
+
+**Date Released:** 2024-02-15
+
+* We had to change the address in the profile section to be no longer than 180 characters.
+* Due to an external dependency, we had to change the allowed characters in the fields: address, state, city, and postcode to accept ASCII characters.
+* And 17 other bug fixes and improvements.
+
+
 2401
 ~~~~
 
@@ -13,6 +23,7 @@ Release Notes
 * We improved the accuracy of the out-of-memory exception, which all our customers received.
 * We fixed a minor issue in the Backup Scheduler.
 * And 30 other bugs and improvements.
+
 
 Chlorine Release
 ----------------
