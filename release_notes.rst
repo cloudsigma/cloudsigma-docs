@@ -4,6 +4,16 @@ Release Notes
 2024 Release
 ------------
 
+2403
+~~~~
+
+**Date Released:** 2024-03-18
+
+* For the sake of easier interaction with our Cloud services, we have introduced a newer version of our main website (aka WebApp). You can try it from the Home page in each cloud location, now!
+* In other news, we are now switching to Stripe as our payment system.
+* And the usual bug extermination routine, of small issues, core system improvements, etc. 43 of them.
+
+
 2402
 ~~~~
 
