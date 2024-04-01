@@ -18,7 +18,7 @@ master_doc = 'index'
 
 project = u'CloudSigma API'
 
-copyright = u'2023, CloudSigma'
+copyright = u'2024, CloudSigma'
 
 version = '2.0'
 release = 'v2'
