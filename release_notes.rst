@@ -11,7 +11,7 @@ Release Notes
 
 * While there are no new groundbreaking features at this time, we've been busy making improvements behind the scenes to enhance stability, security, and usability by implementing almost 20 stories.
 * We've ironed out some wrinkles to ensure a smoother user experience.
-* We are pleased to announce that our cloud is getting closer to you with a new location, DUS - "Düsseldorf, Germany".
+* Exciting news! Our cloud is expanding with a new location, bringing you a more seamless experience, MTY - "Monterrey, Mexico".
 
 
 2403
@@ -55,6 +55,7 @@ Chlorine-17.2312
 
 * We fixed a rare condition, which could cause a problem when trying to save a payment method while making a payment.
 * We are happy to announce that our cloud is growing again with more locations! So we did the magic under the hood, so they work just as well.
+* We are pleased to announce that our cloud is getting closer to you with a new location, DUS - "Düsseldorf, Germany".
 * We also introduced 20 improvements under the hood.
 
 
