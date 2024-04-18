@@ -4,6 +4,16 @@ Release Notes
 2024 Release
 ------------
 
+2404
+~~~~
+
+**Date Released:** 2024-04-13
+
+* While there are no new groundbreaking features at this time, we've been busy making improvements behind the scenes to enhance stability, security, and usability by implementing almost 20 stories.
+* We've ironed out some wrinkles to ensure a smoother user experience.
+* We are pleased to announce that our cloud is getting closer to you with a new location, DUS - "Düsseldorf, Germany".
+
+
 2403
 ~~~~
 
