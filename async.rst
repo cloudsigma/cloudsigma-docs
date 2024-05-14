@@ -5,7 +5,7 @@ Asynchronous server
 Authentication
 --------------
 
-In order to use the asynchronous server, you must first authenticate through the API. This will give you a cookie that is valid for 2 minutes and that has to be used when connecting to the server.
+To use the asynchronous server, you must first authenticate through the API. This will give you a cookie that is valid for 2 minutes and that has to be used when connecting to the server.
 
 :statuscode 200: no error
 
@@ -51,4 +51,4 @@ The frame is a JSON object that contains the following fields:
     * resource_type: A text field that describes the type of resource covered by the notification.
     * resource_uri: The URI of the resource that has changed.
 
-The JSON object might contain a 'object' key, that will contain the full blown resource referenced by the notification, JSON encoded.
+The JSON object might contain an 'object' key, that will contain the full-blown resource referenced by the notification, JSON encoded.

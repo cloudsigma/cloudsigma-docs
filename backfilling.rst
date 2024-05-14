@@ -1,24 +1,24 @@
 Backfilling
 ===========
 
-Backfilling is a feature which allows you to start servers without guarantee how long they will be running.
+Backfilling is a feature that allows you to start servers without guaranteeing how long they will be running.
 The servers defined as "backfilling servers" behave the same as normal servers, except for the following:
 
 * they occupy the free resources currently available in the cloud
 * they can be stopped at an arbitrary moment if demand for resources appears by normal servers
 * instead of shutdown they can be dynamically downsized in terms of CPU and memory if demand for
-  resources appears by normal servers
+  resources appear by normal servers
 * they are billed at a separate discount burst rate. No CPU and MEM subscriptions are allowed for the resources
   consumed by the backfilling servers.
 
-In order to use backfilling servers your account must be granted a special permission.
+To use backfilling servers your account must be granted special permission.
 
 Checking For Available Backfilling Resources
 --------------------------------------------
 
-If your account is granted permission to run backfilling server the capabilities API (see :doc:`capabilities`) call
+If your account is granted permission to run a backfilling server the capabilities API (see :doc:`capabilities`) call
 will show additional information regarding backfilling capacity. The `free_resources` object contains three objects,
-which show what are the maximum resources that can be use by a single backfilling server.
+which show what are the maximum resources that can be used by a single backfilling server.
 
 Here is an example capabilities call from a backfilling user:
 
@@ -43,7 +43,7 @@ The following list summarises the information given by each `free_resources` obj
     This object shows what is the maximum memory available for a single server, and what is the amount of CPU
     associated with it. If you need as much RAM as possible in your server, use this object.
 
-In general the maximum memory and maximum CPU will not be available on a single physical host, so you should use either
+In general, the maximum memory and maximum CPU will not be available on a single physical host, so you should use either
 `most_free_by_cpu` or `most_free_by_memory` depending on whether your workload needs CPU or memory.
 
 Listing
@@ -101,7 +101,7 @@ Creating
 
 .. http:post:: /bservers/
 
-Creates a new virtual server or multiple servers. The minimial amount of information you need to set is as follows
+Creates a new virtual server or multiple servers. The minimal amount of information you need to set is as follows
 
 :statuscode 201: object created
 
@@ -121,7 +121,7 @@ Editing
 
 .. http:put:: /bservers/{uuid}/
 
-Edits a server. Used also for attaching NIC's and drives to servers. Note that if a server is running, only
+Edits a server. Used also for attaching NICs and drives to servers. Note that if a server is running, only
 ``name``, ``meta``, and ``tags`` fields can be changed, and all other changes to the definition of a running server
 will be ignored.
 
@@ -192,7 +192,7 @@ Start
 
 .. http:post:: /bservers/{uuid}/action/?do=start
 
-Starts a server with specific UUID.
+Starts a server with a specific UUID.
 
 :statuscode 202: Action accepted, execution is proceeding.
 
@@ -215,7 +215,7 @@ Stop
 
 .. http:post:: /bservers/{uuid}/action/?do=stop
 
-Stops a server with specific UUID. This action is equivalent to pulling the power cord of a physical server. For
+Stops a server with a specific UUID. This action is equivalent to pulling the power cord of a physical server. For
 more graceful shutdown see :ref:`acpi_shutdown`.
 
 :statuscode 202: Action accepted, execution is proceeding.
@@ -234,10 +234,10 @@ more graceful shutdown see :ref:`acpi_shutdown`.
 Compatibility with normal servers API and operations
 ----------------------------------------------------
 
-For compatibility and interoperability reasons all the operations supported for normal servers and supported for the
-backfilling ones as well. See the :doc:`servers` section for detailed documentation. In this regard backfilling servers
-are a subset of all servers in the account. The API described in :doc:`servers` applies for all servers
-(including the backfilling ones), but the API decribed in this section applies for backfilling servers only.
+For compatibility and interoperability reasons, all the operations are supported for normal servers and supported for the
+backfilling ones as well. See the :doc:`servers` section for detailed documentation. In this regard, backfilling servers
+are a subset of all servers in the account. The API described in :doc:`servers` applies to all servers
+(including the backfilling ones), but the API described in this section applies to backfilling servers only.
 
 Allowed HTTP methods
 --------------------

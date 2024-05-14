@@ -2,7 +2,7 @@ Accounts
 ========
 
 .. note::
-    
+
     See :rfc:`2616#section-9` for more details on HTTP methods semantics
 
 General
@@ -14,7 +14,7 @@ Create account
 
 .. http:post:: /accounts/action/?do=create
 
-    Creates an account on the system. In case of succes, the user has to check
+    Creates an account on the system. In case of success, the user has to check
     his email for a confirmation link, which will ask him to create a password
     for the account.
 
@@ -38,7 +38,7 @@ Login/Logout
 
 .. http:post:: /accounts/action/?do=login
 
-   Login to the system using cookie auth
+   Log in to the system using cookie auth
 
    :statuscode 200: no error
    :statuscode 401: unauthorized
@@ -94,7 +94,7 @@ Login/Logout
 
 .. http:post:: /accounts/action/?do=check_login
 
-   Check if you are logged in the system
+   Check if you are logged in to the system
 
    :statuscode 200: no error
 

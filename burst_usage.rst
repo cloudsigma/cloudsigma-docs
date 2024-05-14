@@ -12,7 +12,7 @@ Allowed HTTP methods
 +--------+--------------------------------------------------+
 
 .. note::
-    
+
     See :rfc:`2616#section-9` for more details on HTTP methods semantics
 
 
@@ -26,7 +26,7 @@ Listing
 
     :statuscode 200: no error
 
-   
+
     **Example request**:
 
     .. sourcecode:: http
@@ -83,7 +83,7 @@ It's possible to specify period of burst usage using :ref:`filtering <filtering>
 * Greater than: `?date__gt=2014-10-21`
 * Greater than or equal: `?date__gte=2014-10-21`
 
-    **Example for retreiving burst usage for the whole July 2014**:
+    **Example for retrieving burst usage for the whole of July 2014**:
 
     .. sourcecode:: http
 
@@ -176,12 +176,12 @@ Listing
 Filtering
 ---------
 
-It's possible to specify period of burst usage using :ref:`filtering <filtering>` by date:
+It's possible to specify a period of burst usage using:ref:`filtering <filtering>` by date:
 
 * Lower than: `?date__lt=2014-10-21`
 * Greater than: `?date__gt=2014-10-21`
 
-    **Example for retreiving burst usage for the whole July 2014**:
+    **Example for retrieving burst usage for the whole of July 2014**:
 
     .. sourcecode:: http
 
@@ -191,5 +191,5 @@ It's possible to specify period of burst usage using :ref:`filtering <filtering>
 
 
 .. note::
-    The date is actually a full time, which means that 2014-11-11 is actually 2014-11-11 00:00. This matters when trying
-    to filter because when using less than, it will not include the day, whereas it will be included for greater then.
+    The date is full time, which means that 2014-11-11 is 2014-11-11 00:00. This matters when trying
+    to filter because when using less than, it will not include the day, whereas it will be included for greater than.
