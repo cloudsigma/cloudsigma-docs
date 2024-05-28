@@ -4,6 +4,17 @@ Release Notes
 2024 Release
 ------------
 
+2405
+~~~~
+
+**Date Released:** 2024-05-21
+
+* We have fixed an inconvenience with Access Control Lists and one of the accounts gets removed. Now it works much better.
+* Also, we've further improved our shiny new payment module.
+* And more! With a sprinkle of code and a dash of innovation, our tech alchemists have brewed up 26 improvements!
+* Get ready for a smoother, more secure, and delightful cloud experience.
+
+
 2404
 ~~~~
 

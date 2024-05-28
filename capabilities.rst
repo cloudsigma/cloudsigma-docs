@@ -83,7 +83,7 @@ This value is used to find the users with the last login made 45 days ago(using 
 
 6.  **default_storage_type**: Indicates the default storage type (e.g., "dssd").
 
-7.  **drives**: Provides detailed information about available drive types and their limitations, including IOPS and size ranges. Example:
+7.  **drives**: Provides detailed information about available drive types and their limitations, including IOPS and size ranges.
 
 8.  **EPC**: The EPC values are related to the Intel SGX enclaves.
 
