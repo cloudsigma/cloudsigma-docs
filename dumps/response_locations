@@ -199,6 +199,18 @@ Content-Type: application/json; charset=utf-8
             "id":"DUS",
             "upload_url":"https://direct.dus.cloudsigma.com/api/2.0/",
             "websocket_url":"wss://direct.dus.cloudsigma.com/websocket"
+        },
+        {
+            "alternative_frontend_url":"https://mty.cloudsigma.com/ui/",
+            "api_endpoint":"https://mty.cloudsigma.com/api/2.0/",
+            "country_code":"MX",
+            "default_frontend_signup_url":"https://mty.cloudsigma.com/ui/",
+            "default_frontend_url":"https://mty.cloudsigma.com/ui/",
+            "display_name":"Monterrey, Mexico",
+            "documentation_url":"https://docs.cloudsigma.com",
+            "id":"MTY",
+            "upload_url":"https://direct.mty.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.mty.cloudsigma.com/websocket"
         }
     ]
 }
