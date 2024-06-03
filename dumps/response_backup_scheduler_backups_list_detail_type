@@ -1,0 +1,339 @@
+{
+    "meta": {
+        "limit": 20,
+        "offset": 0,
+        "total_count": 6
+    },
+    "objects": [
+        {
+            "grantees": [],
+            "incremental_backup": {
+                "day_of_month": "*",
+                "day_of_week": [
+                    "*"
+                ],
+                "end_time": {
+                    "hour": 11,
+                    "minute": 45
+                },
+                "hour": "",
+                "minute": "*",
+                "month": "*",
+                "repeat": {
+                    "hour": "",
+                    "minute": "*/15"
+                },
+                "start_time": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            },
+            "initial_backup": {
+                "day_of_week": [
+                    "*"
+                ],
+                "end_time": {
+                    "hour": 11,
+                    "minute": 45
+                },
+                "start_time": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            },
+            "is_default": false,
+            "is_enabled": true,
+            "manual_incremental_backup": "",
+            "meta": {},
+            "name": "test2",
+            "orchestrator_timezone": "Etc/UTC",
+            "owner": {
+                "resource_uri": "/api/2.0/user/efe6c4a4-d326-4130-a6c4-b1cb267e6b6f/",
+                "uuid": "efe6c4a4-d326-4130-a6c4-b1cb267e6b6f"
+            },
+            "permissions": [],
+            "remote_location": "",
+            "resource_uri": "/api/2.0/backupschedulers/40c7b699-62c0-412b-9a83-b799f5c0393e/",
+            "retention_policy": {},
+            "tags": [],
+            "type": "dr",
+            "user_timezone": "Etc/GMT+12",
+            "uuid": "40c7b699-62c0-412b-9a83-b799f5c0393e"
+        },
+        {
+            "grantees": [],
+            "incremental_backup": {
+                "day_of_month": "*",
+                "day_of_week": [
+                    "*"
+                ],
+                "end_time": {
+                    "hour": 11,
+                    "minute": 45
+                },
+                "hour": "",
+                "minute": "*",
+                "month": "*",
+                "repeat": {
+                    "hour": "",
+                    "minute": "*/15"
+                },
+                "start_time": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            },
+            "initial_backup": {
+                "day_of_week": [
+                    "*"
+                ],
+                "end_time": {
+                    "hour": 11,
+                    "minute": 45
+                },
+                "start_time": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            },
+            "is_default": false,
+            "is_enabled": true,
+            "manual_incremental_backup": "",
+            "meta": {},
+            "name": "test",
+            "orchestrator_timezone": "Etc/UTC",
+            "owner": {
+                "resource_uri": "/api/2.0/user/efe6c4a4-d326-4130-a6c4-b1cb267e6b6f/",
+                "uuid": "efe6c4a4-d326-4130-a6c4-b1cb267e6b6f"
+            },
+            "permissions": [],
+            "remote_location": "",
+            "resource_uri": "/api/2.0/backupschedulers/6bcb958f-8c1f-4115-a43e-82c388ee2535/",
+            "retention_policy": {},
+            "tags": [],
+            "type": "dr",
+            "user_timezone": "Etc/GMT+12",
+            "uuid": "6bcb958f-8c1f-4115-a43e-82c388ee2535"
+        },
+        {
+            "grantees": [],
+            "incremental_backup": {
+                "day_of_month": "*",
+                "day_of_week": [
+                    "*"
+                ],
+                "end_time": {
+                    "hour": 11,
+                    "minute": 45
+                },
+                "hour": "",
+                "minute": "*",
+                "month": "*",
+                "repeat": {
+                    "hour": "",
+                    "minute": "*/15"
+                },
+                "start_time": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            },
+            "initial_backup": {
+                "day_of_week": [
+                    "*"
+                ],
+                "end_time": {
+                    "hour": 11,
+                    "minute": 45
+                },
+                "start_time": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            },
+            "is_default": false,
+            "is_enabled": true,
+            "manual_incremental_backup": "",
+            "meta": {},
+            "name": "test",
+            "orchestrator_timezone": "Etc/UTC",
+            "owner": {
+                "resource_uri": "/api/2.0/user/efe6c4a4-d326-4130-a6c4-b1cb267e6b6f/",
+                "uuid": "efe6c4a4-d326-4130-a6c4-b1cb267e6b6f"
+            },
+            "permissions": [],
+            "remote_location": "",
+            "resource_uri": "/api/2.0/backupschedulers/97fa3587-1187-413b-b9e3-85238276f0ca/",
+            "retention_policy": {},
+            "tags": [],
+            "type": "dr",
+            "user_timezone": "Etc/GMT+12",
+            "uuid": "97fa3587-1187-413b-b9e3-85238276f0ca"
+        },
+        {
+            "grantees": [],
+            "incremental_backup": {
+                "day_of_month": "*",
+                "day_of_week": [
+                    "*"
+                ],
+                "end_time": {
+                    "hour": 11,
+                    "minute": 45
+                },
+                "hour": "",
+                "minute": "*",
+                "month": "*",
+                "repeat": {
+                    "hour": "",
+                    "minute": "*/15"
+                },
+                "start_time": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            },
+            "initial_backup": {
+                "day_of_week": [
+                    "*"
+                ],
+                "end_time": {
+                    "hour": 11,
+                    "minute": 45
+                },
+                "start_time": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            },
+            "is_default": false,
+            "is_enabled": true,
+            "manual_incremental_backup": "",
+            "meta": {},
+            "name": "test",
+            "orchestrator_timezone": "Etc/UTC",
+            "owner": {
+                "resource_uri": "/api/2.0/user/efe6c4a4-d326-4130-a6c4-b1cb267e6b6f/",
+                "uuid": "efe6c4a4-d326-4130-a6c4-b1cb267e6b6f"
+            },
+            "permissions": [],
+            "remote_location": "",
+            "resource_uri": "/api/2.0/backupschedulers/a3828367-7964-4246-a011-5ff810ecafb6/",
+            "retention_policy": {},
+            "tags": [],
+            "type": "dr",
+            "user_timezone": "Etc/GMT+12",
+            "uuid": "a3828367-7964-4246-a011-5ff810ecafb6"
+        },
+        {
+            "grantees": [],
+            "incremental_backup": {
+                "day_of_month": "*",
+                "day_of_week": [
+                    "*"
+                ],
+                "end_time": {
+                    "hour": 11,
+                    "minute": 45
+                },
+                "hour": "",
+                "minute": "*",
+                "month": "*",
+                "repeat": {
+                    "hour": "",
+                    "minute": "*/15"
+                },
+                "start_time": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            },
+            "initial_backup": {
+                "day_of_week": [
+                    "*"
+                ],
+                "end_time": {
+                    "hour": 11,
+                    "minute": 45
+                },
+                "start_time": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            },
+            "is_default": false,
+            "is_enabled": true,
+            "manual_incremental_backup": "",
+            "meta": {},
+            "name": "test",
+            "orchestrator_timezone": "Etc/UTC",
+            "owner": {
+                "resource_uri": "/api/2.0/user/efe6c4a4-d326-4130-a6c4-b1cb267e6b6f/",
+                "uuid": "efe6c4a4-d326-4130-a6c4-b1cb267e6b6f"
+            },
+            "permissions": [],
+            "remote_location": "",
+            "resource_uri": "/api/2.0/backupschedulers/f1a7a7d0-944d-4b0a-a6b5-41d3d5402053/",
+            "retention_policy": {},
+            "tags": [],
+            "type": "dr",
+            "user_timezone": "Etc/GMT+12",
+            "uuid": "f1a7a7d0-944d-4b0a-a6b5-41d3d5402053"
+        },
+        {
+            "grantees": [],
+            "incremental_backup": {
+                "day_of_month": "*",
+                "day_of_week": [
+                    "*"
+                ],
+                "end_time": {
+                    "hour": 11,
+                    "minute": 45
+                },
+                "hour": "",
+                "minute": "*",
+                "month": "*",
+                "repeat": {
+                    "hour": "",
+                    "minute": "*/15"
+                },
+                "start_time": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            },
+            "initial_backup": {
+                "day_of_week": [
+                    "*"
+                ],
+                "end_time": {
+                    "hour": 11,
+                    "minute": 45
+                },
+                "start_time": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            },
+            "is_default": false,
+            "is_enabled": true,
+            "manual_incremental_backup": "",
+            "meta": {},
+            "name": "test",
+            "orchestrator_timezone": "Etc/UTC",
+            "owner": {
+                "resource_uri": "/api/2.0/user/efe6c4a4-d326-4130-a6c4-b1cb267e6b6f/",
+                "uuid": "efe6c4a4-d326-4130-a6c4-b1cb267e6b6f"
+            },
+            "permissions": [],
+            "remote_location": "",
+            "resource_uri": "/api/2.0/backupschedulers/f60f5634-201e-499c-a266-dec38e6416bd/",
+            "retention_policy": {},
+            "tags": [],
+            "type": "dr",
+            "user_timezone": "Etc/GMT+12",
+            "uuid": "f60f5634-201e-499c-a266-dec38e6416bd"
+        }
+    ]
+}

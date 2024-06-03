@@ -1,0 +1,64 @@
+HTTP/1.1 201 Created
+Content-Type: application/json; charset=utf-8
+{
+    "objects": [
+        {
+            "grantees": [],
+            "incremental_backup": {
+                "day_of_month": "*",
+                "day_of_week": [
+                    "*"
+                ],
+                "end_time": {
+                    "hour": 11,
+                    "minute": 45
+                },
+                "hour": "",
+                "minute": "*",
+                "month": "*",
+                "repeat": {
+                    "hour": "",
+                    "minute": "*/15"
+                },
+                "start_time": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            },
+            "initial_backup": {
+                "day_of_week": [
+                    "*"
+                ],
+                "end_time": {
+                    "hour": 11,
+                    "minute": 45
+                },
+                "start_time": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            },
+            "is_default": false,
+            "is_enabled": true,
+            "manual_incremental_backup": "",
+            "meta": {},
+            "name": "test",
+            "orchestrator_timezone": "Etc/UTC",
+            "owner": {
+                "resource_uri": "/api/2.0/user/efe6c4a4-d326-4130-a6c4-b1cb267e6b6f/",
+                "uuid": "efe6c4a4-d326-4130-a6c4-b1cb267e6b6f"
+            },
+            "permissions": [],
+            "remote_location": "",
+            "rentention_policy": {
+                "rules": []
+            },
+            "resource_uri": "/api/2.0/backupschedulers/f1a7a7d0-944d-4b0a-a6b5-41d3d5402053/",
+            "retention_policy": {},
+            "tags": [],
+            "type": "dr",
+            "user_timezone": "Etc/GMT+12",
+            "uuid": "f1a7a7d0-944d-4b0a-a6b5-41d3d5402053"
+        }
+    ]
+}

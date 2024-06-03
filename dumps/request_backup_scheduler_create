@@ -1,0 +1,2 @@
+GET /api/2.0/backupschedulers/?type=dr/
+Content-Type: application/json

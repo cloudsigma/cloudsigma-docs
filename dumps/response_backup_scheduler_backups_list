@@ -1,0 +1,75 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+{
+    "meta": {
+        "limit": 20,
+        "offset": 0,
+        "total_count": 4
+    },
+    "objects": [
+        {
+            "is_default": false,
+            "is_enabled": true,
+            "meta": {},
+            "name": "test",
+            "orchestrator_timezone": "Etc/UTC",
+            "owner": {
+                "resource_uri": "/api/2.0/user/efe6c4a4-d326-4130-a6c4-b1cb267e6b6f/",
+                "uuid": "efe6c4a4-d326-4130-a6c4-b1cb267e6b6f"
+            },
+            "remote_location": "",
+            "resource_uri": "/api/2.0/backupschedulers/6bcb958f-8c1f-4115-a43e-82c388ee2535/",
+            "type": "dr",
+            "user_timezone": "Etc/GMT+12",
+            "uuid": "6bcb958f-8c1f-4115-a43e-82c388ee2535"
+        },
+        {
+            "is_default": false,
+            "is_enabled": true,
+            "meta": {},
+            "name": "test",
+            "orchestrator_timezone": "Etc/UTC",
+            "owner": {
+                "resource_uri": "/api/2.0/user/efe6c4a4-d326-4130-a6c4-b1cb267e6b6f/",
+                "uuid": "efe6c4a4-d326-4130-a6c4-b1cb267e6b6f"
+            },
+            "remote_location": "",
+            "resource_uri": "/api/2.0/backupschedulers/97fa3587-1187-413b-b9e3-85238276f0ca/",
+            "type": "dr",
+            "user_timezone": "Etc/GMT+12",
+            "uuid": "97fa3587-1187-413b-b9e3-85238276f0ca"
+        },
+        {
+            "is_default": false,
+            "is_enabled": true,
+            "meta": {},
+            "name": "test",
+            "orchestrator_timezone": "Etc/UTC",
+            "owner": {
+                "resource_uri": "/api/2.0/user/efe6c4a4-d326-4130-a6c4-b1cb267e6b6f/",
+                "uuid": "efe6c4a4-d326-4130-a6c4-b1cb267e6b6f"
+            },
+            "remote_location": "",
+            "resource_uri": "/api/2.0/backupschedulers/a3828367-7964-4246-a011-5ff810ecafb6/",
+            "type": "dr",
+            "user_timezone": "Etc/GMT+12",
+            "uuid": "a3828367-7964-4246-a011-5ff810ecafb6"
+        },
+        {
+            "is_default": false,
+            "is_enabled": true,
+            "meta": {},
+            "name": "test",
+            "orchestrator_timezone": "Etc/UTC",
+            "owner": {
+                "resource_uri": "/api/2.0/user/efe6c4a4-d326-4130-a6c4-b1cb267e6b6f/",
+                "uuid": "efe6c4a4-d326-4130-a6c4-b1cb267e6b6f"
+            },
+            "remote_location": "",
+            "resource_uri": "/api/2.0/backupschedulers/f60f5634-201e-499c-a266-dec38e6416bd/",
+            "type": "dr",
+            "user_timezone": "Etc/GMT+12",
+            "uuid": "f60f5634-201e-499c-a266-dec38e6416bd"
+        }
+    ]
+}
