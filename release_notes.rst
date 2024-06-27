@@ -4,6 +4,17 @@ Release Notes
 2024 Release
 ------------
 
+2406
+~~~~
+
+**Date Released:** 2024-06-17
+
+
+* We've been busy making things smoother for you! Enjoy an improved user experience.
+* Get ready for an enhanced information experience! We're optimizing our documents for clarity and ease of access.
+* This update squashed 20 pesky bugs and introduced several core system enhancements for a smoother ride.
+
+
 2405
 ~~~~
 
