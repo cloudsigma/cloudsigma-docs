@@ -21,7 +21,7 @@ Listing
 
 .. http:get:: /burstusage/
 
-    Get the burst usage of the authenticated user for the specified period (last 30 days by default).
+    Get the accumulated burst usage of the authenticated user for the specified period (last 30 days by default).
 
 
     :statuscode 200: no error
@@ -46,27 +46,27 @@ Listing
             "objects": [
                 {
                      "uuid": "75fbf5d6-4ef6-11e4-9ce3-8bd2cacc5639",
-                     "amount": 0.01000000000000000000,
+                     "amount": 0.0100,
                      "resource_type": "ip",
                      "usage": 1
                 },
                 {
                      "uuid": "f2669d85-2dbd-4f0d-8a1f-40a06deb3233",
-                     "amount": 0.03010000000000000000,
+                     "amount": 0.0301,
                      "resource_type": "cpu",
                      "usage": 12000
                 },
                 {
                      "uuid": "1e170e6e-5339-477d-a29d-c3e6533a1825",
-                     "amount": 0.02000000000000000000,
+                     "amount": 0.0200,
                      "resource_type": "mem",
                      "usage": 9663676416
                 },
                 {
                      "uuid": "42b2af55-ec3c-4066-a152-66d201c59576",
-                     "amount": 0.01000000000000000000,
+                     "amount": 0.0100,
                      "resource_type": "dssd",
-                     "usage": 107374182400
+                     "usage": 1073741824000
                 },
             ]
         }
@@ -116,7 +116,7 @@ Listing
 
 .. http:get:: /dailyburstusage/
 
-    Get the daily burst usage of the authenticated user for the specified period (last 30 days by default).
+    Get the accumulated daily burst usage of the authenticated user for the specified period (last 30 days by default).
 
 
     :statuscode 200: no error
@@ -146,28 +146,28 @@ Listing
             },
             "objects": [
                 {
-                    "amount": "0.00886683986848225317",
+                    "amount": "0.0089",
                     "date": "2014-11-17",
                     "resource_type": "dssd",
-                    "usage": 309237645312
+                    "usage": 322122547200
                 },
                 {
-                    "amount": "0.00886684598104320994",
+                    "amount": "0.0089",
                     "date": "2014-11-16",
                     "resource_type": "dssd",
-                    "usage": 309237645312
+                    "usage": 322122547200
                 },
                 {
-                    "amount": "0.00514153897280246914",
+                    "amount": "0.0051",
                     "date": "2014-11-18",
                     "resource_type": "dssd",
-                    "usage": 179314884608
+                    "usage": 268435456000
                 },
                 {
-                    "amount": "0.00886683701903935188",
+                    "amount": "0.0089",
                     "date": "2014-11-15",
                     "resource_type": "dssd",
-                    "usage": 309237645312
+                    "usage": 322122547200
                 }
             ]
         }
