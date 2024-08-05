@@ -4,6 +4,17 @@ Release Notes
 2024 Release
 ------------
 
+2407
+~~~~
+
+**Date Released:** 2024-07-23
+
+
+* Optimized promo code functionality across the platform.
+* Updated VLAN information display for better visibility and management.
+* This release introduces several new features and addresses multiple bug fixes, enhancing overall platform performance.
+
+
 2406
 ~~~~
 
