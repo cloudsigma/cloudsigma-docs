@@ -4,6 +4,17 @@ Release Notes
 2024 Release
 ------------
 
+2408
+~~~~
+
+**Date Released:** 2024-08-19
+
+
+* Upgraded security measures and authentication processes across the platform.
+* Optimized backend systems for better performance and reliability.
+* Improved API functionality for more efficient resource management and usage reporting.
+
+
 2407
 ~~~~
 
