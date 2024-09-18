@@ -4,6 +4,19 @@ Release Notes
 2024 Release
 ------------
 
+2409
+~~~~
+
+**Date Released:** 2024-09-15
+
+
+* We've addressed an issue where users encountered errors when attempting to access certain API resources without proper permissions.
+* The system now provides clear error messages when invalid values are entered for critical configuration settings, ensuring more robust user inputs.
+* Enhanced logging capabilities have been implemented to track and record specific user actions for improved auditing and security purposes.
+* A significant refactoring effort has been undertaken to improve the atomicity and reliability of core billing processes.
+* The file upload workflow has been optimized to resolve long-standing issues and improve overall performance.
+
+
 2408
 ~~~~
 
