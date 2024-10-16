@@ -48,6 +48,7 @@ Schema
    .. literalinclude:: dumps/response_balance_schema
         :language: javascript
 
+
 Pricing
 -------
 
@@ -72,7 +73,7 @@ Listing
 
 .. http:get:: /pricing/
 
-    Gets the pricing information that applies to the cloud. Subscription prices use a burst level of 0.
+    Gets the pricing information that are applicable to the cloud. Subscription prices use a burst level of 0.
 
     :statuscode 200: no error
 
@@ -88,8 +89,12 @@ Listing
         :language: javascript
 
 
+Burst levels
+~~~~~~~~~~~~
+The current and future burst levels are provided in objects at the root of the response. The burst levels are calculated every 5 minutes based on the usage of the cloud and are applied 5 minutes later (when the next burst levels are calculated)
+
     .. includejson:: dumps/response_pricing_list
-        :keys: current, next
+        :keys: current,next
 
 Schema
 ~~~~~~
@@ -233,6 +238,54 @@ Schema
    .. literalinclude:: dumps/response_discount_schema
         :language: javascript
 
+
+Usage
+----------
+
+Allowed HTTP methods
+~~~~~~~~~~~~~~~~~~~~
+
++--------+---------------------+
+| Method | Description         |
++========+=====================+
+| GET    | get / list object/s |
++--------+---------------------+
+
+.. note::
+
+    See :rfc:`2616#section-9` for more details on HTTP methods semantics
+
+
+Listing
+~~~~~~~
+
+.. http:get:: /usage/
+
+    Retrieve the usage data for a specific time range. The start and end times are specified using the `poll_time_gt` (greater than) and `poll_time_lt` (less than) query parameters, along with an optional `limit` parameter to define the number of results returned.
+
+    :statuscode 200: no error
+
+    **Example request**:
+
+    .. literalinclude:: dumps/request_usage_list
+        :language: http
+
+
+    **Example response**:
+
+    .. literalinclude:: dumps/response_usage_list
+        :language: javascript
+
+    **Example**:
+
+    To retrieve user usage data for the entire day of **April 1st, 2024**, the query parameters would be set like this:
+
+    .. code-block:: bash
+
+        poll_time_gt=2024-04-01&poll_time_lt=2024-04-02&limit=1500
+
+    This request will fetch all usage data between **2024-04-01 00:00:00** and **2024-04-02 00:00:00**. The `limit=1500` parameter restricts the response to 1500 records.
+
 .. _current-usage:
 
 Current usage
@@ -279,6 +332,7 @@ Schema
 
    .. literalinclude:: dumps/response_currentusage_schema
         :language: javascript
+
 
 .. _billing-license:
 
@@ -332,6 +386,4 @@ Schema
 
    .. literalinclude:: dumps/response_licenses_schema
         :language: javascript
-
-The Licenses endpoint provides information about the licenses available on the cloud. the parameters collectively provide information about the licenses available on the cloud, including their types, burstability, names, and associated metrics for determining usage. The objects array contains details for each license present in the cloud.
 
