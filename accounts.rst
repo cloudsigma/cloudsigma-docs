@@ -117,3 +117,34 @@ Login/Logout
     **Response**:
         *Empty*
 
+.. http:post:: accounts/action/?do=check_login_with_return_uuid
+
+   Check how an authenticated service can get a user uuid via Cloudsigma API
+
+   :statuscode 200: no error
+
+   **Example request**:
+
+    .. sourcecode:: http
+
+      POST accounts/action/?do=check_login_with_return_uuid HTTP/1.1
+      Host: api.cloudsigma.com
+      Accept: application/json
+
+
+    Request body
+
+       .. parsed-literal::
+
+          {
+            curl --location --request POST 'https://tbc.cloudsigma.com/api/2.0/accounts/action/?do=check_login_with_return_uuid' \
+            --header 'Cookie: csrftoken=zIiunVyYStnrRXxB1CmatfKsosHuaI6gYJw1P88r18pFCZ3YklNR7uEqEcQQOdze; sessionid=esqi1j0bpe2cto9ca59hw1k1kw7m95xd' \
+            --header 'Referer: https://tbc.cloudsigma.com/ui/5.0/passs' \
+            --header 'Content-Type: application/json' \
+            --data-raw '{"username": "email", "password":"passwd"}'
+          }
+
+
+    **Response**:
+        *Empty*
+
