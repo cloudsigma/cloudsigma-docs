@@ -4,6 +4,18 @@ Release Notes
 2024 Release
 ------------
 
+2410
+~~~~
+
+**Date Released:** 2024-10-14
+
+
+* We enhanced our resource monitoring system by resolving an issue where the automated alert mechanism failed to send critical notifications.
+* We improved VMWare server management by resolving a synchronization problem that prevented timely updates of server states.
+* Implemented post-migration memory limit application to ensure proper resource management in the new environment.
+* This release also includes numerous other optimizations, bug fixes, and performance enhancements to improve overall system stability and user experience.
+
+
 2409
 ~~~~
 
