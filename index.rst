@@ -44,6 +44,7 @@ Welcome to CloudSigma API documentation!
     profile
     notification_preferences
     billing
+    usage
     burst_usage
     current_usage
     async
