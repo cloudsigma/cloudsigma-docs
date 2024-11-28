@@ -4,6 +4,23 @@ Release Notes
 2024 Release
 ------------
 
+2411
+~~~~
+
+**Date Released:** 2024-11-21
+
+
+* We've enhanced our overall snapshot management system with improved functionality and reliability.
+* Authentication workflows have been optimized to improve security and performance across all services.
+* Storage management interface now includes advanced filtering and sorting capabilities.
+* WebApp drive upload functionality has been stabilized and optimized across all locations.
+* Backend processing has been enhanced to improve response times during peak usage.
+* Drive management capabilities now include the option to unassign backup schedules.
+* Detailed usage report functionality is now available in the Management Interface for partners, and it will be expanded to all users in the next releases.
+* The resource allocation system has been upgraded to handle concurrent requests more efficiently.
+* We're working on enhancing the notification system to provide more stable status updates and urgent messages.
+
+
 2410
 ~~~~
 
