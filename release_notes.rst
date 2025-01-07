@@ -4,6 +4,19 @@ Release Notes
 2024 Release
 ------------
 
+2412
+~~~~
+
+**Date Released:** 2025-01-06
+
+
+* New configuration options have been added to support flexible currency settings and billing operations.
+* Advanced storage healing capabilities have been implemented to ensure data integrity and system reliability.
+* Implementation of location-specific features now includes new invoice templates and notification systems in multiple languages.
+* System performance has been boosted through message volume reduction and improved runtime task processing, particularly focusing on GPU functionality.
+* User experience has been enhanced with improved interface responsiveness and optimized client-side performance.
+
+
 2411
 ~~~~
 
