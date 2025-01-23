@@ -1,6 +1,21 @@
 Release Notes
 =============
 
+2025 Release
+------------
+
+2501
+~~~~
+
+**Date Released:** 2025-01-20
+
+
+* We enhanced the subscription management experience by improving the visibility of payment notifications and adding detailed tax breakdowns in the billing history.
+* We optimized the storage management system with improved drive allocation strategies and better handling of volume operations.
+* Our guest management system received significant updates with smarter startup processes and more efficient data migration handling.
+* Administrative functions have been fortified with additional configuration options and improved access control settings for the partners.
+
+
 2024 Release
 ------------
 
