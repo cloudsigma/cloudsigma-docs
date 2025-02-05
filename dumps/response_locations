@@ -220,7 +220,7 @@ Content-Type: application/json; charset=utf-8
             "default_frontend_url":"https://siaflex.cloud/ui/",
             "display_name":"Izmir, Turkey",
             "documentation_url":"https://docs.cloudsigma.com",
-            "id":"AB1",
+            "id":"ADB",
             "upload_url":"https://direct.siaflex.cloud/api/2.0/",
             "websocket_url":"wss://direct.siaflex.cloud/websocket"
         }

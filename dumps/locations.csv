@@ -10,7 +10,7 @@ Location,Location Code,API Endpoint
 "Saudi Arabia, Riyadh",RUH,https://ruh.cloudsigma.com/api/2.0/
 "Switzerland, Geneva",GVA,https://gva.cloudsigma.com/api/2.0/
 "Switzerland, Zurich",ZRH,https://zrh.cloudsigma.com/api/2.0/
-"Turkey, Izmir",AB1,https://siaflex.cloud/api/2.0/
+"Turkey, Izmir",ADB,https://siaflex.cloud/api/2.0/
 "UK, Cardiff",CWL,https://cwl.cloudsigma.com/api/2.0/
 "UK, London",LON,https://lon.cloudsigma.com/api/2.0/
 "United States, Honolulu",HNL,https://hnl.cloudsigma.com/api/2.0/
