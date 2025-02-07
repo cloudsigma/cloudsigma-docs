@@ -1,8 +1,20 @@
 Release Notes
 =============
 
-2025 Release
-------------
+2025 Releases
+-------------
+
+2502.1
+~~~~~~
+
+**Date Released:** 2025-02-06
+
+
+* The detailed reporting system has been enhanced with additional metrics and improved clarity.
+* We've enhanced your security protection across the platform, ensuring a safer environment for your operations.
+* Your feedback helped us refine permission handling with clearer messages and smoother validations.
+* Along with 15 additional platform enhancements, bug fixes, and system improvements to ensure a smoother and more reliable experience for your daily operations.
+
 
 2501
 ~~~~
@@ -16,8 +28,8 @@ Release Notes
 * Administrative functions have been fortified with additional configuration options and improved access control settings for the partners.
 
 
-2024 Release
-------------
+2024 Releases
+-------------
 
 2412
 ~~~~
@@ -159,8 +171,8 @@ Release Notes
 * And 30 other bugs and improvements.
 
 
-Chlorine Release
-----------------
+Chlorine Releases
+-----------------
 
 Chlorine-17.2312
 ~~~~~~~~~~~~~~~~
