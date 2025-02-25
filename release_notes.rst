@@ -4,6 +4,19 @@ Release Notes
 2025 Releases
 -------------
 
+2502.2
+~~~~~~
+
+**Date Released:** 2025-02-20
+
+
+* Enhanced security measures have been implemented to properly handle authentication states during logout processes across all integrated systems.
+* Fixed an issue where virtual machines could occasionally remain in maintenance status after migration attempts.
+* For our partners, we've added a convenient "mark all" button functionality in the management interface to streamline bulk operations.
+* Updated the resource monitoring system to provide better visibility into Free Tier usage and consumption metrics.
+* Additional improvements include 18 bug fixes and enhancements across platform components, focusing on system stability, security patches, and user interface refinements.
+
+
 2502.1
 ~~~~~~
 
