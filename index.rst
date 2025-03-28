@@ -11,6 +11,7 @@ Welcome to CloudSigma API documentation!
 
     release_notes
     general
+    impersonation
     locations
     pagination
     errors
