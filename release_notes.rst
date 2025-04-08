@@ -4,6 +4,17 @@ Release Notes
 2025 Releases
 -------------
 
+2502.3
+~~~~~~
+
+**Date Released:** 2025-04-01
+
+
+* Library drives received major upgrades to Architecture flag functionality in both the frontend and API, allowing for more precise control and improved system recognition.
+* Performance metrics show significant improvements thanks to streamlined resource allocation processes, reducing overhead and optimizing performance in high-demand environments.
+* Additionally, this release includes numerous stability enhancements, minor bug resolutions, and quality-of-life improvements throughout the platform ecosystem.
+
+
 2502.2
 ~~~~~~
 
