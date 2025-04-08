@@ -268,8 +268,11 @@ The following list are the allowed timezone values for the field user_timezone.
 .. literalinclude:: dumps/backupschedulers/backup_scheduler_timezones
      :language: javascript
 
+Field reference
 Examples of backup schedulers and retention policies
 ----------------------------------------------------
+You can check more detailed information about the scheduelrs fileds in our
+:doc:`field reference <backup_schedulers_field_reference>`.
 
 Configure a backup scheduler to create a remote snapshot every 45 minutes and
 only keep those remote snapshots that were taken in the past 2 days.
