@@ -1,0 +1,49 @@
+HTTP/1.1 202 ACCEPTED
+Content-Type: application/json; charset=utf-8
+{
+  "affinities": [],
+  "allow_multimount": false,
+  "grantees": [],
+  "jobs": [
+    {
+      "resource_uri": "/api/2.0/jobs/a763e340-012f-4112-977d-c00b23bb7131/",
+      "uuid": "a763e340-012f-4112-977d-c00b23bb7131"
+    }
+  ],
+  "licenses": [],
+  "media": "disk",
+  "meta": {
+    "description": ""
+  },
+  "mounted_on": [],
+  "name": "new backup edited",
+  "owner": {
+    "resource_uri": "/api/2.0/user/c6a3135e-d39a-487d-9ae8-c083ddefa6ff/",
+    "uuid": "c6a3135e-d39a-487d-9ae8-c083ddefa6ff"
+  },
+  "permissions": [],
+  "resource_uri": {
+    "resource_uri": "/api/2.0/drives/e9f460c8-a991-4412-8766-06e87044d5ef/",
+    "uuid": "e9f460c8-a991-4412-8766-06e87044d5ef"
+  },
+  "runtime": {
+    "is_snapshotable": null,
+    "snapshots_allocated_size": 0,
+    "storage_type": "dssd"
+  },
+  "size": 1073741824,
+  "snapshots": [],
+  "status": "cloning_dst",
+  "storage_type": "dssd",
+  "tags": [
+    {
+      "resource_uri": "/api/2.0/tags/7d592f20-6ef7-4e99-9ea5-a7e8a0bea7a2/",
+      "uuid": "7d592f20-6ef7-4e99-9ea5-a7e8a0bea7a2"
+    },
+    {
+      "resource_uri": "/api/2.0/tags/6b8422e7-907a-430a-986f-d1350543e053/",
+      "uuid": "6b8422e7-907a-430a-986f-d1350543e053"
+    }
+  ],
+  "uuid": "e9f460c8-a991-4412-8766-06e87044d5ef"
+}
