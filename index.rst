@@ -19,6 +19,7 @@ Welcome to CloudSigma API documentation!
     
     drives
     snapshots
+    backup_schedulers
     libdrives
     upload_download
     servers_vmware
