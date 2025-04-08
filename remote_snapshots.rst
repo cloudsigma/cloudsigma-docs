@@ -299,4 +299,3 @@ Schema
 
    .. literalinclude:: dumps/remote_snapshots/response_snapshot_schema
         :language: javascript
-
