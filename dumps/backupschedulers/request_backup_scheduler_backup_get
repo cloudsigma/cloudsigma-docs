@@ -1,0 +1,5 @@
+GET /api/2.0/backupschedulers/eb352f24-3a72-47a9-96cc-7b508ef52d8e/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+
