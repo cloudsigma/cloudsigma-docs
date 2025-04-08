@@ -269,40 +269,30 @@ The following list are the allowed timezone values for the field user_timezone.
      :language: javascript
 
 Field reference
-Examples of backup schedulers and retention policies
 ----------------------------------------------------
 You can check more detailed information about the scheduelrs fileds in our
 :doc:`field reference <backup_schedulers_field_reference>`.
 
-Configure a backup scheduler to create a remote snapshot every 45 minutes and
-only keep those remote snapshots that were taken in the past 2 days.
 
-   .. literalinclude:: dumps/backupschedulers/request_backup_scheduler_periodic_example_1
-          :language: javascript
+Examples of backup schedulers and retention policies
+----------------------------------------------------
 
-Configure a backup scheduler to create a remote snapshot every hour between
-20:00 hours to 23:00 hours and only keeps those that were taken in the past 7
-days.
+- :doc:`Backup Scheduler Every 45 Minutes <backup_schedulers_backup_scheduler_every_45_minutes>`
+- :doc:`Every 12 Hours. Keep Last 2 Days Policy <backup_schedulers_snapshot_every_12_hours_keep_last_2_days>`
+- :doc:`Backup Scheduler: Every Sunday at 23:00 <backup_schedulers_every_sunday_23_00>`
+- :doc:`Backup Scheduler: Every First of the Month at 23:59 <backup_schedulers_every_first_of_month_2359>`
+- :doc:`Backup Scheduler: Every Hour (20:00–23:00) <backup_schedulers_backup_scheduler_every_hour_20_00_23_00>`
+- :doc:`Snapshot Policy Defined Hours Backups. Keep 1 Month <backup_schedulers_snapshot_policy_defined_hours_backups_keep_1_month>`
+- :doc:`Weekdays 3AM Snapshot Policy <backup_schedulers_weekdays_3am_snapshot_policy>`
+- :doc:`Weekdays Workhours Backup Policy <backup_schedulers_weekdays_workhours_backup_policy>`
+- :doc:`Bi-monthly Backup Policy <backup_schedulers_bi_monthly_snapshot_policy>`
+- :doc:`1st of the Month Backup Policy <backup_schedulers_backup_policy_1st_of_month>`
+- :doc:`Son, Father, Grandfather (SFG) Retention Strategy <backup_schedulers_sfg_retention_strategy>`
 
-   .. literalinclude:: dumps/backupschedulers/request_backup_scheduler_periodic_example_2
-          :language: javascript
-
-Configure a weekly backup scheduler to create a remote snapshot every sunday
-at 23:00 hours and only keeps those that were taken in the past 4 weeks.
-
-   .. literalinclude:: dumps/backupschedulers/request_backup_scheduler_periodic_example_3
-          :language: javascript
-
-Configure a monthly backup scheduler to create a remote snapshot every first
-of month at 23:59 hours and only keeps those that were taken in the past 6
-months.
-
-   .. literalinclude:: dumps/backupschedulers/request_backup_scheduler_periodic_example_4
-          :language: javascript
 
 Schema
 ------
 
-   .. literalinclude:: dumps/backupschedulers/response_backupscheduler_schema
-        :language: javascript
+.. literalinclude:: dumps/backupschedulers/response_backupscheduler_schema
+    :language: javascript
 
