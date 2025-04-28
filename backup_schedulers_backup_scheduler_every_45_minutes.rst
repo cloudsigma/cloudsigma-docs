@@ -66,6 +66,8 @@ API Summary
       "is_enabled": true,
       "manual_incremental_backup": "",
       "name": "Every 45 minutes",
+      "enable_backup_policy_notifications": true,
+      "enable_retention_policy_notifications": false,
       "remote_location": "ZRH",
       "retention_policy": {
         "name": "Last 2 days",

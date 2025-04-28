@@ -39,6 +39,8 @@ API Summary
    {
      "type": "backup",
      "name": "1st of the month backup",
+     "enable_backup_policy_notifications": true,
+     "enable_retention_policy_notifications": false,
      "is_default": false,
      "is_enabled": true,
      "manual_incremental_backup": "",

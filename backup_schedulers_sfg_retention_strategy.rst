@@ -54,6 +54,8 @@ API Summary
   {
     "type": "snapshot",
     "name": "Son, Father, GrandFather Policy",
+    "enable_backup_policy_notifications": true,
+    "enable_retention_policy_notifications": false,
     "is_enabled": true,
     "is_default": false,
     "manual_incremental_backup": "",

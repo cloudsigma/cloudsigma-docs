@@ -47,6 +47,8 @@ API Summary
   {
     "type": "snapshot",
     "name": "Every 12 hours. Last 2 days",
+    "enable_backup_policy_notifications": true,
+    "enable_retention_policy_notifications": false,
     "is_default": false,
     "is_enabled": true,
     "manual_incremental_backup": "",

@@ -2,6 +2,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
+  "enable_backup_policy_notifications": true,
+  "enable_retention_policy_notifications": false,
   "grantees": [],
   "incremental_backup": {
     "day_of_month": "*",

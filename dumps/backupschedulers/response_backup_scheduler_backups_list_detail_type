@@ -9,6 +9,8 @@ Content-Type: application/json; charset=utf-8
   },
   "objects": [
     {
+      "enable_backup_policy_notifications": true,
+      "enable_retention_policy_notifications": false,
       "grantees": [],
       "incremental_backup": {
         "day_of_month": "*",
@@ -68,6 +70,8 @@ Content-Type: application/json; charset=utf-8
       "uuid": "2aa193d4-6e3f-4545-9de3-27d1cef90a3d"
     },
     {
+      "enable_backup_policy_notifications": true,
+      "enable_retention_policy_notifications": false,
       "grantees": [],
       "incremental_backup": {
         "day_of_month": "*",
@@ -147,6 +151,8 @@ Content-Type: application/json; charset=utf-8
       "uuid": "3079a014-1810-4fb6-8395-2a23cb1979e3"
     },
     {
+      "enable_backup_policy_notifications": true,
+      "enable_retention_policy_notifications": false,
       "grantees": [],
       "incremental_backup": {
         "day_of_month": "",
@@ -202,6 +208,8 @@ Content-Type: application/json; charset=utf-8
       "uuid": "7e39699c-f220-4ee2-b99b-6a678ab51f14"
     },
     {
+      "enable_backup_policy_notifications": true,
+      "enable_retention_policy_notifications": false,
       "grantees": [],
       "incremental_backup": {
         "day_of_month": "",
@@ -258,6 +266,8 @@ Content-Type: application/json; charset=utf-8
       "uuid": "ead05317-e67f-4603-9afe-4cb6aab52e52"
     },
     {
+      "enable_backup_policy_notifications": true,
+      "enable_retention_policy_notifications": false,
       "grantees": [],
       "incremental_backup": {
         "day_of_month": "*",

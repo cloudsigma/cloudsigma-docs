@@ -4,6 +4,8 @@ Content-Type: application/json; charset=utf-8
 {
   "objects": [
     {
+      "enable_backup_policy_notifications": true,
+      "enable_retention_policy_notifications": false,
       "grantees": [],
       "incremental_backup": {
         "day_of_month": "*",

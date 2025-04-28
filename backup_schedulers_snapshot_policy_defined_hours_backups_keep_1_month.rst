@@ -43,6 +43,8 @@ API Summary
   {
     "type": "snapshot",
     "name": "Defined hours backups",
+    "enable_backup_policy_notifications": true,
+    "enable_retention_policy_notifications": false,
     "is_enabled": true,
     "is_default": false,
     "manual_incremental_backup": "02:00,06:00,20:00,22:15",

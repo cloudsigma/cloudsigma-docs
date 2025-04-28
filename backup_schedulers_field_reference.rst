@@ -30,8 +30,13 @@ Required Fields
    * - is_default
      - boolean
      - This field sets the DR schedule operational period as Continous(is_default=True) or Restricted(is_default=False).
+   * - enable_backup_policy_notifications
+     - boolean
+     - When set to True, the backup scheduler will trigger backup-related notifications (such as scheduled actions and creation events) if the corresponding notification type is also enabled in the user preferences.
+   * - enable_retention_policy_notifications
+     - boolean
+     - When set to True, the backup scheduler will trigger retention-related  notifications (such as snapshot or backup deletions) if the corresponding  notification type is also enabled in the user preferences.
 
-       Set it false for schedules of type snapshot and backup.
    * - retention_policy
      - object
      - Rules to automatically delete old backups.

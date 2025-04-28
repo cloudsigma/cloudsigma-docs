@@ -53,6 +53,8 @@ API Summary
       "is_enabled": true,
       "manual_incremental_backup": "",
       "name": "Every sunday at 23:00",
+      "enable_backup_policy_notifications": true,
+      "enable_retention_policy_notifications": false,
       "retention_policy": {
         "name": "Last 4 weeks",
         "rules": [

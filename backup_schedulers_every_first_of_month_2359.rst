@@ -62,6 +62,8 @@ API Summary
      "is_enabled": true,
      "manual_incremental_backup": "",
      "name": "Every first of month at 23:59",
+     "enable_backup_policy_notifications": true,
+     "enable_retention_policy_notifications": false,
      "retention_policy": {
        "name": "Last 6 months",
        "rules": [

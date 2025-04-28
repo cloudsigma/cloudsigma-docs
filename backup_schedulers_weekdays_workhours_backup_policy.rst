@@ -51,6 +51,8 @@ API Summary
     {
       "type": "backup",
       "name": "Weekdays Workhours Backup Policy",
+     "enable_backup_policy_notifications": true,
+     "enable_retention_policy_notifications": false,
       "is_default": false,
       "is_enabled": true,
       "manual_incremental_backup": "",
