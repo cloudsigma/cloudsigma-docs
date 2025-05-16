@@ -42,6 +42,7 @@ Welcome to CloudSigma API documentation!
     accounts
     audit_logs
     profile
+    notification_contacts
     notification_preferences
     billing
     burst_usage
