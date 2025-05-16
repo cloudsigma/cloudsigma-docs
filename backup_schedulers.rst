@@ -294,6 +294,16 @@ Examples of backup schedulers and retention policies
     backup_schedulers_backup_policy_1st_of_month
     backup_schedulers_sfg_retention_strategy
 
+Notifications
+------
+
+When using the :doc:`backup schedulers <backup_schedulers>`, you can receive email notifications when certain actions occur—like when a :doc:`remote snapshot <remote_snapshots>` is created or deleted by the scheduler.
+
+.. toctree::
+    :maxdepth: 1
+
+    backup_schedulers_notifications
+
 Schema
 ------
 

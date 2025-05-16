@@ -1,5 +1,5 @@
-Notification Logic for Backup Schedulers (Public API Users)
-================================================================
+Notification for Backup Schedulers
+=========================================
 
 1. Introduction
 ---------------
