@@ -4,8 +4,20 @@ Release Notes
 2025 Releases
 -------------
 
-2502.3
-~~~~~~
+2504
+~~~~
+
+**Date Released:** 2025-05-08
+
+
+* Fixed authentication issues where users with two-factor authentication enabled experienced login problems when email addresses differed between linked accounts.
+* Implemented enhanced websocket services with production-ready configurations for improved real-time communication capabilities.
+* Optimized storage usage monitoring with accurate burst amount calculations for better resource management.
+* Additionally, we addressed various other minor bug fixes and performance improvements across the platform.
+
+
+2503
+~~~~
 
 **Date Released:** 2025-04-01
 
