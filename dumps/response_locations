@@ -93,16 +93,16 @@ Content-Type: application/json; charset=utf-8
             "websocket_url":"wss://direct.mnl2.cloudsigma.com/websocket"
         },
         {
-            "alternative_frontend_url":"https://ruh.cloudsigma.com/ui/",
-            "api_endpoint":"https://ruh.cloudsigma.com/api/2.0/",
+            "alternative_frontend_url":"https://ruh.cld.v2.sa/ui/",
+            "api_endpoint":"https://ruh.cld.v2.sa/api/2.0/",
             "country_code":"SA",
-            "default_frontend_signup_url":"https://ruh.cloudsigma.com/ui/",
-            "default_frontend_url":"https://ruh.cloudsigma.com/ui/",
+            "default_frontend_signup_url":"https://ruh.cld.v2.sa/ui/",
+            "default_frontend_url":"https://ruh.cld.v2.sa/ui/",
             "display_name":"Riyadh, Saudi Arabia",
             "documentation_url":"https://docs.cloudsigma.com",
             "id":"RUH",
-            "upload_url":"https://direct.ruh.cloudsigma.com/api/2.0/",
-            "websocket_url":"wss://direct.ruh.cloudsigma.com/websocket"
+            "upload_url":"https://direct.ruh.cld.v2.sa/api/2.0/",
+            "websocket_url":"wss://direct.ruh.cld.v2.sa/websocket"
         },
         {
             "alternative_frontend_url":"https://cloud.hydro66.com/ui/",

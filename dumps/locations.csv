@@ -7,7 +7,7 @@ Location,Location Code,API Endpoint
 "Philippines, Clark",CRK,https://crk.cloudsigma.com/api/2.0/
 "Philippines, Manila",MNL,https://mnl.cloudsigma.com/api/2.0/
 "Philippines, Manila-2",MNL2,https://mnl2.cloudsigma.com/api/2.0/
-"Saudi Arabia, Riyadh",RUH,https://ruh.cloudsigma.com/api/2.0/
+"Saudi Arabia, Riyadh",RUH,https://ruh.cld.v2.sa/api/2.0/
 "Switzerland, Geneva",GVA,https://gva.cloudsigma.com/api/2.0/
 "Switzerland, Zurich",ZRH,https://zrh.cloudsigma.com/api/2.0/
 "Turkey, Izmir",ADB,https://siaflex.cloud/api/2.0/
