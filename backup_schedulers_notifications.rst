@@ -28,7 +28,7 @@ When using the :doc:`backup schedulers <backup_schedulers>`, you can receive ema
 ----------------------------------
 
 - Notifications are delivered via **email**.
-- Notification preferences are **enabled by default** for all **new users** with account status ``REGULAR`` or ``INACTIVE``.
+- Notification preferences are **disabled by default** for all **new users** with account status ``REGULAR`` or ``INACTIVE``.
 
 .. warning::
 
@@ -55,7 +55,7 @@ When using the :doc:`backup schedulers <backup_schedulers>`, you can receive ema
 
 .. note::
 
-   ✅ Both fields are set to ``true`` by default when creating :doc:`backup schedulers <backup_schedulers>`.
+   ✅ Both fields are set to ``false`` by default when creating :doc:`backupschedulers <backup_schedulers>`.
 
 5. Example Behavior
 --------------------
