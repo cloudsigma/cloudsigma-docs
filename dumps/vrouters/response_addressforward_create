@@ -1,0 +1,22 @@
+HTTP/1.1 202 ACCEPTED
+Content-Type: application/json; charset=utf-8
+
+{
+    "objects": [
+        {
+            "jobs": [
+                {
+                    "resource_uri": "/api/2.0/jobs/95b1e217-8ee5-4d6c-97ed-f689d46acfe5/",
+                    "uuid": "95b1e217-8ee5-4d6c-97ed-f689d46acfe5"
+                }
+            ],
+            "local_ipv4_address": "10.0.1.22",
+            "nat": "38589c2f-035e-4616-9cca-1d93e71490d5",
+            "order": 2,
+            "resource_uri": "/api/2.0/addressforwards/0574385d-bf0d-40f7-afb1-d33423bee803/",
+            "upstream_ipv4_address": "91.92.71.149",
+            "upstream_to_local": false,
+            "uuid": "0574385d-bf0d-40f7-afb1-d33423bee803"
+        }
+    ]
+}

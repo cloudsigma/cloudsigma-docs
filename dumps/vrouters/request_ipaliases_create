@@ -1,0 +1,12 @@
+POST /api/2.0/ipaliases/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "objects": [
+        {
+            "interface": "9b183b90-84cf-46fb-b3d8-12d2e5383eae",
+            "ip_address": "10.0.22.1"
+        }
+    ]
+}

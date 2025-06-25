@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "dhcp_range_from": "10.0.0.100",
+    "dhcp_range_to": "10.0.0.200",
+    "dhcp_vlan_gateway": "10.0.1.1/24",
+    "iface": "vtnet1",
+    "internet_protocol": "ipv4",
+    "ip_aliases": [],
+    "ipv4_address_gateway": "10.0.1.1/24",
+    "ipv4_dhcp_enabled": false,
+    "ipv6_address_gateway": null,
+    "ipv6_router_advertirser_enabled": false,
+    "name": "WORM HOLE",
+    "order": 1,
+    "resource_uri": "/api/2.0/lans/e45a5677-b8eb-4107-9d6d-fc244be00e18/",
+    "uuid": "e45a5677-b8eb-4107-9d6d-fc244be00e18",
+    "virtual_router": "9b2a1649-46c3-42ee-83f2-6619d3a38b13",
+    "vlan": {
+        "resource_uri": "/api/2.0/vlans/68317648-0a2a-4fb4-b179-700fa4dc359d/",
+        "uuid": "68317648-0a2a-4fb4-b179-700fa4dc359d"
+    }
+}

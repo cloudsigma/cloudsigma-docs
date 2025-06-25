@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "active": false,
+    "filters": [],
+    "jobs": [
+        {
+            "resource_uri": "/api/2.0/jobs/0dd31f40-a6e3-4a76-a289-0850c15630ac/",
+            "uuid": "0dd31f40-a6e3-4a76-a289-0850c15630ac"
+        },
+        {
+            "resource_uri": "/api/2.0/jobs/4f4af216-5f72-4464-a157-f85d3c5c7dae/",
+            "uuid": "4f4af216-5f72-4464-a157-f85d3c5c7dae"
+        },
+        {
+            "resource_uri": "/api/2.0/jobs/139898e2-1385-4f7e-8e90-2d33f71708b7/",
+            "uuid": "139898e2-1385-4f7e-8e90-2d33f71708b7"
+        }
+    ],
+    "lan_interface": {
+        "resource_uri": "/api/2.0/lans/9b183b90-84cf-46fb-b3d8-12d2e5383eae/",
+        "uuid": "9b183b90-84cf-46fb-b3d8-12d2e5383eae"
+    },
+    "name": "Policy one",
+    "order": 1,
+    "resource_uri": "/api/2.0/vrfwpolicies/906abae3-b533-4c5d-8d98-c459195b6230/",
+    "upstream_interface": null,
+    "uuid": "906abae3-b533-4c5d-8d98-c459195b6230"
+}

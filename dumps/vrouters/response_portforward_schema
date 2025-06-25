@@ -1,0 +1,92 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get",
+        "post",
+        "delete"
+    ],
+    "allowed_list_http_methods": [
+        "get",
+        "post",
+        "delete"
+    ],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "forwarding_host": {
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": true,
+            "type": "string"
+        },
+        "forwarding_port": {
+            "default": null,
+            "help_text": "Integer data. Ex: 2673",
+            "readonly": false,
+            "required": true,
+            "type": "integer"
+        },
+        "jobs": {
+            "default": "No default provided.",
+            "help_text": "Background jobs related to this resource",
+            "readonly": true,
+            "required": true,
+            "type": "related"
+        },
+        "mapped_port": {
+            "default": null,
+            "help_text": "Integer data. Ex: 2673",
+            "readonly": false,
+            "required": true,
+            "type": "integer"
+        },
+        "nat": {
+            "default": null,
+            "help_text": "UUID of the NAT",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
+        "order": {
+            "default": 0,
+            "help_text": "Integer data. Ex: 2673",
+            "readonly": false,
+            "required": false,
+            "type": "integer"
+        },
+        "protocol": {
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": true,
+            "type": "string"
+        },
+        "resource_uri": {
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        },
+        "uuid": {
+            "default": null,
+            "help_text": "UUID of the NAT virtual router",
+            "readonly": true,
+            "required": false,
+            "type": "string"
+        }
+    },
+    "filtering": {
+        "name": "exact",
+        "name__contains": "exact",
+        "tag": "exact",
+        "uuid": "exact"
+    },
+    "ordering": [
+        "uuid",
+        "name"
+    ]
+}

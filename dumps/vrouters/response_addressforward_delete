@@ -1,0 +1,10 @@
+HTTP/1.1 202 ACCEPTED
+Content-Type: application/json; charset=utf-8
+
+{
+    "job": {
+        "resource_uri": "/api/2.0/jobs/9b5f51d2-7728-44cd-aa8f-3d5d54dbd858/",
+        "uuid": "9b5f51d2-7728-44cd-aa8f-3d5d54dbd858"
+    },
+    "uuid": "65d31c44-db93-4bac-9883-8e81c3cfc266"
+}

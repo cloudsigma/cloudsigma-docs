@@ -1,0 +1,64 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get",
+        "post",
+        "delete"
+    ],
+    "allowed_list_http_methods": [
+        "get",
+        "post",
+        "delete"
+    ],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "interface": {
+            "default": null,
+            "help_text": "UUID of the LAN interface",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
+        "ip_address": {
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": true,
+            "type": "string"
+        },
+        "jobs": {
+            "default": "No default provided.",
+            "help_text": "Background jobs related to this resource",
+            "readonly": true,
+            "required": true,
+            "type": "related"
+        },
+        "resource_uri": {
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        },
+        "uuid": {
+            "default": null,
+            "help_text": "UUID of the IP Alias",
+            "readonly": true,
+            "required": false,
+            "type": "string"
+        }
+    },
+    "filtering": {
+        "name": "exact",
+        "name__contains": "exact",
+        "tag": "exact",
+        "uuid": "exact"
+    },
+    "ordering": [
+        "uuid",
+        "name"
+    ]
+}

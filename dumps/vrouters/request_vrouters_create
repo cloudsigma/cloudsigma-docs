@@ -1,0 +1,67 @@
+POST /api/2.0/virtualrouters/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "objects": [
+        {
+            "configuration": {
+                "firewall": {
+                    "active": false,
+                    "policies": []
+                },
+                "lan_interface": [
+                    {
+                        "default_gateway": "",
+                        "dhcp": false,
+                        "ip_address": "10.0.1.1/24",
+                        "ip_address_v6": "",
+                        "ip_aliases": [],
+                        "ip_range": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "ipv4_enabled": true,
+                        "ipv4_ipv6_enabled": false,
+                        "ipv6_enabled": false,
+                        "ipv6_exposed": false,
+                        "name": "LAN 1",
+                        "router_advertiser": false,
+                        "vlan": "68317648-0a2a-4fb4-b179-700fa4dc359d"
+                    }
+                ],
+                "name": "Primary Proxima Centauri b",
+                "nat": {
+                    "active": false,
+                    "address_forwarding": [],
+                    "address_forwarding_active": false,
+                    "port_forwarding": []
+                },
+                "routes": [],
+                "upstream": {
+                    "ip_config": {
+                        "default_gateway": "",
+                        "dhcp_client": true,
+                        "ip_address": "",
+                        "ip_address_v6": "",
+                        "ipv6_automatic": true,
+                        "router_ipv6_default_gateway": "",
+                        "upstream_lines": "",
+                        "vlan": ""
+                    },
+                    "vpn": {
+                        "active": false,
+                        "password": "f9M0fEscA1ae52r4",
+                        "username": "dione",
+                        "vpn_type": "pptp"
+                    },
+                    "wan_type": "internet"
+                },
+                "vpn": {
+                    "active": false,
+                    "tunnels": []
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+POST /api/2.0/lans/9b183b90-84cf-46fb-b3d8-12d2e5383eae/action/?do=configure_dhcp HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "dhcp_range_from": "10.0.0.100",
+    "dhcp_range_to": "10.0.0.200",
+    "dhcp_vlan_gateway": "10.0.1.1/24",
+    "ipv4_dhcp_enabled": false
+}

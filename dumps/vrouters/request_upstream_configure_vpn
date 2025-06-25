@@ -1,0 +1,10 @@
+POST /api/2.0/upstream/c0f07d61-1fd0-40a2-a808-593f5e03685e/action/?do=configure_vpn HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "password": "f9M0fEscA1ae52r4",
+    "username": "dione",
+    "vpn_access": false,
+    "vpn_type": "pptp"
+}

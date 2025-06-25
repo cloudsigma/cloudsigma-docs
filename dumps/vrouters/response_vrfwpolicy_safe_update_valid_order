@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "active": false,
+    "filters": [
+        "<turlo.infrastructure.vrouter_firewall_filter.VirtualRouterFirewallFilterDefinition object at 0x7f3288baf0d0>",
+        "<turlo.infrastructure.vrouter_firewall_filter.VirtualRouterFirewallFilterDefinition object at 0x7f3288ae6790>"
+    ],
+    "jobs": [
+        {
+            "resource_uri": "/api/2.0/jobs/16cb9377-84fc-4953-921e-45d2e141e214/",
+            "uuid": "16cb9377-84fc-4953-921e-45d2e141e214"
+        },
+        {
+            "resource_uri": "/api/2.0/jobs/675e40e6-be23-43b7-8f19-397a20927fad/",
+            "uuid": "675e40e6-be23-43b7-8f19-397a20927fad"
+        },
+        {
+            "resource_uri": "/api/2.0/jobs/d4a0d272-bf5d-49b3-bbcb-dac8db219888/",
+            "uuid": "d4a0d272-bf5d-49b3-bbcb-dac8db219888"
+        }
+    ],
+    "lan_interface": {
+        "resource_uri": "/api/2.0/lans/e45a5677-b8eb-4107-9d6d-fc244be00e18/",
+        "uuid": "e45a5677-b8eb-4107-9d6d-fc244be00e18"
+    },
+    "name": "WEB POLICY",
+    "order": 1,
+    "resource_uri": "/api/2.0/vrfwpolicies/fef70b62-cc45-476c-9392-8208c9d37c81/",
+    "upstream_interface": null,
+    "uuid": "fef70b62-cc45-476c-9392-8208c9d37c81"
+}

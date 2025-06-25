@@ -1,0 +1,43 @@
+HTTP/1.1 202 ACCEPTED
+Content-Type: application/json; charset=utf-8
+
+{
+    "meta": {
+        "limit": 200,
+        "log_name": "system",
+        "offset": 0,
+        "total_count": 6
+    },
+    "objects": [
+        {
+            "datetime": "Jun 26 22:21:18",
+            "index": 1,
+            "message": "elwix kernel: random: unblocking device."
+        },
+        {
+            "datetime": "Jun 26 22:21:18",
+            "index": 2,
+            "message": "elwix kernel: lo0: link state changed to UP"
+        },
+        {
+            "datetime": "Jun 26 22:21:18",
+            "index": 3,
+            "message": "elwix kernel: net0: link state changed to UP"
+        },
+        {
+            "datetime": "Jun 26 22:21:18",
+            "index": 4,
+            "message": "elwix kernel: mgmt: changing name to 'mgmt'"
+        },
+        {
+            "datetime": "Jun 26 22:23:19",
+            "index": 5,
+            "message": "13292e1f-0c3e-458d-a6d0-ed2ee2baa0b2 MgmtCmd[170]: Change hostname to 13292e1f-0c3e-458d-a6d0-ed2ee2baa0b2 is done."
+        },
+        {
+            "datetime": "Jun 26 22:23:38",
+            "index": 6,
+            "message": "13292e1f-0c3e-458d-a6d0-ed2ee2baa0b2 kernel: net1: link state changed to UP"
+        }
+    ]
+}

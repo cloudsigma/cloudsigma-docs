@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "jobs": [
+        {
+            "resource_uri": "/api/2.0/jobs/200ac680-6560-421d-893b-cd49003fa80e/",
+            "uuid": "200ac680-6560-421d-893b-cd49003fa80e"
+        }
+    ],
+    "local_ipv4_address": "10.0.1.22",
+    "nat": "38589c2f-035e-4616-9cca-1d93e71490d5",
+    "order": 1,
+    "resource_uri": "/api/2.0/addressforwards/65d31c44-db93-4bac-9883-8e81c3cfc266/",
+    "upstream_ipv4_address": "91.92.71.149",
+    "upstream_to_local": false,
+    "uuid": "65d31c44-db93-4bac-9883-8e81c3cfc266"
+}
