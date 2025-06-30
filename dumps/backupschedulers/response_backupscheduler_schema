@@ -1,0 +1,300 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+  "allowed_detail_http_methods": [
+    "get",
+    "put",
+    "delete"
+  ],
+  "allowed_list_http_methods": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "default_format": "application/json",
+  "default_limit": 20,
+  "fields": {
+    "enable_backup_policy_notifications": {
+      "default": true,
+      "help_text": "Enable notifications for actions triggered by the backup policy",
+      "readonly": false,
+      "required": false,
+      "type": "boolean"
+    },
+    "enable_retention_policy_notifications": {
+      "default": true,
+      "help_text": "Enable notifications for actions triggered by the retention policy",
+      "readonly": false,
+      "required": false,
+      "type": "boolean"
+    },
+    "grantees": {
+      "default": "No default provided.",
+      "help_text": "A list of data. Ex: ['abc', 26.73, 8]",
+      "readonly": false,
+      "required": false,
+      "type": "list"
+    },
+    "incremental_backup": {
+      "default": "No default provided.",
+      "fields": {
+        "day_of_month": {
+          "blank": false,
+          "default": "No default provided.",
+          "help_text": "Set day of the month rule to the scheduler.Accepts values between 1 and 31.",
+          "nullable": false,
+          "readonly": false,
+          "type": "string",
+          "unique": false
+        },
+        "day_of_week": {
+          "blank": false,
+          "default": "No default provided.",
+          "help_text": "Set day of the week rule to the scheduler.Accepts values mon, tue, wed, thu, fri, sat, sun.",
+          "nullable": false,
+          "readonly": false,
+          "type": "string",
+          "unique": false
+        },
+        "end_time": {
+          "blank": false,
+          "default": "No default provided.",
+          "help_text": "Set the end time hour.rule",
+          "nullable": false,
+          "readonly": false,
+          "type": "string",
+          "unique": false
+        },
+        "hour": {
+          "blank": false,
+          "default": "No default provided.",
+          "help_text": "Set hour rule to the scheduler.Accepts values between 0 and 23.",
+          "nullable": false,
+          "readonly": false,
+          "type": "string",
+          "unique": false
+        },
+        "minute": {
+          "blank": false,
+          "default": "No default provided.",
+          "help_text": "Set minute rule to the scheduler.Accepts values between 0 and 59.",
+          "nullable": false,
+          "readonly": false,
+          "type": "string",
+          "unique": false
+        },
+        "month": {
+          "blank": false,
+          "default": "No default provided.",
+          "help_text": "Set month rule to the scheduler.Accepts values between 1 and 12, 1=January, 12=December",
+          "nullable": false,
+          "readonly": false,
+          "type": "string",
+          "unique": false
+        },
+        "repeat": {
+          "blank": true,
+          "default": "No default provided.",
+          "help_text": "Repeat fields",
+          "nullable": true,
+          "readonly": false,
+          "type": "related",
+          "unique": false
+        },
+        "start_time": {
+          "blank": false,
+          "default": "No default provided.",
+          "help_text": "Set the start time hour.rule",
+          "nullable": false,
+          "readonly": false,
+          "type": "string",
+          "unique": false
+        }
+      },
+      "help_text": "Incremental backup policies of the backup scheduler",
+      "readonly": false,
+      "required": true,
+      "type": "related"
+    },
+    "initial_backup": {
+      "default": "No default provided.",
+      "fields": {
+        "day_of_week": {
+          "blank": false,
+          "default": "No default provided.",
+          "help_text": "Set day of the week rule to the scheduler.Accepts values mon, tue, wed, thu, fri, sat, sun.",
+          "nullable": false,
+          "readonly": false,
+          "type": "string",
+          "unique": false
+        },
+        "end_time": {
+          "blank": false,
+          "default": "No default provided.",
+          "help_text": "Set the end time hour.rule",
+          "nullable": false,
+          "readonly": false,
+          "type": "string",
+          "unique": false
+        },
+        "start_time": {
+          "blank": false,
+          "default": "No default provided.",
+          "help_text": "Set the start time hour.rule",
+          "nullable": false,
+          "readonly": false,
+          "type": "string",
+          "unique": false
+        }
+      },
+      "help_text": "Initial backup policies of the backup scheduler",
+      "readonly": false,
+      "required": false,
+      "type": "related"
+    },
+    "is_default": {
+      "default": null,
+      "help_text": "Set as default the backup scheduler",
+      "readonly": false,
+      "required": true,
+      "type": "boolean"
+    },
+    "is_enabled": {
+      "default": null,
+      "help_text": "Enabled or disabled the backup scheduler",
+      "readonly": false,
+      "required": true,
+      "type": "boolean"
+    },
+    "manual_incremental_backup": {
+      "default": null,
+      "help_text": "Set manual incremental time to create backups",
+      "readonly": false,
+      "required": true,
+      "type": "string"
+    },
+    "meta": {
+      "default": {
+
+      },
+      "help_text": "User assigned meta information for this policy",
+      "readonly": false,
+      "required": false,
+      "type": "dict"
+    },
+    "name": {
+      "default": null,
+      "help_text": "Optional human readable name of the backup scheduler",
+      "readonly": false,
+      "required": true,
+      "type": "string"
+    },
+    "orchestrator_timezone": {
+      "default": null,
+      "help_text": "Unicode string data. Ex: \"Hello World\"",
+      "readonly": false,
+      "required": false,
+      "type": "string"
+    },
+    "owner": {
+      "default": null,
+      "help_text": "Owner of the backup scheduler",
+      "readonly": true,
+      "required": true,
+      "type": "related"
+    },
+    "permissions": {
+      "default": "No default provided.",
+      "help_text": "A list of data. Ex: ['abc', 26.73, 8]",
+      "readonly": false,
+      "required": false,
+      "type": "list"
+    },
+    "remote_location": {
+      "default": null,
+      "help_text": "Remote location code",
+      "readonly": false,
+      "required": false,
+      "type": "string"
+    },
+    "resource_uri": {
+      "default": "No default provided.",
+      "help_text": "Unicode string data. Ex: \"Hello World\"",
+      "readonly": true,
+      "required": true,
+      "type": "string"
+    },
+    "retention_policy": {
+      "default": "No default provided.",
+      "fields": {
+        "name": {
+          "blank": false,
+          "default": "No default provided.",
+          "help_text": "Optional human readable name of the retention poicy",
+          "nullable": false,
+          "readonly": false,
+          "type": "string",
+          "unique": false
+        },
+        "rules": {
+          "blank": false,
+          "default": "No default provided.",
+          "help_text": "Retention policy rules",
+          "nullable": false,
+          "readonly": false,
+          "type": "list",
+          "unique": false
+        }
+      },
+      "help_text": "Retention policies of the backup scheduler",
+      "readonly": false,
+      "required": false,
+      "type": "related"
+    },
+    "tags": {
+      "default": "No default provided.",
+      "help_text": "Many related resources. Can be either a list of URIs or list of individually nested resource data.",
+      "readonly": false,
+      "required": false,
+      "type": "related"
+    },
+    "type": {
+      "choices": [
+        "migration",
+        "backup",
+        "dr",
+        "snapshot"
+      ],
+      "default": null,
+      "help_text": "Policy type",
+      "readonly": false,
+      "required": true,
+      "type": "string"
+    },
+    "user_timezone": {
+      "default": null,
+      "help_text": "Unicode string data. Ex: \"Hello World\"",
+      "readonly": false,
+      "required": false,
+      "type": "string"
+    },
+    "uuid": {
+      "default": null,
+      "help_text": "UUID of the backup scheduler",
+      "readonly": true,
+      "required": true,
+      "type": "string"
+    }
+  },
+  "filtering": {
+    "name": "exact",
+    "name__contains": "exact",
+    "tag": "exact",
+    "uuid": "exact"
+  },
+  "ordering": [
+    "uuid",
+    "name"
+  ]
+}
