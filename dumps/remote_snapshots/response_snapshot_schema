@@ -1,0 +1,110 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get",
+        "put",
+        "delete"
+    ],
+    "allowed_list_http_methods": [
+        "get",
+        "put",
+        "delete",
+        "post"
+    ],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "allocated_size": {
+            "default": "No default provided.",
+            "help_text": "Physical size of the snapshot",
+            "readonly": true,
+            "required": true,
+            "type": "integer"
+        },
+        "drive": {
+            "default": null,
+            "help_text": "Drive UUID",
+            "readonly": false,
+            "required": true,
+            "type": "related"
+        },
+        "grantees": {
+            "default": "No default provided.",
+            "help_text": "A list of data. Ex: ['abc', 26.73, 8]",
+            "readonly": false,
+            "required": false,
+            "type": "list"
+        },
+        "meta": {
+            "default": {},
+            "help_text": "User defined meta information",
+            "readonly": false,
+            "required": false,
+            "type": "dict"
+        },
+        "name": {
+            "default": null,
+            "help_text": "Optional human readable name of the snapshot",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
+        "owner": {
+            "default": null,
+            "help_text": "Owner of the snapshot",
+            "readonly": true,
+            "required": false,
+            "type": "related"
+        },
+        "permissions": {
+            "default": "No default provided.",
+            "help_text": "A list of data. Ex: ['abc', 26.73, 8]",
+            "readonly": false,
+            "required": false,
+            "type": "list"
+        },
+        "resource_uri": {
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        },
+        "status": {
+            "default": "No default provided.",
+            "help_text": "Status of the snapshot.",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        },
+        "tags": {
+            "default": "No default provided.",
+            "help_text": "Many related resources. Can be either a list of URIs or list of individually nested resource data.",
+            "readonly": false,
+            "required": false,
+            "type": "related"
+        },
+        "timestamp": {
+            "default": null,
+            "help_text": "Timestamp of the snapshot creation",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        },
+        "uuid": {
+            "default": null,
+            "help_text": "UUID of the snapshot",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        }
+    },
+    "filtering": {
+        "name": "exact",
+        "name__contains": "exact",
+        "tag": "exact",
+        "uuid": "exact"
+    }
+}
