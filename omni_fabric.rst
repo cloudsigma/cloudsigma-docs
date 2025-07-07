@@ -1,5 +1,5 @@
-OmniFabric Overview
-===================
+OmniFabric
+==========
 
 What's OmniFabric?
 ------------------
@@ -79,15 +79,10 @@ The entire process is optimized to:
 
 ----
 
-.. important::
+.. container:: documentation-cta
+
    📚 **Ready to explore more?**
 
-   For the complete OmniFabric documentation and technical details:
+   Dive deeper into OmniFabric's complete documentation and technical details:
 
-   .. raw:: html
-
-      <a href="https://docs.cloudsigma.com/projects/omnifabric/en/latest/"
-         style="display: inline-block; padding: 12px 24px; background-color: #007acc; color: white;
-                text-decoration: none; border-radius: 5px; font-weight: bold; margin: 10px 0;">
-         🔗 Visit OmniFabric Documentation
-      </a>
+   `🔗 Visit OmniFabric Documentation <https://docs.cloudsigma.com/projects/omnifabric/en/latest/>`_
