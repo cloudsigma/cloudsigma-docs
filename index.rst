@@ -21,6 +21,7 @@ Welcome to CloudSigma API documentation!
     snapshots
     backup_schedulers
     remote_snapshots
+    omni_fabric
     libdrives
     upload_download
     servers_vmware
