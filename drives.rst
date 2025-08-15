@@ -350,6 +350,13 @@ Currently the following storage types are available:
     for flash and next-generation solid-state drives (SSDs) that delivers the highest throughput and fastest response times
     yet for all types of enterprise workloads.
 
+``local_nvme``
+    The UI name for ``local_nvme`` is "Ephemeral NVMe". This storage type uses ultra-fast NVMe drives that are
+    physically attached to the compute host. Because the storage is local and not network-attached,
+    it offers low latency and high throughput, making it ideal for workloads that require maximum performance.
+    However, the storage is ephemeral—data is lost if the guest is stopped. It is best suited for temporary data,
+    caches rather than persistent storage.
+
     .. versionadded:: Chlorine
 
 
