@@ -2,218 +2,260 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-    "allowed_detail_http_methods": [
-        "get",
-        "put",
-        "delete"
-    ],
-    "allowed_list_http_methods": [
-        "get",
-        "put",
-        "delete",
-        "post"
-    ],
-    "default_format": "application/json",
-    "default_limit": 20,
-    "fields": {
-        "affinities": {
-            "choices": [
-                "ssd"
-            ],
-            "default": [],
-            "help_text": "A list of affinities this drive should belong to",
-            "readonly": false,
-            "required": false,
-            "type": "list"
+  "allowed_detail_http_methods": [
+    "get",
+    "put",
+    "delete"
+  ],
+  "allowed_list_http_methods": [
+    "get",
+    "put",
+    "delete",
+    "post"
+  ],
+  "default_format": "application/json",
+  "default_limit": 20,
+  "fields": {
+    "affinities": {
+      "choices": [
+        "ssd"
+      ],
+      "default": [],
+      "help_text": "A list of affinities this drive should belong to",
+      "readonly": false,
+      "required": false,
+      "type": "list"
+    },
+    "allow_multimount": {
+      "default": false,
+      "help_text": "Allow the drive to be mounted on multiple guests. Not taken into account when drive is cdrom.",
+      "readonly": false,
+      "required": false,
+      "type": "boolean"
+    },
+    "backup_scheduler": {
+      "default": "No default provided.",
+      "help_text": "Drive's Backup scheduler",
+      "readonly": true,
+      "required": false,
+      "type": "related"
+    },
+    "grantees": {
+      "default": "No default provided.",
+      "help_text": "A list of data. Ex: ['abc', 26.73, 8]",
+      "readonly": false,
+      "required": false,
+      "type": "list"
+    },
+    "iops": {
+      "default": null,
+      "help_text": "IOPS limit per drive",
+      "readonly": false,
+      "required": false,
+      "type": "integer"
+    },
+    "jobs": {
+      "default": "No default provided.",
+      "help_text": "Background jobs related to this resource",
+      "readonly": true,
+      "required": true,
+      "type": "related"
+    },
+    "licenses": {
+      "default": [],
+      "fields": {
+        "amount": {
+          "default": 1,
+          "help_text": "Number of licenses",
+          "readonly": false,
+          "required": false,
+          "type": "integer"
         },
-        "allow_multimount": {
-            "default": false,
-            "help_text": "Allow the drive to be mounted on multiple guests. Not taken into account when drive is cdrom.",
-            "readonly": false,
-            "required": false,
-            "type": "boolean"
+        "license": {
+          "default": "No default provided.",
+          "help_text": "A single related resource. Can be either a URI or set of nested resource data.",
+          "readonly": false,
+          "required": true,
+          "type": "related"
         },
-        "grantees": {
-            "default": "No default provided.",
-            "help_text": "A list of data. Ex: ['abc', 26.73, 8]",
-            "readonly": false,
-            "required": false,
-            "type": "list"
+        "user": {
+          "default": null,
+          "help_text": "Owner of the license",
+          "readonly": false,
+          "required": false,
+          "type": "related"
+        }
+      },
+      "help_text": "A list of licenses attached to this drive",
+      "readonly": false,
+      "required": false,
+      "type": "related"
+    },
+    "media": {
+      "choices": [
+        "cdrom",
+        "disk"
+      ],
+      "default": null,
+      "help_text": "Media representation type",
+      "readonly": false,
+      "required": true,
+      "type": "string"
+    },
+    "meta": {
+      "default": {
+
+      },
+      "help_text": "User defined meta information",
+      "readonly": false,
+      "required": false,
+      "type": "dict"
+    },
+    "mounted_on": {
+      "default": "No default provided.",
+      "help_text": "Servers on which this drive is mounted on",
+      "readonly": true,
+      "required": false,
+      "type": "related"
+    },
+    "name": {
+      "default": null,
+      "help_text": "Human readable name of the drive",
+      "readonly": false,
+      "required": true,
+      "type": "string"
+    },
+    "owner": {
+      "default": null,
+      "help_text": "Owner of the drive",
+      "readonly": true,
+      "required": false,
+      "type": "related"
+    },
+    "permissions": {
+      "default": "No default provided.",
+      "help_text": "A list of data. Ex: ['abc', 26.73, 8]",
+      "readonly": false,
+      "required": false,
+      "type": "list"
+    },
+    "remote_snapshots": {
+      "default": "No default provided.",
+      "help_text": "Drive's Remote snapshots",
+      "readonly": true,
+      "required": false,
+      "type": "related"
+    },
+    "resource_uri": {
+      "default": "No default provided.",
+      "help_text": "Unicode string data. Ex: \"Hello World\"",
+      "readonly": true,
+      "required": true,
+      "type": "string"
+    },
+    "runtime": {
+      "default": "No default provided.",
+      "fields": {
+        "is_downloadable": {
+          "default": "No default provided.",
+          "help_text": "Specifies if the drive supports downloads",
+          "readonly": true,
+          "required": true,
+          "type": "boolean"
         },
-        "jobs": {
-            "default": "No default provided.",
-            "help_text": "Background jobs related to this resource",
-            "readonly": true,
-            "required": true,
-            "type": "related"
+        "is_ephemeral": {
+          "default": "No default provided.",
+          "help_text": "Specifies if the drive is ephemeral",
+          "readonly": true,
+          "required": true,
+          "type": "boolean"
         },
-        "licenses": {
-            "default": [],
-            "fields": {
-                "amount": {
-                    "default": 1,
-                    "help_text": "Number of licenses",
-                    "readonly": false,
-                    "required": false,
-                    "type": "integer"
-                },
-                "license": {
-                    "default": "No default provided.",
-                    "help_text": "A single related resource. Can be either a URI or set of nested resource data.",
-                    "readonly": false,
-                    "required": true,
-                    "type": "related"
-                },
-                "user": {
-                    "default": null,
-                    "help_text": "Owner of the license",
-                    "readonly": false,
-                    "required": false,
-                    "type": "related"
-                }
-            },
-            "help_text": "A list of licenses attached to this drive",
-            "readonly": false,
-            "required": false,
-            "type": "related"
+        "is_snapshotable": {
+          "default": "No default provided.",
+          "help_text": "Specifies if the drive supports snapshotting",
+          "readonly": true,
+          "required": true,
+          "type": "boolean"
         },
-        "media": {
-            "choices": [
-                "cdrom",
-                "disk"
-            ],
-            "default": null,
-            "help_text": "Media representation type",
-            "readonly": false,
-            "required": true,
-            "type": "string"
-        },
-        "meta": {
-            "default": {},
-            "help_text": "User defined meta information",
-            "readonly": false,
-            "required": false,
-            "type": "dict"
-        },
-        "mounted_on": {
-            "default": "No default provided.",
-            "help_text": "Servers on which this drive is mounted on",
-            "readonly": true,
-            "required": false,
-            "type": "related"
-        },
-        "name": {
-            "default": null,
-            "help_text": "Human readable name of the drive",
-            "readonly": false,
-            "required": true,
-            "type": "string"
-        },
-        "owner": {
-            "default": null,
-            "help_text": "Owner of the drive",
-            "readonly": true,
-            "required": false,
-            "type": "related"
-        },
-        "permissions": {
-            "default": "No default provided.",
-            "help_text": "A list of data. Ex: ['abc', 26.73, 8]",
-            "readonly": false,
-            "required": false,
-            "type": "list"
-        },
-        "resource_uri": {
-            "default": "No default provided.",
-            "help_text": "Unicode string data. Ex: \"Hello World\"",
-            "readonly": true,
-            "required": true,
-            "type": "string"
-        },
-        "runtime": {
-            "default": "No default provided.",
-            "fields": {
-                "is_snapshotable": {
-                    "default": "No default provided.",
-                    "help_text": "Specifies if the drive supports snapshotting",
-                    "readonly": true,
-                    "required": true,
-                    "type": "boolean"
-                },
-                "snapshots_allocated_size": {
-                    "default": "No default provided.",
-                    "help_text": "Sum of the allocated size of this drive's snapshots",
-                    "readonly": true,
-                    "required": false,
-                    "type": "integer"
-                },
-                "storage_type": {
-                    "default": "No default provided.",
-                    "help_text": "Underlying storage",
-                    "readonly": true,
-                    "required": true,
-                    "type": "string"
-                }
-            },
-            "help_text": "Runtime information of the drive",
-            "readonly": true,
-            "required": false,
-            "type": "related"
-        },
-        "size": {
-            "default": null,
-            "help_text": "Size of the drive in bytes",
-            "readonly": false,
-            "required": true,
-            "type": "integer"
-        },
-        "snapshots": {
-            "default": "No default provided.",
-            "help_text": "Servers on which this drive is mounted on",
-            "readonly": true,
-            "required": false,
-            "type": "related"
-        },
-        "status": {
-            "default": "No default provided.",
-            "help_text": "Status of the drive.",
-            "readonly": true,
-            "required": true,
-            "type": "string"
+        "snapshots_allocated_size": {
+          "default": "No default provided.",
+          "help_text": "Sum of the allocated size of this drive's snapshots",
+          "readonly": true,
+          "required": true,
+          "type": "integer"
         },
         "storage_type": {
-            "choices": [
-                "magnetic",
-                "ssd",
-                "dssd",
-                "zadara",
-                "solidfire"
-            ],
-            "default": null,
-            "help_text": "Underlying storage",
-            "readonly": false,
-            "required": false,
-            "type": "string"
-        },
-        "tags": {
-            "default": "No default provided.",
-            "help_text": "Many related resources. Can be either a list of URIs or list of individually nested resource data.",
-            "readonly": false,
-            "required": false,
-            "type": "related"
-        },
-        "uuid": {
-            "default": null,
-            "help_text": "UUID of the drive",
-            "readonly": true,
-            "required": true,
-            "type": "string"
+          "default": "No default provided.",
+          "help_text": "Underlying storage",
+          "readonly": true,
+          "required": true,
+          "type": "string"
         }
+      },
+      "help_text": "Runtime information of the drive",
+      "readonly": true,
+      "required": false,
+      "type": "related"
     },
-    "filtering": {
-        "name": "exact",
-        "name__contains": "exact",
-        "tag": "exact",
-        "uuid": "exact"
+    "size": {
+      "default": null,
+      "help_text": "Size of the drive in bytes",
+      "readonly": false,
+      "required": true,
+      "type": "integer"
+    },
+    "snapshots": {
+      "default": "No default provided.",
+      "help_text": "Servers on which this drive is mounted on",
+      "readonly": true,
+      "required": false,
+      "type": "related"
+    },
+    "status": {
+      "default": "No default provided.",
+      "help_text": "Status of the drive.",
+      "readonly": true,
+      "required": true,
+      "type": "string"
+    },
+    "storage_type": {
+      "choices": [
+        "magnetic",
+        "ssd",
+        "dssd",
+        "zadara",
+        "nvme",
+        "local_nvme"
+      ],
+      "default": null,
+      "help_text": "Underlying storage",
+      "readonly": false,
+      "required": false,
+      "type": "string"
+    },
+    "tags": {
+      "default": "No default provided.",
+      "help_text": "Many related resources. Can be either a list of URIs or list of individually nested resource data.",
+      "readonly": false,
+      "required": false,
+      "type": "related"
+    },
+    "uuid": {
+      "default": null,
+      "help_text": "UUID of the drive",
+      "readonly": true,
+      "required": true,
+      "type": "string"
     }
+  },
+  "filtering": {
+    "name": "exact",
+    "name__contains": "exact",
+    "tag": "exact",
+    "uuid": "exact"
+  },
+  "ordering": [
+    "uuid",
+    "name"
+  ]
 }

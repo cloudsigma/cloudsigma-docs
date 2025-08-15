@@ -20,7 +20,9 @@ Content-Type: application/json; charset=utf-8
             "permissions": [],
             "resource_uri": "/api/2.0/drives/df170528-c34d-4009-a806-c7d85c78cad8/",
             "runtime": {
+                "is_downloadable": true,
                 "is_snapshotable": true,
+                "is_ephemeral": false,
                 "snapshots_allocated_size": 0,
                 "storage_type": "dssd"
             },
