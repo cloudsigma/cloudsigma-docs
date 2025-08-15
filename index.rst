@@ -18,6 +18,7 @@ Welcome to CloudSigma API documentation!
     clone_naming
 
     drives
+    ephemeral_drives
     snapshots
     backup_schedulers
     remote_snapshots
