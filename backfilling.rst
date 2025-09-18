@@ -206,9 +206,6 @@ Starts a server with a specific UUID.
 .. literalinclude:: dumps/response_bserver_start
     :language: javascript
 
-.. warning::
-    Servers have some default network restrictions, applied depending on your user state. Please refer to
-    the :ref:`default restrictions <firewall_restrictions>` section the Firewall policies documentation
 
 Stop
 ~~~~

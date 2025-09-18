@@ -351,13 +351,6 @@ Content-Type: application/json; charset=utf-8
                     "required": false,
                     "type": "integer"
                 },
-                "firewall_policy": {
-                    "default": null,
-                    "help_text": "Firewall policy",
-                    "readonly": false,
-                    "required": false,
-                    "type": "related"
-                },
                 "ip_v4_conf": {
                     "default": null,
                     "fields": {

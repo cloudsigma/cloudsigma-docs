@@ -20,7 +20,6 @@ Content-Type: application/json; charset=utf-8
     "nics": [
         {
             "boot_order": null,
-            "firewall_policy": null,
             "ip_v4_conf": null,
             "ip_v6_conf": null,
             "mac": "22:39:8a:48:33:36",
