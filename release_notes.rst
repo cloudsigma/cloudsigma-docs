@@ -368,7 +368,7 @@ Aluminium Release
 * Fixed list of API endpoints in :doc:`general` and :doc:`locations`
 
 * We now support Solaris Kernel Zones in some cloud locations. Improved details and split sections depending
-  on hypervisor - see :doc:`servers`, :doc:`servers_kvm` and :doc:`servers_solariskz`
+  on hypervisor - see :doc:`servers`, :doc:`servers_kvm`
 
 * Support for serial console to a server -  see :doc:`servers`. Servers running under KVM hypervisor
   also allow VNC as before - :doc:`servers_kvm`.

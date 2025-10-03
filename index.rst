@@ -27,7 +27,6 @@ Welcome to CloudSigma API documentation!
     servers_vmware
     servers
     servers_kvm
-    servers_solariskz
     keypairs
     server_context
     network_interfaces
