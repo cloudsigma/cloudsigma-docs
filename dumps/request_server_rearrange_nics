@@ -21,7 +21,6 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
     "nics": [
         {
             "boot_order": null,
-            "firewall_policy": null,
             "ip_v4_conf": null,
             "ip_v6_conf": null,
             "mac": "22:25:57:2a:dc:cc",
@@ -34,7 +33,6 @@ Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZ
         },
         {
             "boot_order": null,
-            "firewall_policy": null,
             "ip_v4_conf": {
                 "conf": "static",
                 "ip": {

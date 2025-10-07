@@ -20,7 +20,6 @@ Content-Type: application/json; charset=utf-8
     "nics": [
         {
             "boot_order": null,
-            "firewall_policy": null,
             "ip_v4_conf": {
                 "conf": "dhcp",
                 "ip": null
@@ -33,7 +32,6 @@ Content-Type: application/json; charset=utf-8
         },
         {
             "boot_order": null,
-            "firewall_policy": null,
             "ip_v4_conf": null,
             "ip_v6_conf": null,
             "mac": "22:25:57:2a:dc:cc",

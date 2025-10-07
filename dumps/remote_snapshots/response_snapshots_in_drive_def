@@ -1,0 +1,62 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+  "affinities": [],
+  "allow_multimount": false,
+  "backup_scheduler": {
+    "resource_uri": "/api/2.0/backupschedulers/87120f1d-59e1-416d-b0e9-4bdb7efa87d0/",
+    "uuid": "87120f1d-59e1-416d-b0e9-4bdb7efa87d0"
+  },
+  "grantees": [],
+  "jobs": [],
+  "licenses": [],
+  "media": "disk",
+  "meta": {
+    "description": ""
+  },
+  "mounted_on": [],
+  "name": "100gb",
+  "owner": {
+    "resource_uri": "/api/2.0/user/eea40623-2f35-4779-a64a-ec49f4111539/",
+    "uuid": "eea40623-2f35-4779-a64a-ec49f4111539"
+  },
+  "permissions": [],
+  "remote_snapshots": [
+    {
+      "resource_uri": "/api/2.0/remotesnapshots/7e7692b1-75b0-492f-aa78-7385afac1fd6/",
+      "uuid": "7e7692b1-75b0-492f-aa78-7385afac1fd6"
+    }
+  ],
+  "resource_uri": "/api/2.0/drives/bfb32ada-ed43-4fc9-a5ce-098832e9c646/",
+  "runtime": {
+    "is_snapshotable": true,
+    "snapshots_allocated_size": 0,
+    "storage_type": "dssd"
+  },
+  "size": 107374182400,
+  "snapshots": [
+    {
+      "resource_uri": "/api/2.0/snapshots/b5aa838d-9b4c-422d-8549-7ce563e80a84/",
+      "uuid": "b5aa838d-9b4c-422d-8549-7ce563e80a84"
+    },
+    {
+      "resource_uri": "/api/2.0/snapshots/f091b6ce-728a-4afb-b641-bad7b2424cce/",
+      "uuid": "f091b6ce-728a-4afb-b641-bad7b2424cce"
+    }
+  ],
+  "remote_snapshots": [
+    {
+      "resource_uri": "/api/2.0/remotesnapshots/a5f16668-de32-4e6b-b636-70ef7105e28f/",
+      "uuid": "a5f16668-de32-4e6b-b636-70ef7105e28f"
+    },
+    {
+      "resource_uri": "/api/2.0/remotesnapshots/1761b791-f9f7-4ee1-a0fa-42c5f5ae09f2/",
+      "uuid": "1761b791-f9f7-4ee1-a0fa-42c5f5ae09f2"
+    }
+  ],
+  "status": "unmounted",
+  "storage_type": "dssd",
+  "tags": [],
+  "uuid": "bfb32ada-ed43-4fc9-a5ce-098832e9c646"
+}

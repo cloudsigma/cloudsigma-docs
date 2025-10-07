@@ -314,4 +314,3 @@ Schema
 
    .. literalinclude:: dumps/response_snapshot_schema
         :language: javascript
-

@@ -42,7 +42,6 @@ Content-Type: application/json; charset=utf-8
     "nics": [
         {
             "boot_order": null,
-            "firewall_policy": null,
             "ip_v4_conf": {
                 "conf": "dhcp",
                 "ip": null

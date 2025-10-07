@@ -4,6 +4,19 @@ Release Notes
 2025 Releases
 -------------
 
+2505
+~~~~
+
+**Date Released:** 2025-06-09
+
+* We've improved GPU resource management so your devices work smoothly without any allocation conflicts in our cloud environments.
+* We optimized message queue performance to keep things running fast and reduce those pesky processing delays across all our locations.
+* We've been working hard preparing our next-generation VNC service to give you even better remote access capabilities.
+* We made scheduler functionality smarter with automated local snapshot creation and deletion to make your life easier.
+* We enhanced authentication workflows across all our cloud services for a smoother and more secure experience.
+* And numerous additional fixes, optimizations, and system improvements for enhanced stability and performance.
+
+
 2504
 ~~~~
 

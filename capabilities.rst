@@ -64,51 +64,135 @@ is disabled, it will disappear from the result of this call. Most entries are ob
 
 This is a detailed explanation of the key parameters of the API response for listing capabilities endpoint:
 
-1.  **Backfilling**: Indicates whether backfilling is enabled (true) or not (false).
+1.  **backfilling** : Indicates whether backfilling is enabled (true) or not (false).
 
 *Backfilling is a feature that allows you to start servers without guaranteeing how long they will run.*
 For more information https://docs.cloudsigma.com/en/latest/backfilling.html
 
-2.  **currencies**: Lists the supported currencies with their IDs and names.
+2.  **currencies** : Lists the supported currencies with their IDs and names.
 
-3.  **id**: It is the unique identifier for the currency. In this case, "CHF" represents the Swiss Franc.
+.. code-block:: JSON
 
-4.  **Name**: It is the common or display name for the currency. In this case, "CHF" represents the abbreviation or name used to refer to the Swiss Franc.
+    {
+        "id": "CHF",
+        "name": "chf"
+    }
 
-So, this entry indicates that the system supports the Swiss Franc (CHF) as a currency, and "CHF" is the identifier or name used within the system for this currency.
+represents an entry in the "currencies" array.
 
-5.  **default_inactive_period**: The default inactive period is defined as days. A value of 45 indicates the inactive period is 45 days.
+3.  **id** : It is the unique identifier for the currency. In this case, "CHF" represents the Swiss Franc.
+
+4.  **name** : It is the common or display name for the currency. In this case, "chf" represents the abbreviation or name used to refer to the Swiss Franc.
+
+So, this entry indicates that the system supports the Swiss Franc (CHF) as a currency, and "chf" is the identifier or name used within the system for this currency.
+
+5.  **default_inactive_period** : The default inactive period is defined as days. A value of 45 indicates the inactive period is 45 days.
 
 This value is used to find the users with the last login made 45 days ago(using the value in the previous paragraph) and mark them as INACTIVE users.
 
-6.  **default_storage_type**: Indicates the default storage type (e.g., "dssd").
+6.  **default_storage_type** : Indicates the default storage type (e.g., "dssd").
 
-7.  **drives**: Provides detailed information about available drive types and their limitations, including IOPS and size ranges.
+7.  **drives** : Provides detailed information about available drive types and their limitations, including IOPS and size ranges. Example:
 
-8.  **EPC**: The EPC values are related to the Intel SGX enclaves.
+.. code-block:: JSON
 
-9.  **epc_mem_ratio**: The epc_mem_ratio represents the ratio of memory needed to start a guest that supports SGX.
+    {
+      "dssd": {
+        // Details about dssd drive type
+      },
+      "nvme": {
+        // Details about nvme drive type
+      },
+      "zadara": {
+        // Details about zadara drive type
+      }
+    }
 
-10.  **max_per_host**: Represents the maximum free Enclave Page Cache (EPC) available in the location. The value is in bytes.
+8.  **epc** : The epc values are related to the Intel SGX enclaves.
+More information here:
 
-11.  **GPUs**: Lists GPU models with their maximum CPU, memory, SMP, and other relevant configurations.
+.. code-block:: JSON
 
-12.  **hosts**: Details limitations for different host types (e.g., AMD, Intel) concerning CPU, CPU per SMP, memory, and SMP.
+    {
+      "epc_mem_ratio": 0.5,
+      "max_per_host": 68719476736
+    }
 
-13.  **Hypervisors**: Specifies which hypervisors (e.g., KVM) are available on particular host types (e.g., Intel, AMD).
+9.  **epc_mem_ratio** : The epc_mem_ratio represents the ratio of memory needed to start a guest that supports SGX.
+
+10.  **max_per_host** : Represents the maximum free Enclave Page Cache (EPC) available in the location. The value is in bytes.
+
+11.  **gpus** : Lists GPU models with their maximum CPU, memory, SMP, and other relevant configurations.
+
+.. code-block:: JSON
+
+    {
+      "nvidia_a100": {
+        // Details about Nvidia A100 GPU
+      }
+    }
+
+12.  **hosts** : Details limitations for different host types (e.g., AMD, Intel) concerning CPU, CPU per SMP, memory, and SMP.
+
+.. code-block:: JSON
+
+    {
+      "amd": {
+        // Details about AMD host type
+      },
+      "intel": {
+        // Details about Intel host type
+      }
+    }
+
+13.  **hypervisors** : Specifies which hypervisors (e.g., KVM) are available on particular host types (e.g., Intel, AMD).
 
 The "hypervisors" parameter informs users about the available hypervisors and the types of hosts (architectures) each hypervisor supports. In this specific case, the KVM hypervisor supports both "intel" and "amd" architectures.
 
-14.   **inactive_period_range**: Defines the maximum and minimum values accepted for the Inactivation Timeout defined by the user, for further information please check  https://tbc.cloudsigma.com/ui/5.0/security
+.. code-block:: JSON
 
-15.   **remote_snapshots**:Contains information about remote snapshots, including the current count, the maximum allowed, and locations.
+    {
+      "kvm": ["intel", "amd"]
+    }
+
+14.  **inactive_period_range** : Defines the maximum and minimum values accepted for the Inactivation Timeout defined by the user, for further information please check  https://tbc.cloudsigma.com/ui/5.0/security
+
+15.  **remote_snapshots** :Contains information about remote snapshots, including the current count, maximum allowed, and locations.
+
 The difference between a snapshot and a remote snapshot is that the snapshot is stored in the same location as the source drive; the remote snapshot is stored in a different location.
 
-16.  **servers**: Details about server properties, including CPU, memory, SMP, and start methods.
+16. **servers** :Details about server properties, including CPU, memory, SMP, and start methods.
 
-17.  **snapshots**: Specifies the current count, maximum allowed, and maximum per drive for snapshots. A "snapshot" refers to a point-in-time copy
+.. code-block:: JSON
+
+    {
+      "cpu": { "max": 96000, "min": 250 },
+      // ... (other server details)
+    }
+
+17. **snapshots** : Specifies the current count, maximum allowed, and maximum per drive for snapshots. A "snapshot" refers to a point-in-time copy
 of the state of a virtual machine or a storage drive. Snapshots are typically used for backup, recovery, or cloning purposes.
 
-18. **vmware_drives**: Provides details about VMware drive storage capacity limits.
+18. **vmware_drives** : Provides details about VMware drive storage capacity limits.
 
-19. **vmware_servers**: Indicates VMware server compute capacity limits for CPU and memory.
+.. code-block:: JSON
+
+    {
+      "storage_capacity": {
+        "limit": 6291200.0,
+        "units": "MB",
+        "used": 2127040.0
+      }
+    }
+
+19. **vmware_servers** :Indicates VMware server compute capacity limits for CPU and memory.
+
+.. code-block:: JSON
+
+    {
+    "compute_capacity": {
+      "cpu_max": 117797,
+      "mem_max": 271061
+    }
+  }
+

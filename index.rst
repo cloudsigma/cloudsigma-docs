@@ -19,8 +19,9 @@ Welcome to CloudSigma API documentation!
 
     drives
     snapshots
-    remote_snapshots
     backup_schedulers
+    remote_snapshots
+    omni_fabric
     libdrives
     upload_download
     servers_vmware
@@ -42,6 +43,7 @@ Welcome to CloudSigma API documentation!
     accounts
     audit_logs
     profile
+    notification_contacts
     notification_preferences
     billing
     usage

@@ -1,0 +1,48 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+{
+  "allocated_size": 1166014976,
+  "drive": {
+    "resource_uri": "/api/2.0/drives/de5dbef6-137e-4bec-9640-d87430142c39/",
+    "uuid": "de5dbef6-137e-4bec-9640-d87430142c39"
+  },
+  "drive_meta": {
+    "media": "disk",
+    "name": "Fedora 23 Desktop (lightdm) test",
+    "size": 53687091200,
+    "src_uuid": "de5dbef6-137e-4bec-9640-d87430142c39",
+    "storage_type": "dssd"
+  },
+  "grantees": [
+    {
+      "permissions": [
+        "EDIT",
+        "LIST"
+      ],
+      "user": {
+        "email": null,
+        "resource_uri": "/api/2.0/user/435a9841-f980-455e-9c77-50cfcb7ac7b1/",
+        "uuid": "435a9841-f980-455e-9c77-50cfcb7ac7b1"
+      }
+    }
+  ],
+  "last_state_change": "2016-12-05 20:51:48.779709+00:00",
+  "location": "ZRH",
+  "meta": {},
+  "name": "backup2",
+  "owner": {
+    "resource_uri": "/api/2.0/user/c6a3135e-d39a-487d-9ae8-c083ddefa6ff/",
+    "uuid": "c6a3135e-d39a-487d-9ae8-c083ddefa6ff"
+  },
+  "permissions": [],
+  "resource_uri": "/api/2.0/remotesnapshots/147c2e06-e523-4e9b-9efa-e229f161c11d/",
+  "status": "available",
+  "tags": [
+    {
+      "resource_uri": "/api/2.0/tags/8266cec6-ec17-4155-a4bd-6eff1f3e51ae/",
+      "uuid": "8266cec6-ec17-4155-a4bd-6eff1f3e51ae"
+    }
+  ],
+  "timestamp": "2016-12-05 20:51:36.188588+00:00",
+  "uuid": "147c2e06-e523-4e9b-9efa-e229f161c11d"
+}

@@ -1,0 +1,37 @@
+PUT /api/2.0/backupschedulers/1c232887-aa47-45a8-96e6-3293f3b220cb/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "type": "snapshot",
+    "name": "Son, Father, GrandFather Policy",
+    "enable_backup_policy_notifications": true,
+    "enable_retention_policy_notifications": false,
+    "is_enabled": true,
+    "is_default": false,
+    "manual_incremental_backup": "",
+    "retention_policy": {
+      "name": "Son, Father, GrandFather Policy",
+      "rules": [
+        { "period": "days", "quantity": 7 },
+        { "period": "weeks", "quantity": 4, "time_option": 1 },
+        { "period": "months", "quantity": 12, "time_option": 23 }
+      ]
+    },
+    "initial_backup": {
+      "day_of_week": ["*"],
+      "start_time": { "hour": 12, "minute": 0 },
+      "end_time": { "hour": 11, "minute": 45 }
+    },
+    "incremental_backup": {
+      "day_of_month": "*",
+      "day_of_week": ["*"],
+      "month": "*",
+      "hour": "1",
+      "minute": "0",
+      "repeat": { "hour": "", "minute": "" },
+      "start_time": { "hour": 12, "minute": 0 },
+      "end_time": { "hour": 11, "minute": 45 }
+    },
+    "user_timezone": "Etc/GMT+12"
+  }
