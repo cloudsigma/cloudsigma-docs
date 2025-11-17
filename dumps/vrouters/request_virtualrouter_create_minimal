@@ -1,0 +1,55 @@
+POST /api/2.0/virtualrouters/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDo
+
+
+{
+    "configuration": {
+        "name": "Uninhabited Kepler 1229b",
+        "lan_interface": [
+            {
+                "ipv6_exposed": false,
+                "name": "LAN 1",
+                "vlan": "8f33e6b8-4c1f-4474-a2ba-9ec74e0fdc14",
+                "ipv4_enabled": true,
+                "ipv6_enabled": false,
+                "ipv4_ipv6_enabled": false,
+                "ip_address": "10.0.1.1/24",
+                "dhcp": true,
+                "default_gateway": "",
+                "ip_range": {
+                    "from": "10.0.1.100",
+                    "to": "10.0.1.200"
+                },
+                "ip_address_v6": "",
+                "router_advertiser": false,
+                "ip_aliases": [
+                    {
+                        "value": "",
+                        "ip_address": "10.0.100.1/24"
+                    }
+                ]
+            }
+        ],
+        "upstream": {
+            "wan_type": "internet",
+            "vpn": {
+                "active": true,
+                "vpn_type": "pptp",
+                "username": "sky",
+                "password": "cJFeky8Er7xs30oE"
+            },
+            "ip_config": {
+                "dhcp_client": true,
+                "vlan": "",
+                "upstream_lines": "",
+                "ip_address": "",
+                "ip_address_v6": "",
+                "default_gateway": "",
+                "ipv6_automatic": true,
+                "router_ipv6_default_gateway": ""
+            }
+        }
+    }
+}
+

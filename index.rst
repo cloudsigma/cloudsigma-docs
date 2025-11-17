@@ -31,6 +31,7 @@ Welcome to CloudSigma API documentation!
     server_context
     network_interfaces
     networking
+    virtualrouters
     tags
     acls
 

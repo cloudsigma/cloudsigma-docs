@@ -1,0 +1,106 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get",
+        "put",
+        "delete"
+    ],
+    "allowed_list_http_methods": [
+        "get",
+        "put",
+        "delete",
+        "post"
+    ],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "configuration": {
+            "default": "No default provided.",
+            "fields": {},
+            "help_text": "vRouter configuration",
+            "readonly": false,
+            "required": true,
+            "type": "related"
+        },
+        "jobs": {
+            "default": "No default provided.",
+            "help_text": "Background jobs related to this resource",
+            "readonly": true,
+            "required": true,
+            "type": "related"
+        },
+        "owner": {
+            "default": null,
+            "help_text": "Owner of the snapshot",
+            "readonly": true,
+            "required": true,
+            "type": "related"
+        },
+        "resource_uri": {
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        },
+        "runtime": {
+            "default": "No default provided.",
+            "fields": {
+                "stats": {
+                    "default": {},
+                    "help_text": "Unicode string data. Ex: \"Hello World\"",
+                    "readonly": false,
+                    "required": true,
+                    "type": "string"
+                },
+                "timestamp": {
+                    "default": null,
+                    "help_text": "UNIX timestamp of the runtime generation",
+                    "readonly": false,
+                    "required": true,
+                    "type": "string"
+                }
+            },
+            "help_text": "Runtime information of the vRouter",
+            "readonly": true,
+            "required": false,
+            "type": "related"
+        },
+        "state": {
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": true,
+            "required": false,
+            "type": "string"
+        },
+        "status": {
+            "default": "No default provided.",
+            "help_text": "Status of the vRouter.",
+            "readonly": true,
+            "required": false,
+            "type": "string"
+        },
+        "type": {
+            "default": "No default provided.",
+            "help_text": "vRouter type",
+            "readonly": false,
+            "required": true,
+            "type": "string"
+        },
+        "uuid": {
+            "default": null,
+            "help_text": "UUID of the snapshot",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        }
+    },
+    "filtering": {
+        "name": "exact",
+        "name__contains": "exact",
+        "tag": "exact",
+        "uuid": "exact"
+    }
+}

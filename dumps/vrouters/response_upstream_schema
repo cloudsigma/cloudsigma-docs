@@ -1,0 +1,70 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [],
+    "allowed_list_http_methods": [],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "man_settings": {
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
+        "resource_uri": {
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        },
+        "type": {
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": true,
+            "type": "string"
+        },
+        "uuid": {
+            "default": null,
+            "help_text": "UUID of the Upstream virtual router",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        },
+        "virtual_router": {
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": true,
+            "type": "string"
+        },
+        "vlan_settings": {
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
+        "wan_settings": {
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        }
+    },
+    "filtering": {
+        "name": "exact",
+        "name__contains": "exact",
+        "tag": "exact",
+        "uuid": "exact"
+    },
+    "ordering": [
+        "uuid",
+        "name"
+    ]
+}

@@ -1,0 +1,5 @@
+POST /api/2.0/virtualrouters/250a8bf5-e4d6-45dc-9e36-bbc0f75c41bc/action/?do=get_log&log_name=system HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{}

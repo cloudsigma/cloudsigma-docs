@@ -1,0 +1,85 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get",
+        "post",
+        "delete"
+    ],
+    "allowed_list_http_methods": [
+        "get",
+        "post",
+        "delete"
+    ],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "jobs": {
+            "default": "No default provided.",
+            "help_text": "Background jobs related to this resource",
+            "readonly": true,
+            "required": true,
+            "type": "related"
+        },
+        "local_ipv4_address": {
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": true,
+            "type": "string"
+        },
+        "nat": {
+            "default": null,
+            "help_text": "UUID of the NAT",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
+        "order": {
+            "default": 0,
+            "help_text": "Integer data. Ex: 2673",
+            "readonly": false,
+            "required": false,
+            "type": "integer"
+        },
+        "resource_uri": {
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        },
+        "upstream_ipv4_address": {
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": true,
+            "type": "string"
+        },
+        "upstream_to_local": {
+            "default": true,
+            "help_text": "Boolean data. Ex: True",
+            "readonly": false,
+            "required": false,
+            "type": "boolean"
+        },
+        "uuid": {
+            "default": null,
+            "help_text": "UUID of the NAT virtual router",
+            "readonly": true,
+            "required": false,
+            "type": "string"
+        }
+    },
+    "filtering": {
+        "name": "exact",
+        "name__contains": "exact",
+        "tag": "exact",
+        "uuid": "exact"
+    },
+    "ordering": [
+        "uuid",
+        "name"
+    ]
+}

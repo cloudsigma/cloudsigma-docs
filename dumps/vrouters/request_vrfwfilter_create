@@ -1,0 +1,23 @@
+POST /api/2.0/vrfwfilters/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "objects": [
+        {
+            "action": "deny",
+            "dst": "10.0.0.22",
+            "dst_addr_op": "=",
+            "dst_port": "22",
+            "dst_port_op": "=",
+            "log": false,
+            "order": 1,
+            "policy": "906abae3-b533-4c5d-8d98-c459195b6230",
+            "protocol": "tcp",
+            "src": "10.0.0.22",
+            "src_addr_op": "=",
+            "src_port": "",
+            "src_port_op": "="
+        }
+    ]
+}

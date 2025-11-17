@@ -1,0 +1,90 @@
+HTTP/1.1 202 ACCEPTED
+Content-Type: application/json; charset=utf-8
+
+{
+    "objects": [
+        {
+            "configuration": {
+                "firewall": {
+                    "active": false,
+                    "policies": [],
+                    "uuid": "bdbf96ad-8e9d-4917-922c-535ea9cf63c4"
+                },
+                "firewall_logging": false,
+                "lan_interface": [
+                    {
+                        "default_gateway": "",
+                        "dhcp": false,
+                        "ip_address": "10.0.1.1/24",
+                        "ip_address_v6": "",
+                        "ip_aliases": [],
+                        "ip_range": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "ipv4_enabled": true,
+                        "ipv4_ipv6_enabled": false,
+                        "ipv6_enabled": false,
+                        "name": "LAN 1",
+                        "router_advertiser": false,
+                        "uuid": "a2fe7d8b-ec8b-407f-b627-baf7a8b748ae",
+                        "vlan": "68317648-0a2a-4fb4-b179-700fa4dc359d"
+                    }
+                ],
+                "name": "Primary Proxima Centauri b",
+                "nat": {
+                    "active": false,
+                    "address_forwarding": [],
+                    "port_forwarding": [],
+                    "uuid": "f0d76ef7-531b-4c6c-99bf-23a0b9c7347e"
+                },
+                "routes": [
+                    {
+                        "gateway": "91.92.71.129",
+                        "inet": "inet",
+                        "network": "default",
+                        "uuid": "857d0bea-474c-4ae5-8070-723b85309794"
+                    }
+                ],
+                "type": "basic",
+                "upstream": {
+                    "ip_config": {
+                        "default_gateway": "",
+                        "dhcp_client": false,
+                        "ip_address": "",
+                        "ip_address_v6": "",
+                        "ipv6_automatic": false,
+                        "router_ipv6_default_gateway": "",
+                        "upstream_lines": "",
+                        "vlan": ""
+                    },
+                    "ipv4_address": "91.92.71.143",
+                    "uuid": "3e5259b2-c9ad-4ded-886c-4167cf681fd7",
+                    "vpn": {
+                        "active": false,
+                        "password": "f9M0fEscA1ae52r4",
+                        "username": "dione",
+                        "vpn_type": "pptp"
+                    },
+                    "wan_type": "internet"
+                }
+            },
+            "jobs": [
+                {
+                    "resource_uri": "/api/2.0/jobs/cba87386-72b0-4a42-860c-53f887ca1fd4/",
+                    "uuid": "cba87386-72b0-4a42-860c-53f887ca1fd4"
+                }
+            ],
+            "owner": {
+                "resource_uri": "/api/2.0/user/93ff48d9-b9a3-49ec-9c41-de0cc9d02c34/",
+                "uuid": "93ff48d9-b9a3-49ec-9c41-de0cc9d02c34"
+            },
+            "resource_uri": "/api/2.0/virtualrouters/afee4156-9867-42ab-bf0a-c5d9d5468d5e/",
+            "runtime": null,
+            "state": "creating",
+            "status": "creating",
+            "type": "basic",
+            "uuid": "afee4156-9867-42ab-bf0a-c5d9d5468d5e"
+        }
+    ]
+}

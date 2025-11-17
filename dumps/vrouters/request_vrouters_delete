@@ -1,0 +1,5 @@
+DELETE /api/2.0/virtualrouters/afee4156-9867-42ab-bf0a-c5d9d5468d5e/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+

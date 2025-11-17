@@ -1,0 +1,175 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "allowed_detail_http_methods": [
+        "get",
+        "post",
+        "delete",
+        "put"
+    ],
+    "allowed_list_http_methods": [
+        "get",
+        "post",
+        "delete",
+        "put"
+    ],
+    "default_format": "application/json",
+    "default_limit": 20,
+    "fields": {
+        "action": {
+            "choices": [
+                "allow",
+                "deny"
+            ],
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
+        "action_queue": {
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
+        "dst": {
+            "default": "",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
+        "dst_addr_op": {
+            "default": true,
+            "help_text": "Boolean data. Ex: True",
+            "readonly": false,
+            "required": true,
+            "type": "boolean"
+        },
+        "dst_port": {
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": true,
+            "type": "string"
+        },
+        "dst_port_op": {
+            "default": true,
+            "help_text": "Boolean data. Ex: True",
+            "readonly": false,
+            "required": true,
+            "type": "boolean"
+        },
+        "icmp_type": {
+            "choices": [
+                "Redirect",
+                "Time exceeded",
+                "Time-stamp request",
+                "Parameter unintelligible",
+                "Information request",
+                "Time-stamp reply",
+                "Address mask request",
+                "Information reply",
+                "Address mask reply",
+                "Echo reply",
+                "Destination unreachable",
+                "Any",
+                "Source quench",
+                "Echo request"
+            ],
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
+        "jobs": {
+            "default": "No default provided.",
+            "help_text": "Background jobs related to this resource",
+            "readonly": true,
+            "required": true,
+            "type": "related"
+        },
+        "log": {
+            "default": false,
+            "help_text": "Boolean data. Ex: True",
+            "readonly": false,
+            "required": false,
+            "type": "boolean"
+        },
+        "order": {
+            "default": null,
+            "help_text": "Integer data. Ex: 2673",
+            "readonly": false,
+            "required": true,
+            "type": "integer"
+        },
+        "protocol": {
+            "choices": [
+                "tcp",
+                "udp",
+                "icmp"
+            ],
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": true,
+            "type": "string"
+        },
+        "resource_uri": {
+            "default": "No default provided.",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        },
+        "src": {
+            "default": "",
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": false,
+            "type": "string"
+        },
+        "src_addr_op": {
+            "default": true,
+            "help_text": "Boolean data. Ex: True",
+            "readonly": false,
+            "required": true,
+            "type": "boolean"
+        },
+        "src_port": {
+            "default": null,
+            "help_text": "Unicode string data. Ex: \"Hello World\"",
+            "readonly": false,
+            "required": true,
+            "type": "string"
+        },
+        "src_port_op": {
+            "default": true,
+            "help_text": "Boolean data. Ex: True",
+            "readonly": false,
+            "required": true,
+            "type": "boolean"
+        },
+        "uuid": {
+            "default": null,
+            "help_text": "UUID of the Firewall Filter",
+            "readonly": true,
+            "required": true,
+            "type": "string"
+        }
+    },
+    "filtering": {
+        "name": "exact",
+        "name__contains": "exact",
+        "tag": "exact",
+        "uuid": "exact"
+    },
+    "ordering": [
+        "uuid",
+        "name"
+    ]
+}

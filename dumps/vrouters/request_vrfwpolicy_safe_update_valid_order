@@ -1,0 +1,54 @@
+PUT /api/2.0/vrfwpolicies/fef70b62-cc45-476c-9392-8208c9d37c81/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "active": false,
+    "filters": [
+        {
+            "action": "deny",
+            "dst": "10.0.1.1",
+            "dst_addr_op": true,
+            "dst_port": "22",
+            "dst_port_op": true,
+            "icmp_type": "Echo reply",
+            "log": false,
+            "order": 1,
+            "protocol": "tcp",
+            "src": "10.0.2.1",
+            "src_addr_op": true,
+            "src_port": "",
+            "src_port_op": true
+        },
+        {
+            "action": "deny",
+            "dst": "10.0.1.2",
+            "dst_addr_op": true,
+            "dst_port": "22",
+            "dst_port_op": true,
+            "icmp_type": "Echo reply",
+            "log": false,
+            "order": 2,
+            "protocol": "tcp",
+            "src": "10.0.2.2",
+            "src_addr_op": true,
+            "src_port": "",
+            "src_port_op": true
+        }
+    ],
+    "jobs": [
+        {
+            "resource_uri": "/api/2.0/jobs/d4a0d272-bf5d-49b3-bbcb-dac8db219888/",
+            "uuid": "d4a0d272-bf5d-49b3-bbcb-dac8db219888"
+        }
+    ],
+    "lan_interface": {
+        "resource_uri": "/api/2.0/lans/e45a5677-b8eb-4107-9d6d-fc244be00e18/",
+        "uuid": "e45a5677-b8eb-4107-9d6d-fc244be00e18"
+    },
+    "name": "WEB POLICY",
+    "order": 1,
+    "resource_uri": "/api/2.0/vrfwpolicies/fef70b62-cc45-476c-9392-8208c9d37c81/",
+    "upstream_interface": null,
+    "uuid": "fef70b62-cc45-476c-9392-8208c9d37c81"
+}

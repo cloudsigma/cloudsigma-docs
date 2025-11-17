@@ -1,0 +1,5 @@
+POST /api/2.0/virtualrouters/13292e1f-0c3e-458d-a6d0-ed2ee2baa0b2/action/?do=get_log&log_name=firewall HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{}

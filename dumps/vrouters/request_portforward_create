@@ -1,0 +1,16 @@
+POST /api/2.0/portforwards/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic SWYgeW91IGZvdW5kIHRoaXMsIGhhdmUgYSBjb29raWUsIHlvdSBkZXNlcnZlIGl0IDop
+
+{
+    "objects": [
+        {
+            "forwarding_host": "10.0.1.22",
+            "forwarding_port": "2222",
+            "mapped_port": "22",
+            "nat": "38589c2f-035e-4616-9cca-1d93e71490d5",
+            "order": 2,
+            "protocol": "TCP"
+        }
+    ]
+}
