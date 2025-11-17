@@ -14,5 +14,4 @@ Location,Location Code,API Endpoint
 "UK, Cardiff",CWL,https://cwl.cloudsigma.com/api/2.0/
 "UK, London",LON,https://lon.cloudsigma.com/api/2.0/
 "United States, Honolulu",HNL,https://hnl.cloudsigma.com/api/2.0/
-"United States, San Jose",SJC,https://sjc.alpha3cloud.com/api/2.0/
 "United States, Washington DC",WDC,https://wdc.alpha3cloud.com/api/2.0/

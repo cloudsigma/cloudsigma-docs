@@ -141,18 +141,6 @@ Content-Type: application/json; charset=utf-8
             "websocket_url":"wss://direct.hnl.cloudsigma.com/websocket"
         },
         {
-            "alternative_frontend_url":"https://sjc.alpha3cloud.com/ui/",
-            "api_endpoint":"https://sjc.alpha3cloud.com/api/2.0/",
-            "country_code":"US",
-            "default_frontend_signup_url":"https://sjc.alpha3cloud.com/ui/",
-            "default_frontend_url":"https://sjc.alpha3cloud.com/ui/",
-            "display_name":"San Jose, United States",
-            "documentation_url":"https://docs.cloudsigma.com",
-            "id":"SJC",
-            "upload_url":"https://direct.sjc.alpha3cloud.com/api/2.0/",
-            "websocket_url":"wss://direct.sjc.alpha3cloud.com/websocket"
-        },
-        {
             "alternative_frontend_url":"https://wdc.alpha3cloud.com/ui/",
             "api_endpoint":"https://wdc.alpha3cloud.com/api/2.0/",
             "country_code":"US",
