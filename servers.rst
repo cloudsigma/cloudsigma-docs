@@ -9,7 +9,6 @@ capabilities of the cloud. This page deals with generic server operations. There
 hypervisor:
 
 * :doc:`kvm <servers_kvm>`
-* :doc:`solaris_kz <servers_solariskz>`
 
 The default `hypervisor` is `kvm` to maintain backwards compatibility and the default `cpu_type` is `amd`. If you
 specifiy a different `hypervisor` and no `cpu_type`, the API will still use `amd`.
