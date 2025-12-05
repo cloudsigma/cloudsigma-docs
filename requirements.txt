@@ -1,6 +1,6 @@
 sphinxcontrib-httpdomain==1.7.0
 sphinxcontrib-programoutput==0.14
 simplejson
-urllib3==1.26.15
+urllib3==2.6.0
 requests==2.29.0
 sphinx-rtd-theme
