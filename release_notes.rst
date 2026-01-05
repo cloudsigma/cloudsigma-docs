@@ -4,6 +4,19 @@ Release Notes
 2025 Releases
 -------------
 
+2510
+~~~~
+
+**Date Released:** 2025-10-16
+
+* We resolved billing cycle and auto-renewal issues that were affecting some saved card payments.
+* Fixed notification delays when new user accounts are created through management interfaces.
+* Multiple email contacts per user are now handled more efficiently in notification workflows.
+* Snapshot scheduler items now require drives to be attached to running VMs for creation.
+* VNC and console tunnel services have been refactored to improve the stability.
+* We significantly enhanced the notification system with improved multi-language support, faster delivery times, better error handling, and more reliable email processing across the entire platform.
+
+
 2508
 ~~~~
 
