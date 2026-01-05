@@ -4,6 +4,20 @@ Release Notes
 2025 Releases
 -------------
 
+2508
+~~~~
+
+**Date Released:** 2025-08-20
+
+* Local storage drives can now be resized while in staging state, improving flexibility during provisioning.
+* Enhanced Object Storage performance with optimized data handling and retrieval mechanisms.
+* Storage allocation algorithms have been optimized for better resource distribution.
+* API response times have been reduced through query optimization and caching improvements.
+* Backup scheduling mechanisms have been updated to handle timezone differences correctly.
+* System health checks have been expanded to cover additional service components.
+* Configuration validation has been enhanced to catch errors before deployment, along with numerous other stability improvements and performance optimizations.
+
+
 2505
 ~~~~
 
