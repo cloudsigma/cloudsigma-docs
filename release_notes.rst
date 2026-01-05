@@ -4,6 +4,22 @@ Release Notes
 2025 Releases
 -------------
 
+2511
+~~~~
+
+**Date Released:** 2025-12-10
+
+* We resolved Object Storage billing calculations to ensure accurate usage tracking and charges.
+* UEFI boot method support has been fully implemented for modern virtual machine configurations.
+* vTPM (Virtual Trusted Platform Module) functionality is now available for enhanced security features.
+* Drive device type selectors have been updated for better hardware compatibility options.
+* UEFI and BIOS support capabilities are now exposed through improved API endpoints.
+* Storage tiers have been implemented for Object Storage with differentiated service levels.
+* Guest virtual machine startup performance has been optimized for faster boot times.
+* Guest cloning operations have been profiled and optimized to eliminate bottlenecks.
+* CPU speed limiting mechanisms have been documented and improved for better control, along with numerous other infrastructure improvements and optimizations.
+
+
 2510
 ~~~~
 
