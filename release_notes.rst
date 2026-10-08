@@ -1,6 +1,82 @@
 Release Notes
 =============
 
+2026 Releases
+-------------
+
+2609
+~~~~
+
+**Date Released:** 2026-09-21
+
+* Server creation dates are available through the API, server-details pages, and detailed usage reports.
+* Backup-retention windows use consistent UTC-based timing across CloudSigma locations.
+* Mixed GPU and virtual GPU hosts can fall back to standard virtual machine allocation where supported.
+* This release also includes further reliability updates across virtual machine provisioning, backup handling, and billing services.
+
+
+2608
+~~~~
+
+**Date Released:** 2026-08-17
+
+* Grouped subscription lists can return all matching subscriptions without the previous response limit.
+* Customers can select a billing-limit mode through the profile API where this capability is available.
+* CDR reports can be downloaded, reviewed, and post-processed through dedicated reporting tools for partner accounts.
+* Backup scheduler details show all drives attached to a backup schedule, including for partner-managed resources.
+* Partner administrators can review notification-contact synchronization status and repair affected contacts from the notification service tools.
+* One-time-password device details provide expanded information for partner account-support operations.
+* Cloud locations can apply configurable virtual CPU-pinning strategies for supported virtual machine workloads.
+* Service-provider payment requests support a location-scoped payment reference, which is returned in the service-provider response.
+* Numerous additional improvements strengthen cloud operations, billing controls, notifications, and platform stability.
+
+
+2607
+~~~~
+
+**Date Released:** 2026-07-15
+
+* Supported virtual machines can use multiple public IPv4 addresses on a single network interface.
+* UEFI and SMBIOS settings provide broader virtual machine compatibility.
+* Partner CDR reports can be downloaded as a single ZIP archive.
+* The release also contains further refinements to virtual machine management, storage handling, and cloud service reliability.
+
+
+2606
+~~~~
+
+**Date Released:** 2026-06-09
+
+* This release delivers a major modernization of CloudSigma's core cloud platform, following several months of work across the API, cloud control services, and compute infrastructure.
+* The API and core services now run on an updated foundation for long-term platform support and compatibility with current infrastructure.
+* Core virtual machine, storage, networking, billing, and account services have been transitioned to the modernized platform foundation.
+* The update strengthens the platform's ability to support newer cloud infrastructure, virtual machine configurations, and service integrations.
+* Customers and partners benefit from a more maintainable and future-ready cloud platform while retaining the familiar CloudSigma API and cloud-management experience.
+* This work also provides a stronger foundation for delivering future features and platform capabilities across CloudSigma locations.
+* It also incorporates a wide range of stability, compatibility, and service-quality improvements across the platform.
+
+
+2602
+~~~~
+
+**Date Released:** 2026-02-25
+
+* SATA is available as a virtual machine drive emulation type.
+* UEFI virtual machines can use SATA CD-ROM devices where required.
+* VPC API responses provide allocation-pool details instead of only an allocation-pool UUID.
+* Additional updates improve compatibility and reliability across networking, storage, and virtual machine services.
+
+
+2601
+~~~~
+
+**Date Released:** 2026-01-21
+
+* NVIDIA L40S GPU resources are available for supported cloud configurations.
+* Snapshot schedules can be configured for recurring backup creation.
+* This release also includes further improvements to cloud resource management, account services, and platform stability.
+
+
 2025 Releases
 -------------
 
