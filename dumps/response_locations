@@ -9,18 +9,6 @@ Content-Type: application/json; charset=utf-8
     },
     "objects":[
         {
-            "alternative_frontend_url":"https://zrh.cloudsigma.com/ui/2.0/",
-            "api_endpoint":"https://zrh.cloudsigma.com/api/2.0/",
-            "country_code":"CH",
-            "default_frontend_signup_url":"https://zrh.cloudsigma.com/ui/",
-            "default_frontend_url":"https://zrh.cloudsigma.com/ui/",
-            "display_name":"Zurich, Switzerland",
-            "documentation_url":"https://docs.cloudsigma.com",
-            "id":"ZRH",
-            "upload_url":"https://direct.zrh.cloudsigma.com/api/2.0/",
-            "websocket_url":"wss://direct.zrh.cloudsigma.com/websocket"
-        },
-        {
             "alternative_frontend_url":"https://per.cloudsigma.com/ui/",
             "api_endpoint":"https://per.cloudsigma.com/api/2.0/",
             "country_code":"AU",
@@ -105,18 +93,6 @@ Content-Type: application/json; charset=utf-8
             "websocket_url":"wss://direct.ruh.cld.v2.sa/websocket"
         },
         {
-            "alternative_frontend_url":"https://cloud.hydro66.com/ui/",
-            "api_endpoint":"https://cloud.hydro66.com/api/2.0/",
-            "country_code":"SE",
-            "default_frontend_signup_url":"https://cloud.hydro66.com/ui/",
-            "default_frontend_url":"https://cloud.hydro66.com/ui/",
-            "display_name":"Boden, Sweden",
-            "documentation_url":"https://docs.cloudsigma.com",
-            "id":"LLA",
-            "upload_url":"https://direct.cloud.hydro66.com/api/2.0/",
-            "websocket_url":"wss://direct.cloud.hydro66.com/websocket"
-        },
-        {
             "alternative_frontend_url":"https://gva.cloudsigma.com/ui/",
             "api_endpoint":"https://gva.cloudsigma.com/api/2.0/",
             "country_code":"CH",
@@ -129,18 +105,6 @@ Content-Type: application/json; charset=utf-8
             "websocket_url":"wss://direct.gva.cloudsigma.com/websocket"
         },
         {
-            "alternative_frontend_url":"https://hnl.cloudsigma.com/ui/",
-            "api_endpoint":"https://hnl.cloudsigma.com/api/2.0/",
-            "country_code":"US",
-            "default_frontend_signup_url":"https://hnl.cloudsigma.com/ui/",
-            "default_frontend_url":"https://hnl.cloudsigma.com/ui/",
-            "display_name":"Honolulu, United States",
-            "documentation_url":"https://docs.cloudsigma.com",
-            "id":"HNL",
-            "upload_url":"https://direct.hnl.cloudsigma.com/api/2.0/",
-            "websocket_url":"wss://direct.hnl.cloudsigma.com/websocket"
-        },
-        {
             "alternative_frontend_url":"https://wdc.alpha3cloud.com/ui/",
             "api_endpoint":"https://wdc.alpha3cloud.com/api/2.0/",
             "country_code":"US",
@@ -151,18 +115,6 @@ Content-Type: application/json; charset=utf-8
             "id":"WDC",
             "upload_url":"https://direct.wdc.alpha3cloud.com/api/2.0/",
             "websocket_url":"wss://direct.wdc.alpha3cloud.com/websocket"
-        },
-        {
-            "alternative_frontend_url":"https://cwl.cloudsigma.com/ui/",
-            "api_endpoint":"https://cwl.cloudsigma.com/api/2.0/",
-            "country_code":"GB",
-            "default_frontend_signup_url":"https://cwl.cloudsigma.com/ui/",
-            "default_frontend_url":"https://cwl.cloudsigma.com/ui/",
-            "display_name":"Newport, Wales",
-            "documentation_url":"https://docs.cloudsigma.com",
-            "id":"CWL",
-            "upload_url":"https://direct.cwl.cloudsigma.com/api/2.0/",
-            "websocket_url":"wss://direct.cwl.cloudsigma.com/websocket"
         },
         {
             "alternative_frontend_url":"https://mnl.cloudsigma.com/ui/",
@@ -201,16 +153,28 @@ Content-Type: application/json; charset=utf-8
             "websocket_url":"wss://direct.mty.stratospherecloud.com/websocket"
         },
         {
-            "alternative_frontend_url":"https://siaflex.cloud/ui/",
-            "api_endpoint":"https://siaflex.cloud/api/2.0/",
-            "country_code":"TR",
-            "default_frontend_signup_url":"https://siaflex.cloud/ui/",
-            "default_frontend_url":"https://siaflex.cloud/ui/",
-            "display_name":"Izmir, Turkey",
+            "alternative_frontend_url":"https://jhb.cloudsigma.com/ui/",
+            "api_endpoint":"https://jhb.cloudsigma.com/api/2.0/",
+            "country_code":"MY",
+            "default_frontend_signup_url":"https://jhb.cloudsigma.com/ui/",
+            "default_frontend_url":"https://jhb.cloudsigma.com/ui/",
+            "display_name":"Johor, Malaysia",
             "documentation_url":"https://docs.cloudsigma.com",
-            "id":"ADB",
-            "upload_url":"https://direct.siaflex.cloud/api/2.0/",
-            "websocket_url":"wss://direct.siaflex.cloud/websocket"
+            "id":"JHB",
+            "upload_url":"https://direct.jhb.cloudsigma.com/api/2.0/",
+            "websocket_url":"wss://direct.jhb.cloudsigma.com/websocket"
+        },
+        {
+            "alternative_frontend_url":"https://kumulcloud.com.pg/ui/",
+            "api_endpoint":"https://kumulcloud.com.pg/api/2.0/",
+            "country_code":"PG",
+            "default_frontend_signup_url":"https://kumulcloud.com.pg/ui/",
+            "default_frontend_url":"https://kumulcloud.com.pg/ui/",
+            "display_name":"Port Moresby, Papua New Guinea",
+            "documentation_url":"https://docs.cloudsigma.com",
+            "id":"POM",
+            "upload_url":"https://direct.kumulcloud.com.pg/api/2.0/",
+            "websocket_url":"wss://direct.kumulcloud.com.pg/websocket"
         }
     ]
 }
