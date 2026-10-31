@@ -1,0 +1,15 @@
+{
+  "name": "office-link",
+  "security": {
+    "ike_version": "2",
+    "ike_proposals": [
+      "aes128-sha256-modp2048"
+    ],
+    "esp_proposals": [
+      "aes128-sha256-modp2048"
+    ],
+    "ike_lifetime": 14400,
+    "child_lifetime": 1800
+  },
+  "start_action": "start"
+}

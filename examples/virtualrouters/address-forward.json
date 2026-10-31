@@ -1,0 +1,5 @@
+{
+  "name": "web-host",
+  "external_address": "203.0.113.11",
+  "target_address": "192.168.10.10"
+}

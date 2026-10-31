@@ -1,0 +1,15 @@
+{
+  "name": "office-link",
+  "peer": "198.51.100.20",
+  "local_identity": "203.0.113.10",
+  "remote_identity": "198.51.100.20",
+  "local_networks": [
+    "192.168.10.0/24"
+  ],
+  "remote_networks": [
+    "192.168.20.0/24"
+  ],
+  "pre_shared_key": "<replace-with-a-unique-secret>",
+  "active": true,
+  "start_action": "start"
+}

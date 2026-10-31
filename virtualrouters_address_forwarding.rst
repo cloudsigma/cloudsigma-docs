@@ -1,87 +1,67 @@
-NAT Address Forwarding
+.. _addressforwards_schema:
+
+.. _11-address-forwarding:
+
+1:1 address forwarding
 ======================
 
-Allowed HTTP methods
---------------------
-
-+--------+--------------------------+
-| Method | Description              |
-+========+==========================+
-| GET    | get / list object/s      |
-+--------+--------------------------+
-| POST   | create new object/s      |
-+--------+--------------------------+
-| DELETE | delete object/s          |
-+--------+--------------------------+
-
-
-List single address forward
----------------------------
-
-.. http:get:: /addressforwards/{addressforward_uuid}/
-
-Gets information on an address forward identified by `addressforward_uuid`.
-
-:statuscode 200: no error
-
-**Example request**:
-
-.. literalinclude:: dumps/vrouters/request_addressforward_get
-    :language: http
-
-
-**Example response**:
-
-
-.. literalinclude:: dumps/vrouters/response_addressforward_get
-    :language: javascript
-
+Map an assigned public address to a private host when you need an address-level mapping rather than
+a selected port.
 
 Creating
 --------
 
-.. http:post:: /addressforwards/
+This operation is available through the API. Send this body to
+``POST /virtual_routers/{uuid}/action/?do=add_nat_address_forward``:
 
-Creates a new address forward.
+.. literalinclude:: examples/virtualrouters/address-forward.json
+   :language: json
 
-:statuscode 201: object created
+:download:`Download JSON example <examples/virtualrouters/address-forward.json>`
 
-**Example request**:
+The external address must already be attached to this router. The target must be a usable host in a
+LAN subnet. Names use 3–64 characters: a letter followed by letters, digits, dots, underscores or
+hyphens.
 
-.. literalinclude:: dumps/vrouters/request_addressforward_create
-    :language: http
+.. code:: bash
 
+   curl --fail-with-body --user "$CS_USER" -H 'Content-Type: application/json' \
+     -X POST --data-binary @address-forward.json \
+     "$API_URL/virtual_routers/$VR_UUID/action/?do=add_nat_address_forward"
 
-**Example response**:
+The action enables NAT/address forwarding. Acceptance is not completion: wait for configuration
+sync.
 
+Editing and deleting
+--------------------
 
-.. literalinclude:: dumps/vrouters/response_addressforward_create
-    :language: javascript
+Submit the same name to update that mapping. Remove it with ``{"name": "web-host"}`` and
+``do=remove_nat_address_forward``.
 
-Deleting
---------
+For full-definition updates, edit ``configuration.nat.address_forwarding`` and retain issued UUIDs.
+An explicit empty array removes all mappings. Set ``address_forwarding_active`` true when mappings
+exist, false when empty. NAT must be enabled while mappings exist.
 
-.. http:delete:: /addressforwards/{addressforward_uuid}/
+.. _addressforward_schema:
 
-Deletes a single address forward identified by `addressforward_uuid`.
+Aggregate schema
+----------------
 
-:statuscode 204: No content, object deletion started.
+================= ================================
+Field             Description
+================= ================================
+``uuid``          Server-issued mapping identifier
+``name``          Mapping name
+``upstream_ipv4`` Assigned public address
+``local_ipv4``    Private host address
+``order``         Contiguous order from 1
+================= ================================
 
-**Example request**:
+The scoped action uses ``external_address``/``target_address``; aggregate rows use
+``upstream_ipv4``/``local_ipv4``. Do not mix these shapes.
 
-.. literalinclude:: dumps/vrouters/request_addressforward_delete
-    :language: http
+Verify the mapping
+------------------
 
-**Example response**:
-
-.. literalinclude:: dumps/vrouters/response_addressforward_delete
-    :language: javascript
-
-
-.. _addressforwards_schema:
-
-Schema
-------
-
-.. literalinclude:: dumps/vrouters/response_addressforward_schema
-    :language: javascript
+Test the expected private service from an independent external client. Check return traffic and the
+intended firewall policy. After removal, verify the mapping is gone.

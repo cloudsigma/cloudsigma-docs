@@ -1,0 +1,15 @@
+{
+  "active": true,
+  "port_forwarding": [
+    {
+      "forwarding_host": "203.0.113.10",
+      "forwarding_port": "8443",
+      "mapped_host": "192.168.10.10",
+      "mapped_port": "443",
+      "protocol": "TCP",
+      "order": 1
+    }
+  ],
+  "address_forwarding_active": false,
+  "address_forwarding": []
+}

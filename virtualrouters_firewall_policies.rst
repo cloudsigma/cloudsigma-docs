@@ -1,149 +1,61 @@
-Virtual Routers Firewall Policies
-=================================
+.. _vrfwpolicies_schema:
 
+Firewall policies
+=================
 
-Allowed HTTP methods
+Policies contain ordered traffic filters. Each filter identifies an interface, direction, match
+conditions and allow/deny action.
+
+Reading and creating
 --------------------
 
-+--------+--------------------------+
-| Method | Description              |
-+========+==========================+
-| GET    | get / list object/s      |
-+--------+--------------------------+
-| POST   | create new object/s      |
-+--------+--------------------------+
-| DELETE | delete object/s          |
-+--------+--------------------------+
+GET the router, enable ``configuration.firewall.active`` and edit
+``configuration.firewall.policies``. PUT the complete definition.
 
+.. literalinclude:: examples/virtualrouters/firewall-policy.json
+   :language: json
 
-List single policy
-------------------
+:download:`Download JSON example <examples/virtualrouters/firewall-policy.json>`
 
-.. http:get:: /vrfwpolicies/{vrfwpolicy_uuid}/
+This fragment applies to an existing router. Replace ``interface_uuid`` with the LAN UUID from GET.
+It denies new traffic entering the router on LAN 1 to TCP destination port 25. It is not a complete
+security policy or default-deny configuration.
 
-Gets detailed information on a policy identified by `vrfwpolicy_uuid`.
+Ordering and direction
+----------------------
 
-:statuscode 200: no error
+Policies and filters have separate contiguous orders from 1. Each filter requires ``direction``:
+``in`` enters the selected router interface; ``out`` leaves it. Optional policy-level direction does
+not replace filter direction.
 
-**Example request**:
+An allow rule does not make every other packet denied. Define and test the intended deny rules
+explicitly.
 
-.. literalinclude:: dumps/vrouters/request_vrfwpolicy_get
-    :language: http
+Editing and deleting
+--------------------
 
+Retain issued policy/filter UUIDs on edit. Remove a policy from the array to delete it. To retain a
+disabled policy, set it and its filters inactive. To disable the firewall globally, remove its
+policies and set ``firewall.active`` false.
 
-**Example response**:
-
-
-.. literalinclude:: dumps/vrouters/response_vrfwpolicy_get
-    :language: javascript
-
-
-Creating
---------
-
-.. http:post:: /vrfwpolicies/
-
-    Creates a new virtual router firewall policy.
-
-    :statuscode 201: object created
-
-    **Example request**:
-
-    .. literalinclude:: dumps/vrouters/request_vrfwpolicy_create
-        :language: http
-
-    **Example response**:
-
-    .. literalinclude:: dumps/vrouters/response_vrfwpolicy_create
-        :language: javascript
-
-Editing
--------
-
-.. http:put:: /vrfwpolicies/{uuid}/
-
-    Edits a virtual router firewall policy. In case the policy is
-    activated, all the filters are going to be applied. Also in case the policy
-    is deactivated, all the filters are going to be removed from Firewall.
-
-    :statuscode 200: no error
-
-    **Example request**:
-
-    .. literalinclude:: dumps/vrouters/request_vrfwpolicy_update
-        :language: http
-
-    **Example response**:
-
-    .. literalinclude:: dumps/vrouters/response_vrfwpolicy_update
-        :language: javascript
-
-Deleting
---------
-
-.. http:delete:: /vrfwpolicies/{vrfwpolicy_uuid}/
-
-    Deletes a single virtual router firewall policy.
-
-    :statuscode 204: No content, object deletion started.
-
-    **Example request**:
-
-    .. literalinclude:: dumps/vrouters/request_vrfwpolicy_delete
-        :language: http
-
-    **Example response**:
-
-    .. literalinclude:: dumps/vrouters/response_vrfwpolicy_delete
-        :language: javascript
-
-
-Enable Policy
------------------------
-
-.. http:post:: /vrfwpolicies/{vrfwpolicy_uuid}/action/?do=enable
-
-    Enables the Policy and all its filters.
-
-    :statuscode 200: no error
-
-
-    **Example request**:
-
-    .. literalinclude:: dumps/vrouters/request_vrfwpolicy_enable
-        :language: http
-
-    **Example response**:
-
-    .. literalinclude:: dumps/vrouters/response_vrfwpolicy_enable
-        :language: javascript
-
-
-Disable Policy
-------------------------
-
-.. http:post:: /vrfwpolicies/{vrfwpolicy_uuid}/action/?do=disable
-
-    Disables the Policy and all its filters.
-
-    :statuscode 200: no error
-
-
-    **Example request**:
-
-    .. literalinclude:: dumps/vrouters/request_vrfwpolicy_disable
-        :language: http
-
-    **Example response**:
-
-    .. literalinclude:: dumps/vrouters/response_vrfwpolicy_disable
-        :language: javascript
-
-
-.. _vrfwpolicies_schema:
+.. _vrfwpolicy_schema:
 
 Schema
 ------
 
-.. literalinclude:: dumps/vrouters/response_vrfwpolicy_schema
-    :language: javascript
+============= ============================================
+Field         Description
+============= ============================================
+``uuid``      Server-issued policy identifier
+``active``    Enabled state
+``name``      Display name
+``order``     Policy position
+``direction`` Optional grouping field
+``filters``   Ordered filters, each with its own direction
+============= ============================================
+
+Verify a policy
+---------------
+
+Use a new matching connection, a non-matching control and a check after rule removal. Established
+stateful connections can survive a rule change. Configuration sync does not replace packet tests.

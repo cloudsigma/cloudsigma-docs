@@ -1,84 +1,64 @@
-NAT Port Forwarding
+.. _portforwards_schema:
+
+NAT port forwarding
 ===================
 
-Allowed HTTP methods
+Publish a private service through a selected public address and port.
+
+.. code:: text
+
+   Internet client -> 203.0.113.10:8443/TCP
+                                 |
+                            Virtual Router
+                                 |
+                         192.168.10.10:443/TCP
+
+Reading and creating
 --------------------
 
-+--------+--------------------------+
-| Method | Description              |
-+========+==========================+
-| GET    | get / list object/s      |
-+--------+--------------------------+
-| POST   | create new object/s      |
-+--------+--------------------------+
-| DELETE | delete object/s          |
-+--------+--------------------------+
+GET the router and edit ``configuration.nat.port_forwarding``. Enable ``nat.active`` and PUT the
+complete definition.
 
-List single port forward
-------------------------
+.. literalinclude:: examples/virtualrouters/nat-port-forwarding.json
+   :language: json
 
-.. http:get:: /portforwards/{portforward_uuid}/
+:download:`Download JSON example <examples/virtualrouters/nat-port-forwarding.json>`
 
-Gets detailed information on a port forward identified by `portforward_uuid`.
+This is the NAT section to merge into a full definition. The listener must use an address assigned
+to this router. The private target must be a usable host in one of its LAN subnets, with a working
+return route.
 
-:statuscode 200: no error
+Enabled NAT also supplies outbound translation for eligible LAN traffic. This is not an arbitrary
+manual source-NAT editor.
 
-**Example request**:
+Editing and deleting
+--------------------
 
-.. literalinclude:: dumps/vrouters/request_portforward_get
-    :language: http
+Retain the rule UUID on edit. Remove it from the array to delete it, then renumber retained rules.
+Remove all forwarding rules and disable address forwarding before disabling NAT.
 
-
-**Example response**:
-
-
-.. literalinclude:: dumps/vrouters/response_portforward_get
-    :language: javascript
-
-Creating
---------
-
-.. http:post:: /portforwards/
-
-Creates a new port forward.
-
-:statuscode 201: object created
-
-**Example request**:
-
-.. literalinclude:: dumps/vrouters/request_portforward_create
-    :language: http
-
-
-**Example response**:
-
-
-.. literalinclude:: dumps/vrouters/response_portforward_create
-    :language: javascript
-
-Deleting
---------
-
-.. http:delete:: /portforwards/{portforward_uuid}/
-
-Deletes a single port forward identified by `portforward_uuid`.
-
-:statuscode 204: No content, object deletion started.
-
-**Example request**:
-
-.. literalinclude:: dumps/vrouters/request_portforward_delete
-    :language: http
-
-**Example response**:
-
-.. literalinclude:: dumps/vrouters/response_portforward_delete
-    :language: javascript
-
-.. _portforwards_schema:
+.. _portforward_schema:
 
 Schema
 ------
 
-.. literalinclude:: dumps/vrouters/response_portforward_schema
-    :language: javascript
+=================== =============================
+Field               Description
+=================== =============================
+``uuid``            Server-issued rule identifier
+``forwarding_host`` Public listener address
+``forwarding_port`` Public listener port, 1–65535
+``mapped_host``     Private target address
+``mapped_port``     Private target port, 1–65535
+``protocol``        ``TCP`` or ``UDP``, uppercase
+``order``           Contiguous order from 1
+=================== =============================
+
+Public ``forwarding_*`` and private ``mapped_*`` are not interchangeable.
+
+Verify the rule
+---------------
+
+Wait for sync. Connect from an independent Internet client to the public listener and verify the
+expected private service. Test a non-forwarded port too. A same-LAN test does not establish inbound
+Internet forwarding.

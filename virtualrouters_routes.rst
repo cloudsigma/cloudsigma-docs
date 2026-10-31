@@ -1,86 +1,55 @@
-Virtual Routers Routes
-================================
+Static routes
+=============
 
+Direct selected destination networks through a reachable next hop.
 
-Allowed HTTP methods
+Reading and creating
 --------------------
 
-+--------+--------------------------+
-| Method | Description              |
-+========+==========================+
-| GET    | get / list object/s      |
-+--------+--------------------------+
-| POST   | create new object/s      |
-+--------+--------------------------+
-| DELETE | delete object/s          |
-+--------+--------------------------+
+GET the router, edit ``configuration.routes`` and PUT the complete definition.
 
+.. literalinclude:: examples/virtualrouters/static-routes.json
+   :language: json
 
-List single route
-------------------
+:download:`Download JSON example <examples/virtualrouters/static-routes.json>`
 
-.. http:get:: /routes/{route_uuid}/
+This example reaches ``10.40.0.0/16`` through another router at ``192.168.10.254`` on LAN 1. That
+peer must actually route the destination and provide a return path.
 
-Gets detailed information on a route identified by `route_uuid`.
+Valid next hops
+---------------
 
-:statuscode 200: no error
+Use a reachable peer in a LAN subnet, a configured IPsec VTI peer endpoint, or the assigned WAN
+provider gateway where supported. Do not use this router's own LAN address as its next hop.
 
-**Example request**:
+VTI routes use the peer endpoint, not the public VPN peer address. The WAN default route is managed
+automatically; do not duplicate it through the provider gateway. Destinations are IPv4 CIDRs,
+including ``/32`` host routes; each destination may appear only once.
 
-.. literalinclude:: dumps/vrouters/request_routes_get
-    :language: http
+Editing and deleting
+--------------------
 
-
-**Example response**:
-
-
-.. literalinclude:: dumps/vrouters/response_routes_get
-    :language: javascript
-
-
-Creating
---------
-
-.. http:post:: /routes/
-
-    Creates a new virtual router route.
-
-    :statuscode 201: object created
-
-    **Example request**:
-
-    .. literalinclude:: dumps/vrouters/request_routes_create
-        :language: http
-
-    **Example response**:
-
-    .. literalinclude:: dumps/vrouters/response_routes_create
-        :language: javascript
-
-
-Deleting
---------
-
-.. http:delete:: /routes/{route_uuid}/
-
-    Deletes a single virtual router route.
-
-    :statuscode 204: No content, object deletion started.
-
-    **Example request**:
-
-    .. literalinclude:: dumps/vrouters/request_routes_delete
-        :language: http
-
-    **Example response**:
-
-    .. literalinclude:: dumps/vrouters/response_routes_delete
-        :language: javascript
+Retain issued route UUIDs on edit. Remove a row to delete it and keep orders contiguous. Update
+dependent routes when changing or removing a LAN or tunnel.
 
 .. _routes_schema:
 
 Schema
 ------
 
-.. literalinclude:: dumps/vrouters/response_routes_schema
-    :language: javascript
+=========== =====================================
+Field       Description
+=========== =====================================
+``uuid``    Server-issued route identifier
+``network`` Destination CIDR or host route
+``gateway`` Reachable peer address
+``inet``    ``{"type": "inet", "label": "inet"}``
+``order``   Contiguous order from 1
+=========== =====================================
+
+Verify the route
+----------------
+
+Wait for sync and send traffic from a real client through the intended path. Confirm forwarding and
+return traffic. Repeat after edit/removal. A configuration row does not establish end-to-end
+reachability.

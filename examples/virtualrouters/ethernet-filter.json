@@ -1,0 +1,13 @@
+{
+  "layer": "l2",
+  "active": true,
+  "action": "deny",
+  "direction": "in",
+  "interface": "LAN 1",
+  "interface_uuid": "22222222-2222-4222-8222-222222222222",
+  "src_mac": "02:00:00:00:00:10",
+  "dst_mac": "any",
+  "ether_type": "ipv4",
+  "log": false,
+  "order": 1
+}

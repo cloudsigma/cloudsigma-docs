@@ -1,0 +1,11 @@
+[
+  {
+    "network": "10.40.0.0/16",
+    "gateway": "192.168.10.254",
+    "order": 1,
+    "inet": {
+      "type": "inet",
+      "label": "inet"
+    }
+  }
+]

@@ -1,85 +1,64 @@
-IP Aliases
+IP aliases
 ==========
 
-Allowed HTTP methods
---------------------
+Additional LAN addresses and additional WAN addresses use different fields.
 
-+--------+--------------------------+
-| Method | Description              |
-+========+==========================+
-| GET    | get / list object/s      |
-+--------+--------------------------+
-| POST   | create new object/s      |
-+--------+--------------------------+
-| DELETE | delete object/s          |
-+--------+--------------------------+
+Reading and editing
+-------------------
 
+GET the router, edit the appropriate array and PUT the complete definition. Aliases are part of that
+definition, not standalone resources.
 
-List single IP alias
---------------------
+LAN aliases
+-----------
 
-.. http:get:: /ipaliases/{ipalias_uuid}/
+Add entries to the selected LAN's ``ip_aliases``:
 
-Gets information on an IP Alias identified by `ipalias_uuid`.
+.. literalinclude:: examples/virtualrouters/lan-aliases.json
+   :language: json
 
-:statuscode 200: no error
+:download:`Download JSON example <examples/virtualrouters/lan-aliases.json>`
 
-**Example request**:
+This is an alias-array fragment. Use valid host addresses and prefixes; do not duplicate an
+interface address or use a network/broadcast address. Retain issued alias UUIDs on edit. Remove an
+entry to delete it and renumber retained orders.
 
-.. literalinclude:: dumps/vrouters/request_ipaliases_get
-    :language: http
+An alias does not create another VLAN or DHCP pool. Ensure clients and routes use the intended
+network.
 
+Public WAN aliases
+------------------
 
-**Example response**:
+Use ``configuration.upstream.ipv4_address``:
 
+.. literalinclude:: examples/virtualrouters/wan-addresses.json
+   :language: json
 
-.. literalinclude:: dumps/vrouters/response_ipaliases_get
-    :language: javascript
+:download:`Download JSON example <examples/virtualrouters/wan-addresses.json>`
 
-Creating
---------
-
-.. http:post:: /ipaliases/
-
-Creates a new IP Alias.
-
-:statuscode 201: object created
-
-**Example request**:
-
-.. literalinclude:: dumps/vrouters/request_ipaliases_create
-    :language: http
-
-
-**Example response**:
-
-
-.. literalinclude:: dumps/vrouters/response_ipaliases_create
-    :language: javascript
-
-Deleting
---------
-
-.. http:delete:: /ipaliases/{ipalias_uuid}/
-
-Deletes a single IP Alias identified by `ipalias_uuid`.
-
-:statuscode 204: No content, object deletion started.
-
-**Example request**:
-
-.. literalinclude:: dumps/vrouters/request_ipaliases_delete
-    :language: http
-
-**Example response**:
-
-.. literalinclude:: dumps/vrouters/response_ipaliases_delete
-    :language: javascript
+The first address is primary; later entries are additional addresses on the same WAN. Select your
+own assigned subscribed addresses. Keep ``wan_ip_aliases`` empty. Remove dependent NAT and routing
+references before detaching an address. Detachment does not cancel its subscription.
 
 .. _ipaliases_schema:
 
 Schema
 ------
 
-.. literalinclude:: dumps/vrouters/response_ipaliases_schema
-    :language: javascript
+=============== ======================================
+LAN alias field Description
+=============== ======================================
+``uuid``        Server-issued identifier
+``ip_address``  Interface host address and CIDR prefix
+``order``       Contiguous order from 1
+=============== ======================================
+
+================= ====================================================
+WAN address field Description
+================= ====================================================
+``ip``            Assigned public IPv4 string, not an IP-resource UUID
+``order``         First is primary
+================= ====================================================
+
+Wait for sync and test traffic addressed to the alias. Additional WAN addresses are not independent
+uplinks or automatic WAN failover.

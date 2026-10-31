@@ -1,0 +1,68 @@
+{
+  "type": "basic",
+  "configuration": {
+    "name": "example-router",
+    "lan_interface": [
+      {
+        "name": "LAN 1",
+        "order": 1,
+        "vlan": "11111111-1111-4111-8111-111111111111",
+        "ipv4_enabled": true,
+        "ipv6_enabled": false,
+        "ipv4_ipv6_enabled": false,
+        "ipv6_exposed": false,
+        "ip_address": "192.168.10.1/24",
+        "ip_address_v6": "",
+        "default_gateway": "",
+        "router_advertiser": false,
+        "dhcp": true,
+        "dhcp_ip_range": {
+          "from": "192.168.10.100",
+          "to": "192.168.10.199"
+        },
+        "ip_aliases": []
+      }
+    ],
+    "upstream": {
+      "wan_type": "internet",
+      "internet_protocol": "ipv4",
+      "ipv4_address": [
+        {
+          "ip": "203.0.113.10",
+          "order": 1
+        }
+      ],
+      "ipv6_address": "",
+      "wan_ip_aliases": [],
+      "ip_config": {
+        "dhcp_client": true,
+        "vlan": "",
+        "upstream_lines": "",
+        "ip_address": "",
+        "ip_address_v6": "",
+        "default_gateway": "",
+        "ipv6_automatic": false,
+        "router_ipv6_default_gateway": ""
+      },
+      "vpn": {
+        "active": false
+      }
+    },
+    "firewall": {
+      "active": false,
+      "policies": []
+    },
+    "nat": {
+      "active": true,
+      "port_forwarding": [],
+      "address_forwarding_active": false,
+      "address_forwarding": []
+    },
+    "vpn": {
+      "active": false,
+      "tunnels": []
+    },
+    "openvpn_users": [],
+    "routes": []
+  }
+}
