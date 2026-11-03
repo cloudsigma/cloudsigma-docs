@@ -17,7 +17,7 @@ Scheduler Configuration
 - **Old backups:** Automatically deleted after 7 days
 
 Snapshot Timeline (1 Year)
------------
+---------------------------------------
 - **Backups per day:** 4 (once every hour between 20:00 and 23:00)
 - **Retention window:** 7 days
 - **Total retained backups at any time:** 4 × 7 = 28 backups

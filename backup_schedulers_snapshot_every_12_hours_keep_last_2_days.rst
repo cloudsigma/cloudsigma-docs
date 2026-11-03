@@ -12,7 +12,7 @@ Scheduler Configuration
 - **Type:** snapshot
 - **Frequency:** Every 12 hours
 - **Time window:** From 07:00 UTC to 06:45 UTC (next day) — ensures 24h coverage
-- **Repeat rule:** */12  (every 12 hours)
+- **Repeat rule:** `*/12` (every 12 hours)
 - **User Timezone:** Etc/UTC
 
 Retention Rules
@@ -22,7 +22,8 @@ Retention Rules
 - Automatically delete anything older
 
 Snapshot Timeline (1 Year)
----------------------------
+-------------------------
+
 
 - **Snapshots per day:** 2 (1 every 12 hours)
 - **Retention window:** 2 days

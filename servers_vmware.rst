@@ -33,7 +33,7 @@ Listing
     **Example request**:
 
     .. literalinclude:: dumps/request_vmware_servers_list
-    :language: http
+        :language: http
 
     **Example response**:
 

@@ -157,7 +157,7 @@ Requesting a partial server context or a single value
 To request a part of the definition json one can provide a path in the request. The path contains strings or integers
 separated by a forward slash (/). To request only the part of the json which is the NICs definitoins one can request
 the path *"/nics"*. To request an element from a list value one can use an index in the path. Note that counting starts
-from 0. For example to get the defintion of the first network interface one can use the following path *"/nics/0"*.
+from 0. For example to get the definition of the first network interface one can use the following path *"/nics/0"*.
 
 If the value of pointed to the path is a leaf value (it does not contain a json object or alist), it is returned without
 the surrounding quotes so requesting ``<\nname\n>`` from a server named "myserver" would return:

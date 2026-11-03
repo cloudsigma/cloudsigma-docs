@@ -87,7 +87,7 @@ usage beyond the subscription limit.
 
 
 Guest configuration
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 Setup a guest with an OS drive(NVMe) and an ephemeral drive(Local NVMe).
 

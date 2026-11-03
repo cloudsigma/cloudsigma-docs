@@ -111,8 +111,6 @@ Creating
     You can also pass the **storage type**:
 
     .. includejson:: dumps/request_drive_storage_type
-
-    .. includejson:: dumps/request_drive_storage_type
         :accessor: objects.0
 
     **Example response**

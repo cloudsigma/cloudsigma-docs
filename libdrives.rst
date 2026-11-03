@@ -93,7 +93,7 @@ Recognizing library drives
 --------------------------
 
 Note that library drives can be queried through regular drives API using ``/drives/{uuid}/``. If the drive uuid happens
-to be the uuid of a library drive, the drive defintion will be retrieved. In order to differentiate between owned and
+to be the uuid of a library drive, the drive definition will be retrieved. In order to differentiate between owned and
 library drive, one can check the ``owner`` attribute, which is ``null`` for library drives.
 
 It is possible to get a library drive through the drives API, because there isn't a way to know in advance whether an

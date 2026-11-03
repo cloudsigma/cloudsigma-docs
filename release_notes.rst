@@ -532,7 +532,7 @@ Neon Release
 
 * Most API calls now support standardised :ref:`filtering <filtering>`.
 
-* Asnychronous operations now are exposed via a :doc:`jobs <jobs>` API.
+* Asynchronous operations now are exposed via a :doc:`jobs <jobs>` API.
 
 * Cloning drives and servers can now :doc:`change <clone_naming>` the destinations' names to differentiate between
   source and destination.
@@ -663,7 +663,7 @@ API HTTP response status code changes
 * HTTP status for PUT (update) requests is changed from 202 Accepted to 200 OK.
 * HTTP status for creation of objects is changed from 202 Accepted to 201 Created. This affects Subscription, Servers,
   Drives, and Tags creation.
-* HTTP status for Subscriptions Calcultaor is changed from 202 Accepted to 200 OK.
+* HTTP status for Subscriptions Calculator is changed from 202 Accepted to 200 OK.
 * HTTP status for actions with asynchronous results is changed from 200 to 202. This affects action calls on
   Servers (start, stop, clone, open_vnc, close_vnc) and Drives (clone).
 

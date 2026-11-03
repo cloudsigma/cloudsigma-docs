@@ -164,7 +164,9 @@ Example Rules
            { "period": "months", "quantity": 12, "time_option": 23 }
        ]
    }
-**Notes:**
+
+Notes
+-----
 
 - Rules are evaluated together, keeping snapshots that match any rule.
 - Snapshots outside all rules are deleted automatically.
