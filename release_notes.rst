@@ -482,7 +482,7 @@ Aluminium Release
 
 * Support of Zadara storage type :doc:`Drives <drives>`
 
-* Better explained firewall restrictions depending on account state :doc:`Firewall Policies <fwpolicies>`
+* Better explained firewall restrictions depending on account state; see the firewall policy documentation.
 
 * Fixed list of API endpoints in :doc:`general` and :doc:`locations`
 
@@ -501,7 +501,7 @@ Magnesium Release
 * Various stability and performance improvements.
 
 * Better explanation of :ref:`storage types <storage_type>` and explanation of default
-  :ref:`network restrictions <firewall_restrictions>`.
+  the default network restrictions described in :doc:`servers`.
 
 * Support for Juju simple streams.
 
@@ -514,7 +514,7 @@ Sodium Release
 
 **Date Released:** 2014-05-20
 
-* Documented the :doc:`Firewall Policies <fwpolicies>` delete request.
+* Documented deletion of firewall policies.
 
 * Detailed documentation for the special :doc:`Metadata <meta>` fields.
 
@@ -561,7 +561,7 @@ Fluorine Release
 * Global server context is a place to hold server context information, which is common to all user's servers.
   See :ref:`global-context`.
 
-* A call for querying the account current usage :ref:`current-usage`.
+* A call for querying the account current usage: see the :doc:`current_usage` API.
 
 * Clarifications regarding drive resize :ref:`drive-resize`.
 
@@ -627,7 +627,7 @@ Carbon Release
 **Date Released:** 2013-05-22
 
 *   Firewall functionality. The user can attach firewall policies to NICs. Each policy may have multiple rules for
-    filtering traffic. See My Network -> policies in WebApp or check :doc:`fwpolicies` section for API documentation.
+    filtering traffic. See My Network -> policies in WebApp or check the firewall policy documentation for API documentation.
 
 *   Web VNC. Users can open VNC sessions directly in WebApp. The browser needs to support websockets. To open a Web VNC
     session go to server properties on a running server, open VNC tunnel, click on the VNC button and choose whether to

@@ -38,7 +38,7 @@ Listing
     **Example response**:
 
     .. literalinclude:: dumps/response_vmware_servers_list
-    :language: javascript
+        :language: javascript
 
 Schema
 ------

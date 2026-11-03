@@ -22,7 +22,7 @@ Retention Rules
 - Automatically delete anything older
 
 Snapshot Timeline (1 Year)
--------------------------
+--------------------------
 
 
 - **Snapshots per day:** 2 (1 every 12 hours)

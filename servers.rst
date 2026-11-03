@@ -284,7 +284,7 @@ Start
 
 .. warning::
     Servers have some default network restrictions, applied depending on your user state. Please refer to
-    the :ref:`default restrictions <firewall_restrictions>` section the Firewall policies documentation
+    the the default network restrictions described in the firewall policy documentation
 
 Stop
 ~~~~

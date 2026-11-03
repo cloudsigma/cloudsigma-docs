@@ -27,7 +27,7 @@ Listing
     **Example request**:
 
     .. literalinclude:: dumps/request_usage_list
-        :language: http
+        :language: text
 
 
     **Example response**:

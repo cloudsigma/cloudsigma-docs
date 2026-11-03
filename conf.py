@@ -1,6 +1,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 import sys, os
+from pathlib import Path
 
 EXAMPLE_SNIPPETS_DUMP_PATH = os.getenv('EXAMPLE_SNIPPETS_DUMP_PATH', '~/.turlo/dumps/')
 
@@ -29,7 +30,7 @@ pygments_style = 'sphinx'
 
 html_theme = 'sphinx_rtd_theme'
 
-html_static_path = ['_static']
+html_static_path = ['_static'] if Path('_static').exists() else []
 
 html_last_updated_fmt = '%b %d, %Y'
 
@@ -56,7 +57,6 @@ texinfo_documents = [
 ]
 
 html_theme_options = {
-    'display_version': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
     'vcs_pageview_mode': '',
