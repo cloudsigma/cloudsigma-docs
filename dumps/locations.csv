@@ -4,6 +4,8 @@ Location,Location Code,API Endpoint
 "Dublin, Ireland",DUB,https://ec.servecentric.com/api/2.0/
 "Dusseldorf, Germany",DUS,https://dus.cloudsigma.com/api/2.0/
 "Frankfurt, Germany",FRA,https://fra.cloudsigma.com/api/2.0/
+"Gaborone, Botswana",GBE,https://cloud.mascom.bw/api/2.0/
+"Gaborone, Botswana",GBE2,https://clouddr.mascom.bw/api/2.0/
 "Geneva, Switzerland",ZRH,https://gva.cloudsigma.com/api/2.0/
 "Johor, Malaysia",JHB,https://jhb.cloudsigma.com/api/2.0/
 "Manila, Philippines",MNL,https://mnl.cloudsigma.com/api/2.0/

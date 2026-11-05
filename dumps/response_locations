@@ -105,6 +105,30 @@ Content-Type: application/json; charset=utf-8
             "websocket_url":"wss://direct.gva.cloudsigma.com/websocket"
         },
         {
+            "alternative_frontend_url":"https://cloud.mascom.bw/ui/",
+            "api_endpoint":"https://cloud.mascom.bw/api/2.0/",
+            "country_code":"BW",
+            "default_frontend_signup_url":"https://cloud.mascom.bw/ui/",
+            "default_frontend_url":"https://cloud.mascom.bw/ui/",
+            "display_name":"Gaborone, Botswana",
+            "documentation_url":"https://docs.cloudsigma.com",
+            "id":"GBE",
+            "upload_url":"https://direct.cloud.mascom.bw/api/2.0/",
+            "websocket_url":"wss://direct.cloud.mascom.bw/websocket"
+        },
+        {
+            "alternative_frontend_url":"https://clouddr.mascom.bw/ui/",
+            "api_endpoint":"https://clouddr.mascom.bw/api/2.0/",
+            "country_code":"BW",
+            "default_frontend_signup_url":"https://clouddr.mascom.bw/ui/",
+            "default_frontend_url":"https://clouddr.mascom.bw/ui/",
+            "display_name":"Gaborone, Botswana",
+            "documentation_url":"https://docs.cloudsigma.com",
+            "id":"GBE2",
+            "upload_url":"https://direct.clouddr.mascom.bw/api/2.0/",
+            "websocket_url":"wss://clouddr.mascom.bw/websocket"
+        },
+        {
             "alternative_frontend_url":"https://wdc.alpha3cloud.com/ui/",
             "api_endpoint":"https://wdc.alpha3cloud.com/api/2.0/",
             "country_code":"US",
